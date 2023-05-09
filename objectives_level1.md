@@ -509,7 +509,7 @@ flex, z-index,clip
 - Web Workers
 - Service Workers
 - Push API
-- fetch
+- <font color=red><del>fetch ... 間違いらしい</del></font>
 
 ### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
 
