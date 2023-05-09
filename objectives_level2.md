@@ -361,3 +361,31 @@
 - Windowオブジェクト
   - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
 - FrameRequestCallbackオブジェクト
+
+## *2.4 マルチメディア*
+
+### <span style="color:navy">2.4.1 メディア要素のAPI(重要度：5)</span>
+
+**出題種別** 出題種別 知識問題 コードリーティング問題
+
+(各要素の仕様や、マークアップの記述方法に関してはレベル１に含まれるため範囲外)
+
+**説明（望まれるスキル）**
+
+- 動画や音声を再生するコードを読んで、そのコードの問題点やブラウザ上での動きを理解することができる。
+
+**主要な知識範囲**
+
+- オーディオデータの再生・停止・状態取得
+- Canvas上での動画表示
+- ビデオデータの再生・停止・状態取得
+- ダウンロード状況に応じた処理
+- メディアリソースの再ロード
+- メディアリソースに関するエラーコード取得
+
+**重要な技術要素**
+
+- HTMLMediaElement(MediaElement)オブジェクト
+  - プロパティ（autopkay, controls, currenttime, ended, error, loop, networkState, paused, played, preload, readyState）
+  - メソッド（play(), pause(), load()）
+  - イベントハンドラ（onplay, onplaying, ontime, onupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
