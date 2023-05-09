@@ -360,33 +360,6 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
   - ピクセル, dpi, dpcm
 - エラーが発生した際の、エラーハンドリングに関する記述
 
-### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (2)</span>
-
-<font color=red>スマホの特化をやめるには。電話番号も特別視しない。</font>
-
-**出題種別**
-
-- 知識問題
-- コードリーティング問題
-- 記述問題
-
-**概要**
-
-- スマートフォンでWebコンテンツを閲覧する時を考慮し、回線速度などスマートフォン特有の環境でも快適に閲覧する事ができるコンテンツを設計・開発する事ができる。
-
-**詳細**
-
-- スマートフォンにおける画像の扱い
-  - CSSスプライト
-  - 高解像度画面向け対応
-- スマートフォン特有の設定について、注意すべき点
-  - viewport, density, initial-scale
-  - ファビコン, アイコン設定(apple-touch-icon, apple-touch-icon-precomposed)
-  - スタンドアローンモード
-  - 電話番号へのリンク
-- スマートフォンにて閲覧する際のパフォーマンス向上技術
-  - script要素, async属性, defer属性
-
 ## *1.5 API の基礎知識*
 
 ### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系 API 概要 (2)</span>
