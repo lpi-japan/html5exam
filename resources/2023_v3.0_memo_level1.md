@@ -292,7 +292,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - コマンドメニュー
   - コマンドメニュー関連要素および属性
 
-## *1.4 レスポンシブWebデザイン*
+## *1.4 レスポンシブ Web デザイン*
 
 **修正予定**
 
