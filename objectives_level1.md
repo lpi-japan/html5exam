@@ -323,6 +323,12 @@ flex, z-index,clip
 
 ## *1.4 レスポンシブWebデザイン*
 
+<font color=brown>再編?
+
+- スマホ特化を廃止。電話番号は？
+
+</font>
+
 ### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (2)</span>
 
 **出題種別**
