@@ -227,8 +227,6 @@ flex, z-index,clip
 - 言語のセマンティクス
 - 表のセマンティクス
 
-## *x.x xxxx*
-
 ### <span style="color:navy">1.3.2 メディア要素 (6)</span>
 
 **出題種別**
