@@ -327,13 +327,8 @@ flex, z-index,clip
 
 ## *1.4 レスポンシブWebデザイン*
 
-<font color=brown>再編? その背景は？
-
-- スマホ特化を廃止。電話番号は？
-
-</font> 
-<span style="color:navy">1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del> =\> 7</font>)</span>
-= **出題種別**
+### <span style="color:navy">1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del> =\> 7</font>)</span>
+ **出題種別**
 
 - 知識問題
 - コードリーティング問題
