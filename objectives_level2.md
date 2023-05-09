@@ -597,9 +597,7 @@
   - onerrorイベントハンドラ
 - Server-Sent EventsのMIME-Type
 
-`
-2.7 デバイスアクセス
-=`
+## "2.7 デバイスアクセス"
 
 ### <span style="color:navy">2.7.1 Geolocation API(重要度：5)</span>
 
