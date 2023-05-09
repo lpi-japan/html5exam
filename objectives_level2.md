@@ -82,7 +82,7 @@
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
-### <span style="color:navy">2.2.1 イベント(重要度：10)</span>
+### <span style="color:navy">2.2.1 イベント(重要度：8)</span>
 
 **出題種別**
 
