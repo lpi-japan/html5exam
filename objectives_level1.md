@@ -383,9 +383,9 @@ flex, z-index,clip
 - メディア特性
 - ピクセル, dpi, dpcm
 
-### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (3)</span>
+### <span style="color:navy"><font color=red><del>1.4.3 スマートフォンサイト最適化 (3)</del></font> １．４．１ に移動</span>
 
-**出題種別**
+<font color=red><del> **出題種別**
 
 - 知識問題
 - コードリーティング問題
@@ -410,6 +410,8 @@ flex, z-index,clip
 - スタンドアローンモード
 - 電話番号へのリンク
 - script要素, async属性, defer属性
+
+</del></font>
 
 ## *1.5 APIの基礎知識*
 
