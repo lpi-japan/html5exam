@@ -18,7 +18,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - スマートフォンや組み込み機器など、ブラウザが利用可能な様々なデバイスに対応したコンテンツを制作できる。
 - HTML5 で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
 
-# HTML5 Level 1 出題範囲
+# HTML5 Level 1 出題範囲 V2.0
 
 ## *1.1 Webの基礎知識*
 
