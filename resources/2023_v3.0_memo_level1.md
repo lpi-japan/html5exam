@@ -416,6 +416,10 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (4)</span>
 
+**修正予定**
+
+- <font color=red>application cache は外さねば。offline app　と application cache は同じか別か。別　　offline \> application cache</font>
+
 **出題種別**
 
 - 知識問題
