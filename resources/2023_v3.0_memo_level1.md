@@ -100,19 +100,17 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **主要な知識範囲**
 
-- <font color=red><del>HTMLバージョン情報を含む</del></font>文書型宣言に関する記述方法
-- <font color=red><del>要件に合わせた</del></font>言語コードと<font color=red><del>、</del></font>文字コード（符号化方式）の指定に関する記述方法
+- 文書型宣言に関する記述方法
+- 言語コードと文字コード（符号化方式）の指定に関する記述方法
 - HTMLで使用可能な文字参照に関する記述方法
-- <font color=red><del>必要に応じて、ヘッダ内に</del></font>外部リソースを指定するリンクに関する記述方法
-- <font color=red><del>必要に応じて、ヘッダ内に</del></font>メタ情報に関する記述方法
+- 外部リソースを指定するリンクに関する記述方法
+- メタ情報に関する記述方法
 
 **重要な技術要素**
 
-- <font color=red><del>文書型宣言</del></font><font color=blue>\<!DOCTYPE html\></font>
-- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP, UTF-8</del></font>
-- <font color=blue>html lang="ja", meta charset="UTF-8"</font>
-- <font color=red><del>文字実体参照</del></font>
-- <font color=blue>&nbsp;, &amp;, &yen; など </font>
+- \<!DOCTYPE html\>
+- html lang="ja", meta charset="UTF-8"
+- &nbsp;, &amp;, &yen; など
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
 ### <span style="color:navy">1.1.3 Web 関連技術の概要 (2)</span>
