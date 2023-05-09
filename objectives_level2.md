@@ -95,26 +95,31 @@
 
 **説明（望まれるスキル）**
 
-- ES6(ECMAScript2015) 以降に追加された機能を用いて、より効率的なコーディングができる。
-- ES6 のコードを ES5 に書き換える。
+- ES6(ECMAScript2015) 以降に追加された機能を用いて、コーディングができる。
+- Promise を使った API を使用するコードを作成できる。
 
 **主要な知識範囲**
 
 - 変数の宣言
 - 関数
 - クラス
+
+--- TBD --
+
 - モジュール
-- トランスパイラ
 
 **重要な技術要素**
 
 - let, const, var
-- import, export
-- template リテラル
 - アロー関数
   - =\>
 - Promise と非同期関数
   - Promise, async, await
+
+---TBD---
+
+- import, export
+- template リテラル
 - For/of
 
 ## *2.2 WebブラウザにおけるJavaScript API*
