@@ -9,6 +9,7 @@
 
 ## Update consideration and status
 
+- WebAssembly（WASM）
 - XMHttpRequest -\> Fetch API
 - Server Side JS (Node.js)
 - REST API
