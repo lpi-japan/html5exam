@@ -248,7 +248,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **主要な知識範囲**
 
-- <font color=green><del>HTML5.1仕様</del>HTML Standard</font>で規定されたHTML要素と属性の意味
+- <font color=green><del>HTML5.1仕様</del>HTML Standard</font>で規定され<font color=green><del>た</del>ている</font>HTML要素と属性の意味
 - セクションの概念
 
 **重要な技術要素**
