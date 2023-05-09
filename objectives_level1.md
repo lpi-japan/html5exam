@@ -9,6 +9,8 @@
 
 ## Update consideration summary and status
 
+must-have features;
+
 - new format derived from LinuC v10 objectives format - done !
 - eliminate HTTP and limit HTTPS
 - UTF-8 as encode recommendation, eliminating others
@@ -19,6 +21,10 @@
 - excluding smartphone keyword out of responsive web design and includes print css
 - considering accessibility
 - eliminate application cache
+
+nice-to-have features
+
+- if level 2 becomes independent of level 1 as a JS cert, what needs to be specially added to level 1, such as how to utilize jQuery ?
 
 ## 認定条件
 
