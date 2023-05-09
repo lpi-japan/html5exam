@@ -397,15 +397,31 @@ flex, z-index,clip
 - Canvasの機能
 - SVGのマークアップとAPIの基礎知識
 
-## *x.x xxxx*
+### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (4)</span>
 
-### <span style="color:navy">x.x.x xxxx(x)</span>
+**出題種別**
 
-**概要**
+- 知識問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- スマートフォンやパソコンに備え付けられているセンサーなどのデバイスに関する技術を理解し、それらをJavaScriptからAPIを使って何ができるのかを理解している。
 
 **主要な知識範囲**
 
+- 位置情報
+- 加速度センサー
+- ジャイロ
+- 入力デバイス（マウス、タッチパネル、ペン）
+
 **重要な技術要素**
+
+- Geolocation API
+- DeviceOrientation Event
+- DOM3 Events (UI Events)
+- Touch Events
+- Pointer Events
 
 ## *x.x xxxx*
 
