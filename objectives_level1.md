@@ -249,7 +249,7 @@ flex, z-index,clip
 
 **主要な知識範囲**
 
-- <font color=green><del>HTML5.1仕様</del>HTML Living Standard (HTML, CSS)</font>で規定されたHTML要素と属性の意味
+- <font color=green><del>HTML5.1仕様</del>HTML Standard</font>で規定されたHTML要素と属性の意味
 - セクションの概念
 
 **重要な技術要素**
