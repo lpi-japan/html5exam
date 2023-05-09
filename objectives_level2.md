@@ -366,7 +366,10 @@
 
 ### <span style="color:navy">2.4.1 メディア要素のAPI(重要度：5)</span>
 
-**出題種別** 出題種別 知識問題 コードリーティング問題
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
 
 (各要素の仕様や、マークアップの記述方法に関してはレベル１に含まれるため範囲外)
 
@@ -389,3 +392,121 @@
   - プロパティ（autopkay, controls, currenttime, ended, error, loop, networkState, paused, played, preload, readyState）
   - メソッド（play(), pause(), load()）
   - イベントハンドラ（onplay, onplaying, ontime, onupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
+
+## *2.5 ストレージ*
+
+### <span style="color:navy">2.5.1 Web Storage(重要度：7)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- Web Storageの特徴や仕様を理解し、読み込み・書き込みを行うコードを理解することができる。
+
+**主要な知識範囲**
+
+- Web Storageを利用するアプリケーションを作成するにあたって注意すべき、セキュリティの観点からの注意事項
+- ローカルストレージとセッションストレージの違い
+- ローカルストレージに関する仕様と、データの保存、取得、削除
+- セッションストレージに関する仕様と、データの保存、取得、削除
+- ローカルストレージおよびセッションストレージに関するイベント処理
+
+**重要な技術要素**
+
+- localStorageオブジェクト,sessionStorageオブジェクト
+- Storageオブジェクト
+- メソッド（key(), setItem(), getItem(), removeItem(), clear())
+- StorageEventオブジェクト
+- プロパティ（key, oldValue, newValue, url, storageArea）
+
+### <span style="color:navy">2.5.2 Indexed Database API(重要度：5)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- Indexed Database APIの特徴を理解し、簡単な読み込み・書き込みを行うコードを理解することができる。
+
+**主要な知識範囲**
+
+- Indexed Database APIの特徴と、Web Storageとの違い
+  - データベースへのアクセス
+  - データの読み込み
+  - データの保存
+
+**重要な技術要素**
+
+- IDBFactoryオブジェクト
+  - メソッド（open(),deleteDatabase()）
+- IDBRequestオブジェクト
+  - プロパティ（result, error, source, transaction, readyState）
+- IDBDatabaseオブジェクト
+  - プロパティ（name, version, objectStoreNames）
+  - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
+
+### <span style="color:navy">2.5.3 File API(重要度：5)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- File APIの特徴を理解し、簡単なファイル読み込みのコードを理解することができる。
+
+**主要な知識範囲**
+
+- HTML5におけるローカルファイルアクセス機能の概要
+- ローカルファイルアクセスにおけるセキュリティ観点での制限事項
+- ファイルオブジェクトリストの取得
+- ローカルファイルの読み込み
+
+**重要な技術要素**
+
+- FileListオブジェクト
+  - プロパティ（length）
+  - メソッド（item()）
+- Blobオブジェクト
+  - プロパティ（size, type）
+- メソッド（slice(), close()）
+  - Fileオブジェクト
+  - プロパティ（name, lastModifiedDate）
+- FileReaderオブジェクト
+  - プロパティ（readyState, result, error）
+  - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
+
+### <span style="color:navy">2.5.4 バイナリーデータ(重要度：4)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- JavaScriptからバイナリーデータを扱う仕組みを理解し、 クラウドから画像やビデオデータをダウンロードして再生したり、画像データの中身を解析するなど、高度な処理を実現できる。
+
+**主要な知識範囲**
+
+- 型付き配列
+- ビュー
+- バイトオーダー
+
+**重要な技術要素**
+
+- Typed Array
+- ArrayBuffer
+- Blob
+- Blob URL
+- ビッグエンディアン
+- リトルエンディアン
+
+### <span style="color:navy">2.5.4 バイナリーデータ(重要度：4)</span>
+
+**出題種別**
