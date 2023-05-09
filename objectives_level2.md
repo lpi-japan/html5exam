@@ -1,4 +1,4 @@
-# HTML5 Level 2 概要
+# HTML5 Level 2 v2.5 概要
 
 ## 名称
 
@@ -19,11 +19,16 @@
 - スマートフォンなどでネイティブアプリに近い機能を組み込んだ先端のWebアプリケーションを開発することができる。
 - APIのセキュリティモデルを理解した上で開発することができる。
 
+# *v2.5 改定概要*
+
+- ES6(ECMAScript2015) 対応
+- 重要度の微調整
+
 # HTML5 Level 2 出題範囲
 
 ## *2.1 JavaScript*
 
-### <span style="color:navy">2.1.1 JavaScript文法(重要度：10)</span>
+### <span style="color:navy">2.1.1 JavaScript文法(重要度：<b>16</b>)</span>
 
 **出題種別**
 
@@ -37,8 +42,8 @@
 
 **主要な知識範囲**
 
-- Javascriptの概要
-  - Javascriptに関する他言語との違いや、一般的な注意事項について理解している。
+- JavaScriptの概要
+  - JavaScriptに関する他言語との違いや、一般的な注意事項について理解している。
 - 演算子
   - 演算子の適切な使い方・他の演算子との使い分けを理解している。
 - 特殊数値
@@ -77,8 +82,9 @@
   - Objectクラス
   - prototypeプロパティ
   - this
-- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
+- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文(<b>ES5で非推奨</b>)、
   - クロージャ
+  - var, <b>let, const (ES6)</b>
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
