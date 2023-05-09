@@ -206,7 +206,7 @@ flex, z-index,clip
 - 色指定（color, opacity）
 - 背景指定（background, background-color, background-image, background-repeat, background-position, background-attachment, background-clip, background-origin, background-size）
 - 罫線（border, border-style, border-width, border-color, border-radius, box-shadow, liner-gradient, radial-gradient）
-- フォント（font, font-size, font-weight, font-style, font-variant, font-family, Webフォント(@font-face)）
+- フォント（font, font-size, font-weight, font-style, font-variant, font-family <font color=blue>(family-name \| generic-family)</font>, Webフォント(@font-face)）
 - テキスト（text-transform, white-space, word-break, hyphens, text-align, word-spacing, letter-spacing, text-indent）
 - テキスト装飾（text-decoration, text-decoration-line, text-decoration-style, text-decoration-color, text-shadow, line-height, vertical-align, direction, unicode-bidi, quotes）
 - リスト（list-style, list-style-type, list-style-image, list-style-position, <content:counter>, counter-increment, counter-reset）
