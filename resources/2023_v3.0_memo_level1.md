@@ -24,7 +24,7 @@ must-have features;
 
 nice-to-have features
 
-- if level 2 becomes independent of level 1 as a JS cert, what needs to be specially added to level 1, such as how to utilize jQuery ?
+- if level 2 becomes independent of level 1 as a JS cert, what needs to be specially added to/eliminated from level 1, such as how to utilize jQuery ?
 - considering accessibility - universal design is a trend
 
 ## 認定条件
