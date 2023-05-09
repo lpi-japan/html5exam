@@ -34,6 +34,8 @@
 <!-- -->
 
 - existing descriptions requiring consideration
+  - ES6を別格として扱う必要はなくなったと思うので、ES6の副題は廃止して従来の項目に内容ごとに混ぜ込むのはどうか (202201007 yasuraoka ↓に気付いてコメント)
+  - ES6新機能にfor ofの紹介を足す。for inしかないので教材でArrayのループにfor inを使っていてかなり違和感があった (20221107 yasuraoka) <https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for>...in#%E9%85%8D%E5%88%97%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A8_for...in
   - 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」という機能として引き継がれている。(以前: <https://www.w3.org/TR/animation-timing/> , 現在: <https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames>
   - 2.6.2 「XMLHttpRequest」について「レベル1」の方では、通信系のAPIとして、「XMLHttpRequest」に加えて「fetchAPI」が追加されましたが、「レベル２」の方では「fetchAPI」についてはver2.5時点では試験範囲に追加されていない
   - 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheが含まれておりますが、仕様ではすでに廃止されているものかと思います。「レベル１」ではApplication CacheからService Workersに変更されています
