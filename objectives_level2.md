@@ -28,7 +28,7 @@
 
 ## *2.1 JavaScript*
 
-### <span style="color:navy">2.1.1 JavaScript文法(重要度：<b>16</b>)</span>
+### <span style="color:navy">2.1.1 JavaScript文法(重要度：10)</span>
 
 **出題種別**
 
