@@ -387,6 +387,8 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy"><font color=red><del>1.4.3 スマートフォンサイト最適化 (3)</del></font> １．４．１ に移動</span>
 
+<font color=brown>以下削除</font>
+
 <font color=red><del> **出題種別**
 
 - 知識問題
