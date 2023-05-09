@@ -477,3 +477,13 @@ flex, z-index,clip
 # バージョン情報
 
 この出題範囲はバージョン2.0です。
+
+# 将来の検討課題 / Future Change Consideration
+
+- Responsive Web Design の重要度増
+  - print CSS
+- Application cache 削除
+
+<!-- -->
+
+- Level 1, Level 2 の独立、単体認定化
