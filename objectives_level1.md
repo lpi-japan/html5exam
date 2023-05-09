@@ -105,8 +105,8 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **主要な知識範囲**
 
-- <del>HTMLバージョン情報を含む</del>文書型宣言に関する記述方法
-- <del>要件に合わせた</del>言語コードと<del>、</del>文字コード（符号化方式）の指定に関する記述方法
+- <font color=red><del>HTMLバージョン情報を含む</del></font>文書型宣言に関する記述方法
+- <font color=red><del>要件に合わせた</del></font>言語コードと<font color=red><del>、</del></font>文字コード（符号化方式）の指定に関する記述方法
 - HTMLで使用可能な文字参照に関する記述方法
 - 必要に応じて、ヘッダ内に外部リソースを指定するリンクに関する記述方法
 - 必要に応じて、ヘッダ内にメタ情報に関する記述方法
