@@ -864,7 +864,7 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 - Mixed Content
 - Secure Contexts
 
-# 将来の検討課題 / Future Consideration
+# 将来の検討課題 / Future Change Consideration
 
 - XMHttpRequest -\> Fetch API
 - Server Side JS (Node.js)
