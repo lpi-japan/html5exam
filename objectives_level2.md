@@ -23,7 +23,7 @@
 - Level 1, Level 2 の独立、単体認定化
   - Level 1 合格 =\> Level 1 認定
   - Level ２ 合格（Level 1 認定なし） =\> JavaScript Professional 認定 を新設するか
-  - Level 1　認定 + Level 2 合格 =\> Level 2 認定 をそのまま残すか、階段と取っ払うか
+  - Level 1　認定 + Level 2 合格 =\> Level 2 認定 をそのまま残すか、階段を取っ払うか
 
 ## 認定条件
 
