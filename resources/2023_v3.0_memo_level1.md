@@ -1,4 +1,4 @@
-# HTML5 Level 1 概要　( **work in process** = under construction ) 
+# HTML5 Level 1 概要　( **work in <sup>process</sup>** = under construction ) 
 
 ## 名称
 
