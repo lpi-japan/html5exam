@@ -21,7 +21,7 @@
 
 # *v2.5 改定概要*
 
-- ES6(ECMAScript2015) 対応
+- ES6(ECMAScript2015) 以降に対応
 - 重要度の微調整
 
 # HTML5 Level 2 出題範囲
