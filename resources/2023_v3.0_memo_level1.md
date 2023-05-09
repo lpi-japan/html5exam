@@ -10,14 +10,15 @@
 ## Update consideration summary and status
 
 - new format derived from LinuC v10 objectives format - done !
-- exclude HTTP and limit HTTPS
-- limit UTF-8 as encoding
+- eliminate HTTP and limit HTTPS
+- UTF-8 as encode recommendation, eliminating others
 - system font for privacy and fingerprint
 - generic font family enhancement
 - spec change for cascading
 - Audio API, Web Codecs
 - excluding smartphone keyword out of responsive web design and includes print css
 - considering accessibility
+- eliminate application cache
 
 ## 認定条件
 
