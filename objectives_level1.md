@@ -424,7 +424,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
   - Pointer Events
   - DOM3 Events (UI Events)
 
-### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (4)</span>
+### <span style="color:navy">1.5.3 オフライン・ストレージ系 API 概要 (4)</span>
 
 **修正予定**
 
