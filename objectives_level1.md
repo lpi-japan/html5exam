@@ -13,16 +13,16 @@
   - 基本のプロトコル、ステータスコードなどはそのまま
   - HTTP, HTTPS の違いもそのまま
   - アイテムで <http://> があったら単純 replace ？
-- 標準が HTML Living Standard に統一されたことの反映
+- 標準が HTML Living Standard に統一されたことの反映 .. 必須のものに限定。それにより、v2.0 も有効である印象づけ。
   - 最新標準の反映 (HTML5.x と共通部分)
     - 文字コード UTF-8 のみの推奨
-  - HTML Living Standard の反映 (HTML5.x との差異)
-  - 追加
-    - hgroup
-    - img loading=""
-  - 削除
+  - HTML Living Standard の反映 (HTML5.x との差異) .. 色々あるがマイナーなので、１つ２つ検討
+    - 追加
+      - hgroup
+      - img loading=""
+    - 削除
     - 
-  - 変更
+    - 変更
   - 出題範囲に見えなくても アイテムで 該当箇所 があったら単純 replace ？
 
 <!-- -->
