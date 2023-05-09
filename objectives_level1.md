@@ -115,9 +115,11 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **重要な技術要素**
 
-- 文書型宣言
-- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP,</del></font> UTF-8
-- 文字実体参照
+- <font color=red><del>文書型宣言</del></font><font color=blue>\<!DOCTYPE html\></font>
+- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP, UTF-8</del></font>
+- <font color=blue>html lang="ja", meta charset="UTF-8"</font>
+- <font color=red><del>文字実体参照</del></font>
+- <font color=blue>&nbsp;, &amp;, &yen; など </font>
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
 ### <span style="color:navy">1.1.3 Web関連技術の概要 (6)</span>
