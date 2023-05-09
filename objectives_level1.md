@@ -174,15 +174,27 @@ flex, z-index,clip
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
 
-## *x.x xxxx*
+### <span style="color:navy">1.2.3 カスケード（優先順位）　(２)</span>
 
-### <span style="color:navy">x.x.x xxxx(x)</span>
+**出題種別**
 
-**概要**
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- 大規模なサイトを作成する場合や、外部から提供されたスタイルシートを利用する場合に起こりやすい、HTMLの一つの要素に対して複数の記述が対象となる事象（プロパティの衝突）が発生した場合における適用の優先順位を理解している。
 
 **主要な知識範囲**
 
+- 外部・内部スタイルシート、インラインスタイルシートの指定に関して記述場所による優先順位
+- セレクタの優先順位に関する計算方法
+
 **重要な技術要素**
+
+- カスケード
+- 外部スタイルシート, 内部スタイルシート, インラインスタイルシート
+- !important
 
 ## *x.x xxxx*
 
