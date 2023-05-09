@@ -45,7 +45,9 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **修正予定**
 
-- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。HTTP/1.1, 2 は必要か。... このままでも良いかも。</font>
+- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。
+
+HTTP/1.1, 2,<b>3</b> は必要か。... 何を知っているべき？</font>
 
 *出題種別*'
 
@@ -71,7 +73,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Web サーバーが返すレスポンスのステータスコード
   - HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
 - HTTP プロトコルに規定されている認証方式
-  - Basic 認証、Digest 認証
+  - Basic 認証、Digest 認証 <font color=red> ... Basic は非推奨だが、単純に消してよいのか。</font>
 - HTTP cookie
 
 ### <span style="color:navy">1.1.2 HTMLの書式 (6)</span>
