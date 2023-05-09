@@ -108,12 +108,12 @@
 
 **重要な技術要素**
 
-- let, const, var
+- let, const と var
 - =\>
 - Promise, async, await
 - スプレッド構文/演算子（...)
 - class
-- \`(バッククォート), \${}
+- \`~\`(バッククォート), \${}
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
