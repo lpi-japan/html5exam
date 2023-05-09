@@ -343,7 +343,7 @@ flex, z-index,clip
 
 **説明（望まれるスキル）**
 
-- 要件に沿ったページをデザイン・設計する際に、<font color=green><del>どのような画面サイズであっても</del>さまさまな画面サイズに合わせて</font>デザインが仕様どおりになる<font color=red><del>ような</del></font>ページの実現方法を理解しており、マルチデバイス対応のページを<font color=green><del>作る事が</del>作成</font>できる。
+- 要件に沿ったページをデザイン・設計する際に、<font color=green><del>どのような画面サイズであっても</del>さまざまな画面サイズに合わせて</font>デザインが仕様どおりになる<font color=red><del>ような</del></font>ページの実現方法を理解しており、マルチデバイス対応のページを<font color=green><del>作る事が</del>作成</font>できる。
 
 **主要な知識範囲**
 
