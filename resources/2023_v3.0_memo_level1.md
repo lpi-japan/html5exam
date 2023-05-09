@@ -20,6 +20,7 @@ must-have features;
 - Audio API, Web Codecs
 - excluding smartphone keyword out of responsive web design and includes print css
 - eliminate application cache
+- align SnapShots of HTML, DOM etc.
 
 nice-to-have features
 
