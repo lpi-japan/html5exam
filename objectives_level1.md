@@ -498,7 +498,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Web Workers
 - Service Workers
 - Push API
-- <font color=red><del>fetch ... 間違いらしい</del></font>
+- <font color=red><del>fetch ... 1.5.4 へ移動</del></font>
 
 ### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
 
