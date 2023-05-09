@@ -16,6 +16,7 @@
 - API 関連主題の統廃合
 - WebRTC の追加
 - Array の詳細
+- Vue.js, React.js ... jQuery は古い？
 - (Google App Script)
 
 <!-- -->
