@@ -52,39 +52,38 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.1 Webの基礎知識*
 
-### <span style="color:navy">1.1.1 HTTP, HTTPS プロトコル(5)</span>
+### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(8)</span>
 
-**修正予定**
-
-- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。
-
-HTTP/1.1, 2,<b>3</b> は必要か。... 何を知っているべき？ UDP とか速いとか。UDP を知ってる前提？</font>
-
-*出題種別*'
+**出題種別**
 
 - 知識問題
 - 記述問題
 
-**概要**
+**説明（望まれるスキル）**
 
-- HTTP のコンテンツ作成や、サイト全体の設計を行うために必要な HTTP および HTTPS プロトコルに関する知識を有している。
+- HTTPのコンテンツ作成や、サイト全体の設計を行うために必要なHTTPおよびHTTPSプロトコルに関する知識を有している。
 
-また、ブラウザでアクセスした時に返ってくるエラーコードの意味を理解できて、問題を解決するヒントとする事ができる。
+また、ブラウザでアクセスした時に返ってくるエラーコードの意味を理解でき、問題を解決するヒントにできる。
 
-**詳細**
+**主要な知識範囲**
 
-- ブラウザと Web サーバー間でやりとりされる通信内容や手順
-  - HTTP, HTTPS, SSL/TLS
-- HTTP リクエストにおけるメソッド種類と違い
-  - リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
-- リクエスト URI の仕様について書式や利用可能文字
-  - URI, URL
-- Web サーバーが返すレスポンスのヘッダ項目
-  - ステータスコード, リダイレクト
-- Web サーバーが返すレスポンスのステータスコード
-  - HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
-- HTTP プロトコルに規定されている認証方式
-  - Basic 認証、Digest 認証 <font color=red> ... Basic は非推奨だが、単純に消してよいのか。</font>
+- ブラウザとWebサーバ間でやりとりされる通信内容や手順
+- HTTPリクエストにおけるメソッド種類と違い
+- <font color=blue>HTTPプロトコルバージョンによる違い</font>
+- リクエストURIの仕様について書式や利用可能文字
+- Webサーバが返すレスポンスのヘッダ項目
+- Webサーバが返すレスポンスのステータスコード
+- HTTPプロトコルに規定されている認証方式
+
+**重要な技術要素**
+
+- HTTP, HTTPS, SSL/TLS
+- リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
+- <font color=blue>HTTP/1.1, HTTP/2</font>
+- URI, URL
+- ステータスコード, リダイレクト
+- HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
+- Basic認証、Digest認証
 - HTTP cookie
 
 ### <span style="color:navy">1.1.2 HTMLの書式 (6)</span>
