@@ -151,7 +151,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **修正予定**
 
-- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。</font>
+- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。system font 云々もここか。</font>
 
 **出題種別**
 
