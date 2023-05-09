@@ -317,3 +317,22 @@
 - context.setTransform(), context.rotate(), context.scale(), context.translate()
 - context.globalAlpha, context.globalCompositeOperation
 - context.drawImage(), context.createImageData()
+
+### <span style="color:navy">2.3.2 SVG(重要度：2)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- SVGの概要とCanvasとの違いについて理解している。
+
+**主要な知識範囲**
+
+- SVGの特徴
+- Canvasとの違い
+
+**重要な技術要素**
+
+- ベクターグラフィック、XML
