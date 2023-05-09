@@ -200,9 +200,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - ボックス(display, margin, padding, width, height, max-width, min-width, max-height, min-height, float, clear, overflow, visibility)
 - マルチカラムレイアウト(column-count, column-width, columns, column-gap, column-rule, column-rule-style, column-rule-width, column-rule-color, column-span)
-
-flex, z-index,clip
-
+- flex, z-index,clip
 - 色指定（color, opacity）
 - 背景指定（background, background-color, background-image, background-repeat, background-position, background-attachment, background-clip, background-origin, background-size）
 - 罫線（border, border-style, border-width, border-color, border-radius, box-shadow, liner-gradient, radial-gradient）
