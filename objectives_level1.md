@@ -70,6 +70,10 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.1.2 HTMLの書式 (6)</span>
 
+**修正予定**
+
+- <font color=red>encoding は UTF-8 のみ推奨となったが、他は単純削除で良いか。</font>
+
 **出題種別**
 
 - 知識問題
@@ -94,7 +98,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **重要な技術要素**
 
-### <span style="color:navy">1.1.3 Web関連技術の概要 (2)</span>
+### <span style="color:navy">1.1.3 Web 関連技術の概要 (2)</span>
 
 **出題種別**
 
