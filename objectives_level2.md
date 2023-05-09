@@ -654,3 +654,52 @@
   - DeviceMotionEventオブジェクト
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
+
+## *2.8 パフォーマンスとオフライン*
+
+### <span style="color:navy">2.8.1 Web Workers(重要度：5)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- Web Workersの特徴を理解し、並列処理やエラーの検出を行うコードを読み、どのように動作するか理解することができる。
+
+**主要な知識範囲**
+
+- Web Workersの特徴と利用するメリット
+- Workerの新規作成
+- メッセージの送受信
+- Worker内での処理に関する注意事項
+- 受け渡しパラメータに対するメモリ使用量
+- エラー検知、およびエラーイベント
+
+**重要な技術要素**
+
+- Workerオブジェクト
+  - メソッド(terminate(), postMessage()）
+  - イベント（onerror, onmessage)
+- ErrorEventインターフェイスのプロパティ(message, filename, lineno)
+
+### <span style="color:navy">2.8.2 High Resolution Time(重要度：2)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- High Resolution Time APIを使って、高い精度の時間を取得するために必要な知識について理解している。
+
+**主要な知識範囲**
+
+- High Resolution Time APIの特徴と提供機能
+- High Resolution Time APIを利用した、高い精度のパフォーマンス測定
+
+**重要な技術要素**
+
+- Performanceオブジェクト
+- メソッド（now()）
