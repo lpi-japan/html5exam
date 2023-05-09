@@ -31,6 +31,13 @@
   - Level ２ 合格（Level 1 認定なし） =\> JavaScript Professional 認定 を新設するか
   - Level 1　認定 + Level 2 合格 =\> Level 2 認定 をそのまま残すか、階段を取っ払うか
 
+<!-- -->
+
+- existing descriptions requiring consideration
+  - 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」という機能として引き継がれている。(以前: <https://www.w3.org/TR/animation-timing/> , 現在: <https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames>
+  - 2.6.2 「XMLHttpRequest」について「レベル1」の方では、通信系のAPIとして、「XMLHttpRequest」に加えて「fetchAPI」が追加されましたが、「レベル２」の方では「fetchAPI」についてはver2.5時点では試験範囲に追加されていない
+  - 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheが含まれておりますが、仕様ではすでに廃止されているものかと思います。「レベル１」ではApplication CacheからService Workersに変更されています
+
 ## 認定条件
 
 - HTML5 Professional Certification Level 2 (JavaScript Professional (TBD))試験に合格すると、JavaScript Professional に認定されます。（TBD)
