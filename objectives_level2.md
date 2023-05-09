@@ -82,9 +82,8 @@
   - Objectクラス
   - prototypeプロパティ
   - this
-- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文、
+- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
-  - var</b>
 
 ### <span style="color:navy"><b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8)</b></span>
 
