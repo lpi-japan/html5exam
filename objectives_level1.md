@@ -465,6 +465,7 @@ flex, z-index,clip
 - DOM3 Events (UI Events)
 - Touch Events
 - Pointer Events
+- <font color=blue>Generic Sensor API</font>
 
 ### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (4)</span>
 
