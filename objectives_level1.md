@@ -30,7 +30,7 @@ nice-to-have features
 existing descriptions requiring consideration
 
 - 1.2.2 \> z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよさそう。
-- 1.3.3 \> フレーム → frameがHTML5で非推奨になっているので紛らわしい。ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。
+- 1.3.3 \> フレーム → frameがHTML5で非推奨になっているので紛らわしい。ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。iframeは出題範囲に含めるで妥当と思うが、インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそもHTML Standardのインタラクティブ要素の分類と、1.3.3の分類は必ずしも一致していない (iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) : <https://html.spec.whatwg.org/multipage/dom.html#interactive-content>
 - 1.3.3 \> コマンドメニュー → 「command 要素は仕様から削除されたものとして取り扱っていません」という指摘をいただきました。確かに廃止されているようです。https://www.tohoho-web.com/html/command.htm
 - 1.4.1 \> フルードグリッド → Fluid GridはW3CやWHATWG発祥の言葉やCSSではなく一有識者の言葉のようなので ( <https://ebisu.com/note/grid-system-and-css-grid/> )、ほぼ規格に沿った本試験で用語として登場するのはちょっと違和感あります。また、実装としてのGridも、10年前はfloatを使って実現していましたが、今はCSS Gridという公式の実装が出たことなので、IE11もなくなった今CSS Gridをreferする方が良いように思います。
 - 1.4 → おそらく現時点でライブラリ経由で最も使用率の多いレスポンシブ実現手段であるFlexbox (+メディアクエリ) の言及がここにないのが気になりました。1.2.2にflex単体では登場していますが。
