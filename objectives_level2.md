@@ -102,7 +102,6 @@
 - ローカル変数と定数
 - アロー関数
 - Promise と非同期関数
-- 配列処理
 - 可変長引数/残余引数
 - クラス
 
@@ -111,8 +110,6 @@
 - let, const, var
 - =\>
 - Promise, async, await
-- Array.\*
-- map/filter/reduce(実は　ES5), forEach
 - スプレッド構文/演算子（...)
 - class
 
