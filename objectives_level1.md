@@ -37,7 +37,11 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.1.1 HTTP, HTTPS プロトコル(5)</span>
 
-**出題種別**
+**修正予定**
+
+- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。</font>
+
+*出題種別*'
 
 - 知識問題
 - 記述問題
