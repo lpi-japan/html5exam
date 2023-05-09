@@ -56,7 +56,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - ブラウザと Web サーバー間でやりとりされる通信内容や手順
   - HTTP, HTTPS, SSL/TLS
-- HTTPリクエストにおけるメソッド種類と違い
+- HTTP リクエストにおけるメソッド種類と違い
   - リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
 - リクエスト URI の仕様について書式や利用可能文字
   - URI, URL
