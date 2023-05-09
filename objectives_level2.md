@@ -79,3 +79,54 @@
   - this
 - スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
+
+### <span style="color:navy">2.2 WebブラウザにおけるJavaScript API (重要度：10)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- JavaScriptのページ読み込みや、ユーザ操作によって発生するイベントの発生タイミングを理解しており、イベント処理を行うコードを記述することができる。
+
+**主要な知識範囲**
+
+- J HTML文書を読み込む際に発生するイベント名とその順序
+
+<!-- -->
+
+- 代表的なフォームイベントの概要と使い方
+- 代表的なキーボードイベントの概要と使い方
+- 代表的なマウスイベントの概要と使い方
+- 代表的なタッチイベントの概要と使い方
+
+<!-- -->
+
+- フォームイベントの登録・呼び出しと、入力情報の処理
+- キーボードイベントの登録・呼び出しと、入力情報の処理
+- マウスイベントの登録・呼び出しと、入力情報の処理
+- タッチ系イベントの登録・呼び出しと、入力情報の処理
+- ドラッグアンドドロップイベントの登録・呼び出しと、入力情報の処理
+- スマートフォンにおける回転イベントの登録・呼び出しと、入力情報の処理
+- カスタムイベントの登録・呼び出しと、入力情報の処理
+
+<!-- -->
+
+- イベントリスナの登録、削除
+
+**重要な技術要素**
+
+- onloadイベント
+- EventTargetインターフェイス
+  - メソッド（addEventListener(), dispatchEvent(), removeEventListener()）
+- フォームイベント
+  - onblur, onchange, oncontextmenu, onfocus, onformchange, onforminput, oninput, oninvalid, onselect, onsubmit
+- キーボードイベント
+  - onkeydown, onkeypress, onkeyup
+- マウスイベント
+  - onclick, ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onscroll
+- タッチ系イベント
+  - touchstart, touchmove, touchend
