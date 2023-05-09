@@ -299,6 +299,7 @@ HTTP/1.1, 2,<b>3</b> は必要か。... 何を知っているべき？ UDP と�
 **修正予定**
 
 - <font color=red>強化対象。スマホ特化から　一般化へ。どのように修正を織り込むべきか。print 用 css のリクエストもあり。</font>
+- <font color=red>User-Agent/UA-CH(User Agent Client Hints) は、ここか。Chrome 以外の動向は。まだ、早い？ すぐ？</font>
 
 ### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (2)</span>
 
