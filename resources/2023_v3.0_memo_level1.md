@@ -54,15 +54,15 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **詳細**
 
-- ブラウザと Web サーバ間でやりとりされる通信内容や手順
+- ブラウザと Web サーバー間でやりとりされる通信内容や手順
   - HTTP, HTTPS, SSL/TLS
 - HTTPリクエストにおけるメソッド種類と違い
   - リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
 - リクエスト URI の仕様について書式や利用可能文字
   - URI, URL
-- Web サーバが返すレスポンスのヘッダ項目
+- Web サーバーが返すレスポンスのヘッダ項目
   - ステータスコード, リダイレクト
-- Web サーバが返すレスポンスのステータスコード
+- Web サーバーが返すレスポンスのステータスコード
   - HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
 - HTTP プロトコルに規定されている認証方式
   - Basic 認証、Digest 認証
