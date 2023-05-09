@@ -484,9 +484,8 @@ flex, z-index,clip
 - Pointer Events
 - <font color=blue>Generic Sensor API</font>
 
-### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (8)</span>
-
-**出題種別**
+### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (<del>8</del> =\> 4)</span>
+ **出題種別**
 
 - 知識問題
 - 記述問題
