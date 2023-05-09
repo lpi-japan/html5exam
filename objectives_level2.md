@@ -272,3 +272,48 @@
 
 - Consoleオブジェクト
   - メソッド（assert(), debug(), dirxml(), error(), info(), log(), profile(), profileEnd(), trace(), warn()）
+
+## *2.3 グラフィックス・アニメーション*
+
+### <span style="color:navy">2.3.1 Canvas(2D)(重要度：8)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- Canvasの特徴について説明ができ、Canvasを使って描画を行うコードを読み、その結果ブラウザ上でどのような動きを行うかを理解することができる。
+
+**主要な知識範囲**
+
+- 概要
+  - Canvasの特徴と提供機能
+  - Canvasが利用可能な条件
+  - CanvasとSVGの違い
+- コンテキスト
+  - 2Dコンテキストの概要と描画状態の遷移
+  - 描画状態の保存と復元する方法
+  - クリッピング領域を指定し、描画範囲を制限する方法
+- 基本図形描画
+  - 線、矩形、曲線描画
+  - Canvasの塗りつぶし
+- テキスト描画
+  - テキスト幅の算定、塗りつぶし描画、輪郭描画
+  - フォントの設定
+- 変形（拡大、回転、移動
+  - Canvasの拡大・縮小、回転、移動
+- エフェクト
+  - Canvasへの透明度指定
+  - Canvas上へ図形などを合成
+- イメージデータ
+
+**重要な技術要素**
+
+- canvas.getContext("2d"), context.save(), restore(), context.beginPath(), context.rect(), clip()
+- context.moveTo(), context.lineTo(), context.stroke(), context.fillRect(), context.strokeRect(), context.clearRect(), context.arc(), context.arcTo(), context.bezierCurveTo(), context.quadraticCurveTo(),
+- context.measureText(), context.fillText(), context.strokeText(), context.font
+- context.setTransform(), context.rotate(), context.scale(), context.translate()
+- context.globalAlpha, context.globalCompositeOperation
+- context.drawImage(), context.createImageData()
