@@ -571,6 +571,61 @@
   - XMLHttpRequestEventTarget インターフェイス
     - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
 
-### <span style="color:navy">2.6.2 XMLHttpRequest(重要度：5)</span>
+### <span style="color:navy">2.6.3 Server-Sent Events(重要度：1)</span>
 
 **出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- 標準化されたサーバープッシュの仕組みを理解し、実践に役立てることができる。
+
+**主要な知識範囲**
+
+- サーバーとの接続方法
+- 各種イベントハンドリング
+- データフォーマット
+- サーバーから切断された時の挙動
+
+**重要な技術要素**
+
+- EventSourceオブジェクト
+  - readyStateプロパティ
+  - onopenイベントハンドラ
+  - onmessageイベントハンドラ
+  - onerrorイベントハンドラ
+- Server-Sent EventsのMIME-Type
+
+`
+2.7 デバイスアクセス
+=`
+
+### <span style="color:navy">2.7.1 Geolocation API(重要度：5)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- Geolocation APIの概要と利用時の注意点について理解している。
+
+**主要な知識範囲**
+
+- Geolocation APIの特徴と注意する点
+- 端末における現在の位置情報を取得する方法
+- 現在位置取得後のコールバック関数呼び出し
+
+**重要な技術要素**
+
+- GPS
+- Positionオブジェクト
+  - プロパティ（cords）
+- Coordinates オブジェクト
+  - プロパティ(latitude, longitude, accuracy, altitude, altitudeAccuracy, heading, speed)
+- Geolocationオブジェクト
+  - メソッド（getCurrentPosition(), watchPosition(), clearWatch()）
+  - コールバック(PositionCallback, PositionErrorCallback)
+- PositionErrorオブジェクト
+  - プロパティ（code, message）
