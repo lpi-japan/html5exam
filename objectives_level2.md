@@ -86,7 +86,7 @@
   - クロージャ
   - var</b>
 
-### <span style="color:navy">2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度：<b>TBD</b>)</span>
+### <span style="color:navy"><b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 2)</b></span>
 
 **出題種別**
 
