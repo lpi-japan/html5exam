@@ -167,40 +167,39 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.2.2 CSSデザイン (9)</span>
 
-**修正予定**
-
-- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。system font 云々もここか。"MS 明朝" などのフォント<b>名</b>指定ができなくなるらしい。</font>
-
 **出題種別**
 
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**概要**
+**説明（望まれるスキル）**
 
-- 要件に沿ったデザインを CSS を利用して実現する際に、どのような実現方法が適切か判断でき、仕様に沿った正しいコードを記述する事ができる。
+- 要件に沿ったデザインをCSSを利用して実現する際に、どのような実現方法が適切か判断でき、仕様に沿った正しいコードを記述できる。
 
-**詳細**
+**主要な知識範囲**
 
 - コンテンツのレイアウトに関する記述方法
-  - ボックス(display, margin, padding, width, height, max-width, min-width, max-height, min-height, float, clear, overflow, visibility)
-  - マルチカラムレイアウト(column-count, column-width, columns, column-gap, column-rule, column-rule-style, column-rule-width, column-rule-color, column-span)
-  - flex, z-index, clip
 - 色、背景、罫線に関する記述方法
-  - 色指定（color, opacity）
-  - 背景指定（background, background-color, background-image, background-repeat, background-position, background-attachment, background-clip, background-origin, background-size）
-  - 罫線（border, border-style, border-width, border-color, border-radius, box-shadow, liner-gradient, radial-gradient）
 - テキスト、リスト、テーブルに関する記述方法
-  - フォント（font, font-size, font-weight, font-style, font-variant, font-family, Webフォント(@font-face)）
-  - テキスト（text-transform, white-space, word-break, hyphens, text-align, word-spacing, letter-spacing, text-indent）
-  - テキスト装飾（text-decoration, text-decoration-line, text-decoration-style, text-decoration-color, text-shadow, line-height, vertical-align, direction, unicode-bidi, quotes）
-  - リスト（list-style, list-style-type, list-style-image, list-style-position, <content:counter>, counter-increment, counter-reset）
-  - テーブル（caption-side, table-layout, border-collapse, border-spacing, empty-cells）
 - コンテンツの変形、アニメーションに関する記述方法
-  - 変形（transform, transform-origin）, 移動, 拡大, 縮小, 回転
-  - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
-  - アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
+
+**重要な技術要素**
+
+- ボックス(display, margin, padding, width, height, max-width, min-width, max-height, min-height, float, clear, overflow, visibility)
+- マルチカラムレイアウト(column-count, column-width, columns, column-gap, column-rule, column-rule-style, column-rule-width, column-rule-color, column-span)
+- flex, z-index,clip
+- 色指定（color, opacity）
+- 背景指定（background, background-color, background-image, background-repeat, background-position, background-attachment, background-clip, background-origin, background-size）
+- 罫線（border, border-style, border-width, border-color, border-radius, box-shadow, liner-gradient, radial-gradient）
+- フォント（font, font-size, font-weight, font-style, font-variant, font-family (family-name \| generic-family), Webフォント(@font-face)）
+- テキスト（text-transform, white-space, word-break, hyphens, text-align, word-spacing, letter-spacing, text-indent）
+- テキスト装飾（text-decoration, text-decoration-line, text-decoration-style, text-decoration-color, text-shadow, line-height, vertical-align, direction, unicode-bidi, quotes）
+- リスト（list-style, list-style-type, list-style-image, list-style-position, <content:counter>, counter-increment, counter-reset）
+- テーブル（caption-side, table-layout, border-collapse, border-spacing, empty-cells）
+- 変形（transform, transform-origin）, 移動, 拡大, 縮小, 回転
+- トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
+- アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
 
 ### <span style="color:navy">1.2.3 カスケード（優先順位）　(1)</span>
 
