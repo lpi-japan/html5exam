@@ -20,6 +20,10 @@
 
 <!-- -->
 
+- Front-end vs Back-end development
+
+<!-- -->
+
 - Level 1, Level 2 の独立、単体認定化
   - Level 1 合格 =\> Level 1 認定
   - Level ２ 合格（Level 1 認定なし） =\> JavaScript Professional 認定 を新設するか
