@@ -86,11 +86,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Basic認証、Digest認証
 - HTTP cookie
 
-### <span style="color:navy">1.1.2 HTMLの書式 (6)</span>
-
-**修正予定**
-
-- <font color=red>encoding は UTF-8 のみ推奨となったが、他は単純削除で良いか。</font>
+### <span style="color:navy">1.1.2 HTMLの書式 (9)</span>
 
 **出題種別**
 
@@ -98,23 +94,26 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - コードリーティング問題
 - 記述問題
 
-**概要**
+**説明（望まれるスキル）**
 
-- 正しくブラウザにコンテンツを表示させるために、HTML の仕様に沿った書式で HTML コードを記述する事ができる。
+- 正しくブラウザにコンテンツを表示させるために、HTMLの仕様に沿った書式でHTMLコードを記述できる。
 
-**詳細**
+**主要な知識範囲**
 
-- HTML バージョン情報を含む文書型宣言に関する記述方法
-  - 文書型宣言 ... <font color=red> \<!DOCTYPE html\> 以外を不正解にするには、どんな情報 (仕様情報) が必要か</font>
-- 要件に合わせた言語コードと、文字コード（符号化方式）の指定に関する記述方法
-  - <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP,</del> UTF-8 ... で良いのか</font>
-- HTML で使用可能な文字参照に関する記述方法
-  - 文字実体参照
-- 必要に応じて、ヘッダ内に外部リソースを指定するリンクに関する記述方法
-- 必要に応じて、ヘッダ内にメタ情報に関する記述方法
-  - \<html\>,\<title\>,\<link\>,\<meta\>
+- <font color=red><del>HTMLバージョン情報を含む</del></font>文書型宣言に関する記述方法
+- <font color=red><del>要件に合わせた</del></font>言語コードと<font color=red><del>、</del></font>文字コード（符号化方式）の指定に関する記述方法
+- HTMLで使用可能な文字参照に関する記述方法
+- <font color=red><del>必要に応じて、ヘッダ内に</del></font>外部リソースを指定するリンクに関する記述方法
+- <font color=red><del>必要に応じて、ヘッダ内に</del></font>メタ情報に関する記述方法
 
 **重要な技術要素**
+
+- <font color=red><del>文書型宣言</del></font><font color=blue>\<!DOCTYPE html\></font>
+- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP, UTF-8</del></font>
+- <font color=blue>html lang="ja", meta charset="UTF-8"</font>
+- <font color=red><del>文字実体参照</del></font>
+- <font color=blue>&nbsp;, &amp;, &yen; など </font>
+- \<html\>,\<title\>,\<link\>,\<meta\>
 
 ### <span style="color:navy">1.1.3 Web 関連技術の概要 (2)</span>
 
