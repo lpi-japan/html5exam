@@ -59,7 +59,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.1 Webの基礎知識*
 
-### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(6)</span>
+### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(8)</span>
 
 **出題種別**
 
@@ -91,7 +91,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Basic認証、Digest認証
 - HTTP cookie
 
-### <span style="color:navy">1.1.2 HTMLの書式 (5)</span>
+### <span style="color:navy">1.1.2 HTMLの書式 (9)</span>
 
 **出題種別**
 
@@ -118,7 +118,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - 文字実体参照
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
-### <span style="color:navy">1.1.3 Web関連技術の概要 (2)</span>
+### <span style="color:navy">1.1.3 Web関連技術の概要 (6)</span>
 
 **出題種別**
 
@@ -150,7 +150,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.2 CSS*
 
-### <span style="color:navy">1.2.1 スタイルシートの基本 (4)</span>
+### <span style="color:navy">1.2.1 スタイルシートの基本 (7)</span>
 
 **出題種別**
 
@@ -211,7 +211,7 @@ flex, z-index,clip
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
 
-### <span style="color:navy">1.2.3 カスケード（優先順位）　(1)</span>
+### <span style="color:navy">1.2.3 カスケード（優先順位）　(2)</span>
 
 **出題種別**
 
@@ -235,7 +235,7 @@ flex, z-index,clip
 
 ## *1.3 要素*
 
-### <span style="color:navy">1.3.1 要素と属性の意味（セマンティクス） (12)</span>
+### <span style="color:navy">1.3.1 要素と属性の意味（セマンティクス） (10)</span>
 
 **出題種別**
 
@@ -264,7 +264,7 @@ flex, z-index,clip
 - 言語のセマンティクス
 - 表のセマンティクス
 
-### <span style="color:navy">1.3.2 メディア要素 (2)</span>
+### <span style="color:navy">1.3.2 メディア要素 (6)</span>
 
 **出題種別**
 
@@ -291,7 +291,7 @@ flex, z-index,clip
 - コンテナ
 - 字幕
 
-### <span style="color:navy">1.3.3 インタラクティブ要素 (3)</span>
+### <span style="color:navy">1.3.3 インタラクティブ要素 (7)</span>
 
 **出題種別**
 
@@ -329,7 +329,7 @@ flex, z-index,clip
 
 </font>
 
-### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (2)</span>
+### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (4)</span>
 
 **出題種別**
 
@@ -355,7 +355,7 @@ flex, z-index,clip
 - viewport
 - リセットCSS
 
-### <span style="color:navy">1.4.2 メディアクエリ (2)</span>
+### <span style="color:navy">1.4.2 メディアクエリ (5)</span>
 
 **出題種別**
 
@@ -379,7 +379,7 @@ flex, z-index,clip
 - メディア特性
 - ピクセル, dpi, dpcm
 
-### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (2)</span>
+### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (3)</span>
 
 **出題種別**
 
@@ -409,7 +409,7 @@ flex, z-index,clip
 
 ## *1.5 APIの基礎知識*
 
-### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (2)</span>
+### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (5)</span>
 
 **出題種別**
 
@@ -440,7 +440,7 @@ flex, z-index,clip
 - Canvasの機能
 - SVGのマークアップとAPIの基礎知識
 
-### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (2)</span>
+### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (4)</span>
 
 **出題種別**
 
@@ -467,7 +467,7 @@ flex, z-index,clip
 - Pointer Events
 - <font color=blue>Generic Sensor API</font>
 
-### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (4)</span>
+### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (8)</span>
 
 **出題種別**
 
@@ -494,7 +494,7 @@ flex, z-index,clip
 - Push API
 - fetch
 
-### <span style="color:navy">1.5.4 通信系API概要 (2)</span>
+### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
 
 **出題種別**
 
