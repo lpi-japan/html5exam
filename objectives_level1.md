@@ -83,7 +83,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - HTTP, HTTPS, SSL/TLS
 - リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
-- <font color=blue>HTTP/1.1, HTTP/2(, HTTP/3　-TBD)</font>
+- <font color=blue>HTTP/1.1, HTTP/2</font>
 - URI, URL
 - ステータスコード, リダイレクト
 - HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
