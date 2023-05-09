@@ -530,6 +530,47 @@
 **重要な技術要素**
 
 - WebSocketオブジェクト
-- メソッド(send(), close()）
-- プロパティ(URL, readyState, bufferedAmount)
-- イベント(onopen, onmessage, onclose)
+  - メソッド(send(), close()）
+  - プロパティ(URL, readyState, bufferedAmount)
+  - イベント(onopen, onmessage, onclose)
+
+### <span style="color:navy">2.6.2 XMLHttpRequest(重要度：5)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- XMLHttpRequestの特徴を理解し、通信を行い結果を適切に処理できるプログラムを読むことができる。
+
+**主要な知識範囲**
+
+- XMLHttpRequestを利用した、WebサーバへHTTPリクエストを送信および結果の受信
+- XMLHttpRequestオブジェクトと通信時に関連するイベントハンドラ
+- XMLHttpRequestにおけるリクエストヘッダの設定
+- XMLHttpRequestオブジェクトのステータス確認
+- レスポンスデータに関する内容の確認、および用途にあった処理
+- 取得データのブラウザによるキャッシュを防ぐ対策
+- ダウンロードの進捗をリアルタイムに把握する方法
+- タイムアウトの扱い方
+
+**重要な技術要素**
+
+- XMLHttpRequest　オブジェクト
+  - リクエスト/レスポンス共通
+    - プロパティ(readyState)
+    - イベント（onreadystatechange）
+  - リクエスト関連
+    - メソッド(open(), setRequestHeader(), send(), abort())
+    - プロパティ(timeout, withCredentials, upload)
+  - レスポンス処理
+    - メソッド(getResponseHeader(), getAllResponseHeaders(), overrideMimeType())
+    - プロパティ(status, statusText, responseType, response, responseText, responseXML)
+  - XMLHttpRequestEventTarget インターフェイス
+    - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
+
+### <span style="color:navy">2.6.2 XMLHttpRequest(重要度：5)</span>
+
+**出題種別**
