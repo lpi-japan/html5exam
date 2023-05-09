@@ -333,7 +333,7 @@ flex, z-index,clip
 
 </font>
 
-### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (4)</span>
+### <span style="color:navy">1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del>7</font>)</span>
 
 **出題種別**
 
@@ -344,20 +344,31 @@ flex, z-index,clip
 **説明（望まれるスキル）**
 
 - 要件に沿ったページをデザイン・設計する際に、<font color=green><del>どのような画面サイズであっても</del>さまざまな画面サイズに合わせて</font>デザインが仕様どおりになる<font color=red><del>ような</del></font>ページの実現方法を理解しており、マルチデバイス対応のページを<font color=green><del>作る事が</del>作成</font>できる。
+- スマートフォン<font color=blue>などのモバイル環境</font>でWebコンテンツを閲覧する時を考慮し、回線速度など<font color=green><del>スマートフォン</del>モバイル</font>特有の環境でも快適に閲覧できるコンテンツを設計・開発できる。
 
 **主要な知識範囲**
 
-- マルチデバイス対応ページを作成する際に考慮すべき点
-- レスポンシブWebデザインにおけるページ構成要素の配置手法
-- レスポンシブWebデザインにおける画像の扱い
+- <font color=red><del>マルチデバイス対応ページを作成する際に考慮すべき点</del></font>
+- <font color=green><del>レスポンシブWebデザイン</del>マルチデバイス</font>におけるページ構成要素の配置手法
+- <font color=green><del>レスポンシブWebデザイン</del>マルチデバイス</font>における画像の扱い
+- <font color=green><del>スマートフォン</del>モバイル</font>特有の設定について、注意すべき点
+- 低回線速度環境で閲覧する際のパフォーマンス向上技術
 
 **重要な技術要素**
 
+- <font color=blue>スマートフォン、タブレット、PC、印刷</font>
 - フルードグリッド(Fluid Grid)
 - フルードイメージ(Fluid Image)
 - 固定レイアウト、可変レイアウト
-- viewport
+- <font color=red><del>viewport</del></font>
 - リセットCSS
+- <font color=blue>CSSスプライト</font>
+- <font color=blue>高解像度画面向け対応</font>
+- <font color=blue>viewport, density, initial-scale</font>
+- <font color=blue>ファビコン, アイコン設定(apple-touch-icon, apple-touch-icon-precomposed)</font>
+- <font color=blue>スタンドアローンモード</font>
+- <font color=blue>電話番号へのリンク</font>
+- <font color=blue>script要素, async属性, defer属性</font>
 
 ### <span style="color:navy">1.4.2 メディアクエリ (5)</span>
 
