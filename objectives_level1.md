@@ -7,25 +7,6 @@
 | **認定名**         | HTML5 Professional Certification Level 1      |
 | **試験の正式名称** | HTML5 Professional Certification Level 1 Exam |
 
-## 改定概要
-
-- 通信は、SSL/TLS の HTTPS のみになったことの反映
-  - 基本のプロトコル、ステータスコードなどはそのまま
-  - HTTP, HTTPS の違いもそのまま
-  - アイテムで <http://> があった場合、必要に応じて https 化
-- 標準が HTML Living Standard に統一されたことの反映
-  - 範囲上特に無し
-    - 文字コード UTF-8 のみの推奨
-  - HTML Living Standard の反映 (HTML5.x との差異) .. 色々あるがマイナーで表面化しない。
-    - 追加
-    - 削除
-    - 変更
-  - 出題範囲に見えなくても アイテムで 該当箇所 があった場合、個別検討。
-
-<!-- -->
-
-- その他、表現の修正
-
 <table>
 <tbody>
 <tr class="odd">
