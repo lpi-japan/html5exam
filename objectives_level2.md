@@ -133,7 +133,7 @@
 - タッチ系イベント
   - touchstart, touchmove, touchend
 
-### <span style="color:navy">ドキュメントオブジェクト／DOM(重要度：6)</span>
+### <span style="color:navy">2.2.2 ドキュメントオブジェクト／DOM(重要度：6)</span>
 
 **出題種別**
 
