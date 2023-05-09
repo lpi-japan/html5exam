@@ -1,4 +1,4 @@
-# HTML5 Level 2 概要
+# HTML5 Level 2 v2.5 概要
 
 ## 名称
 
@@ -19,6 +19,10 @@
 - スマートフォンなどでネイティブアプリに近い機能を組み込んだ先端のWebアプリケーションを開発することができる。
 - APIのセキュリティモデルを理解した上で開発することができる。
 
+# *v2.5 改定概要*
+
+- ES6(ECMAScript2015) 以降に対応
+
 # HTML5 Level 2 出題範囲
 
 ## *2.1 JavaScript*
@@ -37,8 +41,8 @@
 
 **主要な知識範囲**
 
-- Javascriptの概要
-  - Javascriptに関する他言語との違いや、一般的な注意事項について理解している。
+- JavaScriptの概要
+  - JavaScriptに関する他言語との違いや、一般的な注意事項について理解している。
 - 演算子
   - 演算子の適切な使い方・他の演算子との使い分けを理解している。
 - 特殊数値
@@ -54,7 +58,7 @@
 - プロパティ
   - プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している。
 - スコープ
-- JavaScriptにおける宣言場所や呼び出しの記述箇所によるスコープの変化について理解している。
+  - JavaScriptにおける宣言場所や呼び出しの記述箇所によるスコープの変化について理解している。
 
 **重要な技術要素**
 
@@ -79,6 +83,36 @@
   - this
 - スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
+
+### <span style="color:navy"><b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) </b></span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- ES6(ECMAScript2015) 以降に追加された機能および表記法を用いてコーディングができる。
+
+**主要な知識範囲**
+
+- ローカル変数と定数
+- アロー関数
+- Promise と非同期関数
+- 可変長引数/残余引数
+- クラス
+- テンプレートリテラル (テンプレート文字列)
+
+**重要な技術要素**
+
+- let, const と var
+- =\>
+- Promise, async, await
+- スプレッド構文/演算子（...)
+- class
+- \`~\`(バッククォート), \${}
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
@@ -246,11 +280,11 @@
 **重要な技術要素**
 
 - History オブジェクト
-- プロパティ（length）
-- メソッド（go(), back(), forward(), pushState(), replaceState()）
+  - プロパティ（length）
+  - メソッド（go(), back(), forward(), pushState(), replaceState()）
 - Location　オブジェクト
-- プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
-- メソッド（assign(), replace(), reload()）
+  - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
+  - メソッド（assign(), replace(), reload()）
 
 ### <span style="color:navy">2.2.6 テスト・デバッグ(重要度：6)</span>
 
@@ -595,7 +629,7 @@
   - onopenイベントハンドラ
   - onmessageイベントハンドラ
   - onerrorイベントハンドラ
-- Server-Sent EventsのMIME-Type
+- Server-Sent Events の MIME-Type
 
 ## *2.7 デバイスアクセス*
 
@@ -827,3 +861,18 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 
 - Mixed Content
 - Secure Contexts
+
+# 将来の検討課題 / Future Change Consideration
+
+- XMHttpRequest -\> Fetch API
+- Server Side JS (Node.js)
+- REST API
+- TypeScript
+- API 関連主題の統廃合
+- WebRTC の追加
+- Array の詳細
+- (Google App Script)
+
+<!-- -->
+
+- Level 1, Level 2 の独立、単体認定化
