@@ -39,7 +39,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **修正予定**
 
-- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。</font>
+- <font color=red>ブラウザが HTTPS のみ受付の時代となったが、どのように修正を織り込むべきか。HTTP/1.1, 2 は必要か。... このままでも良いかも。</font>
 
 *出題種別*'
 
