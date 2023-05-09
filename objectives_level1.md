@@ -423,15 +423,56 @@ flex, z-index,clip
 - Touch Events
 - Pointer Events
 
-## *x.x xxxx*
+### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (8)</span>
 
-### <span style="color:navy">x.x.x xxxx(x)</span>
+**出題種別**
 
-**概要**
+- 知識問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- JavaScriptからデータをブラウザー内に保存する仕組み、オフラインアプリケーション、最新のバックグラウンドによる処理の仕組みを理解し、Webアプリケーションで何が可能になるのかを理解している。
 
 **主要な知識範囲**
 
+- データストレージの仕組み
+- オフラインアプリケーションに必要な知識
+- バックグラウンド処理に関する知識
+
 **重要な技術要素**
+
+- Web Storage
+- Indexed Database API
+- Application cache
+- Web Workers
+- Service Workers
+- Push API
+- fetch
+
+### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
+
+**出題種別**
+
+- 知識問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- JavaScriptからさまざまな通信プロトコルを使ってクラウドと通信する仕組みと特性を理解し、利用シーンに応じて適切なAPI選択ができる。
+
+**主要な知識範囲**
+
+- AJAX
+- 双方向データリアルタイム通信
+- サーバープッシュ
+
+**重要な技術要素**
+
+- XMLHttpRequest
+- WebSocket API
+- Server-Sent Events
+- WebRTC
 
 # バージョン情報
 
