@@ -182,6 +182,10 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.2.3 カスケード（優先順位）　(1)</span>
 
+**修正予定**
+
+- <font color=red>何がどう変わった？</font>
+
 **出題種別**
 
 - 知識問題
