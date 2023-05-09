@@ -133,8 +133,8 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 **主要な知識範囲**
 
 - Webコンテンツを作成する際に使うスクリプト言語や画像ファイル、規格の概要
-- Webに関する、セキュリティ脅威に関する技術の概要
-- 要件に応じて、HTMLコンテンツ作成の際に理解が必要となるWeb関連技術の概要
+- Webに関する<font color=red><del>、</del></font>セキュリティ脅威に関する技術の概要
+- <font color=green><del>要件に応じて、</del>さまざまな要件の</font>HTMLコンテンツ作成<font color=green><del>の際に</del>で</font>理解が必要となるWeb関連技術の概要
 
 **重要な技術要素**
 
