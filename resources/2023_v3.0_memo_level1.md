@@ -7,6 +7,17 @@
 | **認定名**         | HTML5 Professional Certification Level 1      |
 | **試験の正式名称** | HTML5 Professional Certification Level 1 Exam |
 
+## Update consideration summary and status
+
+- exclude HTTP and limit HTTPS
+- limit UTF-8 as encoding
+- system font for privacy and fingerprint
+- generic font family enhancement
+- spec change for cascading
+- Audio API, Web Codecs
+- excluding smartphone keyword out of responsive web design and includes print css
+- considering accessibility
+
 ## 認定条件
 
 HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professional Certification Level 1 に認定されます。
