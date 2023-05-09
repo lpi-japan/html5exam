@@ -1,4 +1,4 @@
-# HTML5 Level 1 概要　( **work in <sup>process</sup>** = under construction ) 
+# HTML5 Level 1 概要　( with diff )
 
 ## 名称
 
@@ -12,15 +12,15 @@
 - 通信は、SSL/TLS の HTTPS のみになったことの反映
   - 基本のプロトコル、ステータスコードなどはそのまま
   - HTTP, HTTPS の違いもそのまま
-  - アイテムで <http://> があったら単純 replace ？
-- 標準が HTML Living Standard に統一されたことの反映 .. 必須のものに限定。それにより、v2.0 も有効である印象づけ。
-  - 最新標準の反映 (HTML5.x と共通部分)
+  - アイテムで <http://> があった場合、必要に応じて https 化
+- 標準が HTML Living Standard に統一されたことの反映
+  - 範囲上特に無し
     - 文字コード UTF-8 のみの推奨
-  - HTML Living Standard の反映 (HTML5.x との差異) .. 色々あるがマイナーなので、１つ２つ検討
+  - HTML Living Standard の反映 (HTML5.x との差異) .. 色々あるがマイナーで表面化しない。
     - 追加
     - 削除
     - 変更
-  - 出題範囲に見えなくても アイテムで 該当箇所 があったら単純 replace ？
+  - 出題範囲に見えなくても アイテムで 該当箇所 があった場合、個別検討。
 
 <!-- -->
 
