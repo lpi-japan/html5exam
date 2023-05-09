@@ -357,9 +357,13 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - スマートフォンにて閲覧する際のパフォーマンス向上技術
   - script要素, async属性, defer属性
 
-## *1.5 APIの基礎知識*
+## *1.5 API の基礎知識*
 
-### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (2)</span>
+### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系 API 概要 (2)</span>
+
+**修正予定**
+
+- <font color=red>(Web) Audio API, Audio Codecs（Code/Decode) はここか。まだ、これ以上深く入る必要はないか。重要度は２（問）だし。</font>
 
 **出題種別**
 
@@ -383,11 +387,11 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
   - Media Source Extensions
   - Encrypted Media Extensions
 - ビットマップグラフィックスの知識
-  - Canvasの機能
+  - Canvas の機能
 - ベクターグラフィックスの知識
   - SVG のマークアップと API の基礎知識
 
-### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (2)</span>
+### <span style="color:navy">1.5.2 デバイスアクセス系 API 概要 (2)</span>
 
 **出題種別**
 
@@ -419,7 +423,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **概要**
 
-- JavaScriptからデータをブラウザー内に保存する仕組み、オフラインアプリケーション、最新のバックグラウンドによる処理の仕組みを理解し、Webアプリケーションで何が可能になるのかを理解している。
+- JavaScript からデータをブラウザー内に保存する仕組み、オフラインアプリケーション、最新のバックグラウンドによる処理の仕組みを理解し、Web アプリケーションで何が可能になるのかを理解している。
 
 **詳細**
 
@@ -438,7 +442,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **重要な技術要素**
 
-### <span style="color:navy">1.5.4 通信系API概要 (2)</span>
+### <span style="color:navy">1.5.4 通信系 API 概要 (2)</span>
 
 **出題種別**
 
@@ -447,7 +451,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **概要**
 
-- JavaScriptからさまざまな通信プロトコルを使ってクラウドと通信する仕組みと特性を理解し、利用シーンに応じて適切なAPI選択ができる。
+- JavaScript からさまざまな通信プロトコルを使ってクラウドと通信する仕組みと特性を理解し、利用シーンに応じて適切な API 選択ができる。
 
 **詳細**
 
