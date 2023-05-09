@@ -725,9 +725,55 @@
 **重要な技術要素**
 
 - ApplicationCache オブジェクト
-- プロパティ（status）
-- メソッド（update(), swapCache()）
-- イベント（checking, error, noupdate, downloading, progress, updateready, cached, obsolete）
+  - プロパティ（status）
+  - メソッド（update(), swapCache()）
+  - イベント（checking, error, noupdate, downloading, progress, updateready, cached, obsolete）
 - Navigatorオブジェクト
+  - プロパティ（onLine）
 
-プロパティ（onLine）
+### <span style="color:navy">2.8.4 Page Visibility(重要度：2)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- スマートフォンなどでの使用も含めて想定されるHTML5の画面表示制御方法について理解している。
+
+**主要な知識範囲**
+
+- Page Visibility機能を使った表示制御の概要
+- ページの表示状態取得
+- 表示状態が変化した際のイベント処理
+
+**重要な技術要素**
+
+- Documentオブジェクト
+- プロパティ（hidden, visibilityState）
+- イベント（visibilitychange）
+
+### <span style="color:navy">2.8.5 Navigation Timing(重要度：1)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- Navigation Timing APIを使って、発生している性能に関する問題を解決するための知識について理解している。
+
+**主要な知識範囲**
+
+- ユーザアクションに対する発生時刻の取得
+- 画像の読み込み時間の計測
+- ページの読み込み時間、DNSにおける名前解決などの各所要時間の計測
+
+**重要な技術要素**
+
+- PerformanceTimingオブジェクト
+- プロパティ（navigationStart, unloadEventStart, unloadEventEnd, redirectStart, redirectEnd, fetchStart, domainLookupStart, domainLookupEnd, connectStart, connectEnd, secureConnectionStart, requestStart, responseStart, responseEnd, domLoading, domInteractive, domContentLoadedEventStart,domContentLoadedEventEnd, domComplete, loadEventStart, loadEventEnd）
+- Performanceオブジェクト
+- プロパティ（timing, navigation）
+- Windowオブジェクト
+- プロパティ（performance）
