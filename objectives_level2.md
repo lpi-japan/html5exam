@@ -629,7 +629,7 @@
   - onopenイベントハンドラ
   - onmessageイベントハンドラ
   - onerrorイベントハンドラ
-- Server-Sent EventsのMIME-Type
+- Server-Sent Events の MIME-Type
 
 ## *2.7 デバイスアクセス*
 
