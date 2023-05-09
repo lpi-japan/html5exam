@@ -252,11 +252,11 @@
 **重要な技術要素**
 
 - History オブジェクト
-- プロパティ（length）
-- メソッド（go(), back(), forward(), pushState(), replaceState()）
+  - プロパティ（length）
+  - メソッド（go(), back(), forward(), pushState(), replaceState()）
 - Location　オブジェクト
-- プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
-- メソッド（assign(), replace(), reload()）
+  - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
+  - メソッド（assign(), replace(), reload()）
 
 ### <span style="color:navy">2.2.6 テスト・デバッグ(重要度：6)</span>
 
