@@ -336,3 +336,28 @@
 **重要な技術要素**
 
 - ベクターグラフィック、XML
+
+### <span style="color:navy">2.3.3 Timing control for script-based animations(重要度：2)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- 高速な描画処理をブラウザ上で実現するために必要な知識を持ち、処理落ちやちらつきを防ぐための記述方法を理解している。
+
+**主要な知識範囲**
+
+- HTML5におけるアニメーションの概要
+- requestAnimationFrameとsetIntervalの違い
+- リフレッシュレートとの関係
+- requestAnimationFrameを使ったアニメーションフレーム制御
+- cancelAnimationFrameによるフレーム処理リクエストのキャンセル
+
+**重要な技術要素**
+
+- Windowオブジェクト
+  - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
+- FrameRequestCallbackオブジェクト
