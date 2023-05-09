@@ -251,3 +251,24 @@
 - Location　オブジェクト
 - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
 - メソッド（assign(), replace(), reload()）
+
+### <span style="color:navy">2.2.6 テスト・デバッグ(重要度：6)</span>
+
+**出題種別**
+
+- 出題種別
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- コンソールを使って、変数の内容を出力する方法について理解している。
+
+**主要な知識範囲**
+
+- コンソールへのデバッグ出力
+- JavaScriptプロファイラの概要
+
+**重要な技術要素**
+
+- Consoleオブジェクト
+  - メソッド（assert(), debug(), dirxml(), error(), info(), log(), profile(), profileEnd(), trace(), warn()）
