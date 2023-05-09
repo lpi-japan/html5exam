@@ -5,7 +5,7 @@
 |                    |                                               |
 |--------------------|-----------------------------------------------|
 | **認定名**         | HTML5 Professional Certification Level 2      |
-| **試験の正式名称** | HTML5 Professional Certification Level 1 Exam |
+| **試験の正式名称** | HTML5 Professional Certification Level 2 Exam |
 
 ## 認定条件
 
