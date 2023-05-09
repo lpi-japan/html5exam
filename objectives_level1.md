@@ -50,10 +50,10 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## 望まれるスキルレベル
 
-- HTML5 <font color=blue>(HTML Living Standard, CSS などの技術)</font> を使って Web コンテンツを制作できる。
+- HTML5 <font color=blue>(HTML (Living) Standard, CSS などの Web 技術)</font> を使って Web コンテンツを制作できる。
 - ユーザ体験を考慮した Web コンテンツを設計・制作できる。
 - スマートフォンや組み込み機器など、ブラウザが利用可能な様々なデバイスに対応したコンテンツを制作できる。
-- HTML5 <font color=blue>(HTML Living Standard, CSS などの技術)</font> で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
+- HTML5 <font color=blue>(HTML (Living) Standard, CSS などの Web 技術)</font> で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
 
 # HTML5 Level 1 出題範囲 V2.5
 
