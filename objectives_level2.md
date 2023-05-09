@@ -863,3 +863,12 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 
 - Mixed Content
 - Secure Contexts
+
+# 将来の検討課題 / Future Consideration
+
+- XMHttpRequest -\> Fetch API
+- Server Side JS (Node.js)
+- REST API
+- TypeScript
+- API 関連主題の統廃合
+- (Google App Script)
