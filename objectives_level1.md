@@ -444,7 +444,9 @@ flex, z-index,clip
 
 - Web Storage
 - Indexed Database API
-- Application cache
+
+<del>\*　Application cache</del>
+
 - Web Workers
 - Service Workers
 - Push API
