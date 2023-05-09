@@ -95,41 +95,26 @@
 
 **説明（望まれるスキル）**
 
-- ES6(ECMAScript2015) 以降に追加された機能を用いて、コーディングができる。
-- Promise を使った API を使用するコードを作成できる。
-- クラスを用いてオブジェクト指向のコーディングができる。
-- クラスの概念を理解している。
-- 配列機能で Map, Filter, Reduce を用いて配列を操作できる。
+- ES6(ECMAScript2015) 以降に追加された機能および表記法を用いてコーディングができる。
 
 **主要な知識範囲**
 
-- 変数の宣言
-- 関数
+- ローカル変数と定数
+- アロー関数
+- Promise と非同期関数
+- 配列処理
+- 可変長引数/残余引数
 - クラス
-- 配列
-- 可変長引数
-
---- TBD --
-
-- モジュール
 
 **重要な技術要素**
 
 - let, const, var
-- アロー関数
-  - =\>
-- Promise と非同期関数
-  - Promise, async, await
-- Array
-  - Map, Filter, Reduce
-- 可変長引数
-  - spread 演算子
-
----TBD---
-
-- import, export
-- template リテラル
-- For/of
+- =\>
+- Promise, async, await
+- Array.\*
+- map/filter/reduce(実は　ES5), forEach
+- スプレッド構文/演算子（...)
+- class
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
