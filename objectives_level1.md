@@ -304,11 +304,6 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.4 レスポンシブ Web デザイン*
 
-**修正予定**
-
-- <font color=red>強化対象。スマホ特化から　一般化へ。どのように修正を織り込むべきか。print 用 css のリクエストもあり。</font>
-- <font color=red>User-Agent/UA-CH(User Agent Client Hints) は、ここか。Chrome 以外の動向は。まだ、早い？ すぐ？</font>
-
 ### <span style="color:navy">1.4.1 マルチデバイス対応 (7)</span>
 
 **出題種別**
