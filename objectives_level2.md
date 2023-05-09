@@ -220,3 +220,34 @@
 **重要な技術要素**
 
 - querySelector, querySelectorAll
+
+### <span style="color:navy">2.2.5 History　API(重要度：7)</span>
+
+**出題種別**
+
+- 出題種別
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- HistoryオブジェクトやLocationオブジェクトが持つプロパティや関数を理解しており、それぞれ要件を実現するためにどれを利用すべきかを理解できている。
+
+**主要な知識範囲**
+
+- History APIの概要と提供機能
+- Historyオブジェクトを使った、ページ履歴に関する情報取得
+- Historyオブジェクトを使った、履歴の操作およびページ移動
+- Historyオブジェクトを使った、ロケーションバー上のURL操作
+- Locationオブジェクトを使った、現在のページに関するURL情報取得
+- Locationオブジェクトを使った、ページのロードおよびリロード
+- Locationオブジェクトを使った、ページ履歴の置換
+
+**重要な技術要素**
+
+- History オブジェクト
+- プロパティ（length）
+- メソッド（go(), back(), forward(), pushState(), replaceState()）
+- Location　オブジェクト
+- プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
+- メソッド（assign(), replace(), reload()）
