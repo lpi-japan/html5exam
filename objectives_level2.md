@@ -703,3 +703,31 @@
 
 - Performanceオブジェクト
 - メソッド（now()）
+
+### <span style="color:navy">2.8.3 オフラインアプリケーションAPI(重要度：3)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- オフラインでも動作可能なアプリケーションを設計するにあたって知っておくべき、状況の確認方法とキャッシュの操作方法について理解をしている。
+
+**主要な知識範囲**
+
+- アプリケーションキャッシュの概要
+- アプリケーションキャッシュを利用する場合の注意点
+- ApplicationCacheオブジェクトの仕様
+- ブラウザのネット接続状況に関する判別方法
+
+**重要な技術要素**
+
+- ApplicationCache オブジェクト
+- プロパティ（status）
+- メソッド（update(), swapCache()）
+- イベント（checking, error, noupdate, downloading, progress, updateready, cached, obsolete）
+- Navigatorオブジェクト
+
+プロパティ（onLine）
