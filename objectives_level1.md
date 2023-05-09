@@ -323,7 +323,7 @@ flex, z-index,clip
 
 ## *1.4 レスポンシブWebデザイン*
 
-<font color=brown>再編?
+<font color=brown>再編? その背景は？
 
 - スマホ特化を廃止。電話番号は？
 
