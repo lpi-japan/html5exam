@@ -507,6 +507,29 @@
 - ビッグエンディアン
 - リトルエンディアン
 
-### <span style="color:navy">2.5.4 バイナリーデータ(重要度：4)</span>
+## *2.6 通信*
+
+### <span style="color:navy">2.6.1 WebSocket(重要度：5)</span>
 
 **出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- WebSocketの特徴を理解し、通信を行うにあたって必要な知識を理解している。
+
+**主要な知識範囲**
+
+- WebSocketを使った通信の利点と欠点
+- WebSocketにおけるイベント発生タイミング
+- WebSocketを使ったサーバとの通信（クライアント側のコード）
+
+（WebSocket通信におけるサーバ側のコードについては、試験範囲外とする）
+
+**重要な技術要素**
+
+- WebSocketオブジェクト
+- メソッド(send(), close()）
+- プロパティ(URL, readyState, bufferedAmount)
+- イベント(onopen, onmessage, onclose)
