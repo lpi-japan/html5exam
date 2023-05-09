@@ -9,6 +9,7 @@
 
 ## Update consideration summary and status
 
+- new format derived from LinuC v10 objectives format - done !
 - exclude HTTP and limit HTTPS
 - limit UTF-8 as encoding
 - system font for privacy and fingerprint
