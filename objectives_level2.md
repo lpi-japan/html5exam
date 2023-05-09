@@ -82,9 +82,39 @@
   - Objectクラス
   - prototypeプロパティ
   - this
-- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文(<b>ES5で非推奨</b>)、
+- スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文、
   - クロージャ
-  - var, <b>let, const (ES6)</b>
+  - var</b>
+
+### <span style="color:navy">2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度：<b>TBD</b>)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- ES6(ECMAScript2015) 以降に追加された機能を用いて、より効率的なコーディングができる。
+- ES6 のコードを ES5 に書き換える。(TBD)
+
+**主要な知識範囲** TBD
+
+- 変数の宣言
+- 関数
+- クラス
+- モジュール
+- トランスパイラ
+
+**重要な技術要素** TBD
+
+- let　と const
+- アロー関数
+  - =\>
+- Promise と非同期関数
+  - Promise, async, await
+- For/of
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
