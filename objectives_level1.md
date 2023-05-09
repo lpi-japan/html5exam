@@ -18,10 +18,7 @@
     - 文字コード UTF-8 のみの推奨
   - HTML Living Standard の反映 (HTML5.x との差異) .. 色々あるがマイナーなので、１つ２つ検討
     - 追加
-      - hgroup
-      - img loading=""
     - 削除
-    - 
     - 変更
   - 出題範囲に見えなくても アイテムで 該当箇所 があったら単純 replace ？
 
