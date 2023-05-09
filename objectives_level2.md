@@ -597,7 +597,7 @@
   - onerrorイベントハンドラ
 - Server-Sent EventsのMIME-Type
 
-## "2.7 デバイスアクセス"
+## *2.7 デバイスアクセス*
 
 ### <span style="color:navy">2.7.1 Geolocation API(重要度：5)</span>
 
@@ -627,3 +627,30 @@
   - コールバック(PositionCallback, PositionErrorCallback)
 - PositionErrorオブジェクト
   - プロパティ（code, message）
+
+### <span style="color:navy">2.7.2 DeviceOrientation Event(重要度：1)</span>
+
+**出題種別**
+
+- 知識問題
+
+**説明（望まれるスキル）**
+
+- スマートフォンに搭載された加速度センサーやコンパスの 情報をJavaScriptからリアルタイムに取得でき、それらの 値の意味を理解して、Webアプリケーション開発に役立てられる。
+
+**主要な知識範囲**
+
+- コンパスの方角の検知
+- デバイスの傾きの検知
+- デバイスの移動加速度の検知
+- デバイスの回転速度の検知
+- 加速度の単位
+
+**重要な技術要素**
+
+- deviceorientationイベント
+  - DeviceOrientationEventオブジェクト
+- devicemotionイベント
+  - DeviceMotionEventオブジェクト
+  - DeviceAccelerationオブジェクト
+  - DeviceRotationRateオブジェクト
