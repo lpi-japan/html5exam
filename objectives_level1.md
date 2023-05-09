@@ -356,7 +356,7 @@ flex, z-index,clip
 
 **重要な技術要素**
 
-- <font color=blue>スマートフォン、タブレット、PC、印刷</font>
+- <font color=blue>スマートフォン、タブレット、PC、プリンタ</font>
 - フルードグリッド(Fluid Grid)
 - フルードイメージ(Fluid Image)
 - 固定レイアウト、可変レイアウト
