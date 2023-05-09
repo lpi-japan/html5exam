@@ -80,7 +80,9 @@
 - スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
 
-### <span style="color:navy">2.2 WebブラウザにおけるJavaScript API (重要度：10)</span>
+## *2.2 WebブラウザにおけるJavaScript API*
+
+### <span style="color:navy">2.2.1 イベント(重要度：10)</span>
 
 **出題種別**
 
@@ -130,3 +132,37 @@
   - onclick, ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onscroll
 - タッチ系イベント
   - touchstart, touchmove, touchend
+
+### <span style="color:navy">ドキュメントオブジェクト／DOM(重要度：6)</span>
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- イベント発生時などにDOMを利用して、HTMLの内容を読み込む、書き換える処理を行うコードの記述方法について理解している。
+
+**主要な知識範囲**
+
+- 要素の親および子要素の取得
+- 要素の表示、非表示制御
+- 要素の上書き（innerHTML）
+- 要素の挿入、削除
+- 属性の追加、取得、削除
+- フォームのデータにアクセスおよび、入力値の検証
+- サブミットの中止
+
+**重要な技術要素**
+
+- DOM
+- document.getElementById
+- document.forms
+- innerHTML
+- createElement()
+- insertBefore()
+- appendChild()
+- createAttribute()
+- hasAttribute()
+- removeAttribute()
