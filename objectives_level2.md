@@ -108,7 +108,7 @@
 
 **重要な技術要素** TBD
 
-- let　と const
+- let と const
 - アロー関数
   - =\>
 - Promise と非同期関数
