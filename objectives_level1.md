@@ -513,7 +513,7 @@ flex, z-index,clip
 
 **重要な技術要素**
 
-- XMLHttpRequest
+- XMLHttpRequest<font color=blue>(XHR) / fetch API</font>
 - WebSocket API
 - Server-Sent Events
 - WebRTC
