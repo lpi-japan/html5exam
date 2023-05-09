@@ -1,4 +1,4 @@
-# HTML5 Level 1 概要
+# HTML5 Level 1 概要　( **work in <sup>process</sup>** = under construction ) 
 
 ## 名称
 
@@ -7,22 +7,59 @@
 | **認定名**         | HTML5 Professional Certification Level 1      |
 | **試験の正式名称** | HTML5 Professional Certification Level 1 Exam |
 
+## 改定概要
+
+- 通信は、SSL/TLS の HTTPS のみになったことの反映
+  - 基本のプロトコル、ステータスコードなどはそのまま
+  - HTTP, HTTPS の違いもそのまま
+  - アイテムで <http://> があったら単純 replace ？
+- 標準が HTML Living Standard に統一されたことの反映
+  - 最新標準の反映 (HTML5.x と共通部分)
+    - 文字コード UTF-8 のみの推奨
+  - HTML Living Standard の反映 (HTML5.x との差異)
+  - 追加
+    - hgroup
+    - img loading=""
+  - 削除
+    - 
+  - 変更
+  - 出題範囲に見えなくても アイテムで 該当箇所 があったら単純 replace ？
+
+<!-- -->
+
+- その他、表現の修正
+
+<table>
+<tbody>
+<tr class="odd">
+<td style="background:#dadada"><p><strong>凡例</strong></p></td>
+<td style="background:#eaeaea"><ul>
+<li><font color=blue>青 : 追加</font></li>
+<li><font color=red>赤 : <del>削除</del> or 削除</font></li>
+<li><font color=green>緑 : <del>変更前</del>変更後</font></li>
+<li><font color=purple>紫 : 課題</font></li>
+<li><font color=brown>茶 : メモ</font></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
 ## 認定条件
 
 HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professional Certification Level 1 に認定されます。
 
 ## 望まれるスキルレベル
 
-- HTML5 を使って Web コンテンツを制作することができる。
+- <font color=green><del>HTML5</del>HTML Living Standard (HTML, CSS)</font> を使って Web コンテンツを制作できる。
 - ユーザ体験を考慮した Web コンテンツを設計・制作できる。
 - スマートフォンや組み込み機器など、ブラウザが利用可能な様々なデバイスに対応したコンテンツを制作できる。
-- HTML5 で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
+- <font color=green><del>HTML5</del>HTML Living Standard (HTML, CSS)</font> で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
 
-# HTML5 Level 1 出題範囲 V2.0
+# HTML5 Level 1 出題範囲 V2.5
 
 ## *1.1 Webの基礎知識*
 
-### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(8)</span>
+### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(6)</span>
 
 **出題種別**
 
@@ -33,7 +70,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - HTTPのコンテンツ作成や、サイト全体の設計を行うために必要なHTTPおよびHTTPSプロトコルに関する知識を有している。
 
-また、ブラウザでアクセスした時に返ってくるエラーコードの意味を理解できて、問題を解決するヒントとする事ができる。
+また、ブラウザでアクセスした時に返ってくるエラーコードの意味を理解でき、問題を解決するヒントにできる。
 
 **主要な知識範囲**
 
@@ -54,7 +91,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Basic認証、Digest認証
 - HTTP cookie
 
-### <span style="color:navy">1.1.2 HTMLの書式 (9)</span>
+### <span style="color:navy">1.1.2 HTMLの書式 (5)</span>
 
 **出題種別**
 
@@ -64,12 +101,12 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **説明（望まれるスキル）**
 
-- 正しくブラウザにコンテンツを表示させるために、HTMLの仕様に沿った書式でHTMLコードを記述する事ができる。
+- 正しくブラウザにコンテンツを表示させるために、HTMLの仕様に沿った書式でHTMLコードを記述できる。
 
 **主要な知識範囲**
 
-- HTMLバージョン情報を含む文書型宣言に関する記述方法
-- 要件に合わせた言語コードと、文字コード（符号化方式）の指定に関する記述方法
+- <del>HTMLバージョン情報を含む</del>文書型宣言に関する記述方法
+- <del>要件に合わせた</del>言語コードと<del>、</del>文字コード（符号化方式）の指定に関する記述方法
 - HTMLで使用可能な文字参照に関する記述方法
 - 必要に応じて、ヘッダ内に外部リソースを指定するリンクに関する記述方法
 - 必要に応じて、ヘッダ内にメタ情報に関する記述方法
@@ -77,11 +114,11 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 **重要な技術要素**
 
 - 文書型宣言
-- ISO-2022-JP, Shift_JIS, EUC-JP, UTF-8
+- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP,</del></font> UTF-8
 - 文字実体参照
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
-### <span style="color:navy">1.1.3 Web関連技術の概要 (6)</span>
+### <span style="color:navy">1.1.3 Web関連技術の概要 (2)</span>
 
 **出題種別**
 
@@ -91,7 +128,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 **説明（望まれるスキル）**
 
 - 動的なWebコンテンツを作成するプロジェクトにおいて、どのような技術や対策を行っているのかを理解し、プロジェクト内で円滑にコミュニケーションできるために必要な知識を有している。
-- Webコンテンツへのアクセスを伸ばす方法として、一般的に利用されているものについて説明する事ができる。
+- Webコンテンツへのアクセスを伸ばす方法として、一般的に利用されているものについて説明できる。
 
 **主要な知識範囲**
 
@@ -113,7 +150,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.2 CSS*
 
-### <span style="color:navy">1.2.1 スタイルシートの基本 (x)</span>
+### <span style="color:navy">1.2.1 スタイルシートの基本 (4)</span>
 
 **出題種別**
 
@@ -146,7 +183,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **説明（望まれるスキル）**
 
-- 要件に沿ったデザインをCSSを利用して実現する際に、どのような実現方法が適切か判断でき、仕様に沿った正しいコードを記述する事ができる。
+- 要件に沿ったデザインをCSSを利用して実現する際に、どのような実現方法が適切か判断でき、仕様に沿った正しいコードを記述できる。
 
 **主要な知識範囲**
 
@@ -174,7 +211,7 @@ flex, z-index,clip
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
 
-### <span style="color:navy">1.2.3 カスケード（優先順位）　(２)</span>
+### <span style="color:navy">1.2.3 カスケード（優先順位）　(1)</span>
 
 **出題種別**
 
@@ -198,7 +235,7 @@ flex, z-index,clip
 
 ## *1.3 要素*
 
-### <span style="color:navy">1.3.1 要素と属性の意味（セマンティクス） (10)</span>
+### <span style="color:navy">1.3.1 要素と属性の意味（セマンティクス） (12)</span>
 
 **出題種別**
 
@@ -212,7 +249,7 @@ flex, z-index,clip
 
 **主要な知識範囲**
 
-- HTML5.1仕様で規定されたHTML要素と属性の意味
+- <font color=green><del>HTML5.1仕様</del>HTML Living Standard (HTML, CSS)</font>で規定されたHTML要素と属性の意味
 - セクションの概念
 
 **重要な技術要素**
@@ -227,7 +264,7 @@ flex, z-index,clip
 - 言語のセマンティクス
 - 表のセマンティクス
 
-### <span style="color:navy">1.3.2 メディア要素 (6)</span>
+### <span style="color:navy">1.3.2 メディア要素 (2)</span>
 
 **出題種別**
 
@@ -254,7 +291,7 @@ flex, z-index,clip
 - コンテナ
 - 字幕
 
-### <span style="color:navy">1.3.3 インタラクティブ要素 (7)</span>
+### <span style="color:navy">1.3.3 インタラクティブ要素 (3)</span>
 
 **出題種別**
 
@@ -286,7 +323,7 @@ flex, z-index,clip
 
 ## *1.4 レスポンシブWebデザイン*
 
-### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (4)</span>
+### <span style="color:navy">1.4.1 マルチデバイス対応ページの作成 (2)</span>
 
 **出題種別**
 
@@ -296,7 +333,7 @@ flex, z-index,clip
 
 **説明（望まれるスキル）**
 
-- 要件に沿ったページをデザイン・設計する際に、どのような画面サイズであってもデザインが仕様どおりになるようなページの実現方法を理解しており、マルチデバイス対応のページを作る事ができる。
+- 要件に沿ったページをデザイン・設計する際に、<font color=green><del>どのような画面サイズであっても</del>画面サイズに合わせて</font>デザインが仕様どおりになる<font color=red><del>ような</del></font>ページの実現方法を理解しており、マルチデバイス対応のページを<font color=green><del>作る事が</del>作成</font>できる。
 
 **主要な知識範囲**
 
@@ -312,7 +349,7 @@ flex, z-index,clip
 - viewport
 - リセットCSS
 
-### <span style="color:navy">1.4.2 メディアクエリ (5)</span>
+### <span style="color:navy">1.4.2 メディアクエリ (2)</span>
 
 **出題種別**
 
@@ -322,7 +359,7 @@ flex, z-index,clip
 
 **説明（望まれるスキル）**
 
-- メディアクエリを利用して、画面サイズなどの様々な環境に合わせて表示を変えるページを作成する事ができる。
+- メディアクエリを利用して、画面サイズなどの様々な環境に合わせて表示を変えるページを作成できる。
 
 **主要な知識範囲**
 
@@ -336,7 +373,7 @@ flex, z-index,clip
 - メディア特性
 - ピクセル, dpi, dpcm
 
-### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (3)</span>
+### <span style="color:navy">1.4.3 スマートフォンサイト最適化 (2)</span>
 
 **出題種別**
 
@@ -346,7 +383,7 @@ flex, z-index,clip
 
 **説明（望まれるスキル）**
 
-- スマートフォンでWebコンテンツを閲覧する時を考慮し、回線速度などスマートフォン特有の環境でも快適に閲覧する事ができるコンテンツを設計・開発する事ができる。
+- スマートフォンでWebコンテンツを閲覧する時を考慮し、回線速度などスマートフォン特有の環境でも快適に閲覧できるコンテンツを設計・開発できる。
 
 **主要な知識範囲**
 
@@ -366,7 +403,7 @@ flex, z-index,clip
 
 ## *1.5 APIの基礎知識*
 
-### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (5)</span>
+### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (2)</span>
 
 **出題種別**
 
@@ -397,7 +434,7 @@ flex, z-index,clip
 - Canvasの機能
 - SVGのマークアップとAPIの基礎知識
 
-### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (4)</span>
+### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (2)</span>
 
 **出題種別**
 
@@ -423,7 +460,7 @@ flex, z-index,clip
 - Touch Events
 - Pointer Events
 
-### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (8)</span>
+### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (4)</span>
 
 **出題種別**
 
@@ -444,13 +481,13 @@ flex, z-index,clip
 
 - Web Storage
 - Indexed Database API
-- Application cache
+- <font color=red><del>　Application cache</del></font>
 - Web Workers
 - Service Workers
 - Push API
 - fetch
 
-### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
+### <span style="color:navy">1.5.4 通信系API概要 (2)</span>
 
 **出題種別**
 
@@ -463,7 +500,7 @@ flex, z-index,clip
 
 **主要な知識範囲**
 
-- Ajax
+- AJAX
 - 双方向データリアルタイム通信
 - サーバープッシュ
 
@@ -473,17 +510,3 @@ flex, z-index,clip
 - WebSocket API
 - Server-Sent Events
 - WebRTC
-
-# バージョン情報
-
-この出題範囲はバージョン2.0です。
-
-# 将来の検討課題 / Future Change Consideration
-
-- Responsive Web Design の重要度増
-  - print CSS
-- Application cache 削除
-
-<!-- -->
-
-- Level 1, Level 2 の独立、単体認定化
