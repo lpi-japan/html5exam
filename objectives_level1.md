@@ -159,7 +159,7 @@ HTTP/1.1, 2,<b>3</b> は必要か。... 何を知っているべき？ UDP と�
 
 **修正予定**
 
-- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。system font 云々もここか。</font>
+- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。system font 云々もここか。"MS 明朝" などのフォント<b>名</b>指定ができなくなるらしい。</font>
 
 **出題種別**
 
