@@ -149,6 +149,10 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ### <span style="color:navy">1.2.2 CSSデザイン (9)</span>
 
+**修正予定**
+
+- <font color=red>generic font-family enhancement はここか。serif, sans-serif などが変わるのか。</font>
+
 **出題種別**
 
 - 知識問題
