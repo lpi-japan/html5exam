@@ -11,10 +11,41 @@
 
 - WHATWG
   - [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
+    - 3.1 document.
+    - 3.2 セマンティクス、エレメント、コンテントモデル、グローバル属性、innerText/outerText、bidi、ARIA
+    - 4 エレメント一覧
+      - 4.1 html
+      - 4.2 metadata (head, title, base, link, etc.)
+      - 4.3 section (body, article, section, etc.)
+      - 4.4 grouping (p, hr, list, etc.)
+      - 4.5 text (a, em, cite, etc.)
+      - 4.6 link (a, link-type)
+      - 4.7 edits (ins, del)
+      - 4.8 埋め込みコンテンツ (picture, source,img, iframe, video, etc.)
+      - 4.9 tabular (table, caption, etc.)
+      - 4.10 forms (form, label, input, etc.)
+      - 4.11 interactive (details, summary, dialog, etc.)
+      - 4.12 script (script, noscript, template, canvas, etc.)
+      - 4.13 custom elements
+    - 5 microdata (item*属性)
+    - 6 user interaction (hidden, VisibilityStateEntry, focus, accesskey, contenteditable, inputmode)
+    - 7 ウェブページの読み込み (origin, window.*, location.*, history.* navigation.*)
+    - 8 ウェブアプリケーション (events, base64, DOMparser, navigator.*)
+    - 9 通信 (MessageEvent, Server-sent events, cross-document messaging, channel messaging)
+    - 10 Web workers
+    - 11 Worklets
+    - 12 WebStorage (Storage, sessionStorage, localStorage, etc.)
+    - 13 HTML構文
+    - 14 XML構文
+    - 15 レンダリングへの要求
   - [DOM](https://dom.spec.whatwg.org/)
   - [Fetch](https://fetch.spec.whatwg.org/)
+    - 3 HTTP拡張 (origin, CORS)
+    - 4 fetchの方式
+    - 5 Fetch API
+    - 6 data URL
   - [File System](https://fs.spec.whatwg.org/) (ファイルシステム向けAPI)
-  - [Fullscreen API](https://fullscreen.spec.whatwg.org/)
+  - [Fullscreen API](https://fullscreen.spec.whatwg.org/) (`FileSystem*`オブジェクト)
   - [Notifications API](https://notifications.spec.whatwg.org/) (`Notification`オブジェクト)
   - [Storage](https://storage.spec.whatwg.org/) (`Navigator.storage`)
   - [Streams](https://streams.spec.whatwg.org/) (stream系のオブジェクト定義)
