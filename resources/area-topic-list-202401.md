@@ -3,6 +3,10 @@
 試験範囲の検討、トピックの分類・配置を考えるための関連分野のトピックのリストです。
 2024年1月作成、その時点での一覧。
 
+参考資料:
+
+- ブラウザ関連仕様書の一覧 [browser-specs](https://w3c.github.io/browser-specs/index.json)
+
 # 関連仕様書リスト
 
 - WHATWG
