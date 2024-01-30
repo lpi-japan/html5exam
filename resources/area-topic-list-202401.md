@@ -60,4 +60,66 @@
   - [WebAssembly WG](https://www.w3.org/groups/wg/wasm/)
   - [WebTransport WG](https://www.w3.org/groups/wg/webtransport/)
 - ECMAScript
+  - ES5/5.1
+    - strict
+    - getter/setter
+    - プロパティーの最後のカンマの許容
+    - JSON
+    - trim()
+    - array.isArray()
+  - ES2015 (ES6)
+    - Arrow Functions
+    - this scope ({}のスコープ)
+    - Promises
+    - Generators
+    - let/const
+    - class構文
+    - module
+    - バッククォートによるテンプレート文字列
+    - 関数の引数の既定値
+    - 可変長引数
+    - 分割代入の構文
+    - enhanced object literals
+    - for-of loop
+    - map/set
+    - methods (String, Object)
+  - ES2016
+    - Array.prototype.includes()
+    - べき乗演算子
+  - ES2017
+    - String padStart(), padEnd()
+    - Object参照 values(), entries()
+    - Object.getOwnPropertyDescriptors()
+    - 関数での一番最後のカンマ (引数、呼び出し)
+    - async/await
+    - shared memory, atomic (SharedArrayBuffer) - 無効化された
+  - ES2018
+    - スプレッド演算子
+    - 非同期イテレーター
+    - promise finally()
+    - for await (... of ...)
+    - 正規表現の強化
+  - ES2019
+    - flat() / flatMap()
+    - fromEntries()
+    - 文字列trim
+    - JS中のJSON構文の改善（エスケープ）
+  - ES2020
+    - BigInt
+    - for-inでの順序保障
+    - ?? (undefined/nullの省略)、オプショナル連結?
+    - ダイナミックインポート、エクスポートの改善
+    - promise.allsettled()
+  - ES2021
+    - promise.any()
+    - string.replaceall
+    - 論理・代入演算子
+    - WeakRefs
+  - ES2022
+    - .at
+    - top level await
+    - classのprivate・static・イニシャライザー
+  - ES2023
+    - 配列操作の非破壊版追加
+    - 配列の最後からのfind
 - 画像・動画系
