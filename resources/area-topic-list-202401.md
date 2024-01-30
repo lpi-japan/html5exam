@@ -123,3 +123,9 @@
     - 配列操作の非破壊版追加
     - 配列の最後からのfind
 - 画像・動画系
+  - 画像: JPEG, PNG, GIF, TIFF,,,
+  - MPEG系
+  - H.XXX
+  - VC-*, VP*, AV1
+  - G.XXX
+  - 圧縮の構造？
