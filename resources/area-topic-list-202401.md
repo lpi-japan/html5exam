@@ -5,7 +5,7 @@
 
 参考資料:
 
-- ブラウザ関連仕様書の一覧 [browser-specs](https://w3c.github.io/browser-specs/index.json)
+- ブラウザ関連仕様書の一覧 [browser-specs](https://w3c.github.io/browser-specs/index.json) ([データ簡易一覧表示](browser-specs.html))
 
 # 関連仕様書リスト
 
