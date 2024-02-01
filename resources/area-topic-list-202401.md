@@ -358,5 +358,33 @@
   - VC-*, VP*, AV1
   - G.XXX
   - 圧縮の構造？
+- FIDO
+  - Client to Authenticator Protocol (CTAP)
 - IETF系
-
+  - HTTP
+    - digest-headers
+    - cookie (RFC #6265)
+    - Content-Disposition (RFC #6266)
+    - HTTP/1.1 (RFC #7230-#7235, #9112)
+    - HTTP Status 308 (RFC #7538)
+    - HTTP/2 (RFC #7540, #9113)
+    - HTTP Alternative Services (RFC #7838)
+    - HTTP Immutable Responses (RFC #8246)
+    - HTTP Status Code for Indicating Hints (RFC #8297)
+    - Early Data in HTTP (RFC #8470)
+    - HTTP Client Hints (RFC #8942)
+    - HTTP Semantics (RFC #9110)
+    - HTTP Caching (RFC #9111)
+    - Expect-CT extension (RFC #9163)
+    - HTTP State Management Mechanism (RFC #6265)
+    - Forwarded HTTP Extension (RFC #7239)
+    - multipart/form-data (RFC #7579)
+    - HTTP/3 (RFC #9114)
+  - security
+    - Web Origin Concept (RFC #6454)
+    - HSTS (RFC #6797)
+    - X-Frame-Options (RFC #7034)
+    - Public Key Pinning Extension for HTTP (RFC #7469)
+  - Authn
+    - Digest (RFC #7616)
+    - Basic (RFC #7617)
