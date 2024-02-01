@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>browser-spec簡易ビュー</title>
+  <script>
+const url_bs = 'https://w3c.github.io/browser-specs/index.json';
+var l_organization = [];
+var l_spec_org = {};
+const wsp = /\s/g;
+
+function loadData() {
+  fetch(url_bs)
+  .then((res) => {
+    if (res.ok) { return res.json(); }
+    else { throw Error('load error'); }
+  }).then((res) => {
+    res.forEach((e) => {
+      var c_org = e['organization'];
+      if (! l_organization.includes(c_org)) {
+        l_organization.push(c_org);
+        l_spec_org[c_org] = {};
+        l_spec_org[c_org]['groups'] = [];
+      }
+      var c_group = e['groups'][0]['name'];
+      if (! l_spec_org[c_org]['groups'].includes(c_group)) {
+        l_spec_org[c_org]['groups'].push(c_group);
+        l_spec_org[c_org][c_group] = [];
+      }
+      l_spec_org[c_org][c_group].push(e);
+    });
+    var cho = '';
+    var chs = '';
+    l_organization.forEach((e) => {
+      var cref = e.replaceAll(wsp, '_');
+      cho += '<li><a href="#' + cref + '">' + e + '</a></li>';
+      chs += '<h3 id="' + cref + '">' + e + '</h3><ul id="list_specs_' + cref + '"></ul>';
+    })
+    document.getElementById('list_organization').innerHTML = cho;
+    document.getElementById('list_specs').innerHTML = chs;
+    l_organization.forEach((e) => {
+      var cref = e.replaceAll(wsp, '_');
+      cho = '';
+      l_spec_org[e]['groups'].forEach((g) => {
+        var cg = g.replaceAll(wsp, '_');
+        cho += '<li>' + g + '<ul id="list_specs_' + cref + '_' + cg + '"></ul></li>';
+      })
+      document.getElementById('list_specs_' + cref).innerHTML = cho;
+      l_spec_org[e]['groups'].forEach((g) => {
+        chs = '';
+        var cg = g.replaceAll(wsp, '_');
+        l_spec_org[e][g].forEach((s) => {
+          chs += '<li>' + s.title + ' (' + s.shortname + '): <a href="' + s.url + '">' + s.url + '</a></li>';
+        });
+        document.getElementById('list_specs_' + cref + '_' + cg).innerHTML = chs;
+      })
+    })
+  }).catch((e) => {
+    window.alert(e.message);
+  });
+}
+
+window.addEventListener('load', loadData);
+  </script>
+</head>
+<body>
+<h1><a href="https://w3c.github.io/browser-specs/index.json">browser-specs</a>データの一覧表示</h1>
+<h2>Organization一覧</h2>
+<ul id="list_organization"></ul>
+<h2>仕様書一覧</h2>
+<div id="list_specs"></div>
+</body>
+</html>
