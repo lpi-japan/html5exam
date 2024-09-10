@@ -52,3 +52,46 @@ Web界隈において、多数の実現技術の共通部分を押さえよう�
   - hot reload
 - アーキテクチャ?
   - MVC, MVVM, Flux, Redux, ...
+
+# 出題範囲とリファレンス文書の各章を相互リンクするテスト
+## 出題範囲
+- 1.1 Webの基礎知識
+  - 1.1.1 HTTP, HTTPSプロトコル（重要度：8）
+  - 1.1.2 HTMLの書式（重要度：9）
+  - 1.1.3 Web関連技術の概要（重要度：6）
+- 1.2 CSS
+  - 1.2.1 スタイルシートの基本（重要度：7）
+  - 1.2.2 CSSデザイン（重要度：9）
+  - 1.2.3 カスケード（優先順位）（重要度：2）
+- <a id="lpij1.3"></a>1.3 要素
+  - 1.3.1 要素と属性の意味（セマンティクス）（重要度：10）
+  - 1.3.2 メディア要素（重要度：6）
+  - 1.3.3 インタラクティブ要素（重要度：7）
+- 1.4 レスポンシブWebデザイン
+  - 1.4.1 マルチデバイス対応（重要度：7）
+  - 1.4.2 メディアクエリ（重要度：5）
+- 1.5 APIの基礎知識
+  - 1.5.1 マルチメディア・グラフィックス系API概要（重要度：5）
+  - 1.5.2 デバイスアクセス系API概要（重要度：4）
+  - 1.5.3 オフライン・ストレージ系API概要（重要度：4）
+  - 1.5.4 通信系API概要（重要度：3）
+
+## リファレンス
+- WHATWG
+  - [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
+    - 3.1 document.
+    - 3.2 セマンティクス、エレメント、コンテントモデル、グローバル属性、innerText/outerText、bidi、ARIA
+    - 4 エレメント一覧
+      - 4.1 html
+      - 4.2 metadata (head, title, base, link, etc.) :bookmark: [1.3 要素](#lpij1.3)
+      - 4.3 section (body, article, section, etc.)
+      - 4.4 grouping (p, hr, list, etc.)
+      - 4.5 text (a, em, cite, etc.) 
+      - 4.6 link (a, link-type)
+      - 4.7 edits (ins, del)
+      - 4.8 埋め込みコンテンツ (picture, source,img, iframe, video, etc.)
+      - 4.9 tabular (table, caption, etc.)
+      - 4.10 forms (form, label, input, etc.)
+      - 4.11 interactive (details, summary, dialog, etc.)
+      - 4.12 script (script, noscript, template, canvas, etc.)
+      - 4.13 custom elements
