@@ -22,7 +22,7 @@
       - 4.6 link (a, link-type)
       - 4.7 edits (ins, del)
       - 4.8 埋め込みコンテンツ (picture, source,img, iframe, video, etc.)
-      - 4.9 tabular (table, caption, etc.)
+      - <a id="html_4.9"></a> 4.9 tabular (table, caption, etc.) :bookmark: <a href="#lpij_1.3.1_tabular">1.3.1 要素と属性の意味 > 表</a>
       - 4.10 forms (form, label, input, etc.)
       - 4.11 interactive (details, summary, dialog, etc.)
       - 4.12 script (script, noscript, template, canvas, etc.)
@@ -388,3 +388,72 @@
   - Authn
     - Digest (RFC #7616)
     - Basic (RFC #7617)
+
+
+# V2.5出題範囲
+- 1.1 Webの基礎知識
+  - 1.1.1 HTTP, HTTPSプロトコル（重要度：8）
+  - 1.1.2 HTMLの書式（重要度：9）
+  - 1.1.3 Web関連技術の概要（重要度：6）
+- 1.2 CSS
+  - 1.2.1 スタイルシートの基本（重要度：7）
+  - 1.2.2 CSSデザイン（重要度：9）
+  - 1.2.3 カスケード（優先順位）（重要度：2）
+- 1.3 要素
+  - 1.3.1 要素と属性の意味（セマンティクス）（重要度：10）
+    - セクション
+    - 書式方向
+    - ルビ
+    - 挿入と削除のセマンティクス
+    - グルーピングのセマンティクス
+    - テキストレベルのセマンティクス
+    - リンクの関連性のセマンティクス
+    - 言語のセマンティクス
+    - <a id="lpij_1.3.1_tabular"></a> 表のセマンティクス :pencil: <a href="#html_4.9">LS 4.9 tabular</a>
+  - 1.3.2 メディア要素（重要度：6）
+  - 1.3.3 インタラクティブ要素（重要度：7）
+- 1.4 レスポンシブWebデザイン
+  - 1.4.1 マルチデバイス対応（重要度：7）
+  - 1.4.2 メディアクエリ（重要度：5）
+- 1.5 APIの基礎知識
+  - 1.5.1 マルチメディア・グラフィックス系API概要（重要度：5）
+  - 1.5.2 デバイスアクセス系API概要（重要度：4）
+  - 1.5.3 オフライン・ストレージ系API概要（重要度：4）
+  - 1.5.4 通信系API概要（重要度：3）
+- 2.1 JavaScript
+  - 2.1.1 JavaScript文法(重要度：10)
+  - 2.1.2 ES6（ECMAScript2015）以降の新機能(重要度：8)
+- 2.2 WebブラウザにおけるJavaScript API
+  - 2.2.1 イベント(重要度：8)
+  - 2.2.2 ドキュメントオブジェクト／DOM(重要度：6)
+  - 2.2.3 ウィンドウオブジェクト(重要度：8)
+  - 2.2.4 Selectors API(重要度：7)
+  - 2.2.5 History API(重要度：7)
+  - 2.2.6 テスト・デバッグ(重要度：6)
+- 2.3 グラフィックス・アニメーション
+  - 2.3.1 Canvas(2D)(重要度：8)
+  - 2.3.2 SVG(重要度：2)
+  - 2.3.3 Timing control for script-based animations(重要度：2)
+- 2.4 マルチメディア
+  - 2.4.1 メディア要素のAPI(重要度：5)
+- 2.5 ストレージ
+  - 2.5.1 Web Storage(重要度：7)
+  - 2.5.2 Indexed Database API(重要度：5)
+  - 2.5.3 File API(重要度：5)
+  - 2.5.4 バイナリーデータ(重要度：4)
+- 2.6 通信
+  - 2.6.1 Web Socket(重要度：5)
+  - 2.6.2 XMLHttpRequest(重要度：5)
+  - 2.6.3 Server-Sent Events(重要度：1)
+- 2.7 デバイスアクセス
+  - 2.7.1 Geolocation API(重要度：5)
+  - 2.7.2 DeviceOrientation Event(重要度：1)
+- 2.8 パフォーマンスとオフライン
+  - 2.8.1 Web Wokers(重要度：5)
+  - 2.8.2 High Resolution Time(重要度：2)
+  - 2.8.3 オフラインアプリケーションAPI(重要度：3)
+  - 2.8.4 Page Visibility(重要度：2)
+  - 2.8.5 Navigation Timing(重要度：1)
+- 2.9 セキュリティモデル
+  - 2.9.1 クロスオリジン制約とCORS(重要度：4)
+  - 2.9.2 セキュリティモデルとSSLの関係(重要度：4)
