@@ -1,0 +1,167 @@
+# HTML/CSS Level 2 概要
+
+## 名称
+
+|                    |                                               |
+|--------------------|-----------------------------------------------|
+| **認定名**         | HTML/CSS Professional Certification Level 2   |
+| **試験の正式名称** | HTML/CSS Professional Certification Level 2 Exam |
+
+## 認定条件
+
+HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Professional Certification Level 2 試験に合格すると HTML/CSS Professional Certification Level 2 に認定されます。
+
+## 望まれるスキルレベル
+
+- 高度なHTML5およびCSS技術を使って、リッチなWebコンテンツを制作できる。
+- 複雑なレイアウトやアニメーションを実現するためのCSS技術を理解している。
+- パフォーマンスを考慮したWebコンテンツの最適化ができる。
+
+# HTML/CSS Level 2 出題範囲
+
+## *2.1 高度なHTML*
+
+### 2.1.1 セマンティクスの深堀り
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- HTML要素や属性のセマンティクスを深く理解し、SEOやアクセシビリティを考慮したコーディングができる。
+
+**主要な知識範囲**
+
+- セクショニングコンテンツ
+- フローコンテンツ
+- メタデータコンテンツ
+
+**重要な技術要素**
+
+- \<article\>, \<section\>, \<nav\>, \<aside\>
+- ARIA属性
+- マイクロデータ
+
+### 2.1.2 高度なメディア要素
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- ビデオやオーディオ要素を高度に利用し、カスタムコントロールやインタラクティブなメディアコンテンツを作成できる。
+
+**主要な知識範囲**
+
+- カスタムコントロールの作成
+- メディアAPIの利用
+- 字幕やキャプションの追加
+
+**重要な技術要素**
+
+- \<video\>, \<audio\>
+- Media Source Extensions
+- WebVTT
+
+### 2.1.3 インタラクティブ要素の応用
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- インタラクティブ要素を応用し、ユーザーエクスペリエンスを向上させる高度なフォームやウィジェットを作成できる。
+
+**主要な知識範囲**
+
+- カスタムフォーム要素
+- コンテキストメニューの作成
+- ディスクロージャーウィジェットの利用
+
+**重要な技術要素**
+
+- \<dialog\>, \<details\>, \<summary\>
+- Constraint Validation API
+- Custom Elements
+
+## *2.2 高度なCSS*
+
+### 2.2.1 レイアウト技術
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- CSS GridやFlexboxを利用して、複雑なレイアウトを実現できる。
+
+**主要な知識範囲**
+
+- CSS Gridレイアウト
+- Flexboxレイアウト
+- レスポンシブデザインの実践
+
+**重要な技術要素**
+
+- display: grid, grid-template-areas, grid-template-columns, grid-template-rows
+- display: flex, flex-direction, justify-content, align-items
+- media queries
+
+### 2.2.2 アニメーションとトランジション
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- CSSアニメーションやトランジションを利用して、インタラクティブなエフェクトを実現できる。
+
+**主要な知識範囲**
+
+- CSSアニメーションの基本
+- トランジションの基本
+- キーフレームアニメーション
+
+**重要な技術要素**
+
+- @keyframes, animation, animation-name, animation-duration, animation-timing-function
+- transition, transition-property, transition-duration, transition-timing-function
+
+### 2.2.3 パフォーマンス最適化
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- CSSのパフォーマンスを最適化し、効率的なスタイルシートを作成できる。
+
+**主要な知識範囲**
+
+- CSSのパフォーマンスベストプラクティス
+- レンダリングパフォーマンスの最適化
+- 不要なスタイルの削減
+
+**重要な技術要素**
+
+- Critical CSS
+- Lazy Loading
+- CSS Minification
