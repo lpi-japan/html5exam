@@ -29,6 +29,8 @@
 
 ### <span style="color:navy">2.1.1 JavaScript文法(重要度：10)</span>
 
+該当項目: `level2_programming/2.1.1 JavaScript文法`
+
 **出題種別**
 
 - 知識問題
@@ -86,6 +88,8 @@
 
 ### <span style="color:navy"><b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) </b></span>
 
+該当項目: `level2_programming/2.1.1 ES6以降の新機能`
+
 **出題種別**
 
 - 知識問題
@@ -117,6 +121,8 @@
 ## *2.2 WebブラウザにおけるJavaScript API*
 
 ### <span style="color:navy">2.2.1 イベント(重要度：8)</span>
+
+該当項目: `level2_programming/2.5.1 イベント`
 
 **出題種別**
 
@@ -169,6 +175,8 @@
 
 ### <span style="color:navy">2.2.2 ドキュメントオブジェクト／DOM(重要度：6)</span>
 
+該当項目: `level2_programming/2.5.2 ドキュメントオブジェクト／DOM`
+
 **出題種別**
 
 - 知識問題
@@ -203,6 +211,8 @@
 
 ### <span style="color:navy">2.2.3 ウィンドウオブジェクト(重要度：8)</span>
 
+該当項目: `level2_programming/2.5.3 ウィンドウオブジェクト`
+
 **出題種別**
 
 - 知識問題
@@ -236,6 +246,8 @@
 
 ### <span style="color:navy">2.2.4 Selectors API(重要度：7)</span>
 
+該当項目: `level2_programming/2.5.4 Selectors API`
+
 **出題種別**
 
 - 知識問題
@@ -256,6 +268,8 @@
 - querySelector, querySelectorAll
 
 ### <span style="color:navy">2.2.5 History　API(重要度：7)</span>
+
+該当項目: `level2_programming/2.5.5 History API`
 
 **出題種別**
 
@@ -288,6 +302,8 @@
 
 ### <span style="color:navy">2.2.6 テスト・デバッグ(重要度：6)</span>
 
+該当項目: `level2_programming/2.5.6 テスト・デバッグ`
+
 **出題種別**
 
 - 出題種別
@@ -310,6 +326,8 @@
 ## *2.3 グラフィックス・アニメーション*
 
 ### <span style="color:navy">2.3.1 Canvas(2D)(重要度：8)</span>
+
+該当項目: `level2_programming/2.3.1 Canvas(2D)`
 
 **出題種別**
 
@@ -354,6 +372,8 @@
 
 ### <span style="color:navy">2.3.2 SVG(重要度：2)</span>
 
+該当項目: `level2_programming/2.3.2 SVG`
+
 **出題種別**
 
 - 知識問題
@@ -372,6 +392,8 @@
 - ベクターグラフィック、XML
 
 ### <span style="color:navy">2.3.3 Timing control for script-based animations(重要度：2)</span>
+
+該当項目: `level2_programming/2.3.3 Timing control for script-based animations`
 
 **出題種別**
 
@@ -399,6 +421,8 @@
 ## *2.4 マルチメディア*
 
 ### <span style="color:navy">2.4.1 メディア要素のAPI(重要度：5)</span>
+
+該当項目: `level2_programming/2.4.1 メディア要素のAPI`
 
 **出題種別**
 
@@ -431,6 +455,8 @@
 
 ### <span style="color:navy">2.5.1 Web Storage(重要度：7)</span>
 
+該当項目: `level2_programming/2.5.1 Web Storage`
+
 **出題種別**
 
 - 知識問題
@@ -457,6 +483,8 @@
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
 ### <span style="color:navy">2.5.2 Indexed Database API(重要度：5)</span>
+
+該当項目: `level2_programming/2.5.2 Indexed Database API`
 
 **出題種別**
 
@@ -485,6 +513,8 @@
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
 ### <span style="color:navy">2.5.3 File API(重要度：5)</span>
+
+該当項目: `level2_programming/2.5.3 File API`
 
 **出題種別**
 
@@ -518,6 +548,8 @@
 
 ### <span style="color:navy">2.5.4 バイナリーデータ(重要度：4)</span>
 
+該当項目: `level2_programming/2.5.4 バイナリーデータ`
+
 **出題種別**
 
 - 知識問題
@@ -545,6 +577,8 @@
 
 ### <span style="color:navy">2.6.1 WebSocket(重要度：5)</span>
 
+該当項目: `level2_programming/2.6.1 WebSocket`
+
 **出題種別**
 
 - 知識問題
@@ -569,6 +603,8 @@
   - イベント(onopen, onmessage, onclose)
 
 ### <span style="color:navy">2.6.2 XMLHttpRequest(重要度：5)</span>
+
+該当項目: `level2_programming/2.6.2 XMLHttpRequest`
 
 **出題種別**
 
@@ -607,6 +643,8 @@
 
 ### <span style="color:navy">2.6.3 Server-Sent Events(重要度：1)</span>
 
+該当項目: `level2_programming/2.6.3 Server-Sent Events`
+
 **出題種別**
 
 - 知識問題
@@ -634,6 +672,8 @@
 ## *2.7 デバイスアクセス*
 
 ### <span style="color:navy">2.7.1 Geolocation API(重要度：5)</span>
+
+該当項目: `level2_programming/2.7.1 Geolocation API`
 
 **出題種別**
 
@@ -664,6 +704,8 @@
 
 ### <span style="color:navy">2.7.2 DeviceOrientation Event(重要度：1)</span>
 
+該当項目: `level2_programming/2.7.2 DeviceOrientation Event`
+
 **出題種別**
 
 - 知識問題
@@ -693,6 +735,8 @@
 
 ### <span style="color:navy">2.8.1 Web Workers(重要度：5)</span>
 
+該当項目: `level2_programming/2.8.1 Web Workers`
+
 **出題種別**
 
 - 知識問題
@@ -720,6 +764,8 @@
 
 ### <span style="color:navy">2.8.2 High Resolution Time(重要度：2)</span>
 
+該当項目: `level2_programming/2.8.2 High Resolution Time`
+
 **出題種別**
 
 - 知識問題
@@ -739,6 +785,8 @@
 - メソッド（now()）
 
 ### <span style="color:navy">2.8.3 オフラインアプリケーションAPI(重要度：3)</span>
+
+該当項目: `level2_programming/2.8.3 オフラインアプリケーションAPI`
 
 **出題種別**
 
@@ -767,6 +815,8 @@
 
 ### <span style="color:navy">2.8.4 Page Visibility(重要度：2)</span>
 
+該当項目: `level2_programming/2.8.4 Page Visibility`
+
 **出題種別**
 
 - 知識問題
@@ -788,6 +838,8 @@
 - イベント（visibilitychange）
 
 ### <span style="color:navy">2.8.5 Navigation Timing(重要度：1)</span>
+
+該当項目: `level2_programming/2.8.5 Navigation Timing`
 
 **出題種別**
 
@@ -815,6 +867,8 @@
 ## *2.9 セキュリティモデル*
 
 ### <span style="color:navy">2.9.1 クロスオリジン制約とCORS(重要度：4)</span>
+
+該当項目: `level2_programming/2.9.1 クロスオリジン制約とCORS`
 
 **出題種別**
 
@@ -847,6 +901,8 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 - Access-Control-Allow-Headersヘッダー
 
 ### <span style="color:navy">2.9.2 セキュリティモデルとSSLの関係(重要度：4)</span>
+
+該当項目: `level2_programming/2.9.2 セキュリティモデルとSSLの関係`
 
 **出題種別** 知識問題
 
