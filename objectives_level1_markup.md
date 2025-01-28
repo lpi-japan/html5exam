@@ -167,6 +167,13 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - datalist要素
 - progress要素とmeter要素
 
+### 1.3.4 基本的なARIAの利用
+**主要な知識範囲**
+- 画面読み上げ等を意識したシンプルなARIA属性の使用方法
+
+**重要な技術要素**
+- aria-hidden, aria-label, role属性
+
 ## *1.4 レスポンシブWebデザイン*
 
 ### 1.4.1 マルチデバイス対応

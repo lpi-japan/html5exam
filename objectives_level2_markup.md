@@ -140,7 +140,9 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 **重要な技術要素**
 
 - @keyframes, animation, animation-name, animation-duration, animation-timing-function
-- transition, transition-property, transition-duration, transition-timing-function
+- 変形（transform, transform-origin）, 移動, 拡大, 縮小, 回転
+- トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
+- アニメーション（@keyframes, animation, animation-name, animation-duration, animation-timing-function, ...）
 
 ### 2.2.3 パフォーマンス最適化
 
@@ -165,3 +167,28 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Critical CSS
 - Lazy Loading
 - CSS Minification
+
+## *2.3 アクセシビリティ応用*
+
+### 2.3.1 ARIA活用の高度化
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- ARIAを高度に活用し、複雑なウィジェットのアクセシビリティを向上させることができる。
+
+**主要な知識範囲**
+
+- ARIAの基本
+- ARIAパターンの応用
+- 複雑なウィジェットのアクセシビリティ向上
+
+**重要な技術要素**
+
+- ARIA roles, states, and properties
+- Additional ARIA patterns for complex widgets
