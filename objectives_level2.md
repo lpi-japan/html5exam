@@ -29,7 +29,7 @@
 
 ### <span style="color:navy">2.1.1 JavaScript文法(重要度：10)</span>
 
-該当項目: `level2_programming/2.1.1 JavaScript文法`
+該当項目: `level1_programming/1.1.1 JavaScript文法`
 
 **出題種別**
 
