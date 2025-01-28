@@ -34,7 +34,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - html, head, body要素
 - meta, title, link要素
 
-### 1.1.1 HTTP, HTTPSプロトコル
+### 1.1.2 HTTP, HTTPSプロトコル
 **出題種別**
 - 知識問題
 - 記述問題
@@ -54,7 +54,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - 認証方式(Basic, Digestなど)
 - Cookie, セキュリティ関連ヘッダ
 
-### 1.1.2 HTMLの書式
+### 1.1.3 HTMLの書式
 **出題種別**
 - 知識問題
 - コードリーティング問題
@@ -72,7 +72,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - html要素(lang属性, meta charsetなど)
 - 文字参照(&nbsp;, &amp; など)
 
-### 1.1.3 Web関連技術の概要
+### 1.1.4 Web関連技術の概要
 **出題種別**
 - 知識問題
 - 記述問題

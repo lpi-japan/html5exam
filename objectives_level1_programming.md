@@ -241,9 +241,23 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 - フォーム要素の操作（値の取得と設定）
 - 入力値のバリデーション（必須チェック、形式チェック）
 
-## *1.7 デバッグとテスト*
+## *1.7 ウィンドウオブジェクト*
 
-### 1.7.1 デバッグの基本
+### 1.7.1 基本的なウィンドウ操作
+
+**主要な知識範囲**
+
+- ウィンドウオブジェクトの基本概念
+
+**重要な技術要素**
+
+- Windowオブジェクト
+  - プロパティ（document, location）
+  - メソッド（alert(), confirm(), prompt()）
+
+## *1.8 デバッグとテスト*
+
+### 1.8.1 デバッグの基本
 
 **主要な知識範囲**
 
@@ -254,7 +268,7 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 - コンソールの利用（console.log, console.error, console.warn）
 - デバッガツールの使用（ブレークポイントの設定、ステップ実行）
 
-### 1.7.2 テストの基本
+### 1.8.2 テストの基本
 
 **主要な知識範囲**
 

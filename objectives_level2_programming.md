@@ -60,9 +60,34 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - import, export
 - npm, yarn
 
-## *2.2 高度なDOM操作*
+## *2.2 高度なイベント処理*
 
-### 2.2.1 DOMの深堀り
+### 2.2.1 カスタムイベント
+
+**主要な知識範囲**
+
+- カスタムイベントの作成と利用方法
+
+**重要な技術要素**
+
+- CustomEvent
+- dispatchEvent
+
+### 2.2.2 高度なイベントリスナ
+
+**主要な知識範囲**
+
+- 高度なイベントリスナの設定と管理方法
+
+**重要な技術要素**
+
+- addEventListener
+- removeEventListener
+- イベントデリゲーション
+
+## *2.3 高度なDOM操作*
+
+### 2.3.1 DOMの深堀り
 
 **主要な知識範囲**
 
@@ -74,7 +99,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - 属性の操作
 - イベントの操作
 
-### 2.2.2 高度な要素操作
+### 2.3.2 高度な要素操作
 
 **主要な知識範囲**
 
@@ -86,30 +111,6 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - createElement, appendChild
 - クラス操作（classList）
 
-## *2.3 高度なイベント処理*
-
-### 2.3.1 カスタムイベント
-
-**主要な知識範囲**
-
-- カスタムイベントの作成と利用方法
-
-**重要な技術要素**
-
-- CustomEvent
-- dispatchEvent
-
-### 2.3.2 高度なイベントリスナ
-
-**主要な知識範囲**
-
-- 高度なイベントリスナの設定と管理方法
-
-**重要な技術要素**
-
-- addEventListener
-- removeEventListener
-- イベントデリゲーション
 
 ## *2.4 パフォーマンスと最適化*
 
@@ -209,6 +210,8 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 **主要な知識範囲**
 
 - Windowオブジェクトのプロパティとメソッドの利用方法
+- より複雑なWindowプロパティの活用
+- ページの位置やサイズ変更、外部ウィンドウ制御
 
 **重要な技術要素**
 
@@ -217,6 +220,8 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - コンストラクタ
 - メソッド
 - イベントハンドラ
+- window.open(), window.close()
+- window.moveTo(), window.resizeTo()
 
 ### 2.5.4 Selectors API
 
@@ -260,25 +265,6 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Location オブジェクト
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
-
-### 2.5.6 テスト・デバッグ
-
-**出題種別**
-
-- 知識問題
-
-**説明（望まれるスキル）**
-
-- コンソールを使って、変数の内容を出力する方法について理解している。
-
-**主要な知識範囲**
-
-- コンソールを使ったデバッグ方法
-
-**重要な技術要素**
-
-- Consoleオブジェクト
-  - メソッド（assert(), debug(), dirxml(), error(), info(), log(), profile(), profileEnd(), trace(), warn()）
 
 ## *2.3 グラフィックス・アニメーション*
 
