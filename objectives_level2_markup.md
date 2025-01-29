@@ -168,6 +168,41 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Lazy Loading
 - CSS Minification
 
+### 2.2.4 コンテナクエリ
+
+**出題種別**
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+- コンテナサイズに応じてスタイルを切り替えるCSSの新技術を理解し、レイアウトを柔軟に設計できる。
+
+**主要な知識範囲**
+- @containerルールの基礎
+- コンテナクエリの使用例と注意点
+
+**重要な技術要素**
+- container-type, container-name
+- @container (min-width: X)
+
+### 2.2.5 可変フォント(Variable Fonts)
+
+**出題種別**
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+- 可変フォントを使用して、サイズや太さなどを動的に制御する知識を持ち、パフォーマンスの向上とデザイン表現を両立できる。
+
+**主要な知識範囲**
+- 可変フォントの概要と利点
+- font-variation-settingsプロパティの利用方法
+
+**重要な技術要素**
+- @font-face
+- axisタグ (wght, wdth等)
+- font-variation-settings
+
 ## *2.3 アクセシビリティ応用*
 
 ### 2.3.1 ARIA活用の高度化
