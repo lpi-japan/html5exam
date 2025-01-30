@@ -93,6 +93,26 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Constraint Validation API
 - Custom Elements
 
+### 2.1.4 Webコンポーネント
+
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+- 既存のHTML要素を拡張し、再利用可能なカスタム要素を作成できる。
+
+**主要な知識範囲**
+- Custom Elements
+- Shadow DOM
+- HTML Templates
+
+**重要な技術要素**
+- define()を使用したカスタム要素の定義
+- <template>要素
+- shadowRoot
+
 ## *2.2 高度なCSS*
 
 ### 2.2.1 レイアウト技術
@@ -118,6 +138,11 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - display: grid, grid-template-areas, grid-template-columns, grid-template-rows
 - display: flex, flex-direction, justify-content, align-items
 - media queries
+
+**高度なFlexbox**
+- flex-wrap, align-content
+- gapプロパティ
+- 複数行レイアウト時の揃え方
 
 ### 2.2.2 アニメーションとトランジション
 

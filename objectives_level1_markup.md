@@ -127,6 +127,17 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - 継承されるプロパティとされないプロパティ
 - セレクタの特異性ルール
 
+### 1.2.4 Flexboxの基本
+
+**主要な知識範囲**
+- Flexboxを使ったシンプルなレイアウト作成
+
+**重要な技術要素**
+- display: flex
+- flex-direction
+- justify-content
+- align-items
+
 ## *1.3 要素*
 
 ### 1.3.1 要素と属性の意味（セマンティクス）
