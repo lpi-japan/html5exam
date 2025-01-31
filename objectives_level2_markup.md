@@ -138,8 +138,6 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - display: grid, grid-template-areas, grid-template-columns, grid-template-rows
 - display: flex, flex-direction, justify-content, align-items
 - media queries
-
-**高度なFlexbox**
 - flex-wrap, align-content
 - gapプロパティ
 - 複数行レイアウト時の揃え方
@@ -206,7 +204,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - @containerルールの基礎
 - コンテナクエリの使用例と注意点
 
-**重要な技術要素**
+**重要な技術要素**　　　　
 - container-type, container-name
 - @container (min-width: X)
 

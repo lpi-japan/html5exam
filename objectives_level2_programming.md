@@ -50,6 +50,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 2.1.3 モジュールとパッケージ管理
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- JavaScriptのモジュール化とパッケージ管理ツールを利用して、効率的にコードを管理できる。
+
 **主要な知識範囲**
 
 - モジュール化の利点と方法
@@ -64,6 +74,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 2.2.1 カスタムイベント
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- カスタムイベントを作成し、イベント駆動型のアプリケーションを構築できる。
+
 **主要な知識範囲**
 
 - カスタムイベントの作成と利用方法
@@ -74,6 +94,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - dispatchEvent
 
 ### 2.2.2 高度なイベントリスナ
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- 高度なイベントリスナを設定し、効率的にイベントを管理できる。
 
 **主要な知識範囲**
 
@@ -89,6 +119,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 2.3.1 DOMの深堀り
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- DOMの詳細な構造を理解し、複雑な操作を行うことができる。
+
 **主要な知識範囲**
 
 - DOMの詳細な構造と操作方法
@@ -100,6 +140,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - イベントの操作
 
 ### 2.3.2 高度な要素操作
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- 高度な要素操作を行い、動的なWebコンテンツを作成できる。
 
 **主要な知識範囲**
 
@@ -116,6 +166,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 2.4.1 パフォーマンス測定
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- パフォーマンス測定の方法を理解し、効率的なコードを記述できる。
+
 **主要な知識範囲**
 
 - パフォーマンス測定の方法と指標
@@ -126,6 +186,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - console.time, console.timeEnd
 
 ### 2.4.2 コードの最適化
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- コードの最適化手法を理解し、パフォーマンスを向上させることができる。
 
 **主要な知識範囲**
 
@@ -174,10 +244,11 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - 知識問題
 - コードリーティング問題
+- 記述問題
 
 **説明（望まれるスキル）**
 
-- イベント発生時などにDOMを利用して、HTMLの内容を読み込む、書き換える処理を行うコードの記述方法について理解している。
+- DOMを利用して、HTMLの内容を動的に操作することができる。
 
 **主要な知識範囲**
 
@@ -229,10 +300,11 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - 知識問題
 - コードリーティング問題
+- 記述問題
 
 **説明（望まれるスキル）**
 
-- Selectors APIを使ったHTML要素への操作方法についてコードの記述方法を理解している。
+- Selectors APIを使って、効率的にHTML要素を操作できる。
 
 **主要な知識範囲**
 
@@ -248,10 +320,11 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - 知識問題
 - コードリーティング問題
+- 記述問題
 
 **説明（望まれるスキル）**
 
-- HistoryオブジェクトやLocationオブジェクトが持つプロパティや関数を理解しており、それぞれ要件を実現するためにどれを利用すべきかを理解できている。
+- History APIを利用して、ブラウザの履歴を管理し、ユーザーのナビゲーションを制御できる。
 
 **主要な知識範囲**
 
@@ -266,25 +339,21 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
 
-## *2.3 グラフィックス・アニメーション*
+## *2.6 グラフィックス・アニメーション*
 
-### 2.3.1 Canvas(2D)
+### 2.6.1 Canvas(2D)
+
+**説明（望まれるスキル）**  
+- Canvasの特性を理解し、2Dコンテキストを使って基本図形の描画や描画状態の管理を行い、動的なグラフィックスやインタラクションを実装できる。
 
 **主要な知識範囲**
-
-- Canvasの特徴と提供機能
-- Canvasが利用可能な条件
+- Canvasの特徴・利用条件
 - CanvasとSVGの違い
 - 2Dコンテキストの概要と描画状態の遷移
 - 描画状態の保存と復元する方法
-- クリッピング領域を指定し、描画範囲を制限する方法
-- 線、矩形、曲線描画
-- Canvasの塗りつぶし
-- テキスト幅の算定、塗りつぶし描画、輪郭描画
-- フォントの設定
-- Canvasの拡大・縮小、回転、移動
-- Canvasへの透明度指定
-- Canvas上へ図形などを合成
+- 基本図形の描画
+- テキスト描画
+- 変形・合成
 
 **重要な技術要素**
 
@@ -295,7 +364,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - context.globalAlpha, context.globalCompositeOperation
 - context.drawImage(), context.createImageData()
 
-### 2.3.2 SVG
+### 2.6.2 SVG
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- SVGの特性を理解し、ベクターグラフィックスを利用したWebコンテンツを作成できる。
 
 **主要な知識範囲**
 
@@ -306,7 +385,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - ベクターグラフィック、XML
 
-### 2.3.3 Timing control for script-based animations
+### 2.6.3 Timing control for script-based animations
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- requestAnimationFrameを利用して、スムーズなアニメーションを実装できる。
 
 **主要な知識範囲**
 
@@ -322,9 +411,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
 - FrameRequestCallbackオブジェクト
 
-## *2.4 マルチメディア*
+## *2.7 マルチメディア*
 
-### 2.4.1 メディア要素のAPI
+### 2.7.1 メディア要素のAPI
 
 **主要な知識範囲**
 
@@ -342,9 +431,38 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（play(), pause(), load()）
   - イベントハンドラ（onplay, onplaying, ontimeupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
 
-## *2.5 ストレージ*
+### 2.7.2 DeviceOrientation Event
 
-### 2.5.1 Web Storage
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- DeviceOrientation Eventを利用して、デバイスの動きや向きを検知し、インタラクティブなコンテンツを作成できる。
+
+**主要な知識範囲**
+
+- コンパスの方角の検知
+- デバイスの傾きの検知
+- デバイスの移動加速度の検知
+- デバイスの回転速度の検知
+- 加速度の単位
+
+**重要な技術要素**
+
+- deviceorientationイベント
+  - DeviceOrientationEventオブジェクト
+- devicemotionイベント
+  - DeviceMotionEventオブジェクト
+  - DeviceAccelerationオブジェクト
+  - DeviceRotationRateオブジェクト
+
+## *2.8 ストレージ*
+
+### 2.8.1 Web Storage
 
 **主要な知識範囲**
 
@@ -362,7 +480,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - StorageEventオブジェクト
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
-### 2.5.2 Indexed Database API
+### 2.8.2 Indexed Database API
 
 **主要な知識範囲**
 
@@ -381,7 +499,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（name, version, objectStoreNames）
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
-### 2.5.3 File API
+### 2.8.3 File API
 
 **主要な知識範囲**
 
@@ -404,7 +522,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（readyState, result, error）
   - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
 
-### 2.5.4 バイナリーデータ
+### 2.8.4 バイナリーデータ
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- バイナリーデータを扱い、効率的にデータを操作できる。
 
 **主要な知識範囲**
 
@@ -421,9 +549,19 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - ビッグエンディアン
 - リトルエンディアン
 
-## *2.6 通信*
+## *2.9 通信*
 
-### 2.6.1 WebSocket
+### 2.9.1 WebSocket
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- WebSocketを利用して、リアルタイム通信を実現できる。
 
 **主要な知識範囲**
 
@@ -438,14 +576,20 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（URL, readyState, bufferedAmount）
   - イベント（onopen, onmessage, onclose）
 
-### 2.6.2 XMLHttpRequest
+### 2.9.2 XMLHttpRequest
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- XMLHttpRequestを利用して、サーバーとの通信を効率的に行うことができる。
 
 **主要な知識範囲**
 
-- XMLHttpRequestを利用した、WebサーバへHTTPリクエストを送信および結果の受信
-- XMLHttpRequestオブジェクトと通信時に関連するイベントハンドラ
-- XMLHttpRequestにおけるリクエストヘッダの設定
-- XMLHttpRequestオブジェクトのステータス確認
 - レスポンスデータに関する内容の確認、および用途にあった処理
 - 取得データのブラウザによるキャッシュを防ぐ対策
 - ダウンロードの進捗をリアルタイムに把握する方法
@@ -468,6 +612,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 2.6.3 Server-Sent Events
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- Server-Sent Eventsを利用して、サーバーからのプッシュ通知を受け取ることができる。
+
 **主要な知識範囲**
 
 - サーバーとの接続方法
@@ -484,9 +638,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - onerrorイベントハンドラ
 - Server-Sent EventsのMIME-Type
 
-## *2.7 デバイスアクセス*
+## *2.10 デバイスアクセス*
 
-### 2.7.1 Geolocation API
+### 2.10.1 Geolocation API
 
 **主要な知識範囲**
 
@@ -526,9 +680,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## *2.8 パフォーマンスとオフライン*
+## *2.11 パフォーマンスとオフライン*
 
-### 2.8.1 Web Workers
+### 2.11.1 Web Workers
 
 **主要な知識範囲**
 
@@ -546,7 +700,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - イベント（onerror, onmessage）
 - ErrorEventインターフェイスのプロパティ（message, filename, lineno）
 
-### 2.8.2 High Resolution Time
+### 2.11.2 High Resolution Time
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- High Resolution Time APIを利用して、高精度なパフォーマンス測定を行うことができる。
 
 **主要な知識範囲**
 
@@ -558,7 +722,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Performanceオブジェクト
 - メソッド（now()）
 
-### 2.8.3 オフラインアプリケーションAPI
+### 2.11.3 オフラインアプリケーションAPI
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- オフラインアプリケーションAPIを利用して、ネットワーク接続がない環境でも動作するWebアプリケーションを作成できる。
 
 **主要な知識範囲**
 
@@ -576,7 +750,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Navigatorオブジェクト
   - プロパティ（onLine）
 
-### 2.8.4 Page Visibility
+### 2.11.4 Page Visibility
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- Page Visibility APIを利用して、ページの表示状態を監視し、適切な処理を行うことができる。
 
 **主要な知識範囲**
 
@@ -590,7 +774,17 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - プロパティ（hidden, visibilityState）
 - イベント（visibilitychange）
 
-### 2.8.5 Navigation Timing
+### 2.11.5 Navigation Timing
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- Navigation Timing APIを利用して、ページの読み込み時間を計測し、パフォーマンスを最適化できる。
 
 **主要な知識範囲**
 
@@ -607,35 +801,47 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Windowオブジェクト
 - プロパティ（performance）
 
-## *2.9 セキュリティモデル*
+## *2.12 セキュリティモデル*
 
-### 2.9.1 クロスオリジン制約とCORS
+### 2.12.1 クロスオリジン制約とCORS
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- クロスオリジン制約とCORSを理解し、安全なリソース共有を実現できる。
 
 **主要な知識範囲**
 
 - オリジンの意味
-- 同一オリジンの意味
-- クロスオリジンの意味
-- ブラウザーからサーバーに対して送信されるCORS関連のリクエストヘッダー
-- HTTPリクエスト元のオリジンからのアクセス許可の方法
-- HTTPリクエスト元のオリジンからリクエストヘッダーを受け付ける方法
-- HTTPリクエスト元のオリジンが特定のレスポンスヘッダーを読み取れるようにする方法
-- HTTPリクエスト元のオリジンから特定のHTTPメソッドを受け付ける方法
-- プリフライトリクエスト
+- 同一オリジンポリシーを堅持しつつ、オリジン間でのリソース共有を可能にする設定とデバッグ
 
 **重要な技術要素**
 
-- オリジン
-- 同一オリジン
-- クロスオリジン
+- 同一オリジンポリシー
 - Originヘッダー
 - Access-Control-Request-Methodヘッダー
 - Access-Control-Request-Headersヘッダー
 - Access-Control-Allow-Originヘッダー
 - Access-Control-Allow-Methodsヘッダー
 - Access-Control-Allow-Headersヘッダー
+- プリフライトリクエスト
 
-### 2.9.2 セキュリティモデルとSSLの関係
+### 2.12.2 セキュリティモデルとSSLの関係
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- セキュリティモデルとSSL/TLSの関係を理解し、安全なWebアプリケーションを構築できる。
 
 **主要な知識範囲**
 
