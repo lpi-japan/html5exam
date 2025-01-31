@@ -104,14 +104,14 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - 既存のHTML要素を拡張し、再利用可能なカスタム要素を作成できる。
 
 **主要な知識範囲**
-- Custom Elements
-- Shadow DOM
-- HTML Templates
+- Web Componentsの基本概念
+- カスタム要素の作成と使用
 
 **重要な技術要素**
-- define()を使用したカスタム要素の定義
-- <template>要素
-- shadowRoot
+- カスタム要素（Custom Elements）
+- Shadow DOM
+- HTMLテンプレート
+- Web Componentsのライフサイクルメソッド
 
 ## *2.2 高度なCSS*
 
