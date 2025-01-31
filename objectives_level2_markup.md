@@ -250,3 +250,27 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 
 - ARIA roles, states, and properties
 - Additional ARIA patterns for complex widgets
+
+### 2.4 色空間
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+
+**説明（望まれるスキル）**
+
+- 色空間の基本概念を理解し、適切な色空間を選択してWebコンテンツの色管理を行うことができる。
+
+**主要な知識範囲**
+
+- 色空間の基本概念（RGB, CMYK, HSL, HSVなど）
+- 色空間の変換方法
+- 色管理の重要性とその方法
+- Webにおける色空間の選択と使用
+
+**重要な技術要素**
+
+- CSSでの色指定方法（hex, rgb, rgba, hsl, hsla）
+- 色空間の変換ライブラリやツールの使用
+- 色のコントラストとアクセシビリティの考慮
