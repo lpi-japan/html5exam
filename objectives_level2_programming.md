@@ -610,7 +610,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - XMLHttpRequestEventTargetインターフェイス
     - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
 
-### 2.6.3 Server-Sent Events
+### 2.9.3 Server-Sent Events
 
 **出題種別**
 
@@ -661,7 +661,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - PositionErrorオブジェクト
   - プロパティ（code, message）
 
-### 2.7.2 DeviceOrientation Event
+### 2.10.2 DeviceOrientation Event
 
 **主要な知識範囲**
 
