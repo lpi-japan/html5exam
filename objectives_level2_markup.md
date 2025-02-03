@@ -18,28 +18,28 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - パフォーマンスを考慮したWebコンテンツの最適化ができる。
 
 # 目次 <!-- omit in toc -->
-- [HTML/CSS Level 2 出題範囲](#htmlcss-level-2-出題範囲)
-  - [2.1 高度なHTML](#21-高度なhtml)
-    - [2.1.1 セマンティクスの深堀り](#211-セマンティクスの深堀り)
-    - [2.1.2 高度なメディア要素](#212-高度なメディア要素)
-    - [2.1.3 インタラクティブ要素の応用](#213-インタラクティブ要素の応用)
-    - [2.1.4 Webコンポーネント](#214-webコンポーネント)
-  - [2.2 高度なCSS](#22-高度なcss)
-    - [2.2.1 レイアウト技術](#221-レイアウト技術)
-    - [2.2.2 アニメーションとトランジション](#222-アニメーションとトランジション)
-    - [2.2.3 パフォーマンス最適化](#223-パフォーマンス最適化)
-    - [2.2.4 コンテナクエリ](#224-コンテナクエリ)
-    - [2.2.5 可変フォント(Variable Fonts)](#225-可変フォントvariable-fonts)
-    - [2.2.6 色空間](#226-色空間)
-  - [2.3 アクセシビリティ応用](#23-アクセシビリティ応用)
-    - [2.3.1 ARIA活用の高度化](#231-aria活用の高度化)
+- [1. 高度なHTML](#1-高度なhtml)
+  - [1.1. セマンティクスの深堀り](#11-セマンティクスの深堀り)
+  - [1.2. 高度なメディア要素](#12-高度なメディア要素)
+  - [1.3. インタラクティブ要素の応用](#13-インタラクティブ要素の応用)
+  - [1.4. Webコンポーネント](#14-webコンポーネント)
+- [2. 高度なCSS](#2-高度なcss)
+  - [2.1. 新しいCSS記法](#21-新しいcss記法)
+  - [2.2. レイアウト技術](#22-レイアウト技術)
+  - [2.3. アニメーションとトランジション](#23-アニメーションとトランジション)
+  - [2.4. パフォーマンス最適化](#24-パフォーマンス最適化)
+  - [2.5. コンテナクエリ](#25-コンテナクエリ)
+  - [2.6. 可変フォント(Variable Fonts)](#26-可変フォントvariable-fonts)
+  - [2.7. 色空間](#27-色空間)
+- [3. アクセシビリティ応用](#3-アクセシビリティ応用)
+  - [3.1. ARIA活用の高度化](#31-aria活用の高度化)
 
 
 # HTML/CSS Level 2 出題範囲
 
-## 2.1 高度なHTML
+## 1. 高度なHTML
 
-### 2.1.1 セマンティクスの深堀り
+### 1.1. セマンティクスの深堀り
 
 **出題種別**
 
@@ -63,7 +63,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - ARIA属性
 - マイクロデータ
 
-### 2.1.2 高度なメディア要素
+### 1.2. 高度なメディア要素
 
 **出題種別**
 
@@ -87,7 +87,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Media Source Extensions
 - WebVTT
 
-### 2.1.3 インタラクティブ要素の応用
+### 1.3. インタラクティブ要素の応用
 
 **出題種別**
 
@@ -111,7 +111,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Constraint Validation API
 - Custom Elements
 
-### 2.1.4 Webコンポーネント
+### 1.4. Webコンポーネント
 
 **出題種別**
 - 知識問題
@@ -131,9 +131,13 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - HTMLテンプレート
 - Web Componentsのライフサイクルメソッド
 
-## 2.2 高度なCSS
+## 2. 高度なCSS
 
-### 2.2.1 レイアウト技術
+### 2.1. 新しいCSS記法
+- カスタムプロパティ（CSS変数）
+- CSS nesting
+
+### 2.2. レイアウト技術
 
 **出題種別**
 
@@ -153,20 +157,22 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 
 **重要な技術要素**
 
-- CSS Grid
-- Flexbox
-- メディアクエリ
-- カスタムプロパティ（CSS変数）
-- `scrollbar-gutter`
-- CSSアニメーションとトランジション
-- CSS Shapes
-- CSS Multi-column Layout
-- CSS Subgrid
-- CSS Containment
-- CSS Houdini
-- CSS Logical Properties
+- レイアウト
+  - Flexbox
+  - CSS Grid
+  - CSS Multi-column Layout
+  - CSS Subgrid
+- レスポンシブ  
+  - メディアクエリ
+- ?
+  - `scrollbar-gutter`
+  - CSSアニメーションとトランジション
+  - CSS Shapes
+  - CSS Containment
+  - CSS Houdini
+  - CSS Logical Properties
 
-### 2.2.2 アニメーションとトランジション
+### 2.3. アニメーションとトランジション
 
 **出題種別**
 
@@ -191,7 +197,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-duration, animation-timing-function, ...）
 
-### 2.2.3 パフォーマンス最適化
+### 2.4. パフォーマンス最適化
 
 **出題種別**
 
@@ -215,7 +221,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Lazy Loading
 - CSS Minification
 
-### 2.2.4 コンテナクエリ
+### 2.5. コンテナクエリ
 
 **出題種別**
 - 知識問題
@@ -232,7 +238,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - container-type, container-name
 - @container (min-width: X)
 
-### 2.2.5 可変フォント(Variable Fonts)
+### 2.6. 可変フォント(Variable Fonts)
 
 **出題種別**
 - 知識問題
@@ -250,7 +256,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - axisタグ (wght, wdth等)
 - font-variation-settings
 
-### 2.2.6 色空間
+### 2.7. 色空間
 
 **出題種別**
 
@@ -274,9 +280,9 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - 色空間の変換ライブラリやツールの使用
 - 色のコントラストとアクセシビリティの考慮
 
-## 2.3 アクセシビリティ応用
+## 3. アクセシビリティ応用
 
-### 2.3.1 ARIA活用の高度化
+### 3.1. ARIA活用の高度化
 
 **出題種別**
 
