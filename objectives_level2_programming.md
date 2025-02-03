@@ -21,7 +21,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - [認定条件](#認定条件)
 - [望まれるスキルレベル](#望まれるスキルレベル)
 - [*2.1 高度なJavaScript*](#21-高度なjavascript)
-  - [2.1.1 ES6以降の新機能](#211-es6以降の新機能)
+  - [2.1.1 先進的なJavaScript機能](#211-先進的なjavascript機能)
   - [2.1.2 非同期処理](#212-非同期処理)
   - [2.1.3 モジュールとパッケージ管理](#213-モジュールとパッケージ管理)
 - [*2.2 高度なイベント処理*](#22-高度なイベント処理)
@@ -71,21 +71,18 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ## *2.1 高度なJavaScript*
 
-### 2.1.1 ES6以降の新機能
+### 2.1.1 先進的なJavaScript機能
 
 **主要な知識範囲**
 
-- ES6以降の新機能の概要と利用方法
+- クラスやモジュールなどの高度な概念
 
 **重要な技術要素**
 
-- let, const
-- アロー関数
-- テンプレートリテラル
+- クラス構文
+- import, export
 - デストラクチャリング
 - スプレッド構文
-- クラス構文
-- モジュール
 
 ### 2.1.2 非同期処理
 

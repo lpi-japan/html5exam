@@ -49,7 +49,6 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
   - [1.8.1 デバッグの基本](#181-デバッグの基本)
   - [1.8.2 テストの基本](#182-テストの基本)
 
-
 ## *1.1 JavaScriptの基礎*
 
 ### 1.1.1 JavaScript文法
@@ -71,6 +70,7 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - データ型と変数の基本概念
+- let, const
 
 **重要な技術要素**
 
@@ -78,12 +78,14 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 - オブジェクト型（オブジェクト、配列、関数）
 - 変数のスコープ（グローバルスコープ、ローカルスコープ）
 - 変数の宣言と初期化（var, let, const）
+- let, const, BigInt
 
 ### 1.1.3 演算子と式
 
 **主要な知識範囲**
 
 - 演算子と式の基本概念
+- テンプレートリテラル
 
 **重要な技術要素**
 
@@ -92,6 +94,7 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 - 論理演算子（&&, ||, !）
 - 代入演算子（=, +=, -=, *=, /=, %=）
 - その他の演算子（typeof, instanceof, ternary operator）
+- backtick (`) を使ったテンプレートリテラル
 
 ### 1.1.4 コメントとコードの整形
 
