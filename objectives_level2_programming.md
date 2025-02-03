@@ -205,6 +205,8 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - メモリ管理
 - レンダリング最適化
+- WebAssembly Garbage Collection
+- Tail Call Optimization
 
 ## *2.5 WebブラウザにおけるJavaScript API*
 
