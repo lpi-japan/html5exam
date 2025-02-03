@@ -1,25 +1,43 @@
-# HTML/CSS Level 2 概要
+# HTML/CSS Level 2 概要 <!-- omit in toc -->
 
-## 名称
+## 名称 <!-- omit in toc -->
 
 |                    |                                               |
 |--------------------|-----------------------------------------------|
 | **認定名**         | HTML/CSS Professional Certification Level 2   |
 | **試験の正式名称** | HTML/CSS Professional Certification Level 2 Exam |
 
-## 認定条件
+## 認定条件 <!-- omit in toc -->
 
 HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Professional Certification Level 2 試験に合格すると HTML/CSS Professional Certification Level 2 に認定されます。
 
-## 望まれるスキルレベル
+## 望まれるスキルレベル <!-- omit in toc -->
 
 - 高度なHTML5およびCSS技術を使って、リッチなWebコンテンツを制作できる。
 - 複雑なレイアウトやアニメーションを実現するためのCSS技術を理解している。
 - パフォーマンスを考慮したWebコンテンツの最適化ができる。
 
+# 目次 <!-- omit in toc -->
+- [HTML/CSS Level 2 出題範囲](#htmlcss-level-2-出題範囲)
+  - [2.1 高度なHTML](#21-高度なhtml)
+    - [2.1.1 セマンティクスの深堀り](#211-セマンティクスの深堀り)
+    - [2.1.2 高度なメディア要素](#212-高度なメディア要素)
+    - [2.1.3 インタラクティブ要素の応用](#213-インタラクティブ要素の応用)
+    - [2.1.4 Webコンポーネント](#214-webコンポーネント)
+  - [2.2 高度なCSS](#22-高度なcss)
+    - [2.2.1 レイアウト技術](#221-レイアウト技術)
+    - [2.2.2 アニメーションとトランジション](#222-アニメーションとトランジション)
+    - [2.2.3 パフォーマンス最適化](#223-パフォーマンス最適化)
+    - [2.2.4 コンテナクエリ](#224-コンテナクエリ)
+    - [2.2.5 可変フォント(Variable Fonts)](#225-可変フォントvariable-fonts)
+    - [2.2.6 色空間](#226-色空間)
+  - [2.3 アクセシビリティ応用](#23-アクセシビリティ応用)
+    - [2.3.1 ARIA活用の高度化](#231-aria活用の高度化)
+
+
 # HTML/CSS Level 2 出題範囲
 
-## *2.1 高度なHTML*
+## 2.1 高度なHTML
 
 ### 2.1.1 セマンティクスの深堀り
 
@@ -113,7 +131,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - HTMLテンプレート
 - Web Componentsのライフサイクルメソッド
 
-## *2.2 高度なCSS*
+## 2.2 高度なCSS
 
 ### 2.2.1 レイアウト技術
 
@@ -232,7 +250,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - axisタグ (wght, wdth等)
 - font-variation-settings
 
-### 2.2．6 色空間
+### 2.2.6 色空間
 
 **出題種別**
 
@@ -256,7 +274,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - 色空間の変換ライブラリやツールの使用
 - 色のコントラストとアクセシビリティの考慮
 
-## *2.3 アクセシビリティ応用*
+## 2.3 アクセシビリティ応用
 
 ### 2.3.1 ARIA活用の高度化
 

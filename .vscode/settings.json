@@ -1,0 +1,4 @@
+{
+    "markdown.extension.toc.levels": "1..6",
+    "js/ts.implicitProjectConfig.checkJs": true
+}
