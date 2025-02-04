@@ -94,7 +94,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - 文字参照, リンク要素, メタ要素に関する記述方法
 
 **重要な技術要素**
-- <!DOCTYPE html>
+- DOCTYPE宣言
 - html要素(lang属性, meta charsetなど)
 - 文字参照(&nbsp;, &amp; など)
 

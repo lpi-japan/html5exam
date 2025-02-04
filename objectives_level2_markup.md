@@ -24,17 +24,15 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
     - [1.2. 高度なメディア要素](#12-高度なメディア要素)
     - [1.3. インタラクティブ要素の応用](#13-インタラクティブ要素の応用)
     - [1.4. Webコンポーネント](#14-webコンポーネント)
+    - [1.5. アクセシビリティ応用](#15-アクセシビリティ応用)
   - [2. 高度なCSS](#2-高度なcss)
-    - [2.1. 新しいCSS記法](#21-新しいcss記法)
+    - [2.1. CSSレイアウトの高度化](#21-cssレイアウトの高度化)
     - [2.2. フレックスボックスとグリッド](#22-フレックスボックスとグリッド)
     - [2.3. レスポンシブデザイン](#23-レスポンシブデザイン)
     - [2.4. アニメーションとトランジション](#24-アニメーションとトランジション)
     - [2.5. パフォーマンス最適化](#25-パフォーマンス最適化)
-    - [2.6. コンテナクエリ](#26-コンテナクエリ)
     - [2.7. 可変フォント(Variable Fonts)](#27-可変フォントvariable-fonts)
     - [2.8. 色空間](#28-色空間)
-  - [3. アクセシビリティ応用](#3-アクセシビリティ応用)
-    - [3.1. ARIA活用の高度化](#31-aria活用の高度化)
 
 
 # HTML/CSS Level 2 出題範囲
@@ -133,9 +131,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - HTMLテンプレート
 - Web Componentsのライフサイクルメソッド
 
-## 2. 高度なCSS
-
-### 2.1. 新しいCSS記法
+### 1.5. アクセシビリティ応用
 
 **出題種別**
 
@@ -145,22 +141,56 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 
 **説明（望まれるスキル）**
 
-- 新しいCSS記法を使用して、効率的で保守性の高いスタイルシートを作成できる。
+- ARIAを高度に活用し、複雑なウィジェットのアクセシビリティを向上させることができる。
 
 **主要な知識範囲**
 
-- 効率的で保守性の高いスタイルシートの作成
-- CSS Container Queriesの使用方法
-- CSS :is() and :where() Pseudo-classesの使用方法
-- CSS @property Ruleの使用方法
+- ARIAの基本
+- ARIAパターンの応用
+- 複雑なウィジェットのアクセシビリティ向上
 
 **重要な技術要素**
 
-- CSS Nesting
-- CSS Custom Properties（CSS変数）
-- CSS Container Queries
-- CSS :is() and :where() Pseudo-classes
-- CSS @property Rule
+- ARIA roles, states, and properties
+- Additional ARIA patterns for complex widgets
+
+## 2. 高度なCSS
+
+### 2.1. CSSレイアウトの高度化
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- 高度なCSSレイアウト技術を使用して、複雑なレイアウトやスタイリングを実現できる。
+
+**主要な知識範囲**
+
+- CSS Multi-column Layoutの使用方法
+- CSS Shapesの使用方法
+- CSS Subgridの使用方法
+- CSS Containmentの使用方法
+- CSS Houdiniの基本概念と使用方法
+- CSS Logical Propertiesの使用方法
+- CSS Regionsの使用方法
+- CSS Exclusionsの使用方法
+
+**重要な技術要素**
+
+- CSS Multi-column Layout
+- CSS Shapes
+- CSS Subgrid
+- CSS Containment
+- CSS Houdini
+- CSS Logical Properties
+- CSS Regions
+- CSS Exclusions
+- `scrollbar-gutter`
+- カスタムプロパティ（CSS変数）
 
 ### 2.2. フレックスボックスとグリッド
 
@@ -204,7 +234,11 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 **重要な技術要素**
 
 - メディアクエリ
-- `scrollbar-gutter`
+- Viewport Metaタグ
+- フレキシブルイメージ
+- レスポンシブタイポグラフィ
+- CSS Units（em, rem, vw, vh）
+- レスポンシブフレームワーク（Bootstrap, Foundation）
 
 ### 2.4. アニメーションとトランジション
 
@@ -255,23 +289,6 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Lazy Loading
 - CSS Minification
 
-### 2.6. コンテナクエリ
-
-**出題種別**
-- 知識問題
-- コードリーティング問題
-
-**説明（望まれるスキル）**
-- コンテナサイズに応じてスタイルを切り替えるCSSの新技術を理解し、レイアウトを柔軟に設計できる。
-
-**主要な知識範囲**
-- @containerルールの基礎
-- コンテナクエリの使用例と注意点
-
-**重要な技術要素**　　　　
-- container-type, container-name
-- @container (min-width: X)
-
 ### 2.7. 可変フォント(Variable Fonts)
 
 **出題種別**
@@ -314,28 +331,5 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - 色空間の変換ライブラリやツールの使用
 - 色のコントラストとアクセシビリティの考慮
 
-## 3. アクセシビリティ応用
 
-### 3.1. ARIA活用の高度化
-
-**出題種別**
-
-- 知識問題
-- コードリーティング問題
-- 記述問題
-
-**説明（望まれるスキル）**
-
-- ARIAを高度に活用し、複雑なウィジェットのアクセシビリティを向上させることができる。
-
-**主要な知識範囲**
-
-- ARIAの基本
-- ARIAパターンの応用
-- 複雑なウィジェットのアクセシビリティ向上
-
-**重要な技術要素**
-
-- ARIA roles, states, and properties
-- Additional ARIA patterns for complex widgets
 
