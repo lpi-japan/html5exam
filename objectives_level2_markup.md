@@ -26,14 +26,13 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
     - [1.4. Webコンポーネント](#14-webコンポーネント)
   - [2. 高度なCSS](#2-高度なcss)
     - [2.1. 新しいCSS記法](#21-新しいcss記法)
-    - [2.2. レイアウト技術](#22-レイアウト技術)
-    - [2.2.1 レイアウト](#221-レイアウト)
-    - [2.2.2 レスポンシブデザイン](#222-レスポンシブデザイン)
-    - [2.3. アニメーションとトランジション](#23-アニメーションとトランジション)
-    - [2.4. パフォーマンス最適化](#24-パフォーマンス最適化)
-    - [2.5. コンテナクエリ](#25-コンテナクエリ)
-    - [2.6. 可変フォント(Variable Fonts)](#26-可変フォントvariable-fonts)
-    - [2.7. 色空間](#27-色空間)
+    - [2.2. フレックスボックスとグリッド](#22-フレックスボックスとグリッド)
+    - [2.3. レスポンシブデザイン](#23-レスポンシブデザイン)
+    - [2.4. アニメーションとトランジション](#24-アニメーションとトランジション)
+    - [2.5. パフォーマンス最適化](#25-パフォーマンス最適化)
+    - [2.6. コンテナクエリ](#26-コンテナクエリ)
+    - [2.7. 可変フォント(Variable Fonts)](#27-可変フォントvariable-fonts)
+    - [2.8. 色空間](#28-色空間)
   - [3. アクセシビリティ応用](#3-アクセシビリティ応用)
     - [3.1. ARIA活用の高度化](#31-aria活用の高度化)
 
@@ -137,12 +136,33 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 ## 2. 高度なCSS
 
 ### 2.1. 新しいCSS記法
-- カスタムプロパティ（CSS変数）
-- CSS nesting
 
-### 2.2. レイアウト技術
+**出題種別**
 
-### 2.2.1 レイアウト
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- 新しいCSS記法を使用して、効率的で保守性の高いスタイルシートを作成できる。
+
+**主要な知識範囲**
+
+- 効率的で保守性の高いスタイルシートの作成
+- CSS Container Queriesの使用方法
+- CSS :is() and :where() Pseudo-classesの使用方法
+- CSS @property Ruleの使用方法
+
+**重要な技術要素**
+
+- CSS Nesting
+- CSS Custom Properties（CSS変数）
+- CSS Container Queries
+- CSS :is() and :where() Pseudo-classes
+- CSS @property Rule
+
+### 2.2. フレックスボックスとグリッド
 
 **出題種別**
 
@@ -163,14 +183,8 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 
 - Flexbox
 - CSS Grid
-- CSS Multi-column Layout
-- CSS Subgrid
-- CSS Shapes
-- CSS Containment
-- CSS Houdini
-- CSS Logical Properties
 
-### 2.2.2 レスポンシブデザイン
+### 2.3. レスポンシブデザイン
 
 **出題種別**
 
@@ -192,7 +206,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - メディアクエリ
 - `scrollbar-gutter`
 
-### 2.3. アニメーションとトランジション
+### 2.4. アニメーションとトランジション
 
 **出題種別**
 
@@ -217,7 +231,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-duration, animation-timing-function, ...）
 
-### 2.4. パフォーマンス最適化
+### 2.5. パフォーマンス最適化
 
 **出題種別**
 
@@ -241,7 +255,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - Lazy Loading
 - CSS Minification
 
-### 2.5. コンテナクエリ
+### 2.6. コンテナクエリ
 
 **出題種別**
 - 知識問題
@@ -258,7 +272,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - container-type, container-name
 - @container (min-width: X)
 
-### 2.6. 可変フォント(Variable Fonts)
+### 2.7. 可変フォント(Variable Fonts)
 
 **出題種別**
 - 知識問題
@@ -276,7 +290,7 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - axisタグ (wght, wdth等)
 - font-variation-settings
 
-### 2.7. 色空間
+### 2.8. 色空間
 
 **出題種別**
 

@@ -20,25 +20,25 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 
 ## 目次
 - [HTML/CSS Level 1 出題範囲](#htmlcss-level-1-出題範囲)
-  - [1. *HTML*](#1-html)
+  - [1. HTML](#1-html)
     - [1.1. HTMLの基本](#11-htmlの基本)
     - [1.2. HTTP, HTTPSプロトコル](#12-http-httpsプロトコル)
     - [1.3. HTMLの書式](#13-htmlの書式)
     - [1.4. Web関連技術の概要](#14-web関連技術の概要)
-  - [2. *CSS*](#2-css)
+  - [2. CSS](#2-css)
     - [2.1. スタイルシートの基本](#21-スタイルシートの基本)
     - [2.2. CSSデザイン](#22-cssデザイン)
     - [2.3. カスケード（優先順位）](#23-カスケード優先順位)
     - [2.4. Flexboxの基本](#24-flexboxの基本)
-  - [3. *要素*](#3-要素)
+  - [3. 要素](#3-要素)
     - [3.1. 要素と属性の意味（セマンティクス）](#31-要素と属性の意味セマンティクス)
     - [3.2. メディア要素](#32-メディア要素)
     - [3.3. インタラクティブ要素](#33-インタラクティブ要素)
     - [3.4. 基本的なARIAの利用](#34-基本的なariaの利用)
-  - [4. *レスポンシブWebデザイン*](#4-レスポンシブwebデザイン)
+  - [4. レスポンシブWebデザイン](#4-レスポンシブwebデザイン)
     - [4.1. マルチデバイス対応](#41-マルチデバイス対応)
     - [4.2. メディアクエリ](#42-メディアクエリ)
-  - [5. *APIの基礎知識*](#5-apiの基礎知識)
+  - [5. APIの基礎知識](#5-apiの基礎知識)
     - [5.1. マルチメディア・グラフィックス系API概要](#51-マルチメディアグラフィックス系api概要)
     - [5.2. デバイスアクセス系API概要](#52-デバイスアクセス系api概要)
     - [5.3. オフライン・ストレージ系API概要](#53-オフラインストレージ系api概要)
@@ -46,7 +46,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 
 # HTML/CSS Level 1 出題範囲
 
-## 1. *HTML*
+## 1. HTML
 
 ### 1.1. HTMLの基本
 
@@ -115,7 +115,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - カスタムデータ属性
 - MVCアーキテクチャ
 
-## 2. *CSS*
+## 2. CSS
 
 ### 2.1. スタイルシートの基本
 
@@ -164,7 +164,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - justify-content
 - align-items
 
-## 3. *要素*
+## 3. 要素
 
 ### 3.1. 要素と属性の意味（セマンティクス）
 
@@ -211,7 +211,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 **重要な技術要素**
 - aria-hidden, aria-label, role属性
 
-## 4. *レスポンシブWebデザイン*
+## 4. レスポンシブWebデザイン
 
 ### 4.1. マルチデバイス対応
 
@@ -241,7 +241,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - min-width, max-width, min-height, max-heightなどのメディア特性
 - 複数の条件を組み合わせたメディアクエリ
 
-## 5. *APIの基礎知識*
+## 5. APIの基礎知識
 
 ### 5.1. マルチメディア・グラフィックス系API概要
 
