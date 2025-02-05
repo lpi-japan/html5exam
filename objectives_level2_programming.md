@@ -105,6 +105,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - import, export
 - npm, yarn
+- PNPM, Bun
 - クラス構文
 - モジュール
 
