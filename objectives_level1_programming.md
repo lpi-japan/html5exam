@@ -91,6 +91,8 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 - 論理演算子（&&, ||, !）
 - 代入演算子（=, +=, -=, *=, /=, %=）
 - その他の演算子（typeof, instanceof, ternary operator）
+- オプショナルチェーン演算子(?.)
+- null合体演算子(??)
 
 ### 1.4. コメントとコードの整形
 
