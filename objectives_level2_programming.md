@@ -58,10 +58,10 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - [11. パフォーマンスとオフライン](#11-パフォーマンスとオフライン)
     - [11.1. Web Workers](#111-web-workers)
     - [11.2. High Resolution Time](#112-high-resolution-time)
-    - [11.3. オフラインアプリケーションAPI](#113-オフラインアプリケーションapi)
+    - [11.3. Service Workerによるオフラインアプリケーション](#113-service-workerによるオフラインアプリケーション)
     - [11.4. Page Visibility](#114-page-visibility)
     - [11.5. Navigation Timing](#115-navigation-timing)
-  - [12. セキュリティモデル](#12-セキュリティモデル)
+  - [12. セキュリティ](#12-セキュリティ)
     - [12.1. クロスオリジン制約とCORS](#121-クロスオリジン制約とcors)
     - [12.2. セキュリティモデルとSSLの関係](#122-セキュリティモデルとsslの関係)
 
@@ -761,7 +761,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Performanceオブジェクト
 - メソッド（now()）
 
-### 11.3. オフラインアプリケーションAPI
+### 11.3. Service Workerによるオフラインアプリケーション
 
 **出題種別**
 
@@ -771,23 +771,22 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 **説明（望まれるスキル）**
 
-- オフラインアプリケーションAPIを利用して、ネットワーク接続がない環境でも動作するWebアプリケーションを作成できる。
+- ネットワーク接続がなくても動作するアプリケーションをService Workerを利用して構築できる。
 
 **主要な知識範囲**
 
-- アプリケーションキャッシュの概要
-- アプリケーションキャッシュを利用する場合の注意点
-- ApplicationCacheオブジェクトの仕様
-- ブラウザのネット接続状況に関する判別方法
+- Service Workerの登録とライフサイクル
+- オフラインキャッシュの設計
+- PWA（Progressive Web Apps）の概要
 
 **重要な技術要素**
 
-- ApplicationCacheオブジェクト
-  - プロパティ（status）
-  - メソッド（update(), swapCache()）
-  - イベント（checking, error, noupdate, downloading, progress, updateready, cached, obsolete）
-- Navigatorオブジェクト
-  - プロパティ（onLine）
+- Service Worker API
+  - メソッド（register() など）
+  - イベント（install, activate, fetch）
+- Cache Storage API
+  - メソッド（open(), match(), put(), delete()）
+- Manifestファイルの基本
 
 ### 11.4. Page Visibility
 
@@ -840,7 +839,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Windowオブジェクト
 - プロパティ（performance）
 
-## 12. セキュリティモデル
+## 12. セキュリティ
 
 ### 12.1. クロスオリジン制約とCORS
 
