@@ -53,6 +53,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - JavaScriptの基本構文と文法
 
+**説明（望まれるスキル）**
+
+- JavaScript文法の基本が理解できること
+
 **重要な技術要素**
 
 - 変数宣言（var, let, const）
@@ -67,6 +71,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - データ型と変数の基本概念
 
+**説明（望まれるスキル）**
+
+- データ型と変数の取り扱いが正しく理解できること
+
 **重要な技術要素**
 
 - プリミティブ型（文字列、数値、真偽値、null、undefined）
@@ -79,6 +87,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - 演算子と式の基本概念
+
+**説明（望まれるスキル）**
+
+- 演算子と式を適切に使いこなせること
 
 **重要な技術要素**
 
@@ -96,6 +108,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - コメントとコード整形の重要性
 
+**説明（望まれるスキル）**
+
+- コメントとコード整形の意義を理解し実践できること
+
 **重要な技術要素**
 
 - コメントの種類
@@ -109,6 +125,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - 条件分岐の基本概念
 
+**説明（望まれるスキル）**
+
+- 条件分岐の仕組みを把握し、適切に活用できること
+
 **重要な技術要素**
 
 - if文
@@ -121,6 +141,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - ループの基本概念
+
+**説明（望まれるスキル）**
+
+- 各種ループ構文を正しく使い分けられること
 
 **重要な技術要素**
 
@@ -136,6 +160,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - 例外処理の基本概念
 
+**説明（望まれるスキル）**
+
+- 例外処理を用いたエラー制御を理解できること
+
 **重要な技術要素**
 
 - try-catch文の使い方
@@ -150,6 +178,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - オブジェクトとプロパティの基本概念
 
+**説明（望まれるスキル）**
+
+- オブジェクトの概念とプロパティの操作を習熟していること
+
 **重要な技術要素**
 
 - オブジェクトの作成と操作
@@ -161,6 +193,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - クラスとインスタンスの基本概念
+
+**説明（望まれるスキル）**
+
+- クラスやインスタンスを設計・利用できること
 
 **重要な技術要素**
 
@@ -177,6 +213,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - DOMの基本概念
 
+**説明（望まれるスキル）**
+
+- DOM構造を把握して要素を扱えること
+
 **重要な技術要素**
 
 - DOMツリーの構造
@@ -189,6 +229,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - 要素の取得と操作の基本概念
 
+**説明（望まれるスキル）**
+
+- 要素取得と操作を適切に実装できること
+
 **重要な技術要素**
 
 - 要素の取得方法（getElementById, getElementsByClassName, querySelector, querySelectorAll）
@@ -199,6 +243,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - イベントリスナーの基本概念
+
+**説明（望まれるスキル）**
+
+- イベントハンドリングと伝播を理解し、活用できること
 
 **重要な技術要素**
 
@@ -214,6 +262,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - イベントの基本概念
 
+**説明（望まれるスキル）**
+
+- イベントの種類と動作を把握しハンドリングできること
+
 **重要な技術要素**
 
 - イベントの種類（クリックイベント、キーボードイベント、フォームイベントなど）
@@ -224,6 +276,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - フォームの操作とバリデーションの基本概念
+
+**説明（望まれるスキル）**
+
+- フォーム入力の制御とバリデーションを実装できること
 
 **重要な技術要素**
 
@@ -237,6 +293,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - ウィンドウオブジェクトの基本概念
+
+**説明（望まれるスキル）**
+
+- ウィンドウオブジェクトの基本機能を使いこなせること
 
 **重要な技術要素**
 
@@ -252,6 +312,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 
 - デバッグの基本概念
 
+**説明（望まれるスキル）**
+
+- デバッグツールを利用しエラーを解析できること
+
 **重要な技術要素**
 
 - コンソールの利用（console.log, console.error, console.warn）
@@ -262,6 +326,10 @@ JavaScript Professional Certification Level 1 試験に合格すると JavaScrip
 **主要な知識範囲**
 
 - テストの基本概念
+
+**説明（望まれるスキル）**
+
+- テストの手法を学び、自動化やフレームワークを活用できること
 
 **重要な技術要素**
 

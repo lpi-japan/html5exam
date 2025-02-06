@@ -400,6 +400,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 6.1. メディア要素のAPI
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- メディア要素の再生や制御方法を理解し、音声・動画を扱うコードを記述できる。
+
 **主要な知識範囲**
 
 - オーディオデータの再生・停止・状態取得
@@ -449,6 +459,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 7.1. Web Storage
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- Web Storageを利用してクライアントサイドにデータを保存・取得・削除できる。
+
 **主要な知識範囲**
 
 - Web Storageを利用するアプリケーションを作成するにあたって注意すべき、セキュリティの観点からの注意事項
@@ -466,6 +486,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
 ### 7.2. Indexed Database API
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- IndexedDBを利用して構造化データを保存・検索できる。
 
 **主要な知識範囲**
 
@@ -485,6 +515,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
 ### 7.3. File API
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- File APIを使ってローカルファイルを読み込み、処理するコードを記述できる。
 
 **主要な知識範囲**
 
@@ -627,6 +667,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 ### 9.1. Geolocation API
 
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- Geolocation APIを使って端末の位置情報を取得し、位置情報を活用するコードを記述できる。
+
 **主要な知識範囲**
 
 - Geolocation APIの特徴と注意する点
@@ -647,6 +697,16 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（code, message）
 
 ### 9.2. 2.10.2 DeviceOrientation Event
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- DeviceOrientation Eventを利用してデバイスの向きや動きを検知し、インタラクティブな演出を実装できる。
 
 **主要な知識範囲**
 
