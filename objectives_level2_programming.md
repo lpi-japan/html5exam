@@ -32,7 +32,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
     - [4.2. コードの最適化](#42-コードの最適化)
   - [5. WebブラウザにおけるJavaScript API](#5-webブラウザにおけるjavascript-api)
     - [5.1. イベント](#51-イベント)
-    - [5.2. ドキュメントオブジェクト／DOM](#52-ドキュメントオブジェクトdom)
+    - [5.2. DOM応用](#52-dom応用)
     - [5.3. ウィンドウオブジェクト](#53-ウィンドウオブジェクト)
     - [5.4. Selectors API](#54-selectors-api)
     - [5.5. History API](#55-history-api)
@@ -278,7 +278,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - タッチ系イベント
   - touchstart, touchmove, touchend
 
-### 5.2. ドキュメントオブジェクト／DOM
+### 5.2. DOM応用
 
 **出題種別**
 
@@ -288,24 +288,21 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 **説明（望まれるスキル）**
 
-- DOMを利用して、HTMLの内容を動的に操作することができる。
+- カスタムイベントやイベントデリゲーションなど、高度なDOM操作と管理ができる。
 
 **主要な知識範囲**
 
-- イベント発生時などにDOMを利用して、HTMLの内容を読み込む、書き換える処理の方法
+- イベントデリゲーションの概念と活用
+- カスタムイベントの作成と発行
+- 非同期処理や外部ライブラリとの連携
+- パフォーマンスを考慮したDOM操作
 
 **重要な技術要素**
 
-- DOM
-- document.getElementById
-- document.forms
-- innerHTML
-- createElement()
-- insertBefore()
-- appendChild()
-- createAttribute()
-- hasAttribute()
-- removeAttribute()
+- `addEventListener()`を用いたイベントデリゲーション実装
+- `CustomEvent`, `dispatchEvent()`によるカスタムイベント運用
+- `MutationObserver`などのDOM変更検知
+- `requestAnimationFrame()`を使った効率的な再描画制御
 
 ### 5.3. ウィンドウオブジェクト
 

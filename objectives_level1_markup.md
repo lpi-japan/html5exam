@@ -106,7 +106,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - SQLインジェクション, XSSなどのセキュリティ脅威
 
 **重要な技術要素**
-- DOM
+- DOMの基礎・概念
 - カスタムデータ属性
 - MVCアーキテクチャ
 
