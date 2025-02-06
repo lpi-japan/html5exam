@@ -23,6 +23,7 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
   - [1.1. HTMLの基礎と書式](#11-htmlの基礎と書式)
   - [1.2. HTTP, HTTPSプロトコル](#12-http-httpsプロトコル)
   - [1.3. Web関連技術の概要](#13-web関連技術の概要)
+  - [1.4. Emojiの使用](#14-emojiの使用)
 - [2. CSS](#2-css)
   - [2.1. スタイルシートの基本](#21-スタイルシートの基本)
   - [2.2. CSSデザイン](#22-cssデザイン)
@@ -99,6 +100,28 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - DOMの基礎・概念
 - カスタムデータ属性
 - MVCアーキテクチャ
+
+### 1.4. Emojiの使用
+
+**出題種別**
+
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**説明（望まれるスキル）**
+
+- HTMLでのemojiの基本的な使用方法を理解し、Webコンテンツに組み込むことができる。
+
+**主要な知識範囲**
+
+- emojiの基本概念
+- emojiのコードポイント
+
+**重要な技術要素**
+
+- Unicodeとemoji
+- `&#x1F600;` などのコードポイント
 
 ## 2. CSS
 
