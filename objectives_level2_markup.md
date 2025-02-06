@@ -238,7 +238,6 @@ HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Profes
 - フレキシブルイメージ
 - レスポンシブタイポグラフィ
 - CSS Units（em, rem, vw, vh）
-- レスポンシブフレームワーク（Bootstrap, Foundation）
 
 ### 2.4. アニメーションとトランジション
 

@@ -62,7 +62,6 @@ HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Pr
 - 文字参照(&nbsp;, &amp; など)
 - DOMの基礎・概念
 - カスタムデータ属性
-- MVCアーキテクチャ
 
 ### 1.2. HTTP, HTTPSプロトコル
 **出題種別**
