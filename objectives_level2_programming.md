@@ -17,59 +17,55 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - 非同期処理やモジュール化を理解し、効率的なコーディングができる。
 
 ## 目次 <!-- omit in toc -->
-- [JavaScript Level 2 出題範囲](#javascript-level-2-出題範囲)
-  - [1. 高度なJavaScript](#1-高度なjavascript)
-    - [1.2. 非同期処理](#12-非同期処理)
-    - [1.3. モジュールとパッケージ管理](#13-モジュールとパッケージ管理)
-  - [2. 高度なイベント処理](#2-高度なイベント処理)
-    - [2.1. カスタムイベント](#21-カスタムイベント)
-    - [2.2. 高度なイベントリスナ](#22-高度なイベントリスナ)
-  - [3. 高度なDOM操作](#3-高度なdom操作)
-    - [3.1. DOMの深堀り](#31-domの深堀り)
-    - [3.2. 高度な要素操作](#32-高度な要素操作)
-  - [4. パフォーマンスと最適化](#4-パフォーマンスと最適化)
-    - [4.1. パフォーマンス測定](#41-パフォーマンス測定)
-    - [4.2. コードの最適化](#42-コードの最適化)
-  - [5. WebブラウザにおけるJavaScript API](#5-webブラウザにおけるjavascript-api)
-    - [5.1. イベント](#51-イベント)
-    - [5.2. DOM応用](#52-dom応用)
-    - [5.3. ウィンドウオブジェクト](#53-ウィンドウオブジェクト)
-    - [5.4. Selectors API](#54-selectors-api)
-    - [5.5. History API](#55-history-api)
-  - [6. グラフィックス・アニメーション](#6-グラフィックスアニメーション)
-    - [6.1. Canvas(2D)](#61-canvas2d)
-    - [6.2. SVG](#62-svg)
-    - [6.3. Timing control for script-based animations](#63-timing-control-for-script-based-animations)
-  - [7. マルチメディア](#7-マルチメディア)
-    - [7.1. メディア要素のAPI](#71-メディア要素のapi)
-    - [7.2. DeviceOrientation Event](#72-deviceorientation-event)
-  - [8. ストレージ](#8-ストレージ)
-    - [8.1. Web Storage](#81-web-storage)
-    - [8.2. Indexed Database API](#82-indexed-database-api)
-    - [8.3. File API](#83-file-api)
-    - [8.4. バイナリーデータ](#84-バイナリーデータ)
-  - [9. 通信](#9-通信)
-    - [9.1. WebSocket](#91-websocket)
-    - [9.2. XMLHttpRequest](#92-xmlhttprequest)
-    - [9.3. Server-Sent Events](#93-server-sent-events)
-  - [10. デバイスアクセス](#10-デバイスアクセス)
-    - [10.1. Geolocation API](#101-geolocation-api)
-    - [10.2. 2.10.2 DeviceOrientation Event](#102-2102-deviceorientation-event)
-  - [11. パフォーマンスとオフライン](#11-パフォーマンスとオフライン)
-    - [11.1. Web Workers](#111-web-workers)
-    - [11.2. High Resolution Time](#112-high-resolution-time)
-    - [11.3. Service Workerによるオフラインアプリケーション](#113-service-workerによるオフラインアプリケーション)
-    - [11.4. Page Visibility](#114-page-visibility)
-    - [11.5. Navigation Timing](#115-navigation-timing)
-  - [12. セキュリティ](#12-セキュリティ)
-    - [12.1. クロスオリジン制約とCORS](#121-クロスオリジン制約とcors)
-    - [12.2. セキュリティモデルとSSLの関係](#122-セキュリティモデルとsslの関係)
+- [1. 高度なJavaScript](#1-高度なjavascript)
+  - [1.1. 非同期処理](#11-非同期処理)
+  - [1.2. モジュールとパッケージ管理](#12-モジュールとパッケージ管理)
+- [2. 高度なイベント処理](#2-高度なイベント処理)
+  - [2.1. カスタムイベント](#21-カスタムイベント)
+  - [2.2. 高度なイベントリスナ](#22-高度なイベントリスナ)
+- [3. パフォーマンスと最適化](#3-パフォーマンスと最適化)
+  - [3.1. パフォーマンス測定](#31-パフォーマンス測定)
+  - [3.2. コードの最適化](#32-コードの最適化)
+- [4. WebブラウザにおけるJavaScript API](#4-webブラウザにおけるjavascript-api)
+  - [4.1. イベント](#41-イベント)
+  - [4.2. DOM応用](#42-dom応用)
+  - [4.3. ウィンドウオブジェクト](#43-ウィンドウオブジェクト)
+  - [4.4. Selectors API](#44-selectors-api)
+  - [4.5. History API](#45-history-api)
+- [5. グラフィックス・アニメーション](#5-グラフィックスアニメーション)
+  - [5.1. Canvas(2D)](#51-canvas2d)
+  - [5.2. SVG](#52-svg)
+  - [5.3. Timing control for script-based animations](#53-timing-control-for-script-based-animations)
+- [6. マルチメディア](#6-マルチメディア)
+  - [6.1. メディア要素のAPI](#61-メディア要素のapi)
+  - [6.2. DeviceOrientation Event](#62-deviceorientation-event)
+- [7. ストレージ](#7-ストレージ)
+  - [7.1. Web Storage](#71-web-storage)
+  - [7.2. Indexed Database API](#72-indexed-database-api)
+  - [7.3. File API](#73-file-api)
+  - [7.4. バイナリーデータ](#74-バイナリーデータ)
+- [8. 通信](#8-通信)
+  - [8.1. WebSocket](#81-websocket)
+  - [8.2. XMLHttpRequest](#82-xmlhttprequest)
+  - [8.3. Server-Sent Events](#83-server-sent-events)
+- [9. デバイスアクセス](#9-デバイスアクセス)
+  - [9.1. Geolocation API](#91-geolocation-api)
+  - [9.2. 2.10.2 DeviceOrientation Event](#92-2102-deviceorientation-event)
+- [10. パフォーマンスとオフライン](#10-パフォーマンスとオフライン)
+  - [10.1. Web Workers](#101-web-workers)
+  - [10.2. High Resolution Time](#102-high-resolution-time)
+  - [10.3. Service Workerによるオフラインアプリケーション](#103-service-workerによるオフラインアプリケーション)
+  - [10.4. Page Visibility](#104-page-visibility)
+  - [10.5. Navigation Timing](#105-navigation-timing)
+- [11. セキュリティ](#11-セキュリティ)
+  - [11.1. クロスオリジン制約とCORS](#111-クロスオリジン制約とcors)
+  - [11.2. セキュリティモデルとSSLの関係](#112-セキュリティモデルとsslの関係)
 
-# JavaScript Level 2 出題範囲
+# JavaScript Level 2 出題範囲 <!-- omit in toc -->
 
 ## 1. 高度なJavaScript
 
-### 1.2. 非同期処理
+### 1.1. 非同期処理
 
 **主要な知識範囲**
 
@@ -84,7 +80,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - アロー関数
 - テンプレートリテラル
 
-### 1.3. モジュールとパッケージ管理
+### 1.2. モジュールとパッケージ管理
 
 **出題種別**
 
@@ -154,57 +150,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - removeEventListener
 - イベントデリゲーション
 
-## 3. 高度なDOM操作
+## 3. パフォーマンスと最適化
 
-### 3.1. DOMの深堀り
-
-**出題種別**
-
-- 知識問題
-- コードリーティング問題
-- 記述問題
-
-**説明（望まれるスキル）**
-
-- DOMの詳細な構造を理解し、複雑な操作を行うことができる。
-
-**主要な知識範囲**
-
-- DOMの詳細な構造と操作方法
-
-**重要な技術要素**
-
-- ノードの操作
-- 属性の操作
-- イベントの操作
-
-### 3.2. 高度な要素操作
-
-**出題種別**
-
-- 知識問題
-- コードリーティング問題
-- 記述問題
-
-**説明（望まれるスキル）**
-
-- 高度な要素操作を行い、動的なWebコンテンツを作成できる。
-
-**主要な知識範囲**
-
-- 高度な要素操作の方法と応用
-
-**重要な技術要素**
-
-- innerHTML, textContent
-- createElement, appendChild
-- クラス操作（classList）
-- デストラクチャリング
-- スプレッド構文
-
-## 4. パフォーマンスと最適化
-
-### 4.1. パフォーマンス測定
+### 3.1. パフォーマンス測定
 
 **出題種別**
 
@@ -225,7 +173,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Performance API
 - console.time, console.timeEnd
 
-### 4.2. コードの最適化
+### 3.2. コードの最適化
 
 **出題種別**
 
@@ -246,9 +194,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - メモリ管理
 - レンダリング最適化
 
-## 5. WebブラウザにおけるJavaScript API
+## 4. WebブラウザにおけるJavaScript API
 
-### 5.1. イベント
+### 4.1. イベント
 
 **出題種別**
 
@@ -278,7 +226,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - タッチ系イベント
   - touchstart, touchmove, touchend
 
-### 5.2. DOM応用
+### 4.2. DOM応用
 
 **出題種別**
 
@@ -304,7 +252,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - `MutationObserver`などのDOM変更検知
 - `requestAnimationFrame()`を使った効率的な再描画制御
 
-### 5.3. ウィンドウオブジェクト
+### 4.3. ウィンドウオブジェクト
 
 **出題種別**
 
@@ -331,7 +279,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - window.open(), window.close()
 - window.moveTo(), window.resizeTo()
 
-### 5.4. Selectors API
+### 4.4. Selectors API
 
 **出題種別**
 
@@ -351,7 +299,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - querySelector, querySelectorAll
 
-### 5.5. History API
+### 4.5. History API
 
 **出題種別**
 
@@ -376,9 +324,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
 
-## 6. グラフィックス・アニメーション
+## 5. グラフィックス・アニメーション
 
-### 6.1. Canvas(2D)
+### 5.1. Canvas(2D)
 
 **説明（望まれるスキル）**  
 - Canvasの特性を理解し、2Dコンテキストを使って基本図形の描画や描画状態の管理を行い、動的なグラフィックスやインタラクションを実装できる。
@@ -401,7 +349,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - context.globalAlpha, context.globalCompositeOperation
 - context.drawImage(), context.createImageData()
 
-### 6.2. SVG
+### 5.2. SVG
 
 **出題種別**
 
@@ -422,7 +370,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 
 - ベクターグラフィック、XML
 
-### 6.3. Timing control for script-based animations
+### 5.3. Timing control for script-based animations
 
 **出題種別**
 
@@ -448,9 +396,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
 - FrameRequestCallbackオブジェクト
 
-## 7. マルチメディア
+## 6. マルチメディア
 
-### 7.1. メディア要素のAPI
+### 6.1. メディア要素のAPI
 
 **主要な知識範囲**
 
@@ -468,7 +416,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（play(), pause(), load()）
   - イベントハンドラ（onplay, onplaying, ontimeupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
 
-### 7.2. DeviceOrientation Event
+### 6.2. DeviceOrientation Event
 
 **出題種別**
 
@@ -497,9 +445,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## 8. ストレージ
+## 7. ストレージ
 
-### 8.1. Web Storage
+### 7.1. Web Storage
 
 **主要な知識範囲**
 
@@ -517,7 +465,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - StorageEventオブジェクト
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
-### 8.2. Indexed Database API
+### 7.2. Indexed Database API
 
 **主要な知識範囲**
 
@@ -536,7 +484,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（name, version, objectStoreNames）
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
-### 8.3. File API
+### 7.3. File API
 
 **主要な知識範囲**
 
@@ -559,7 +507,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（readyState, result, error）
   - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
 
-### 8.4. バイナリーデータ
+### 7.4. バイナリーデータ
 
 **出題種別**
 
@@ -586,9 +534,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - ビッグエンディアン
 - リトルエンディアン
 
-## 9. 通信
+## 8. 通信
 
-### 9.1. WebSocket
+### 8.1. WebSocket
 
 **出題種別**
 
@@ -613,7 +561,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - プロパティ（URL, readyState, bufferedAmount）
   - イベント（onopen, onmessage, onclose）
 
-### 9.2. XMLHttpRequest
+### 8.2. XMLHttpRequest
 
 **出題種別**
 
@@ -647,7 +595,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - XMLHttpRequestEventTargetインターフェイス
     - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
 
-### 9.3. Server-Sent Events
+### 8.3. Server-Sent Events
 
 **出題種別**
 
@@ -675,9 +623,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - onerrorイベントハンドラ
 - Server-Sent EventsのMIME-Type
 
-## 10. デバイスアクセス
+## 9. デバイスアクセス
 
-### 10.1. Geolocation API
+### 9.1. Geolocation API
 
 **主要な知識範囲**
 
@@ -698,7 +646,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - PositionErrorオブジェクト
   - プロパティ（code, message）
 
-### 10.2. 2.10.2 DeviceOrientation Event
+### 9.2. 2.10.2 DeviceOrientation Event
 
 **主要な知識範囲**
 
@@ -717,9 +665,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## 11. パフォーマンスとオフライン
+## 10. パフォーマンスとオフライン
 
-### 11.1. Web Workers
+### 10.1. Web Workers
 
 **主要な知識範囲**
 
@@ -737,7 +685,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - イベント（onerror, onmessage）
 - ErrorEventインターフェイスのプロパティ（message, filename, lineno）
 
-### 11.2. High Resolution Time
+### 10.2. High Resolution Time
 
 **出題種別**
 
@@ -759,7 +707,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Performanceオブジェクト
 - メソッド（now()）
 
-### 11.3. Service Workerによるオフラインアプリケーション
+### 10.3. Service Workerによるオフラインアプリケーション
 
 **出題種別**
 
@@ -786,7 +734,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
   - メソッド（open(), match(), put(), delete()）
 - Manifestファイルの基本
 
-### 11.4. Page Visibility
+### 10.4. Page Visibility
 
 **出題種別**
 
@@ -810,7 +758,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - プロパティ（hidden, visibilityState）
 - イベント（visibilitychange）
 
-### 11.5. Navigation Timing
+### 10.5. Navigation Timing
 
 **出題種別**
 
@@ -837,9 +785,9 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Windowオブジェクト
 - プロパティ（performance）
 
-## 12. セキュリティ
+## 11. セキュリティ
 
-### 12.1. クロスオリジン制約とCORS
+### 11.1. クロスオリジン制約とCORS
 
 **出題種別**
 
@@ -867,7 +815,7 @@ JavaScript Professional Certification Level 1 認定を保有し、JavaScript Pr
 - Access-Control-Allow-Headersヘッダー
 - プリフライトリクエスト
 
-### 12.2. セキュリティモデルとSSLの関係
+### 11.2. セキュリティモデルとSSLの関係
 
 **出題種別**
 
