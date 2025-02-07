@@ -7,31 +7,16 @@
 | **認定名**         | HTML5 Professional Certification Level 1      |
 | **試験の正式名称** | HTML5 Professional Certification Level 1 Exam |
 
-<table>
-<tbody>
-<tr class="odd">
-<td style="background:#dadada"><p><strong>凡例</strong></p></td>
-<td style="background:#eaeaea"><ul>
-<li><font color=blue>青 : 追加</font></li>
-<li><font color=red>赤 : <del>削除</del> or 削除</font></li>
-<li><font color=green>緑 : <del>変更前</del>変更後</font></li>
-<li><font color=purple>紫 : 課題</font></li>
-<li><font color=brown>茶 : メモ</font></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
 ## 認定条件
 
 HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professional Certification Level 1 に認定されます。
 
 ## 望まれるスキルレベル
 
-- HTML5 <font color=blue>(HTML Standard, CSS などの Web 技術)</font> を使って Web コンテンツを制作できる。
+- HTML5 (HTML Standard, CSS などの Web 技術)を使って Web コンテンツを制作できる。
 - ユーザ体験を考慮した Web コンテンツを設計・制作できる。
 - スマートフォンや組み込み機器など、ブラウザが利用可能な様々なデバイスに対応したコンテンツを制作できる。
-- HTML5 <font color=blue>(HTML Standard, CSS などの Web 技術)</font> で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
+- HTML5 (HTML Standard, CSS などの Web 技術)で何ができるか、どういった技術を使うべきかの広範囲の基礎知識を有する。
 
 # HTML5 Level 1 出題範囲 V2.5
 
@@ -56,7 +41,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - ブラウザとWebサーバ間でやりとりされる通信内容や手順
 - HTTPリクエストにおけるメソッド種類と違い
-- <font color=blue>HTTPプロトコルバージョンによる違い</font>
+- HTTPプロトコルバージョンによる違い
 - リクエストURIの仕様について書式や利用可能文字
 - Webサーバが返すレスポンスのヘッダ項目
 - Webサーバが返すレスポンスのステータスコード
@@ -66,7 +51,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - HTTP, HTTPS, SSL/TLS
 - リクエストメソッド（GET, POST, HEAD, PUT, DELETEなど）
-- <font color=blue>HTTP/1.1, HTTP/2</font>
+- HTTP/1.1, HTTP/2
 - URI, URL
 - ステータスコード, リダイレクト
 - HTTP Header Fields（Accept, Authorization, Cache-Control, Content-Language, Expiresなど）
@@ -89,19 +74,17 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **主要な知識範囲**
 
-- <font color=red><del>HTMLバージョン情報を含む</del></font>文書型宣言に関する記述方法
-- <font color=red><del>要件に合わせた</del></font>言語コードと<font color=red><del>、</del></font>文字コード（符号化方式）の指定に関する記述方法
+- HTML文書型宣言に関する記述方法
+- 言語コードと文字コード（符号化方式）の指定に関する記述方法
 - HTMLで使用可能な文字参照に関する記述方法
-- <font color=red><del>必要に応じて、ヘッダ内に</del></font>外部リソースを指定するリンクに関する記述方法
-- <font color=red><del>必要に応じて、ヘッダ内に</del></font>メタ情報に関する記述方法
+- 外部リソースを指定するリンクに関する記述方法
+- メタ情報に関する記述方法
 
 **重要な技術要素**
 
-- <font color=red><del>文書型宣言</del></font><font color=blue>\<!DOCTYPE html\></font>
-- <font color=red><del>ISO-2022-JP, Shift_JIS, EUC-JP, UTF-8</del></font>
-- <font color=blue>html lang="ja", meta charset="UTF-8"</font>
-- <font color=red><del>文字実体参照</del></font>
-- <font color=blue>&nbsp;, &amp;, &yen; など </font>
+- 文書型宣言
+- html lang="ja", meta charset="UTF-8"
+- &nbsp;, &amp;, &yen; など
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
 ### 1.1.3 Web関連技術の概要 (6)
@@ -121,8 +104,8 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 **主要な知識範囲**
 
 - Webコンテンツを作成する際に使うスクリプト言語や画像ファイル、規格の概要
-- Web<font color=green><del>に関する、</del>サイトにおける</font>セキュリティ脅威に関する技術の概要
-- <font color=green><del>要件に応じて、</del>さまざまな要件の</font>HTMLコンテンツ作成<font color=green><del>の際に</del>で</font>理解が必要となるWeb関連技術の概要
+- Webサイトにおけるセキュリティ脅威に関する技術の概要
+- さまざまな要件のHTMLコンテンツ作成の際に理解が必要となるWeb関連技術の概要
 
 **重要な技術要素**
 
@@ -192,7 +175,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - 色指定（color, opacity）
 - 背景指定（background, background-color, background-image, background-repeat, background-position, background-attachment, background-clip, background-origin, background-size）
 - 罫線（border, border-style, border-width, border-color, border-radius, box-shadow, liner-gradient, radial-gradient）
-- フォント（font, font-size, font-weight, font-style, font-variant, font-family <font color=blue>(family-name \| generic-family)</font>, Webフォント(@font-face)）
+- フォント（font, font-size, font-weight, font-style, font-variant, font-family (family-name \| generic-family), Webフォント(@font-face)）
 - テキスト（text-transform, white-space, word-break, hyphens, text-align, word-spacing, letter-spacing, text-indent）
 - テキスト装飾（text-decoration, text-decoration-line, text-decoration-style, text-decoration-color, text-shadow, line-height, vertical-align, direction, unicode-bidi, quotes）
 - リスト（list-style, list-style-type, list-style-image, list-style-position, <content:counter>, counter-increment, counter-reset）
@@ -243,7 +226,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **主要な知識範囲**
 
-- <font color=green><del>HTML5.1仕様</del>HTML Standard</font>で規定され<font color=green><del>た</del>ている</font>HTML要素と属性の意味
+- HTML Standardで規定されているHTML要素と属性の意味
 - セクションの概念
 
 **重要な技術要素**
@@ -321,7 +304,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.4 レスポンシブWebデザイン*
 
-### 1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del> =\> 7</font>)
+### 1.4.1 マルチデバイス対応
 
 該当項目: `level1_markup/1.4.1 マルチデバイス対応`
 
@@ -333,32 +316,29 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **説明（望まれるスキル）**
 
-- 要件に沿ったページをデザイン・設計する際に、<font color=green><del>どのような画面サイズであっても</del>さまざまな画面サイズに合わせて</font>デザインが仕様どおりになる<font color=red><del>ような</del></font>ページの実現方法を理解しており、マルチデバイス対応のページを<font color=green><del>作る事が</del>作成</font>できる。
-- スマートフォン<font color=blue>などのモバイル環境</font>でWebコンテンツを閲覧する時を考慮し、回線速度など<font color=green><del>スマートフォン</del>モバイル</font>特有の環境でも快適に閲覧できるコンテンツを設計・開発できる。
+- 要件に沿ったページをデザイン・設計する際に、様々な画面サイズに合わせてデザインが仕様どおりになるようなページの実現方法を理解しており、マルチデバイス対応のページを作成できる。
+- スマートフォンなどのモバイル環境でWebコンテンツを閲覧する時を考慮し、回線速度などモバイル特有の環境でも快適に閲覧できるコンテンツを設計・開発できる。
 
 **主要な知識範囲**
 
-- <font color=red><del>マルチデバイス対応ページを作成する際に考慮すべき点</del></font>
-- <font color=green><del>レスポンシブWebデザイン</del>マルチデバイス</font>におけるページ構成要素の配置手法
-- <font color=green><del>レスポンシブWebデザイン</del>マルチデバイス</font>における画像の扱い
-- <font color=green><del>スマートフォン</del>モバイル</font>特有の設定について、注意すべき点
+- マルチデバイスにおけるページ構成要素の配置手法
+- マルチデバイスにおける画像の扱い
+- モバイル特有の設定について、注意すべき点
 - 低回線速度環境で閲覧する際のパフォーマンス向上技術
 
 **重要な技術要素**
 
-- <font color=blue>スマートフォン、タブレット、PC、プリンタ</font>
-- フルードグリッド(Fluid Grid)
+- <マートフォン、タブレット、PC、プリンタ<- フルードグリッド(Fluid Grid)
 - フルードイメージ(Fluid Image)
 - 固定レイアウト、可変レイアウト
-- <font color=red><del>viewport</del></font>
 - リセットCSS
-- <font color=blue>CSSスプライト</font>
-- <font color=blue>高解像度画面向け対応</font>
-- <font color=blue>viewport, density, initial-scale</font>
-- <font color=blue>ファビコン, アイコン設定(apple-touch-icon, apple-touch-icon-precomposed)</font>
-- <font color=blue>スタンドアローンモード</font>
-- <font color=blue>電話番号へのリンク</font>
-- <font color=blue>script要素, async属性, defer属性</font>
+- CSSスプライト
+- 高解像度画面向け対応
+- viewport, density, initial-scale
+- ファビコン, アイコン設定(apple-touch-icon, apple-touch-icon-precomposed)
+- スタンドアローンモード
+- 電話番号へのリンク
+- script要素, async属性, defer属性
 
 ### 1.4.2 メディアクエリ (5)
 
@@ -385,40 +365,6 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - メディアタイプ
 - メディア特性
 - ピクセル, dpi, dpcm
-
-### <font color=red><del>1.4.3 スマートフォンサイト最適化 (3)</del></font> １．４．１ に移動
-
-該当項目: `level1_markup/1.4.1 マルチデバイス対応`
-
-<font color=brown>以下削除</font>
-
-<font color=red><del> **出題種別**
-
-- 知識問題
-- コードリーティング問題
-- 記述問題
-
-**説明（望まれるスキル）**
-
-- スマートフォンでWebコンテンツを閲覧する時を考慮し、回線速度などスマートフォン特有の環境でも快適に閲覧できるコンテンツを設計・開発できる。
-
-**主要な知識範囲**
-
-- スマートフォンにおける画像の扱い
-- スマートフォン特有の設定について、注意すべき点
-- スマートフォンにて閲覧する際のパフォーマンス向上技術
-
-**重要な技術要素**
-
-- CSSスプライト
-- 高解像度画面向け対応
-- viewport, density, initial-scale
-- ファビコン, アイコン設定(apple-touch-icon, apple-touch-icon-precomposed)
-- スタンドアローンモード
-- 電話番号へのリンク
-- script要素, async属性, defer属性
-
-</del></font>
 
 ## *1.5 APIの基礎知識*
 
@@ -482,7 +428,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - DOM3 Events (UI Events)
 - Touch Events
 - Pointer Events
-- <font color=blue>Generic Sensor API</font>
+- Generic Sensor API
 
 ### 1.5.3 オフライン・ストレージ系API概要 (<del>8</del> =\> 4)
 
@@ -507,11 +453,9 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 - Web Storage
 - Indexed Database API
-- <font color=red><del>　Application cache</del></font>
 - Web Workers
 - Service Workers
 - Push API
-- <font color=red><del>fetch ... 1.5.4 へ移動</del></font>
 
 ### 1.5.4 通信系API概要 (3)
 
@@ -534,7 +478,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 **重要な技術要素**
 
-- XMLHttpRequest<font color=blue>(XHR) / fetch API</font>
+- XMLHttpRequest(XHR) / fetch API
 - WebSocket API
 - Server-Sent Events
 - WebRTC
