@@ -27,7 +27,7 @@
 
 ## *2.1 JavaScript*
 
-### <span style="color:navy">2.1.1 JavaScript文法(重要度：10)</span>
+### 2.1.1 JavaScript文法(重要度：10)
 
 該当項目: `level1_programming/1.1.1 JavaScript文法`
 
@@ -86,7 +86,7 @@
 - スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
 
-### <span style="color:navy"><b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) </b></span>
+### <b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) </b>
 
 該当項目: `level2_programming/2.1.1 ES6以降の新機能`
 
@@ -120,7 +120,7 @@
 
 ## *2.2 WebブラウザにおけるJavaScript API*
 
-### <span style="color:navy">2.2.1 イベント(重要度：8)</span>
+### 2.2.1 イベント(重要度：8)
 
 該当項目: `level2_programming/2.5.1 イベント`
 
@@ -173,7 +173,7 @@
 - タッチ系イベント
   - touchstart, touchmove, touchend
 
-### <span style="color:navy">2.2.2 ドキュメントオブジェクト／DOM(重要度：6)</span>
+### 2.2.2 ドキュメントオブジェクト／DOM(重要度：6)
 
 該当項目: `level2_programming/2.5.2 ドキュメントオブジェクト／DOM`
 
@@ -209,7 +209,7 @@
 - hasAttribute()
 - removeAttribute()
 
-### <span style="color:navy">2.2.3 ウィンドウオブジェクト(重要度：8)</span>
+### 2.2.3 ウィンドウオブジェクト(重要度：8)
 
 該当項目: `level2_programming/2.5.3 ウィンドウオブジェクト`
 
@@ -244,7 +244,7 @@
 - メソッド
 - イベントハンドラ
 
-### <span style="color:navy">2.2.4 Selectors API(重要度：7)</span>
+### 2.2.4 Selectors API(重要度：7)
 
 該当項目: `level2_programming/2.5.4 Selectors API`
 
@@ -267,7 +267,7 @@
 
 - querySelector, querySelectorAll
 
-### <span style="color:navy">2.2.5 History　API(重要度：7)</span>
+### 2.2.5 History　API(重要度：7)
 
 該当項目: `level2_programming/2.5.5 History API`
 
@@ -300,7 +300,7 @@
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
 
-### <span style="color:navy">2.2.6 テスト・デバッグ(重要度：6)</span>
+### 2.2.6 テスト・デバッグ(重要度：6)
 
 該当項目: `level2_programming/2.5.6 テスト・デバッグ`
 
@@ -325,7 +325,7 @@
 
 ## *2.3 グラフィックス・アニメーション*
 
-### <span style="color:navy">2.3.1 Canvas(2D)(重要度：8)</span>
+### 2.3.1 Canvas(2D)(重要度：8)
 
 該当項目: `level2_programming/2.3.1 Canvas(2D)`
 
@@ -370,7 +370,7 @@
 - context.globalAlpha, context.globalCompositeOperation
 - context.drawImage(), context.createImageData()
 
-### <span style="color:navy">2.3.2 SVG(重要度：2)</span>
+### 2.3.2 SVG(重要度：2)
 
 該当項目: `level2_programming/2.3.2 SVG`
 
@@ -391,7 +391,7 @@
 
 - ベクターグラフィック、XML
 
-### <span style="color:navy">2.3.3 Timing control for script-based animations(重要度：2)</span>
+### 2.3.3 Timing control for script-based animations(重要度：2)
 
 該当項目: `level2_programming/2.3.3 Timing control for script-based animations`
 
@@ -420,7 +420,7 @@
 
 ## *2.4 マルチメディア*
 
-### <span style="color:navy">2.4.1 メディア要素のAPI(重要度：5)</span>
+### 2.4.1 メディア要素のAPI(重要度：5)
 
 該当項目: `level2_programming/2.4.1 メディア要素のAPI`
 
@@ -453,7 +453,7 @@
 
 ## *2.5 ストレージ*
 
-### <span style="color:navy">2.5.1 Web Storage(重要度：7)</span>
+### 2.5.1 Web Storage(重要度：7)
 
 該当項目: `level2_programming/2.5.1 Web Storage`
 
@@ -482,7 +482,7 @@
 - StorageEventオブジェクト
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
-### <span style="color:navy">2.5.2 Indexed Database API(重要度：5)</span>
+### 2.5.2 Indexed Database API(重要度：5)
 
 該当項目: `level2_programming/2.5.2 Indexed Database API`
 
@@ -512,7 +512,7 @@
   - プロパティ（name, version, objectStoreNames）
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
-### <span style="color:navy">2.5.3 File API(重要度：5)</span>
+### 2.5.3 File API(重要度：5)
 
 該当項目: `level2_programming/2.5.3 File API`
 
@@ -546,7 +546,7 @@
   - プロパティ（readyState, result, error）
   - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
 
-### <span style="color:navy">2.5.4 バイナリーデータ(重要度：4)</span>
+### 2.5.4 バイナリーデータ(重要度：4)
 
 該当項目: `level2_programming/2.5.4 バイナリーデータ`
 
@@ -575,7 +575,7 @@
 
 ## *2.6 通信*
 
-### <span style="color:navy">2.6.1 WebSocket(重要度：5)</span>
+### 2.6.1 WebSocket(重要度：5)
 
 該当項目: `level2_programming/2.6.1 WebSocket`
 
@@ -602,7 +602,7 @@
   - プロパティ(URL, readyState, bufferedAmount)
   - イベント(onopen, onmessage, onclose)
 
-### <span style="color:navy">2.6.2 XMLHttpRequest(重要度：5)</span>
+### 2.6.2 XMLHttpRequest(重要度：5)
 
 該当項目: `level2_programming/2.6.2 XMLHttpRequest`
 
@@ -641,7 +641,7 @@
   - XMLHttpRequestEventTarget インターフェイス
     - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
 
-### <span style="color:navy">2.6.3 Server-Sent Events(重要度：1)</span>
+### 2.6.3 Server-Sent Events(重要度：1)
 
 該当項目: `level2_programming/2.6.3 Server-Sent Events`
 
@@ -671,7 +671,7 @@
 
 ## *2.7 デバイスアクセス*
 
-### <span style="color:navy">2.7.1 Geolocation API(重要度：5)</span>
+### 2.7.1 Geolocation API(重要度：5)
 
 該当項目: `level2_programming/2.7.1 Geolocation API`
 
@@ -702,7 +702,7 @@
 - PositionErrorオブジェクト
   - プロパティ（code, message）
 
-### <span style="color:navy">2.7.2 DeviceOrientation Event(重要度：1)</span>
+### 2.7.2 DeviceOrientation Event(重要度：1)
 
 該当項目: `level2_programming/2.7.2 DeviceOrientation Event`
 
@@ -733,7 +733,7 @@
 
 ## *2.8 パフォーマンスとオフライン*
 
-### <span style="color:navy">2.8.1 Web Workers(重要度：5)</span>
+### 2.8.1 Web Workers(重要度：5)
 
 該当項目: `level2_programming/2.8.1 Web Workers`
 
@@ -762,7 +762,7 @@
   - イベント（onerror, onmessage)
 - ErrorEventインターフェイスのプロパティ(message, filename, lineno)
 
-### <span style="color:navy">2.8.2 High Resolution Time(重要度：2)</span>
+### 2.8.2 High Resolution Time(重要度：2)
 
 該当項目: `level2_programming/2.8.2 High Resolution Time`
 
@@ -784,7 +784,7 @@
 - Performanceオブジェクト
 - メソッド（now()）
 
-### <span style="color:navy">2.8.3 オフラインアプリケーションAPI(重要度：3)</span>
+### 2.8.3 オフラインアプリケーションAPI(重要度：3)
 
 該当項目: `level2_programming/2.8.3 オフラインアプリケーションAPI`
 
@@ -813,7 +813,7 @@
 - Navigatorオブジェクト
   - プロパティ（onLine）
 
-### <span style="color:navy">2.8.4 Page Visibility(重要度：2)</span>
+### 2.8.4 Page Visibility(重要度：2)
 
 該当項目: `level2_programming/2.8.4 Page Visibility`
 
@@ -837,7 +837,7 @@
 - プロパティ（hidden, visibilityState）
 - イベント（visibilitychange）
 
-### <span style="color:navy">2.8.5 Navigation Timing(重要度：1)</span>
+### 2.8.5 Navigation Timing(重要度：1)
 
 該当項目: `level2_programming/2.8.5 Navigation Timing`
 
@@ -866,7 +866,7 @@
 
 ## *2.9 セキュリティモデル*
 
-### <span style="color:navy">2.9.1 クロスオリジン制約とCORS(重要度：4)</span>
+### 2.9.1 クロスオリジン制約とCORS(重要度：4)
 
 該当項目: `level2_programming/2.9.1 クロスオリジン制約とCORS`
 
@@ -900,7 +900,7 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 - Access-Control-Allow-Methodsヘッダー
 - Access-Control-Allow-Headersヘッダー
 
-### <span style="color:navy">2.9.2 セキュリティモデルとSSLの関係(重要度：4)</span>
+### 2.9.2 セキュリティモデルとSSLの関係(重要度：4)
 
 該当項目: `level2_programming/2.9.2 セキュリティモデルとSSLの関係`
 
