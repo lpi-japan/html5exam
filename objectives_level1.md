@@ -37,7 +37,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.1 Webの基礎知識*
 
-### <span style="color:navy">1.1.1 HTTP, HTTPSプロトコル(8)</span>
+### 1.1.1 HTTP, HTTPSプロトコル(8)
 
 該当項目: `level1_markup/1.1.3 Web関連技術の概要`
 
@@ -73,7 +73,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Basic認証、Digest認証
 - HTTP cookie
 
-### <span style="color:navy">1.1.2 HTMLの書式 (9)</span>
+### 1.1.2 HTMLの書式 (9)
 
 該当項目: `level1_markup/1.1.2 HTMLの書式`
 
@@ -104,7 +104,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - <font color=blue>&nbsp;, &amp;, &yen; など </font>
 - \<html\>,\<title\>,\<link\>,\<meta\>
 
-### <span style="color:navy">1.1.3 Web関連技術の概要 (6)</span>
+### 1.1.3 Web関連技術の概要 (6)
 
 該当項目: `level1_markup/1.1.3 Web関連技術の概要`
 
@@ -138,7 +138,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.2 CSS*
 
-### <span style="color:navy">1.2.1 スタイルシートの基本 (7)</span>
+### 1.2.1 スタイルシートの基本 (7)
 
 該当項目: `level1_markup/1.2.1 スタイルシートの基本`
 
@@ -163,7 +163,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - セレクタ, タイプセレクタ, クラスセレクタ, IDセレクタ, ユニバーサルセレクタ, 属性セレクタ
 - シンプルセレクタ（疑似クラス）, 疑似要素, 結合子, グループ化
 
-### <span style="color:navy">1.2.2 CSSデザイン (9)</span>
+### 1.2.2 CSSデザイン (9)
 
 該当項目: `level1_markup/1.2.2 CSSデザイン`
 
@@ -201,7 +201,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - トランジション（transition, transition-duration, transition-property, transition-timing-function, transition-delay）
 - アニメーション（@keyframes, animation, animation-name, animation-delay, animation-duration, animation-iteration-count, animation-timing-function, animation-direction, animation-play-state, animation-fill-mode）
 
-### <span style="color:navy">1.2.3 カスケード（優先順位）　(2)</span>
+### 1.2.3 カスケード（優先順位）　(2)
 
 該当項目: `level1_markup/1.2.3 カスケード（優先順位）`
 
@@ -227,7 +227,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.3 要素*
 
-### <span style="color:navy">1.3.1 要素と属性の意味（セマンティクス） (10)</span>
+### 1.3.1 要素と属性の意味（セマンティクス） (10)
 
 該当項目: `level1_markup/1.3.1 要素と属性の意味（セマンティクス）`
 
@@ -258,7 +258,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - 言語のセマンティクス
 - 表のセマンティクス
 
-### <span style="color:navy">1.3.2 メディア要素 (6)</span>
+### 1.3.2 メディア要素 (6)
 
 該当項目: `level1_markup/1.3.2 メディア要素`
 
@@ -287,7 +287,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - コンテナ
 - 字幕
 
-### <span style="color:navy">1.3.3 インタラクティブ要素 (7)</span>
+### 1.3.3 インタラクティブ要素 (7)
 
 該当項目: `level1_markup/1.3.3 インタラクティブ要素`
 
@@ -321,7 +321,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.4 レスポンシブWebデザイン*
 
-### <span style="color:navy">1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del> =\> 7</font>)</span>
+### 1.4.1 マルチデバイス対応<font color=red><del>ページの作成</del></font> (<font color=green><del>4</del> =\> 7</font>)
 
 該当項目: `level1_markup/1.4.1 マルチデバイス対応`
 
@@ -360,7 +360,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - <font color=blue>電話番号へのリンク</font>
 - <font color=blue>script要素, async属性, defer属性</font>
 
-### <span style="color:navy">1.4.2 メディアクエリ (5)</span>
+### 1.4.2 メディアクエリ (5)
 
 該当項目: `level1_markup/1.4.2 メディアクエリ`
 
@@ -386,7 +386,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - メディア特性
 - ピクセル, dpi, dpcm
 
-### <span style="color:navy"><font color=red><del>1.4.3 スマートフォンサイト最適化 (3)</del></font> １．４．１ に移動</span>
+### <font color=red><del>1.4.3 スマートフォンサイト最適化 (3)</del></font> １．４．１ に移動
 
 該当項目: `level1_markup/1.4.1 マルチデバイス対応`
 
@@ -422,7 +422,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 
 ## *1.5 APIの基礎知識*
 
-### <span style="color:navy">1.5.1 マルチメディア・グラフィックス系API概要 (5)</span>
+### 1.5.1 マルチメディア・グラフィックス系API概要 (5)
 
 該当項目: `level1_markup/1.5.1 マルチメディア・グラフィックス系API概要`
 
@@ -455,7 +455,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Canvasの機能
 - SVGのマークアップとAPIの基礎知識
 
-### <span style="color:navy">1.5.2 デバイスアクセス系API概要 (4)</span>
+### 1.5.2 デバイスアクセス系API概要 (4)
 
 該当項目: `level1_markup/1.5.2 デバイスアクセス系API概要`
 
@@ -484,7 +484,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Pointer Events
 - <font color=blue>Generic Sensor API</font>
 
-### <span style="color:navy">1.5.3 オフライン・ストレージ系API概要 (<del>8</del> =\> 4)</span>
+### 1.5.3 オフライン・ストレージ系API概要 (<del>8</del> =\> 4)
 
 該当項目: `level1_markup/1.5.3 オフライン・ストレージ系API概要`
 
@@ -513,7 +513,7 @@ HTML5 Professional Certification Level 1 試験に合格すると HTML5 Professi
 - Push API
 - <font color=red><del>fetch ... 1.5.4 へ移動</del></font>
 
-### <span style="color:navy">1.5.4 通信系API概要 (3)</span>
+### 1.5.4 通信系API概要 (3)
 
 該当項目: `level1_markup/1.5.4 通信系API概要`
 
