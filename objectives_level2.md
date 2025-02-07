@@ -29,7 +29,7 @@
 
 ### 2.1.1 JavaScript文法(重要度：10)
 
-該当項目: `level1_programming/1.1.1 JavaScript文法`
+該当項目: 
 
 **出題種別**
 
