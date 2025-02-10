@@ -98,292 +98,260 @@
 
 ### 1.1.1. JavaScript文法
 
-**主要な知識範囲**
-
-- JavaScriptの基本構文と文法
-
-**説明（望まれるスキル）**
-
+**概要**
 - JavaScript文法の基本が理解できること
 
-**重要な技術要素**
-
-- 変数宣言（var, let, const）
-- データ型（文字列、数値、配列、オブジェクトなど）
-- 演算子（算術演算子、比較演算子、論理演算子など）
-- 条件分岐（if, else, switch）
-- ループ（for, while, do-while）
+**詳細**
+- JavaScriptの基本構文と文法
+  - 変数宣言(var, let, const), データ型(文字列、数値、配列、オブジェクトなど)
+  - 演算子(算術, 比較, 論理, 代入, ternary operator, など)
+  - 条件分岐(if, else, switch), ループ(for, while, do-while)
 
 ### 1.1.2. データ型と変数
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- データ型と変数の基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - データ型と変数の取り扱いが正しく理解できること
 
-**重要な技術要素**
-
-- プリミティブ型（文字列、数値、真偽値、null、undefined）
-- オブジェクト型（オブジェクト、配列、関数）
-- 変数のスコープ（グローバルスコープ、ローカルスコープ）
-- 変数の宣言と初期化（var, let, const）
+**詳細**
+- データ型と変数の正しい取り扱い
+  - プリミティブ型(文字列, 数値, 真偽値, null, undefined)
+  - オブジェクト型(オブジェクト, 配列, 関数)
+  - 変数の宣言(var, let, const)とスコープ
 
 ### 1.1.3. 演算子と式
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- 演算子と式の基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - 演算子と式を適切に使いこなせること
 
-**重要な技術要素**
-
-- 算術演算子（+, -, *, /, %）
-- 比較演算子（==, ===, !=, !==, >, <, >=, <=）
-- 論理演算子（&&, ||, !）
-- 代入演算子（=, +=, -=, *=, /=, %=）
-- その他の演算子（typeof, instanceof, ternary operator）
-- オプショナルチェーン演算子(?.)
-- null合体演算子(??)
+**詳細**
+- 演算子と式を適切に使いこなす
+  - 算術演算子(+, -, *, /, %)
+  - 比較演算子(==, ===, !=, !==, など)
+  - 論理演算子(&&, ||, !)
+  - 代入演算子(=, +=, など)
+  - オプショナルチェーン(?.), null合体演算子(??)
 
 ### 1.1.4. コメントとコードの整形
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- コメントとコード整形の重要性
-
-**説明（望まれるスキル）**
-
+**概要**
 - コメントとコード整形の意義を理解し実践できること
 
-**重要な技術要素**
-
-- コメントの種類
-- コードフォーマット
+**詳細**
+- コメントとコード整形の意義
+  - コメントの書き方(//, /* */)
+  - コードフォーマットのガイドライン
 
 ## 1.2. 制御構文
 
 ### 1.2.1. 条件分岐
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- 条件分岐の基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - 条件分岐の仕組みを把握し、適切に活用できること
 
-**重要な技術要素**
-
-- if文
-- else if文
-- else文
-- switch文
+**詳細**
+- 条件分岐の仕組みを把握し、柔軟に使い分ける
+  - if, else if, else, switch文
 
 ### 1.2.2. ループ
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- ループの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - 各種ループ構文を正しく使い分けられること
 
-**重要な技術要素**
-
-- for文
-- while文
-- do-while文
-- for...in文
-- for...of文
+**詳細**
+- 各種ループ構文を正しく使い分ける
+  - for, while, do-while, for...in, for...of
 
 ### 1.2.3. 例外処理
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- 例外処理の基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - 例外処理を用いたエラー制御を理解できること
 
-**重要な技術要素**
-
-- try-catch文の使い方
-- throw文の使い方
-- finally文の使い方
+**詳細**
+- 例外処理によるエラー制御
+  - try-catch, throw, finally
 
 ## 1.3. オブジェクト指向プログラミング
 
 ### 1.3.1. オブジェクトとプロパティ
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- オブジェクトとプロパティの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - オブジェクトの概念とプロパティの操作を習熟していること
 
-**重要な技術要素**
-
-- オブジェクトの作成と操作
-- プロパティの定義とアクセス
-- メソッドの定義と呼び出し
+**詳細**
+- オブジェクトの概念とプロパティの操作
+  - オブジェクトの作成、プロパティ定義・アクセス
+  - メソッドの定義
 
 ### 1.3.2. クラスとインスタンス
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- クラスとインスタンスの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - クラスやインスタンスを設計・利用できること
 
-**重要な技術要素**
-
-- クラスの定義
-- コンストラクタ
-- インスタンスの生成と使用
-- 継承の基本
+**詳細**
+- クラスやインスタンスを設計・利用する
+  - class構文とconstructor
+  - インスタンス生成、継承
 
 ## 1.4. DOM操作
 
 ### 1.4.1. DOMの基本
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- DOMの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - DOM構造を把握して要素を扱えること
 
-**重要な技術要素**
-
-- DOMツリーの構造
-- ノードの種類（要素ノード、テキストノード、属性ノード）
-- DOMの基本操作（要素の取得、作成、追加、削除）
+**詳細**
+- DOM構造を把握し、要素を自在に扱う
+  - DOMツリー, ノード操作(取得, 追加, 削除)
 
 ### 1.4.2. 要素の取得と操作
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- 要素の取得と操作の基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - 要素取得と操作を適切に実装できること
 
-**重要な技術要素**
-
-- 要素の取得方法（getElementById, getElementsByClassName, querySelector, querySelectorAll）
-- 要素の操作方法（innerHTML, textContent, setAttribute, removeAttribute）
+**詳細**
+- 要素取得と操作を正しく実装できる
+  - getElementById, querySelector, setAttribute, removeAttribute
 
 ### 1.4.3. イベントリスナー
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- イベントリスナーの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - イベントハンドリングと伝播を理解し、活用できること
 
-**重要な技術要素**
-
-- イベントリスナーの登録と削除
-- イベントオブジェクトの利用
-- イベントの伝播（バブリング、キャプチャリング）
+**詳細**
+- イベントハンドリングと伝播を理解する
+  - addEventListener, removeEventListener, イベントオブジェクト
 
 ## 1.5. イベント処理
 
 ### 1.5.1. イベントの基本
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- イベントの基本概念
+**概要**
+- イベントの種類と動作を把握し、適切にハンドリングできること
 
-**説明（望まれるスキル）**
-
-- イベントの種類と動作を把握しハンドリングできること
-
-**重要な技術要素**
-
-- イベントの種類（クリックイベント、キーボードイベント、フォームイベントなど）
-- イベントハンドラの定義と登録
+**詳細**
+- イベントの種類・動作を把握しコードに反映する
+  - クリック、キーボード、フォームなど各種イベント
+  - イベントハンドラの登録
 
 ### 1.5.2. フォームの操作とバリデーション
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- フォームの操作とバリデーションの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - フォーム入力の制御とバリデーションを実装できること
 
-**重要な技術要素**
-
-- フォーム要素の操作（値の取得と設定）
-- 入力値のバリデーション（必須チェック、形式チェック）
+**詳細**
+- フォーム入力の制御とバリデーション
+  - 値の取得と設定、必須チェック、形式チェック
 
 ## 1.6. ウィンドウオブジェクト
 
 ### 1.6.1. 基本的なウィンドウ操作
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- ウィンドウオブジェクトの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - ウィンドウオブジェクトの基本機能を使いこなせること
 
-**重要な技術要素**
-
-- Windowオブジェクト
-  - プロパティ（document, location）
-  - メソッド（alert(), confirm(), prompt()）
+**詳細**
+- Windowオブジェクトを活用
+  - document, location, alert(), confirm(), prompt()
 
 ## 1.7. デバッグとテスト
 
 ### 1.7.1. デバッグの基本
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- デバッグの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - デバッグツールを利用しエラーを解析できること
 
-**重要な技術要素**
-
-- コンソールの利用（console.log, console.error, console.warn）
-- デバッガツールの使用（ブレークポイントの設定、ステップ実行）
+**詳細**
+- デバッグツールを活用しエラーを解析
+  - console.logなどのコンソール、ブレークポイント
 
 ### 1.7.2. テストの基本
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-- テストの基本概念
-
-**説明（望まれるスキル）**
-
+**概要**
 - テストの手法を学び、自動化やフレームワークを活用できること
 
-**重要な技術要素**
-
-- ユニットテストの基本（テストケースの作成、アサーション）
-- テストフレームワークの利用（Jest, Mochaなど）
+**詳細**
+- テストの手法とフレームワークを学ぶ
+  - ユニットテスト, Jest, Mocha
 
 
 # 2. JavaScript Level 2 出題範囲
@@ -392,43 +360,31 @@
 
 ### 2.1.1. 非同期処理
 
-**主要な知識範囲**
-
-- 非同期処理の基本概念と実装方法
-
-**重要な技術要素**
-
-- Promise
-- async/await
-- fetch API
-- let, const
-- アロー関数
-- テンプレートリテラル
-
-### 2.1.2. モジュールとパッケージ管理
-
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- 非同期処理の基本概念と実装方法を理解し、効率的に非同期処理を行うことができる。
 
+**詳細**
+- 非同期処理の基本概念と実装方法
+  - Promise, async/await, fetch API
+
+### 2.1.2. モジュールとパッケージ管理
+
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**概要**
 - JavaScriptのモジュール化とパッケージ管理ツールを利用して、効率的にコードを管理できる。
 
-**主要な知識範囲**
-
-- モジュール化の利点と方法
-- パッケージ管理ツールの利用方法
-
-**重要な技術要素**
-
-- import, export
-- npm, yarn
-- PNPM, Bun
-- クラス構文
-- モジュール
+**詳細**
+- モジュール化とパッケージ管理を利用し効率的にコードを管理
+  - import, export, npm, yarn
 
 ## 2.2. 高度なイベント処理
 
@@ -440,622 +396,387 @@
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
-
+**概要**
 - カスタムイベントを作成し、イベント駆動型のアプリケーションを構築できる。
 
-**主要な知識範囲**
-
-- カスタムイベントの作成と利用方法
-
-**重要な技術要素**
-
-- CustomEvent
-- dispatchEvent
+**詳細**
+- カスタムイベントを作成しイベント駆動型アプリを構築
+  - CustomEvent, dispatchEvent
 
 ### 2.2.2. 高度なイベントリスナ
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
-
+**概要**
 - 高度なイベントリスナを設定し、効率的にイベントを管理できる。
 
-**主要な知識範囲**
-
+**詳細**
 - 高度なイベントリスナの設定と管理方法
-
-**重要な技術要素**
-
-- addEventListener
-- removeEventListener
-- イベントデリゲーション
+  - addEventListener, removeEventListener, イベントデリゲーション
 
 ## 2.3. パフォーマンスと最適化
 
 ### 2.3.1. パフォーマンス測定
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
-
+**概要**
 - パフォーマンス測定の方法を理解し、効率的なコードを記述できる。
 
-**主要な知識範囲**
-
-- パフォーマンス測定の方法と指標
-
-**重要な技術要素**
-
-- Performance API
-- console.time, console.timeEnd
+**詳細**
+- パフォーマンス測定の方法と指標を把握し、効率的なコードを記述する
+  - Performance API, console.time
 
 ### 2.3.2. コードの最適化
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
-
+**概要**
 - コードの最適化手法を理解し、パフォーマンスを向上させることができる。
 
-**主要な知識範囲**
-
+**詳細**
 - コードの最適化手法とベストプラクティス
-
-**重要な技術要素**
-
-- メモリ管理
-- レンダリング最適化
+  - メモリ管理、レンダリング最適化
 
 ## 2.4. WebブラウザにおけるJavaScript API
 
 ### 2.4.1. イベント / 2.2.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- JavaScriptのページ読み込みやユーザ操作によるイベント処理を理解している。
 
-- JavaScriptのページ読み込みや、ユーザ操作によって発生するイベントの発生タイミングを理解しており、イベント処理を行うコードを記述することができる。
-
-**主要な知識範囲**
-
-- JavaScriptのページ読み込みや、ユーザ操作によって発生するイベントの発生タイミングと処理方法
-
-**重要な技術要素**
-
-- onloadイベント
-- EventTargetインターフェイス
-  - メソッド（addEventListener(), dispatchEvent(), removeEventListener()）
-- フォームイベント
-  - onblur, onchange, oncontextmenu, onfocus, onformchange, onforminput, oninput, oninvalid, onselect, onsubmit
-- キーボードイベント
-  - onkeydown, onkeypress, onkeyup
-- マウスイベント
-  - onclick, ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onscroll
-- タッチ系イベント
-  - touchstart, touchmove, touchend
+**詳細**
+- JavaScriptのページ読み込みや、ユーザ操作によって発生するイベントの発生タイミングと処理方法を理解し、様々なイベントを理解して処理を記述できる
+  - onload, onblur, onclick, onkeyup, touchstartなど
 
 ### 2.4.2. DOM応用 / 2.2.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- 高度なDOM操作と管理（カスタムイベント、イベントデリゲーション）ができる。
 
-- カスタムイベントやイベントデリゲーションなど、高度なDOM操作と管理ができる。
-
-**主要な知識範囲**
-
-- イベントデリゲーションの概念と活用
-- カスタムイベントの作成と発行
-- 非同期処理や外部ライブラリとの連携
-- パフォーマンスを考慮したDOM操作
-
-**重要な技術要素**
-
-- `addEventListener()`を用いたイベントデリゲーション実装
-- `CustomEvent`, `dispatchEvent()`によるカスタムイベント運用
-- `MutationObserver`などのDOM変更検知
-- `requestAnimationFrame()`を使った効率的な再描画制御
+**詳細**
+- イベントデリゲーションの概念と活用、カスタムイベントの作成と発行、非同期処理や外部ライブラリとの連携、パフォーマンスを考慮したDOM操作を理解し、実践できる
+  - CustomEvent, MutationObserver, requestAnimationFrame
 
 ### 2.4.3. ウィンドウオブジェクト / 2.2.3
 
 **出題種別**
-
-- 知識問題
-- コードリーティング問題
-
-**説明（望まれるスキル）**
-
-- Windowオブジェクトが持つプロパティについて理解しており、イベント発生時におけるウィンドウの移動などの表示制御を行うコードの記述方法を理解している。
-
-**主要な知識範囲**
-
-- Windowオブジェクトのプロパティとメソッドの利用方法
-- より複雑なWindowプロパティの活用
-- ページの位置やサイズ変更、外部ウィンドウ制御
-
-**重要な技術要素**
-
-- Windowオブジェクト
-- プロパティ
-- コンストラクタ
-- メソッド
-- イベントハンドラ
-- window.open(), window.close()
-- window.moveTo(), window.resizeTo()
-
-### 2.4.4. Selectors API / 2.2.4
-
-**出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Windowオブジェクトに関する知識を応用した複雑な表示制御ができる。
 
-- Selectors APIを使って、効率的にHTML要素を操作できる。
+**詳細**
+- Windowオブジェクトのプロパティとメソッドの活用
+- window.open(), window.close(), moveTo(), resizeTo()
+- ページの位置やサイズ変更、外部ウィンドウ制御
 
-**主要な知識範囲**
+### 2.4.4. Selectors API / 2.2.4
 
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
+
+**概要**
+- Selectors APIを使い、効率的にHTML要素を操作できる。
+
+**詳細**
 - Selectors APIを使ったHTML要素への操作方法
-
-**重要な技術要素**
-
 - querySelector, querySelectorAll
 
 ### 2.4.5. History API / 2.2.5
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- History APIを利用して、ブラウザの履歴管理やナビゲーション制御ができる。
 
-- History APIを利用して、ブラウザの履歴を管理し、ユーザーのナビゲーションを制御できる。
-
-**主要な知識範囲**
-
+**詳細**
 - HistoryオブジェクトやLocationオブジェクトのプロパティや関数の利用方法
-
-**重要な技術要素**
-
-- History オブジェクト
-  - プロパティ（length）
-  - メソッド（go(), back(), forward(), pushState(), replaceState()）
-- Location オブジェクト
-  - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
-  - メソッド（assign(), replace(), reload()）
+ - go(), back(), forward(), pushState(), replaceState()
 
 ## 2.5. グラフィックス・アニメーション / 1.5.1
 
 ### 2.5.1. Canvas(2D) / 2.3.1
 
-**説明（望まれるスキル）**  
-- Canvasの特性を理解し、2Dコンテキストを使って基本図形の描画や描画状態の管理を行い、動的なグラフィックスやインタラクションを実装できる。
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
-**主要な知識範囲**
+**概要**
+- Canvasの特徴を理解し、2D描画およびアニメーションを実装できる。
+
+**詳細**
 - Canvasの特徴・利用条件
 - CanvasとSVGの違い
 - 2Dコンテキストの概要と描画状態の遷移
-- 描画状態の保存と復元する方法
-- 基本図形の描画
-- テキスト描画
-- 変形・合成
-
-**重要な技術要素**
-
-- canvas.getContext("2d"), context.save(), restore(), context.beginPath(), context.rect(), clip()
-- context.moveTo(), context.lineTo(), context.stroke(), context.fillRect(), context.strokeRect(), context.clearRect(), context.arc(), context.arcTo(), context.bezierCurveTo(), context.quadraticCurveTo()
-- context.measureText(), context.fillText(), context.strokeText(), context.font
-- context.setTransform(), context.rotate(), context.scale(), context.translate()
-- context.globalAlpha, context.globalCompositeOperation
-- context.drawImage(), context.createImageData()
+- 2Dコンテキストを使った描画やアニメーション
+  - canvas.getContext("2d"), context.arc(), context.fill()
 
 ### 2.5.2. SVG / 2.3.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- SVGの特性を理解し、ベクターグラフィックスを作成できる。
 
-- SVGの特性を理解し、ベクターグラフィックスを利用したWebコンテンツを作成できる。
-
-**主要な知識範囲**
-
+**詳細**
 - SVGの特徴
 - Canvasとの違い
-
-**重要な技術要素**
-
-- ベクターグラフィック、XML
+  - ベクター描画, XML, <svg>要素
 
 ### 2.5.3. Timing control for script-based animations / 2.3.3
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- requestAnimationFrameを使ったアニメーションのタイミング制御を理解し、実装できる。
 
-- requestAnimationFrameを利用して、スムーズなアニメーションを実装できる。
-
-**主要な知識範囲**
-
+**詳細**
 - HTML5におけるアニメーションの概要
 - requestAnimationFrameとsetIntervalの違い
 - リフレッシュレートとの関係
-- requestAnimationFrameを使ったアニメーションフレーム制御
-- cancelAnimationFrameによるフレーム処理リクエストのキャンセル
-
-**重要な技術要素**
-
-- Windowオブジェクト
-  - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
-- FrameRequestCallbackオブジェクト
+  - requestAnimationFrame(), cancelAnimationFrame()
 
 ## 2.6. マルチメディア / 1.5.1
 
 ### 2.6.1. メディア要素のAPI / 2.4.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- メディア要素のAPIを理解し、オーディオやビデオの再生・制御ができる。
 
-- メディア要素の再生や制御方法を理解し、音声・動画を扱うコードを記述できる。
-
-**主要な知識範囲**
-
+**詳細**
 - オーディオデータの再生・停止・状態取得
 - Canvas上での動画表示
 - ビデオデータの再生・停止・状態取得
 - ダウンロード状況に応じた処理
 - メディアリソースの再ロード
 - メディアリソースに関するエラーコード取得
-
-**重要な技術要素**
-
-- HTMLMediaElement(MediaElement)オブジェクト
-  - プロパティ（autoplay, controls, currentTime, ended, error, loop, networkState, paused, played, preload, readyState）
-  - メソッド（play(), pause(), load()）
-  - イベントハンドラ（onplay, onplaying, ontimeupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
+  - HTMLMediaElement, play(), pause(), onplaying, onerror
 
 ### 2.6.2. DeviceOrientation Event / 2.7.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- DeviceOrientation Eventを理解し、デバイスの動きや向きを検知してインタラクションに活用できる。
 
-- DeviceOrientation Eventを利用して、デバイスの動きや向きを検知し、インタラクティブなコンテンツを作成できる。
-
-**主要な知識範囲**
-
+**詳細**
 - コンパスの方角の検知
 - デバイスの傾きの検知
 - デバイスの移動加速度の検知
 - デバイスの回転速度の検知
 - 加速度の単位
-
-**重要な技術要素**
-
-- deviceorientationイベント
-  - DeviceOrientationEventオブジェクト
-- devicemotionイベント
-  - DeviceMotionEventオブジェクト
-  - DeviceAccelerationオブジェクト
-  - DeviceRotationRateオブジェクト
+  - deviceorientationイベント, devicemotionイベント
 
 ## 2.7. ストレージ / 1.5.3
 
 ### 2.7.1. Web Storage / 2.5.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Web Storageの仕組みを理解し、クライアントサイドのデータ保存機能を正しく扱うことができる。
 
-- Web Storageを利用してクライアントサイドにデータを保存・取得・削除できる。
-
-**主要な知識範囲**
-
+**詳細**
 - Web Storageを利用するアプリケーションを作成するにあたって注意すべき、セキュリティの観点からの注意事項
 - ローカルストレージとセッションストレージの違い
-- ローカルストレージに関する仕様と、データの保存、取得、削除
-- セッションストレージに関する仕様と、データの保存、取得、削除
-- ローカルストレージおよびセッションストレージに関するイベント処理
-
-**重要な技術要素**
-
-- localStorageオブジェクト, sessionStorageオブジェクト
-- Storageオブジェクト
-- メソッド（key(), setItem(), getItem(), removeItem(), clear()）
-- StorageEventオブジェクト
-- プロパティ（key, oldValue, newValue, url, storageArea）
+  - localStorage, sessionStorage, setItem(), getItem(), removeItem()
 
 ### 2.7.2. Indexed Database API / 2.5.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Indexed Database APIの特徴を理解し、構造化データを扱うことができる。
 
-- IndexedDBを利用して構造化データを保存・検索できる。
-
-**主要な知識範囲**
-
+**詳細**
 - Indexed Database APIの特徴と、Web Storageとの違い
   - データベースへのアクセス
   - データの読み込み
   - データの保存
-
-**重要な技術要素**
-
-- IDBFactoryオブジェクト
-  - メソッド（open(), deleteDatabase()）
-- IDBRequestオブジェクト
-  - プロパティ（result, error, source, transaction, readyState）
-- IDBDatabaseオブジェクト
-  - プロパティ（name, version, objectStoreNames）
-  - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
+  - IDBFactory.open(), IDBDatabase, createObjectStore()
 
 ### 2.7.3. File API / 2.5.3
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- File APIを理解し、ローカルファイルを読み込み・処理することができる。
 
-- File APIを使ってローカルファイルを読み込み、処理するコードを記述できる。
-
-**主要な知識範囲**
-
+**詳細**
 - HTML5におけるローカルファイルアクセス機能の概要
 - ローカルファイルアクセスにおけるセキュリティ観点での制限事項
 - ファイルオブジェクトリストの取得
 - ローカルファイルの読み込み
-
-**重要な技術要素**
-
-- FileListオブジェクト
-  - プロパティ（length）
-  - メソッド（item()）
-- Blobオブジェクト
-  - プロパティ（size, type）
-- メソッド（slice(), close()）
-  - Fileオブジェクト
-  - プロパティ（name, lastModifiedDate）
-- FileReaderオブジェクト
-  - プロパティ（readyState, result, error）
-  - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
+  - FileList, FileReader, readAsText(), readAsDataURL()
 
 ### 2.7.4. バイナリーデータ / 2.5.4
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- バイナリーデータの扱い方を理解し、効率的に処理することができる。
 
-- バイナリーデータを扱い、効率的にデータを操作できる。
-
-**主要な知識範囲**
-
+**詳細**
 - 型付き配列
 - ビュー
 - バイトオーダー
-
-**重要な技術要素**
-
-- Typed Array
-- ArrayBuffer
-- Blob
-- Blob URL
-- ビッグエンディアン
-- リトルエンディアン
+  - TypedArray, ArrayBuffer, Blob
 
 ## 2.8. 通信　/ 1.5.4
 
 ### 2.8.1. WebSocket / 2.6.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- WebSocketの仕組みを理解し、リアルタイム通信を実装することができる。
 
-- WebSocketを利用して、リアルタイム通信を実現できる。
-
-**主要な知識範囲**
-
+**詳細**
 - WebSocketを使った通信の利点と欠点
 - WebSocketにおけるイベント発生タイミング
 - WebSocketを使ったサーバとの通信（クライアント側のコード）
-
-**重要な技術要素**
-
-- WebSocketオブジェクト
-  - メソッド（send(), close()）
-  - プロパティ（URL, readyState, bufferedAmount）
-  - イベント（onopen, onmessage, onclose）
+  - WebSocketオブジェクト, send(), onopen, onmessage
 
 ### 2.8.2. XMLHttpRequest / 2.6.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- XMLHttpRequestの仕組みを理解し、サーバ通信を行うことができる。
 
-- XMLHttpRequestを利用して、サーバーとの通信を効率的に行うことができる。
-
-**主要な知識範囲**
-
+**詳細**
 - レスポンスデータに関する内容の確認、および用途にあった処理
 - 取得データのブラウザによるキャッシュを防ぐ対策
 - ダウンロードの進捗をリアルタイムに把握する方法
 - タイムアウトの扱い方
-
-**重要な技術要素**
-
-- XMLHttpRequestオブジェクト
-  - リクエスト/レスポンス共通
-    - プロパティ（readyState）
-    - イベント（onreadystatechange）
-  - リクエスト関連
-    - メソッド（open(), setRequestHeader(), send(), abort()）
-    - プロパティ（timeout, withCredentials, upload）
-  - レスポンス処理
-    - メソッド（getResponseHeader(), getAllResponseHeaders(), overrideMimeType()）
-    - プロパティ（status, statusText, responseType, response, responseText, responseXML）
-  - XMLHttpRequestEventTargetインターフェイス
-    - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
+  - open(), send(), onreadystatechange, responseText
 
 ### 2.8.3. Server-Sent Events / 2.6.3
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Server-Sent Eventsの仕組みを理解し、サーバーからプッシュ通知を受け取ることができる。
 
-- Server-Sent Eventsを利用して、サーバーからのプッシュ通知を受け取ることができる。
-
-**主要な知識範囲**
-
+**詳細**
 - サーバーとの接続方法
 - 各種イベントハンドリング
 - データフォーマット
 - サーバーから切断された時の挙動
-
-**重要な技術要素**
-
-- EventSourceオブジェクト
-  - readyStateプロパティ
-  - onopenイベントハンドラ
-  - onmessageイベントハンドラ
-  - onerrorイベントハンドラ
-- Server-Sent EventsのMIME-Type
+  - EventSource, onmessage, onerror
 
 ## 2.9. デバイスアクセス / 1.5.2
 
 ### 2.9.1. Geolocation API / 2.7.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Geolocation APIの仕組みを理解し、位置情報を取得・活用することができる。
 
-- Geolocation APIを使って端末の位置情報を取得し、位置情報を活用するコードを記述できる。
-
-**主要な知識範囲**
-
+**詳細**
 - Geolocation APIの特徴と注意する点
 - 端末における現在の位置情報を取得する方法
 - 現在位置取得後のコールバック関数呼び出し
-
-**重要な技術要素**
-
-- GPS
-- Positionオブジェクト
-  - プロパティ（cords）
-- Coordinatesオブジェクト
-  - プロパティ（latitude, longitude, accuracy, altitude, altitudeAccuracy, heading, speed）
-- Geolocationオブジェクト
-  - メソッド（getCurrentPosition(), watchPosition(), clearWatch()）
-  - コールバック（PositionCallback, PositionErrorCallback）
-- PositionErrorオブジェクト
-  - プロパティ（code, message）
+  - getCurrentPosition(), watchPosition(), Position, Coordinates
 
 ### 2.9.2. DeviceOrientation Event / 2.7.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
 
-- DeviceOrientation Eventを利用してデバイスの向きや動きを検知し、インタラクティブな演出を実装できる。
-
-**主要な知識範囲**
-
+**詳細**
 - コンパスの方角の検知
 - デバイスの傾きの検知
 - デバイスの移動加速度の検知
 - デバイスの回転速度の検知
 - 加速度の単位
-
-**重要な技術要素**
-
-- deviceorientationイベント
-  - DeviceOrientationEventオブジェクト
-- devicemotionイベント
-  - DeviceMotionEventオブジェクト
-  - DeviceAccelerationオブジェクト
-  - DeviceRotationRateオブジェクト
+  - DeviceOrientationEvent, DeviceMotionEvent
 
 ## 2.10. パフォーマンスとオフライン /　1.5.3
 
 ### 2.10.1. Web Workers / 2.8.1
 
-**主要な知識範囲**
+**出題種別**
+- 知識問題
+- コードリーティング問題
+- 記述問題
 
+**概要**
+- Web Workersの仕組みを理解し、バックグラウンド処理を実装することができる。
+
+**詳細**
 - Web Workersの特徴と利用するメリット
 - Workerの新規作成
 - メッセージの送受信
@@ -1063,161 +784,102 @@
 - 受け渡しパラメータに対するメモリ使用量
 - エラー検知、およびエラーイベント
 
-**重要な技術要素**
-
-- Workerオブジェクト
-  - メソッド（terminate(), postMessage()）
-  - イベント（onerror, onmessage）
-- ErrorEventインターフェイスのプロパティ（message, filename, lineno）
+**詳細**
+- Web Workersでバックグラウンド処理を実装
+  - Worker, postMessage(), onmessage
 
 ### 2.10.2. High Resolution Time / 2.8.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- High Resolution Time APIの仕組みを理解し、高精度なパフォーマンス測定を行うことができる。
 
-- High Resolution Time APIを利用して、高精度なパフォーマンス測定を行うことができる。
-
-**主要な知識範囲**
-
+**詳細**
 - High Resolution Time APIの特徴と提供機能
 - High Resolution Time APIを利用した、高い精度のパフォーマンス測定
-
-**重要な技術要素**
-
-- Performanceオブジェクト
-- メソッド（now()）
+   - Performance.now()
 
 ### 2.10.3. Service Workerによるオフラインアプリケーション / 2.8.3
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Service Workerの仕組みを理解し、オフライン対応アプリを構築することができる。
 
-- ネットワーク接続がなくても動作するアプリケーションをService Workerを利用して構築できる。
-
-**主要な知識範囲**
-
+**詳細**
 - Service Workerの登録とライフサイクル
 - オフラインキャッシュの設計
 - PWA（Progressive Web Apps）の概要
-
-**重要な技術要素**
-
-- Service Worker API
-  - メソッド（register() など）
-  - イベント（install, activate, fetch）
-- Cache Storage API
-  - メソッド（open(), match(), put(), delete()）
-- Manifestファイルの基本
+  - Service Worker, install, activate, fetch 
 
 ### 2.10.4. Page Visibility / 2.8.4
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Page Visibility APIの仕組みを理解し、ページの表示状態を検知して動作を最適化することができる。
 
-- Page Visibility APIを利用して、ページの表示状態を監視し、適切な処理を行うことができる。
-
-**主要な知識範囲**
-
+**詳細**
 - Page Visibility機能を使った表示制御の概要
 - ページの表示状態取得
 - 表示状態が変化した際のイベント処理
-
-**重要な技術要素**
-
-- Documentオブジェクト
-- プロパティ（hidden, visibilityState）
-- イベント（visibilitychange）
+- ページの表示状態を検知して動作を最適化
+  - document.hidden, visibilitychangeイベント
 
 ### 2.10.5. Navigation Timing / 2.8.5
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- Navigation Timing APIの仕組みを理解し、ページ読み込み時間を計測してパフォーマンスを最適化することができる。
 
-- Navigation Timing APIを利用して、ページの読み込み時間を計測し、パフォーマンスを最適化できる。
-
-**主要な知識範囲**
-
+**詳細**
 - ユーザアクションに対する発生時刻の取得
 - 画像の読み込み時間の計測
 - ページの読み込み時間、DNSにおける名前解決などの各所要時間の計測
-
-**重要な技術要素**
-
-- PerformanceTimingオブジェクト
-- プロパティ（navigationStart, unloadEventStart, unloadEventEnd, redirectStart, redirectEnd, fetchStart, domainLookupStart, domainLookupEnd, connectStart, connectEnd, secureConnectionStart, requestStart, responseStart, responseEnd, domLoading, domInteractive, domContentLoadedEventStart, domContentLoadedEventEnd, domComplete, loadEventStart, loadEventEnd）
-- Performanceオブジェクト
-- プロパティ（timing, navigation）
-- Windowオブジェクト
-- プロパティ（performance）
+   - PerformanceTiming, navigationStart, loadEventEnd
 
 ## 2.11. セキュリティ
 
 ### 2.11.1. クロスオリジン制約とCORS / 2.9.1
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
+**概要**
+- クロスオリジン制約とCORSの仕組みを理解し、安全なリソース共有を実現できる。
 
-- クロスオリジン制約とCORSを理解し、安全なリソース共有を実現できる。
-
-**主要な知識範囲**
-
+**詳細**
 - オリジンの意味
 - 同一オリジンポリシーを堅持しつつ、オリジン間でのリソース共有を可能にする設定とデバッグ
-
-**重要な技術要素**
-
-- 同一オリジンポリシー
-- Originヘッダー
-- Access-Control-Request-Methodヘッダー
-- Access-Control-Request-Headersヘッダー
-- Access-Control-Allow-Originヘッダー
-- Access-Control-Allow-Methodsヘッダー
-- Access-Control-Allow-Headersヘッダー
-- プリフライトリクエスト
+   - Origin, Access-Control-Allow-Origin, プリフライトリクエスト
 
 ### 2.11.2. セキュリティモデルとSSLの関係 / 2.9.2
 
 **出題種別**
-
 - 知識問題
 - コードリーティング問題
 - 記述問題
 
-**説明（望まれるスキル）**
-
+**概要**
 - セキュリティモデルとSSL/TLSの関係を理解し、安全なWebアプリケーションを構築できる。
 
-**主要な知識範囲**
-
-- SSL/TLSで提供されたWebコンテンツに、非SSL/TLSコンテンツが組み込まれていた場合の挙動を理解している
-- SSL/TLSでなければ利用できないAPIが存在することを理解している
-
-**重要な技術要素**
-
-- Mixed Content
-- Secure Contexts
+**詳細**
+- SSL/TLSで提供されたWebコンテンツに、非SSL/TLSコンテンツが組み込まれていた場合の挙動を理解して
+- いる
+- SSL/TLSでなければ利用できないAPIが存在することを理解してる
