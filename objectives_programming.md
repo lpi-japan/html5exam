@@ -12,7 +12,6 @@
 - JavaScript Professional Certification Level 1 試験に合格すると JavaScript Professional Certification Level 1 に認定されます。
 - JavaScript Professional Certification Level 1 認定を保有し、JavaScript Professional Certification Level 2 試験に合格すると JavaScript Professional Certification Level 2 に認定されます。
 
-
 ## 望まれるスキルレベル <!-- omit in toc -->
 
 - Level1
@@ -59,39 +58,39 @@
     - [2.3.1. パフォーマンス測定](#231-パフォーマンス測定)
     - [2.3.2. コードの最適化](#232-コードの最適化)
   - [2.4. WebブラウザにおけるJavaScript API](#24-webブラウザにおけるjavascript-api)
-    - [2.4.1. イベント](#241-イベント)
-    - [2.4.2. DOM応用](#242-dom応用)
-    - [2.4.3. ウィンドウオブジェクト](#243-ウィンドウオブジェクト)
-    - [2.4.4. Selectors API](#244-selectors-api)
-    - [2.4.5. History API](#245-history-api)
-  - [2.5. グラフィックス・アニメーション](#25-グラフィックスアニメーション)
-    - [2.5.1. Canvas(2D)](#251-canvas2d)
-    - [2.5.2. SVG](#252-svg)
-    - [2.5.3. Timing control for script-based animations](#253-timing-control-for-script-based-animations)
-  - [2.6. マルチメディア](#26-マルチメディア)
-    - [2.6.1. メディア要素のAPI](#261-メディア要素のapi)
-    - [2.6.2. DeviceOrientation Event](#262-deviceorientation-event)
-  - [2.7. ストレージ](#27-ストレージ)
-    - [2.7.1. Web Storage](#271-web-storage)
-    - [2.7.2. Indexed Database API](#272-indexed-database-api)
-    - [2.7.3. File API](#273-file-api)
-    - [2.7.4. バイナリーデータ](#274-バイナリーデータ)
-  - [2.8. 通信](#28-通信)
-    - [2.8.1. WebSocket](#281-websocket)
-    - [2.8.2. XMLHttpRequest](#282-xmlhttprequest)
-    - [2.8.3. Server-Sent Events](#283-server-sent-events)
-  - [2.9. デバイスアクセス](#29-デバイスアクセス)
-    - [2.9.1. Geolocation API](#291-geolocation-api)
-    - [2.9.2. 2.10.2 DeviceOrientation Event](#292-2102-deviceorientation-event)
-  - [2.10. パフォーマンスとオフライン](#210-パフォーマンスとオフライン)
-    - [2.10.1. Web Workers](#2101-web-workers)
-    - [2.10.2. High Resolution Time](#2102-high-resolution-time)
-    - [2.10.3. Service Workerによるオフラインアプリケーション](#2103-service-workerによるオフラインアプリケーション)
-    - [2.10.4. Page Visibility](#2104-page-visibility)
-    - [2.10.5. Navigation Timing](#2105-navigation-timing)
+    - [2.4.1. イベント / 2.2.1](#241-イベント--221)
+    - [2.4.2. DOM応用 / 2.2.2](#242-dom応用--222)
+    - [2.4.3. ウィンドウオブジェクト / 2.2.3](#243-ウィンドウオブジェクト--223)
+    - [2.4.4. Selectors API / 2.2.4](#244-selectors-api--224)
+    - [2.4.5. History API / 2.2.5](#245-history-api--225)
+  - [2.5. グラフィックス・アニメーション / 1.5.1](#25-グラフィックスアニメーション--151)
+    - [2.5.1. Canvas(2D) / 2.3.1](#251-canvas2d--231)
+    - [2.5.2. SVG / 2.3.2](#252-svg--232)
+    - [2.5.3. Timing control for script-based animations / 2.3.3](#253-timing-control-for-script-based-animations--233)
+  - [2.6. マルチメディア / 1.5.1](#26-マルチメディア--151)
+    - [2.6.1. メディア要素のAPI / 2.4.1](#261-メディア要素のapi--241)
+    - [2.6.2. DeviceOrientation Event / 2.7.2](#262-deviceorientation-event--272)
+  - [2.7. ストレージ / 1.5.3](#27-ストレージ--153)
+    - [2.7.1. Web Storage / 2.5.1](#271-web-storage--251)
+    - [2.7.2. Indexed Database API / 2.5.2](#272-indexed-database-api--252)
+    - [2.7.3. File API / 2.5.3](#273-file-api--253)
+    - [2.7.4. バイナリーデータ / 2.5.4](#274-バイナリーデータ--254)
+  - [2.8. 通信　/ 1.5.4](#28-通信-154)
+    - [2.8.1. WebSocket / 2.6.1](#281-websocket--261)
+    - [2.8.2. XMLHttpRequest / 2.6.2](#282-xmlhttprequest--262)
+    - [2.8.3. Server-Sent Events / 2.6.3](#283-server-sent-events--263)
+  - [2.9. デバイスアクセス / 1.5.2](#29-デバイスアクセス--152)
+    - [2.9.1. Geolocation API / 2.7.1](#291-geolocation-api--271)
+    - [2.9.2. DeviceOrientation Event / 2.7.2](#292-deviceorientation-event--272)
+  - [2.10. パフォーマンスとオフライン /　1.5.3](#210-パフォーマンスとオフライン-153)
+    - [2.10.1. Web Workers / 2.8.1](#2101-web-workers--281)
+    - [2.10.2. High Resolution Time / 2.8.2](#2102-high-resolution-time--282)
+    - [2.10.3. Service Workerによるオフラインアプリケーション / 2.8.3](#2103-service-workerによるオフラインアプリケーション--283)
+    - [2.10.4. Page Visibility / 2.8.4](#2104-page-visibility--284)
+    - [2.10.5. Navigation Timing / 2.8.5](#2105-navigation-timing--285)
   - [2.11. セキュリティ](#211-セキュリティ)
-    - [2.11.1. クロスオリジン制約とCORS](#2111-クロスオリジン制約とcors)
-    - [2.11.2. セキュリティモデルとSSLの関係](#2112-セキュリティモデルとsslの関係)
+    - [2.11.1. クロスオリジン制約とCORS / 2.9.1](#2111-クロスオリジン制約とcors--291)
+    - [2.11.2. セキュリティモデルとSSLの関係 / 2.9.2](#2112-セキュリティモデルとsslの関係--292)
 
 # 1. JavaScript Level 1 出題範囲
 
@@ -522,7 +521,7 @@
 
 ## 2.4. WebブラウザにおけるJavaScript API
 
-### 2.4.1. イベント
+### 2.4.1. イベント / 2.2.1
 
 **出題種別**
 
@@ -552,7 +551,7 @@
 - タッチ系イベント
   - touchstart, touchmove, touchend
 
-### 2.4.2. DOM応用
+### 2.4.2. DOM応用 / 2.2.2
 
 **出題種別**
 
@@ -578,7 +577,7 @@
 - `MutationObserver`などのDOM変更検知
 - `requestAnimationFrame()`を使った効率的な再描画制御
 
-### 2.4.3. ウィンドウオブジェクト
+### 2.4.3. ウィンドウオブジェクト / 2.2.3
 
 **出題種別**
 
@@ -605,7 +604,7 @@
 - window.open(), window.close()
 - window.moveTo(), window.resizeTo()
 
-### 2.4.4. Selectors API
+### 2.4.4. Selectors API / 2.2.4
 
 **出題種別**
 
@@ -625,7 +624,7 @@
 
 - querySelector, querySelectorAll
 
-### 2.4.5. History API
+### 2.4.5. History API / 2.2.5
 
 **出題種別**
 
@@ -650,9 +649,9 @@
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
 
-## 2.5. グラフィックス・アニメーション
+## 2.5. グラフィックス・アニメーション / 1.5.1
 
-### 2.5.1. Canvas(2D)
+### 2.5.1. Canvas(2D) / 2.3.1
 
 **説明（望まれるスキル）**  
 - Canvasの特性を理解し、2Dコンテキストを使って基本図形の描画や描画状態の管理を行い、動的なグラフィックスやインタラクションを実装できる。
@@ -675,7 +674,7 @@
 - context.globalAlpha, context.globalCompositeOperation
 - context.drawImage(), context.createImageData()
 
-### 2.5.2. SVG
+### 2.5.2. SVG / 2.3.2
 
 **出題種別**
 
@@ -696,7 +695,7 @@
 
 - ベクターグラフィック、XML
 
-### 2.5.3. Timing control for script-based animations
+### 2.5.3. Timing control for script-based animations / 2.3.3
 
 **出題種別**
 
@@ -722,9 +721,9 @@
   - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
 - FrameRequestCallbackオブジェクト
 
-## 2.6. マルチメディア
+## 2.6. マルチメディア / 1.5.1
 
-### 2.6.1. メディア要素のAPI
+### 2.6.1. メディア要素のAPI / 2.4.1
 
 **出題種別**
 
@@ -752,7 +751,7 @@
   - メソッド（play(), pause(), load()）
   - イベントハンドラ（onplay, onplaying, ontimeupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
 
-### 2.6.2. DeviceOrientation Event
+### 2.6.2. DeviceOrientation Event / 2.7.2
 
 **出題種別**
 
@@ -781,9 +780,9 @@
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## 2.7. ストレージ
+## 2.7. ストレージ / 1.5.3
 
-### 2.7.1. Web Storage
+### 2.7.1. Web Storage / 2.5.1
 
 **出題種別**
 
@@ -811,7 +810,7 @@
 - StorageEventオブジェクト
 - プロパティ（key, oldValue, newValue, url, storageArea）
 
-### 2.7.2. Indexed Database API
+### 2.7.2. Indexed Database API / 2.5.2
 
 **出題種別**
 
@@ -840,7 +839,7 @@
   - プロパティ（name, version, objectStoreNames）
   - メソッド（createObjectStore(), deleteObjectStore(), transaction(), close()）
 
-### 2.7.3. File API
+### 2.7.3. File API / 2.5.3
 
 **出題種別**
 
@@ -873,7 +872,7 @@
   - プロパティ（readyState, result, error）
   - メソッド（readAsArrayBuffer(), readAsText(), readAsDataURL(), abort()）
 
-### 2.7.4. バイナリーデータ
+### 2.7.4. バイナリーデータ / 2.5.4
 
 **出題種別**
 
@@ -900,9 +899,9 @@
 - ビッグエンディアン
 - リトルエンディアン
 
-## 2.8. 通信
+## 2.8. 通信　/ 1.5.4
 
-### 2.8.1. WebSocket
+### 2.8.1. WebSocket / 2.6.1
 
 **出題種別**
 
@@ -927,7 +926,7 @@
   - プロパティ（URL, readyState, bufferedAmount）
   - イベント（onopen, onmessage, onclose）
 
-### 2.8.2. XMLHttpRequest
+### 2.8.2. XMLHttpRequest / 2.6.2
 
 **出題種別**
 
@@ -961,7 +960,7 @@
   - XMLHttpRequestEventTargetインターフェイス
     - イベント（onloadstart, onprogress, onabort, onerror, onload, ontimeout, onloadend）
 
-### 2.8.3. Server-Sent Events
+### 2.8.3. Server-Sent Events / 2.6.3
 
 **出題種別**
 
@@ -989,9 +988,9 @@
   - onerrorイベントハンドラ
 - Server-Sent EventsのMIME-Type
 
-## 2.9. デバイスアクセス
+## 2.9. デバイスアクセス / 1.5.2
 
-### 2.9.1. Geolocation API
+### 2.9.1. Geolocation API / 2.7.1
 
 **出題種別**
 
@@ -1022,7 +1021,7 @@
 - PositionErrorオブジェクト
   - プロパティ（code, message）
 
-### 2.9.2. 2.10.2 DeviceOrientation Event
+### 2.9.2. DeviceOrientation Event / 2.7.2
 
 **出題種別**
 
@@ -1051,9 +1050,9 @@
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## 2.10. パフォーマンスとオフライン
+## 2.10. パフォーマンスとオフライン /　1.5.3
 
-### 2.10.1. Web Workers
+### 2.10.1. Web Workers / 2.8.1
 
 **主要な知識範囲**
 
@@ -1071,7 +1070,7 @@
   - イベント（onerror, onmessage）
 - ErrorEventインターフェイスのプロパティ（message, filename, lineno）
 
-### 2.10.2. High Resolution Time
+### 2.10.2. High Resolution Time / 2.8.2
 
 **出題種別**
 
@@ -1093,7 +1092,7 @@
 - Performanceオブジェクト
 - メソッド（now()）
 
-### 2.10.3. Service Workerによるオフラインアプリケーション
+### 2.10.3. Service Workerによるオフラインアプリケーション / 2.8.3
 
 **出題種別**
 
@@ -1120,7 +1119,7 @@
   - メソッド（open(), match(), put(), delete()）
 - Manifestファイルの基本
 
-### 2.10.4. Page Visibility
+### 2.10.4. Page Visibility / 2.8.4
 
 **出題種別**
 
@@ -1144,7 +1143,7 @@
 - プロパティ（hidden, visibilityState）
 - イベント（visibilitychange）
 
-### 2.10.5. Navigation Timing
+### 2.10.5. Navigation Timing / 2.8.5
 
 **出題種別**
 
@@ -1173,7 +1172,7 @@
 
 ## 2.11. セキュリティ
 
-### 2.11.1. クロスオリジン制約とCORS
+### 2.11.1. クロスオリジン制約とCORS / 2.9.1
 
 **出題種別**
 
@@ -1201,7 +1200,7 @@
 - Access-Control-Allow-Headersヘッダー
 - プリフライトリクエスト
 
-### 2.11.2. セキュリティモデルとSSLの関係
+### 2.11.2. セキュリティモデルとSSLの関係 / 2.9.2
 
 **出題種別**
 
