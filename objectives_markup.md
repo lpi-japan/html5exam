@@ -157,7 +157,7 @@
   - タグ、クラス、セレクタ
   - プロパティと値の設定
 - 外部スタイルシートのリンク方法やインライン・内部スタイルシートの使い分けができる
-  - <link>, @import, <style>, style属性
+  - link, @import, style, style属性
 
 ### 1.2.2. CSSデザイン / 1.2.2
 
@@ -321,7 +321,7 @@
 
 **詳細**
 - 深いセマンティクスを意識したタグ選択やARIA属性の使い方を身につける
-  - <article>, <section>, マイクロデータ
+  - article, section, マイクロデータ
 
 ### 2.1.2. 高度なメディア要素
 
@@ -353,7 +353,7 @@
 
 **詳細**
 - 高度なインタラクティブ要素を実装し、ユーザーエクスペリエンスを向上できる
-  - <dialog>, <details>, Constraint Validation API
+  - dialog, details, Constraint Validation API
 
 ### 2.1.4. Webコンポーネント
 
