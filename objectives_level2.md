@@ -1,17 +1,17 @@
-# HTML5 Level 2 v2.5 概要
+# HTML5 Level 2 v2.5 概要 <!-- omit in toc -->
 
-## 名称
+## 名称 <!-- omit in toc -->
 
 |                    |                                               |
 |--------------------|-----------------------------------------------|
 | **認定名**         | HTML5 Professional Certification Level 2      |
 | **試験の正式名称** | HTML5 Professional Certification Level 2 Exam |
 
-## 認定条件
+## 認定条件 <!-- omit in toc -->
 
 有意な HTML5 Professional Certification Level 1 認定を保有し、HTML5 Professional Certification Level 2 試験に合格すると HTML5 Professional Certification Level 2 に認定されます。
 
-## 望まれるスキルレベル
+## 望まれるスキルレベル <!-- omit in toc -->
 
 - 動的に動作させて高いユーザビリティを実現するリッチユーザインターフェイスアプリケーションを開発することができる。
 - マルチデバイスに対応し、高いパフォーマンスで動作する動的コンテンツを制作することができる。
@@ -19,13 +19,54 @@
 - スマートフォンなどでネイティブアプリに近い機能を組み込んだ先端のWebアプリケーションを開発することができる。
 - APIのセキュリティモデルを理解した上で開発することができる。
 
-# *v2.5 改定概要*
+## v2.5 改定概要 <!-- omit in toc -->
 
 - ES6(ECMAScript2015) 以降に対応
 
+# 目次 <!-- omit in toc -->
+- [HTML5 Level 2 出題範囲](#html5-level-2-出題範囲)
+  - [2.1 JavaScript](#21-javascript)
+    - [2.1.1 JavaScript文法(重要度：10)](#211-javascript文法重要度10)
+    - [2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8)](#212-es6ecmascript2015-以降の新機能重要度-8)
+  - [2.2 WebブラウザにおけるJavaScript API](#22-webブラウザにおけるjavascript-api)
+    - [2.2.1 イベント(重要度：8)](#221-イベント重要度8)
+    - [2.2.2 ドキュメントオブジェクト／DOM(重要度：6)](#222-ドキュメントオブジェクトdom重要度6)
+    - [2.2.3 ウィンドウオブジェクト(重要度：8)](#223-ウィンドウオブジェクト重要度8)
+    - [2.2.4 Selectors API(重要度：7)](#224-selectors-api重要度7)
+    - [2.2.5 History　API(重要度：7)](#225-historyapi重要度7)
+    - [2.2.6 テスト・デバッグ(重要度：6)](#226-テストデバッグ重要度6)
+  - [2.3 グラフィックス・アニメーション](#23-グラフィックスアニメーション)
+    - [2.3.1 Canvas(2D)(重要度：8)](#231-canvas2d重要度8)
+    - [2.3.2 SVG(重要度：2)](#232-svg重要度2)
+    - [2.3.3 Timing control for script-based animations(重要度：2)](#233-timing-control-for-script-based-animations重要度2)
+  - [2.4 マルチメディア](#24-マルチメディア)
+    - [2.4.1 メディア要素のAPI(重要度：5)](#241-メディア要素のapi重要度5)
+  - [2.5 ストレージ](#25-ストレージ)
+    - [2.5.1 Web Storage(重要度：7)](#251-web-storage重要度7)
+    - [2.5.2 Indexed Database API(重要度：5)](#252-indexed-database-api重要度5)
+    - [2.5.3 File API(重要度：5)](#253-file-api重要度5)
+    - [2.5.4 バイナリーデータ(重要度：4)](#254-バイナリーデータ重要度4)
+  - [2.6 通信](#26-通信)
+    - [2.6.1 WebSocket(重要度：5)](#261-websocket重要度5)
+    - [2.6.2 XMLHttpRequest(重要度：5)](#262-xmlhttprequest重要度5)
+    - [2.6.3 Server-Sent Events(重要度：1)](#263-server-sent-events重要度1)
+  - [2.7 デバイスアクセス](#27-デバイスアクセス)
+    - [2.7.1 Geolocation API(重要度：5)](#271-geolocation-api重要度5)
+    - [2.7.2 DeviceOrientation Event(重要度：1)](#272-deviceorientation-event重要度1)
+  - [2.8 パフォーマンスとオフライン](#28-パフォーマンスとオフライン)
+    - [2.8.1 Web Workers(重要度：5)](#281-web-workers重要度5)
+    - [2.8.2 High Resolution Time(重要度：2)](#282-high-resolution-time重要度2)
+    - [2.8.3 オフラインアプリケーションAPI(重要度：3)](#283-オフラインアプリケーションapi重要度3)
+    - [2.8.4 Page Visibility(重要度：2)](#284-page-visibility重要度2)
+    - [2.8.5 Navigation Timing(重要度：1)](#285-navigation-timing重要度1)
+  - [2.9 セキュリティモデル](#29-セキュリティモデル)
+    - [2.9.1 クロスオリジン制約とCORS(重要度：4)](#291-クロスオリジン制約とcors重要度4)
+    - [2.9.2 セキュリティモデルとSSLの関係(重要度：4)](#292-セキュリティモデルとsslの関係重要度4)
+
+
 # HTML5 Level 2 出題範囲
 
-## *2.1 JavaScript*
+## 2.1 JavaScript
 
 ### 2.1.1 JavaScript文法(重要度：10)
 
@@ -86,7 +127,7 @@
 - スコープ、スコープチェーン、グローバルオブジェクト、Function.call()、with文
   - クロージャ
 
-### <b>2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) </b>
+### 2.1.2 ES6(ECMAScript2015) 以降の新機能(重要度: 8) 
 
 該当項目: `level2_programming/2.1.1 ES6以降の新機能`
 
@@ -118,7 +159,7 @@
 - class
 - \`~\`(バッククォート), \${}
 
-## *2.2 WebブラウザにおけるJavaScript API*
+## 2.2 WebブラウザにおけるJavaScript API
 
 ### 2.2.1 イベント(重要度：8)
 
@@ -323,7 +364,7 @@
 - Consoleオブジェクト
   - メソッド（assert(), debug(), dirxml(), error(), info(), log(), profile(), profileEnd(), trace(), warn()）
 
-## *2.3 グラフィックス・アニメーション*
+## 2.3 グラフィックス・アニメーション
 
 ### 2.3.1 Canvas(2D)(重要度：8)
 
@@ -418,7 +459,7 @@
   - メソッド（requestAnimationFrame(), cancelAnimationFrame()）
 - FrameRequestCallbackオブジェクト
 
-## *2.4 マルチメディア*
+## 2.4 マルチメディア
 
 ### 2.4.1 メディア要素のAPI(重要度：5)
 
@@ -451,7 +492,7 @@
   - メソッド（play(), pause(), load()）
   - イベントハンドラ（onplay, onplaying, ontime, onupdate, onpause, onwaiting, onstalled, onended, onerror, onabort）
 
-## *2.5 ストレージ*
+## 2.5 ストレージ
 
 ### 2.5.1 Web Storage(重要度：7)
 
@@ -573,7 +614,7 @@
 - ビッグエンディアン
 - リトルエンディアン
 
-## *2.6 通信*
+## 2.6 通信
 
 ### 2.6.1 WebSocket(重要度：5)
 
@@ -669,7 +710,7 @@
   - onerrorイベントハンドラ
 - Server-Sent Events の MIME-Type
 
-## *2.7 デバイスアクセス*
+## 2.7 デバイスアクセス
 
 ### 2.7.1 Geolocation API(重要度：5)
 
@@ -731,7 +772,7 @@
   - DeviceAccelerationオブジェクト
   - DeviceRotationRateオブジェクト
 
-## *2.8 パフォーマンスとオフライン*
+## 2.8 パフォーマンスとオフライン
 
 ### 2.8.1 Web Workers(重要度：5)
 
@@ -864,7 +905,7 @@
 - Windowオブジェクト
 - プロパティ（performance）
 
-## *2.9 セキュリティモデル*
+## 2.9 セキュリティモデル
 
 ### 2.9.1 クロスオリジン制約とCORS(重要度：4)
 
@@ -917,18 +958,3 @@ HTTPリクエスト元のオリジンからのアクセス許可の方法 HTTP�
 
 - Mixed Content
 - Secure Contexts
-
-# 将来の検討課題 / Future Change Consideration
-
-- XMHttpRequest -\> Fetch API
-- Server Side JS (Node.js)
-- REST API
-- TypeScript
-- API 関連主題の統廃合
-- WebRTC の追加
-- Array の詳細
-- (Google App Script)
-
-<!-- -->
-
-- Level 1, Level 2 の独立、単体認定化
