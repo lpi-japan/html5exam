@@ -28,3 +28,4 @@
 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ 前者はオブジェクト・クラスに、後者は配列にいれるか？ | | |
 | array操作系 (map, filter, find, reduce, flatMap, ...) を追加すべきか？ (現行Level2にない) | | |
 | 正規表現を追加すべきか？ (現行Level2にない) | | |
+| 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
