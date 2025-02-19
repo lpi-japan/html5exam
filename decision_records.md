@@ -29,3 +29,4 @@
 | array操作系 (map, filter, find, reduce, flatMap, ...) を追加すべきか？ (現行Level2にない) | | |
 | 正規表現を追加すべきか？ (現行Level2にない) | | |
 | 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
+| 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ | | |
