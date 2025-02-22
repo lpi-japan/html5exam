@@ -31,3 +31,4 @@
 | 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
 | 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ | | |
 | 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| File.lastModified | |
+| 1.1.3 Web関連技術の概要 (6) マークアップ領域でMVCを意識する場面はbackbone.jsが主流から外れたので少なそう。MPA（Multi Page Application）としてのサーバーサイドMVCフレームワーク（laravelやrails等）を知っておくことで、SPAへの弾みがつくような整理が良さそうな気はする。MPAとしてのMVCなら、SPAのMVVMとデータバインディングを並べるイメージ？ |  | |
