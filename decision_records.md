@@ -6,7 +6,7 @@
 | DOMなど、ブラウザのJS APIだが、目的がマークアップ寄りのものがある。それはマークアップ系とプログラミング系のどちらに配置するのが自然か？ | とりあえずJavascriptへ配置している。 | |
 | HTTP, cookie, CORS, HTTP3など、インフラに近いものがある。それはマークアップ系とプログラミング系のどちらに配置するのが自然か？ | | |
 | v2.5 では別格として扱っていたES6について、従来の項目に内容ごとに混ぜ込むのはどうか？ | 専用セクションはなくして散らしました | |
-| Node.jsは取り上げるか？ | 大きく (1) フロントエンド開発時の道具として出てくるNode (npm install, npm run build など) と、バックエンド開発の言語としてのNodeが出てくる。(1) は頻出項目を具体的に振れてよさそう。(2) は存在を少し言及する程度になるかもだが、その場合はサーバーサイドAPIの[標準](https://linucopennetwork.slack.com/archives/C065SKNN199/p1738557974924929)を挙げるのが一つの手。 | [Slack会話](https://linucopennetwork.slack.com/archives/C065SKNN199/p1708433141528049?thread_ts=1708430410.442929&cid=C065SKNN199) |
+| Node.js (非ブラウザJS) は取り上げるか？ | (1) フロントエンド開発時の道具として出てくるNode (npm install, npm run build など) については頻出項目を具体的に触れる。(2) バックエンド開発の言語としてのNode.jsは存在を少し言及する程度になるかもだが、その場合はサーバーサイドAPIの[標準](https://linucopennetwork.slack.com/archives/C065SKNN199/p1738557974924929)を挙げるのが一つの手。Fetchなどブラウザと共通になった箇所はブラウザ/Node区別なく出題すればよい？ | (1) [Slack会話](https://linucopennetwork.slack.com/archives/C065SKNN199/p1708433141528049?thread_ts=1708430410.442929&cid=C065SKNN199) |
 | 「フレームワーク」と呼ばれるような物に内包されている機能について、Web標準に含まれなくても何らかの形で出題するか？具体的には、リアクティブプログラミング、コンポーネント、ルーティング、モジュールバンドリング (polyfill, minify, tree shaking, 難読化) など。もし入れる場合、どんな趣旨の問題になるか？ | | |
 | Flexbox, CSS Grid がないが入れるべきか？ | (あった方が良いと思う。)→専用セクションで追加 | |
 | TypeScript, JSDoc を出題するか？もしする場合、どんな趣旨の問題になるか？ | | |
