@@ -8,10 +8,5 @@
         "rgba(255,175,127,0.15)",
         "rgba(255,127,255,0.15)"
     ],
-
-    // 本来corsorColorにはrgbaを指定しなければいけないが、長文で折り返すような表では色が変わらない方が嬉しい
-    // 以下の野良ビルドを使う (※) すると、カーソル列の色上書きを無効化できる
-    // ※ コマンドパレットで「Extensions: Install from VSIX」
-    // https://github.com/yasuraok/vscode-md-table-rainbow/raw/refs/heads/_private_build/markdown-table-rainbow-v1.0.3-e96e5d14189290df21ce860a3bef27ae7bb77de2.0.vsix
-    "markdownTableRainbow.cursorColor": null,
+    "markdownTableRainbow.cursorColorEnabled": false,
 }
