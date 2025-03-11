@@ -227,7 +227,7 @@
 #### 詳細 <!-- omit in toc -->
 - 非同期処理の基本概念と実装方法
   - Promise, async/await
-- 
+-
 
 ## 1.5. デバッグ
 
@@ -360,9 +360,9 @@
 - デバイスのセンサー情報（カメラ、マイク、加速度、ジャイロ等）を利用するためのAPIの基本的な仕組みを理解する。
 
 #### 詳細 <!-- omit in toc -->
-- 各種デバイスAPIの機能と利用例  
-  - カメラ、マイクのアクセス方法  
-  - 加速度・ジャイロによる動作検知  
+- 各種デバイスAPIの機能と利用例
+  - カメラ、マイクのアクセス方法
+  - 加速度・ジャイロによる動作検知
 - セキュリティやプライバシーに関する注意事項
 
 ### 1.8.3. オフライン・ストレージ系API / 旧 1.5.3
@@ -372,8 +372,8 @@
 - オフライン環境やデータの永続保存を実現するためのAPIの基本概念を理解する。
 
 #### 詳細 <!-- omit in toc -->
-- キャッシュやストレージ機能の利用方法  
-  - Service Workerによるキャッシュ制御、IndexedDB、Web Storage等の操作  
+- キャッシュやストレージ機能の利用方法
+  - Service Workerによるキャッシュ制御、IndexedDB、Web Storage等の操作
 - オフライン対応アプリケーション構築での注意点
 
 ### 1.8.4. 通信系API / 旧 1.5.4
@@ -383,8 +383,8 @@
 - サーバーとの非同期通信や双方向通信を実現するAPIについて理解する。
 
 #### 詳細 <!-- omit in toc -->
-- リアルタイム通信と非同期通信の手法  
-  - XMLHttpRequest, fetch, WebSocket, Server-Sent Events など  
+- リアルタイム通信と非同期通信の手法
+  - XMLHttpRequest, fetch, WebSocket, Server-Sent Events など
 - 通信時のエラーハンドリングやセキュリティ対応の考慮事項
 
 # 2. JavaScript Level 2 出題範囲
@@ -717,7 +717,7 @@
 - Service Workerの登録とライフサイクル
 - オフラインキャッシュの設計
 - PWA（Progressive Web Apps）の概要
-  - Service Worker, install, activate, fetch 
+  - Service Worker, install, activate, fetch
 
 ### 2.9.4. Page Visibility / 旧 2.8.4
 出題種別: 知識問題、コードリーティング問題、記述問題
