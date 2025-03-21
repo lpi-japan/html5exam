@@ -1,14 +1,18 @@
 ToDo: 以前の試験開発打ち合わせで提示したスライドの内容の反映
 
-# 標準
-## 出処
-- HTML … WHATWG [HTML Living Standard](https://html.spec.whatwg.org/)、半年ごとのスナップショットがあり最新は[2024年7月](https://html.spec.whatwg.org/review-drafts/2024-07/) (だが、スナップショット自体に意味はない模様。固執はしない)
-- CSS … W3C CSS、[Latest stable](https://www.w3.org/Style/CSS/current-work)とされている[Snapshot 2023](https://www.w3.org/TR/css-2023/)
-- JS (ECMASCript) … TC39 [ECMA-262](https://ecma-international.org/publications-and-standards/standards/ecma-262/)、ES6 (2015) 以降、ES2023までのどれか？
-- JS Web API …
-  - [WHATWG - Standards](https://spec.whatwg.org/)
-  - [W3C standards and drafts (filtered by tags Web API)](https://www.w3.org/TR/?filter-tr-name=&tags%5B%5D=webapi)
-- (JS non-browser API … WinterCG [Minimum Common Web Platform API](https://common-min-api.proposal.wintercg.org/)、但し入れるにしても分量は少ない?)
+# リファレンス
+
+## 1次情報 = 標準
+- HTML … WHATWG [HTML Living Standard](https://html.spec.whatwg.org/)、半年ごとのスナップショットがあり最新は[2024年7月](https://html.spec.whatwg.org/review-drafts/2024-07/)
+- CSS … W3C CSS、[Latest stable](https://www.w3.org/Style/CSS/current-work)とされている[Snapshot 2024](https://www.w3.org/TR/2025/NOTE-css-2024-20250225/)
+- JS (ECMAScript) … [ECMA-262](https://ecma-international.org/publications-and-standards/standards/ecma-262/)、ES6 (2015) 以降、ES2023までのどれか？
+- JS Web API … [WHATWG \- Standards](https://spec.whatwg.org/)、[W3C standards and drafts (filtered by tags Web API)](https://www.w3.org/TR/?filter-tr-name=&tags%5B%5D=webapi)
+- (JS non-browser API … WinterCG [Minimum Common Web Platform API](https://common-min-api.proposal.wintercg.org/)、但し入れるにしても分量は少ない?
+
+## 開発者向け資料
+- [MDN](https://developer.mozilla.org/ja/docs/Web)
+  - リポジトリ: [英語](https://github.com/mdn/content/tree/main/files/en-us/web)、[日本語訳](https://github.com/mdn/translated-content/tree/main/files/ja/web)
+  - 著作権: [CC-BY-SA](https://developer.mozilla.org/ja/docs/MDN/Writing_guidelines/Attrib_copyright_license)
 
 ## 経緯に関するリファレンス
 - [html5exam.jpのコラム](https://html5exam.jp/measures/column_01.html) by 下濃様
@@ -29,7 +33,7 @@ snapshot 2023に入っているがWDのものなども普通にいっぱいあ�
   - PR (Proposed Recommendation)
   - REC (W3C Recommendation)
 
-## Web API関係
+### Web API関係
 そもそもとしてAPIごとに上記のとおりWHATWG管轄のものと、W3C管轄のものが混在している。例えば、
 
 1. Geolocation API: W3C https://www.w3.org/TR/geolocation/
@@ -86,7 +90,7 @@ Web界隈において、多数の実現技術の共通部分を押さえよう�
       - 4.2 metadata (head, title, base, link, etc.) :bookmark: [1.3 要素](#lpij1.3)
       - 4.3 section (body, article, section, etc.)
       - 4.4 grouping (p, hr, list, etc.)
-      - 4.5 text (a, em, cite, etc.) 
+      - 4.5 text (a, em, cite, etc.)
       - 4.6 link (a, link-type)
       - 4.7 edits (ins, del)
       - 4.8 埋め込みコンテンツ (picture, source,img, iframe, video, etc.)
