@@ -72,34 +72,31 @@
   - [2.3. Graphics and Animation](#23-graphics-and-animation)
     - [2.3.1. Canvas(2D)](#231-canvas2d)
     - [2.3.2. SVG](#232-svg)
-  - [2.4. Graphics and Animation](#24-graphics-and-animation)
-    - [2.4.1. Canvas(2D)](#241-canvas2d)
-    - [2.4.2. SVG](#242-svg)
-    - [2.4.3. Timing control for script-based animations](#243-timing-control-for-script-based-animations)
-  - [2.5. Multimedia](#25-multimedia)
-    - [2.5.1. Media Element API](#251-media-element-api)
-    - [2.5.2. DeviceOrientation Event](#252-deviceorientation-event)
-  - [2.6. Storage](#26-storage)
-    - [2.6.1. Web Storage](#261-web-storage)
-    - [2.6.2. Indexed Database API](#262-indexed-database-api)
-    - [2.6.3. File API](#263-file-api)
-    - [2.6.4. Binary Data](#264-binary-data)
-  - [2.7. Communication](#27-communication)
-    - [2.7.1. WebSocket](#271-websocket)
-    - [2.7.2. XMLHttpRequest](#272-xmlhttprequest)
-    - [2.7.3. Server-Sent Events](#273-server-sent-events)
-  - [2.8. Device Access](#28-device-access)
-    - [2.8.1. Geolocation API](#281-geolocation-api)
-    - [2.8.2. DeviceOrientation Event](#282-deviceorientation-event)
-  - [2.9. Performance and Offline / 1.5.3](#29-performance-and-offline--153)
-    - [2.9.1. Web Workers](#291-web-workers)
-    - [2.9.2. High Resolution Time](#292-high-resolution-time)
-    - [2.9.3. Offline Applications with Service Worker](#293-offline-applications-with-service-worker)
-    - [2.9.4. Page Visibility](#294-page-visibility)
-    - [2.9.5. Navigation Timing](#295-navigation-timing)
-  - [2.10. Security](#210-security)
-    - [2.10.1. Cross-Origin Constraints and CORS](#2101-cross-origin-constraints-and-cors)
-    - [2.10.2. Security Model and SSL Relationship](#2102-security-model-and-ssl-relationship)
+    - [2.3.3. Timing control for script-based animations](#233-timing-control-for-script-based-animations)
+  - [2.4. Multimedia](#24-multimedia)
+    - [2.4.1. Media Element API](#241-media-element-api)
+    - [2.4.2. DeviceOrientation Event](#242-deviceorientation-event)
+  - [2.5. Storage](#25-storage)
+    - [2.5.1. Web Storage](#251-web-storage)
+    - [2.5.2. Indexed Database API](#252-indexed-database-api)
+    - [2.5.3. File API](#253-file-api)
+    - [2.5.4. Binary Data](#254-binary-data)
+  - [2.6. Communication](#26-communication)
+    - [2.6.1. WebSocket](#261-websocket)
+    - [2.6.2. XMLHttpRequest](#262-xmlhttprequest)
+    - [2.6.3. Server-Sent Events](#263-server-sent-events)
+  - [2.7. Device Access](#27-device-access)
+    - [2.7.1. Geolocation API](#271-geolocation-api)
+    - [2.7.2. DeviceOrientation Event](#272-deviceorientation-event)
+  - [2.8. Performance and Offline / 1.5.3](#28-performance-and-offline--153)
+    - [2.8.1. Web Workers](#281-web-workers)
+    - [2.8.2. High Resolution Time](#282-high-resolution-time)
+    - [2.8.3. Offline Applications with Service Worker](#283-offline-applications-with-service-worker)
+    - [2.8.4. Page Visibility](#284-page-visibility)
+    - [2.8.5. Navigation Timing](#285-navigation-timing)
+  - [2.9. Security](#29-security)
+    - [2.9.1. Cross-Origin Constraints and CORS](#291-cross-origin-constraints-and-cors)
+    - [2.9.2. Security Model and SSL Relationship](#292-security-model-and-ssl-relationship)
 
 # 1. JavaScript Level 1 Exam Objectives
 
@@ -711,6 +708,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Element.attachShadow()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/attachshadow/index.md)
 
 ## 2.3. Graphics and Animation
+Question Types: Knowledge, Code Reading, Written.
 
 ### 2.3.1. Canvas(2D)
 Question Types: Knowledge, Code Reading, Written.
@@ -735,42 +733,6 @@ Question Types: Knowledge, Code Reading, Written.
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates can manage browser history and navigation control using the History API.
-
-#### Details
-- Usage of History object and Location object properties and functions
- - go(), back(), forward(), pushState(), replaceState()
-
-#### References
-- [SVG: Scalable Vector Graphics](https://github.com/mdn/content/tree/main/files/en-us/web/svg/index.md)
-- [SVG Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/svg/tutorial/index.md)
-- [SVG Element Reference](https://github.com/mdn/content/tree/main/files/en-us/web/svg/element/index.md)
-- [SVGElement interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/svgelement/index.md)
-
-## 2.4. Graphics and Animation
-
-### 2.4.1. Canvas(2D)
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand the characteristics of Canvas and can implement 2D drawing and animation.
-
-#### Details
-- Characteristics and usage conditions of Canvas
-- Differences between Canvas and SVG
-- Overview of 2D context and transition of drawing states
-- Drawing and animation using 2D context
-  - canvas.getContext("2d"), context.arc(), context.fill()
-
-#### References
-- [Canvas API](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvas_api/index.md)
-- [Canvas Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvas_api/tutorial/index.md)
-- [CanvasRenderingContext2D](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvasrenderingcontext2d/index.md)
-
-### 2.4.2. SVG
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
 - Candidates understand the characteristics of SVG and can create vector graphics.
 
 #### Details
@@ -783,7 +745,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [SVG Element Reference](https://github.com/mdn/content/tree/main/files/en-us/web/svg/element/index.md)
 - [SVGElement interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/svgelement/index.md)
 
-### 2.4.3. Timing control for script-based animations
+### 2.3.3. Timing control for script-based animations
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -801,9 +763,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS and JavaScript animation performance](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/css_javascript_animation_performance/index.md)
 - [Web Animations API](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_animations_api/index.md)
 
-## 2.5. Multimedia
+## 2.4. Multimedia
 
-### 2.5.1. Media Element API
+### 2.4.1. Media Element API
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -826,7 +788,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [MediaSource](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediasource/index.md)
 - [SourceBuffer](https://github.com/mdn/content/tree/main/files/en-us/web/api/sourcebuffer/index.md)
 
-### 2.5.2. DeviceOrientation Event
+### 2.4.2. DeviceOrientation Event
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -845,9 +807,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [DeviceOrientationEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/deviceorientationevent/index.md)
 - [DeviceMotionEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/devicemotionevent/index.md)
 
-## 2.6. Storage
+## 2.5. Storage
 
-### 2.6.1. Web Storage
+### 2.5.1. Web Storage
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -864,7 +826,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Window.sessionStorage](https://github.com/mdn/content/tree/main/files/en-us/web/api/window/sessionstorage/index.md)
 - [Storage](https://github.com/mdn/content/tree/main/files/en-us/web/api/storage/index.md)
 
-### 2.6.2. Indexed Database API
+### 2.5.2. Indexed Database API
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -884,7 +846,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [IDBObjectStore](https://github.com/mdn/content/tree/main/files/en-us/web/api/idbobjectstore/index.md)
 - [IDBIndex](https://github.com/mdn/content/tree/main/files/en-us/web/api/idbindex/index.md)
 
-### 2.6.3. File API
+### 2.5.3. File API
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -904,7 +866,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [File](https://github.com/mdn/content/tree/main/files/en-us/web/api/file/index.md)
 - [Blob](https://github.com/mdn/content/tree/main/files/en-us/web/api/blob/index.md)
 
-### 2.6.4. Binary Data
+### 2.5.4. Binary Data
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -921,9 +883,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [TypedArray](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/typedarray/index.md)
 - [DataView](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/dataview/index.md)
 
-## 2.7. Communication
+## 2.6. Communication
 
-### 2.7.1. WebSocket
+### 2.6.1. WebSocket
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -940,7 +902,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Writing WebSocket client applications](https://github.com/mdn/content/tree/main/files/en-us/web/api/websockets_api/writing_websocket_client_applications/index.md)
 - [Using WebSocket](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/index.md)
 
-### 2.7.2. XMLHttpRequest
+### 2.6.2. XMLHttpRequest
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -959,7 +921,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [XMLHttpRequest.send()](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest/send/index.md)
 - [XMLHttpRequest.open()](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest/open/index.md)
 
-### 2.7.3. Server-Sent Events
+### 2.6.3. Server-Sent Events
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -977,9 +939,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [Using server-sent events](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/using_server-sent_events/index.md)
 - [EventSource](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
 
-## 2.8. Device Access
+## 2.7. Device Access
 
-### 2.8.1. Geolocation API
+### 2.7.1. Geolocation API
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -996,7 +958,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Using the Geolocation API](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocation_api/using_the_geolocation_api/index.md)
 - [Geolocation](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocation/index.md)
 
-### 2.8.2. DeviceOrientation Event
+### 2.7.2. DeviceOrientation Event
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1015,9 +977,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [DeviceOrientationEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/deviceorientationevent/index.md)
 - [DeviceMotionEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/devicemotionevent/index.md)
 
-## 2.9. Performance and Offline / 1.5.3
+## 2.8. Performance and Offline / 1.5.3
 
-### 2.9.1. Web Workers
+### 2.8.1. Web Workers
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1039,7 +1001,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Worker](https://github.com/mdn/content/tree/main/files/en-us/web/api/worker/index.md)
 - [WorkerGlobalScope](https://github.com/mdn/content/tree/main/files/en-us/web/api/workerglobalscope/index.md)
 
-### 2.9.2. High Resolution Time
+### 2.8.2. High Resolution Time
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1060,7 +1022,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Navigation Timing](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/navigation_timing/index.md)
 - [Resource Timing](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/resource_timing/index.md)
 
-### 2.9.3. Offline Applications with Service Worker
+### 2.8.3. Offline Applications with Service Worker
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1078,7 +1040,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [ServiceWorkerGlobalScope](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/index.md)
 - [Service Worker Registration](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerregistration/index.md)
 
-### 2.9.4. Page Visibility
+### 2.8.4. Page Visibility
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1096,7 +1058,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Document: visibilitychange event](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitychange_event/index.md)
 - [Document: visibilityState property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitystate/index.md)
 
-### 2.9.5. Navigation Timing
+### 2.8.5. Navigation Timing
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1114,9 +1076,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [Performance Observer](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceobserver/index.md)
 - [Navigation and Resource Timings](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/navigation_and_resource_timings/index.md)
 
-## 2.10. Security
+## 2.9. Security
 
-### 2.10.1. Cross-Origin Constraints and CORS
+### 2.9.1. Cross-Origin Constraints and CORS
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -1132,7 +1094,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Same-origin policy](https://github.com/mdn/content/tree/main/files/en-us/web/security/same-origin_policy/index.md)
 - [CORS errors](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/cors/errors/index.md)
 
-### 2.10.2. Security Model and SSL Relationship
+### 2.9.2. Security Model and SSL Relationship
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
