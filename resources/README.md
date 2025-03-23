@@ -14,7 +14,11 @@ ToDo: 以前の試験開発打ち合わせで提示したスライドの内容�
   - リポジトリ: [英語](https://github.com/mdn/content/tree/main/files/en-us/web)、[日本語訳](https://github.com/mdn/translated-content/tree/main/files/ja/web)
   - 著作権: [CC-BY-SA](https://developer.mozilla.org/ja/docs/MDN/Writing_guidelines/Attrib_copyright_license)
 
-## 経緯に関するリファレンス
+## 統計
+- [Chrome Platform Status: CSS usage metrics](https://chromestatus.com/metrics/css/popularity)
+- [Chrome Platform Status: HTML & JavaScript usage metrics](https://chromestatus.com/metrics/feature/popularity)
+
+## 経緯に関する情報
 - [html5exam.jpのコラム](https://html5exam.jp/measures/column_01.html) by 下濃様
 - [WinterCG (non-browser JS の標準化) の発足の経緯](https://www.publickey1.jp/blog/22/denonodejscloudflare_workerswebjavascriptweb-interoperable_runtimes_community_groupwintercg.html)
 
