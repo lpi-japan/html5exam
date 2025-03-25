@@ -75,7 +75,6 @@
     - [2.3.3. Timing control for script-based animations / 旧 2.3.3](#233-timing-control-for-script-based-animations--旧-233)
   - [2.4. マルチメディア / 旧 1.5.1](#24-マルチメディア--旧-151)
     - [2.4.1. メディア要素のAPI / 旧 2.4.1](#241-メディア要素のapi--旧-241)
-    - [2.4.2. DeviceOrientation Event / 旧 2.7.2](#242-deviceorientation-event--旧-272)
   - [2.5. ストレージ / 旧 1.5.3](#25-ストレージ--旧-153)
     - [2.5.1. Web Storage / 旧 2.5.1](#251-web-storage--旧-251)
     - [2.5.2. Indexed Database API / 旧 2.5.2](#252-indexed-database-api--旧-252)
@@ -87,7 +86,6 @@
     - [2.6.3. Server-Sent Events / 旧 2.6.3](#263-server-sent-events--旧-263)
   - [2.7. デバイスアクセス / 旧 1.5.2](#27-デバイスアクセス--旧-152)
     - [2.7.1. Geolocation API / 旧 2.7.1](#271-geolocation-api--旧-271)
-    - [2.7.2. DeviceOrientation Event / 旧 2.7.2](#272-deviceorientation-event--旧-272)
   - [2.8. パフォーマンスとオフライン /　1.5.3](#28-パフォーマンスとオフライン-153)
     - [2.8.1. Web Workers / 旧 2.8.1](#281-web-workers--旧-281)
     - [2.8.2. High Resolution Time / 旧 2.8.2](#282-high-resolution-time--旧-282)
@@ -105,14 +103,12 @@
 ### 1.1.1. JavaScript文法
 
 #### Overview <!-- omit in toc -->
-- JavaScriptの基本構文、文や式の組み立て方、制御構造及び演算子の利用方法を理解する。
+- JavaScriptの基本文法を理解し、正しく記述できる。
 
 #### 詳細 <!-- omit in toc -->
 - 基本構文の記述方法
-  - 条件分岐 (if, else, switch)
-  - ループ (for, while, do-while)
-  - 演算子 (算術, 比較, 論理, 代入, ternary operator など)
-  - ※変数宣言・データ型の詳細は[1.1.2 データ型と変数]を参照
+- 文と式の違い
+- スコープとホイスティングの概念
 
 ### 1.1.2. データ型と変数
 出題種別: 知識問題、コードリーティング問題、記述問題
@@ -526,20 +522,6 @@
 - メディアリソースに関するエラーコード取得
   - HTMLMediaElement, play(), pause(), onplaying, onerror
 
-### 2.4.2. DeviceOrientation Event / 旧 2.7.2
-出題種別: 知識問題、コードリーティング問題、記述問題
-
-#### Overview <!-- omit in toc -->
-- DeviceOrientation Eventを理解し、デバイスの動きや向きを検知してインタラクションに活用できる。
-
-#### 詳細 <!-- omit in toc -->
-- コンパスの方角の検知
-- デバイスの傾きの検知
-- デバイスの移動加速度の検知
-- デバイスの回転速度の検知
-- 加速度の単位
-  - deviceorientationイベント, devicemotionイベント
-
 ## 2.5. ストレージ / 旧 1.5.3
 
 ### 2.5.1. Web Storage / 旧 2.5.1
@@ -644,20 +626,6 @@
 - 端末における現在の位置情報を取得する方法
 - 現在位置取得後のコールバック関数呼び出し
   - getCurrentPosition(), watchPosition(), Position, Coordinates
-
-### 2.7.2. DeviceOrientation Event / 旧 2.7.2
-出題種別: 知識問題、コードリーティング問題、記述問題
-
-#### Overview <!-- omit in toc -->
-- DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
-
-#### 詳細 <!-- omit in toc -->
-- コンパスの方角の検知
-- デバイスの傾きの検知
-- デバイスの移動加速度の検知
-- デバイスの回転速度の検知
-- 加速度の単位
-  - DeviceOrientationEvent, DeviceMotionEvent
 
 ## 2.8. パフォーマンスとオフライン /　1.5.3
 
