@@ -34,19 +34,23 @@
     - [1.1.2. HTTP, HTTPSプロトコル / 旧 1.1.1](#112-http-httpsプロトコル--旧-111)
     - [1.1.3. Web関連技術の概要 / 旧 1.1.3](#113-web関連技術の概要--旧-113)
     - [1.1.4. Emojiの使用](#114-emojiの使用)
-  - [1.2. CSS](#12-css)
+  - [1.2. CSSの基礎](#12-cssの基礎)
     - [1.2.1. スタイルシートの基本 / 旧 1.2.1](#121-スタイルシートの基本--旧-121)
-    - [1.2.2. CSSデザイン / 旧 1.2.2](#122-cssデザイン--旧-122)
     - [1.2.3. カスケード（優先順位） / 旧 1.2.3](#123-カスケード優先順位--旧-123)
     - [1.2.4. Flexboxの基本](#124-flexboxの基本)
     - [1.2.5. CSSネスティング](#125-cssネスティング)
-  - [1.3. 要素](#13-要素)
-    - [1.3.1. メディア要素 / 旧 1.3.2](#131-メディア要素--旧-132)
-    - [1.3.2. インタラクティブ要素 / 旧 1.3.3](#132-インタラクティブ要素--旧-133)
-    - [1.3.3. 基本的なARIAの利用](#133-基本的なariaの利用)
+  - [1.3. CSSデザイン](#13-cssデザイン)
+    - [1.3.1 レイアウトとボックスモデル](#131-レイアウトとボックスモデル)
+    - [1.3.2 色と背景](#132-色と背景)
+    - [1.3.3 テキスト、リスト、テーブル](#133-テキストリストテーブル)
+    - [1.3.4 変形とアニメーション](#134-変形とアニメーション)
   - [1.4. レスポンシブWebデザイン](#14-レスポンシブwebデザイン)
     - [1.4.1. マルチデバイス対応 / 旧 1.4.1](#141-マルチデバイス対応--旧-141)
     - [1.4.2. メディアクエリ / 旧 1.4.2](#142-メディアクエリ--旧-142)
+  - [1.5. 要素](#15-要素)
+    - [1.5.1. メディア要素 / 旧 1.3.2](#151-メディア要素--旧-132)
+    - [1.5.2. インタラクティブ要素 / 旧 1.3.3](#152-インタラクティブ要素--旧-133)
+    - [1.5.3. 基本的なARIAの利用](#153-基本的なariaの利用)
 - [2. HTML/CSS Level 2 出題範囲](#2-htmlcss-level-2-出題範囲)
   - [2.1. 高度なHTML](#21-高度なhtml)
     - [2.1.1. セマンティクスの深堀り](#211-セマンティクスの深堀り)
@@ -129,7 +133,7 @@
 - アクセシビリティを考慮したemojiの使用方法を理解する
   - スクリーンリーダー対応, aria-labelの使用
 
-## 1.2. CSS
+## 1.2. CSSの基礎
 
 ### 1.2.1. スタイルシートの基本 / 旧 1.2.1
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -139,40 +143,10 @@
 
 #### 詳細 <!-- omit in toc -->
 - 適切なセレクタやプロパティを活用できる。
-  - <link>, @import, <style>, style属性
+  - <link>, @import, <style>, style属性の使い分けができる
   - セレクタ, タイプセレクタ, クラスセレクタ, IDセレクタ, ユニバーサルセレクタ, 属性セレクタ
   - シンプルセレクタ（疑似クラス）, 疑似要素, 結合子, グループ化
 - 外部スタイルシートのリンク方法やインライン・内部スタイルシートの使い分けができる
-  - link, @import, style, style属性
-
-### 1.2.2. CSSデザイン / 旧 1.2.2
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要 <!-- omit in toc -->
-- レイアウトや配色などの基礎を整理し、仕様に沿った正しいコードを記述する事ができる。
-
-#### 詳細 <!-- omit in toc -->
-- コンテンツのレイアウトに関する記述方法
-  - ボックスモデルの理解と適用
-  - フロートとクリアの使用方法
-  - ポジショニング（static, relative, absolute, fixed, sticky）
-- 色の指定方法
-  - 色の指定方法（名前、hex、rgb、rgba、hsl、hsla）
-  - 透過 (opacity)
-  - グラデーション (\*-gradient)
-- 背景・罫線に関する記述方法
-  - 背景 (background-\*)
-  - 罫線 (border-\*)
-  - ボックスシャドウ (box-shadow)
-- テキスト、リスト、テーブルに関する記述方法
-  - フォントファミリー、サイズ、ウェイトの設定
-  - テキスト修飾（underline, overline, line-through）
-  - リストスタイルの設定（list-style-type, list-style-image）
-  - テーブルのスタイル設定（border-collapse, border-spacing）
-- コンテンツの変形、アニメーションに関する記述方法
-  - 2D/3D変形（transform: translate, rotate, scale, skew）
-  - トランジション（transition-property, transition-duration, transition-timing-function, transition-delay）
-  - アニメーション（@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction）
 
 ### 1.2.3. カスケード（優先順位） / 旧 1.2.3
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -184,13 +158,14 @@
 - 記述場所による優先順位やセレクタの計算方法
   - !important
   - 継承されないプロパティの扱い
-  - 詳細度 (Specificity) 
+  - 詳細度 (Specificity)
 
 ### 1.2.4. Flexboxの基本
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要 <!-- omit in toc -->
 - Flexboxを用いて柔軟なレイアウトが組める基礎を身につける。
+  - display: flex, flex-direction, justify-content, align-items
 
 #### 詳細 <!-- omit in toc -->
 - Flexboxを理解し、柔軟なレイアウトを組み立てる
@@ -204,46 +179,44 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 
 #### 詳細 <!-- omit in toc -->
 - ネスト構文で親子関係に基づいた記述が可能  
-- 一部の最新ブラウザやコンパイラで利用可能  
+- 一部の最新ブラウザやコンパイラで利用可能
 
-## 1.3. 要素
-
-### 1.3.1. メディア要素 / 旧 1.3.2
+## 1.3. CSSデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+### 1.3.1 レイアウトとボックスモデル
 #### 概要 <!-- omit in toc -->
-- オーディオやビデオなどの活用方法を理解し、メディア要素を効果的に埋め込める。
-
+- コンテンツのレイアウトに関する記述方法とボックスモデルの正しい適用を理解する。
 #### 詳細 <!-- omit in toc -->
-- ビデオやオーディオに関連する要素と属性を理解し、適切に使用できる
-  - `<video>`, `<audio>`, `<source>`, `<track>`
-- ビデオファイルとオーディオファイルの知識を持ち、適切な形式を選択できる
-  - MP4, WebM, Ogg, MP3, AAC
-- 字幕表示のための知識を持ち、アクセシビリティを向上させる
-  - WebVTT, SRT
+- ボックスモデルの理解と適用
+- フロートとクリアの使用方法
+- ポジショニング（static, relative, absolute, fixed, sticky）
 
-### 1.3.2. インタラクティブ要素 / 旧 1.3.3
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.2 色と背景
 #### 概要 <!-- omit in toc -->
-- インタラクティブ要素を適切に設定して、ユーザーの操作性を向上できる。
-
+- 色の指定と背景設定の基本を理解する。
 #### 詳細 <!-- omit in toc -->
-- インタラクティブ要素やフォームを正しく扱う
-  - button, input, select, textarea, label
-  - datalist, progress, meter
+- 色の指定方法（名前、hex、rgb、rgba、hsl、hsla）、透過 (opacity) およびグラデーション
+- 背景プロパティ（background-*, border-*, box-shadow）
 
-### 1.3.3. 基本的なARIAの利用
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.3 テキスト、リスト、テーブル
 #### 概要 <!-- omit in toc -->
-- シンプルなARIA属性を用いてアクセシビリティに配慮した実装ができる。
-
+- テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細 <!-- omit in toc -->
-- シンプルなARIA属性を用いてアクセシビリティに配慮したUIを構築できる
-  - aria-hidden, aria-label, role属性
+- フォントファミリー、サイズ、ウェイトの設定
+- テキスト修飾（underline, overline, line-through）
+- リストスタイルとテーブルのスタイル設定（border-collapse, border-spacing）
+
+### 1.3.4 変形とアニメーション
+#### 概要 <!-- omit in toc -->
+- 変形とアニメーションの基本テクニックを理解し、インタラクティブなエフェクトを実現する。
+#### 詳細 <!-- omit in toc -->
+- 2D/3D変形（transform: translate, rotate, scale, skew）
+- トランジション（transition-property, transition-duration, transition-timing-function, transition-delay）
+- アニメーション（@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction）
 
 ## 1.4. レスポンシブWebデザイン
+出題種別: 知識問題、コードリーディング問題、記述問題
 
 ### 1.4.1. マルチデバイス対応 / 旧 1.4.1
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -270,6 +243,44 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - メディアクエリの基本使用
   - `min-width`、`max-width`、@media
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
+
+## 1.5. 要素
+
+### 1.5.1. メディア要素 / 旧 1.3.2
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- メディア要素を理解し、適切に使用できる。
+
+#### 詳細 <!-- omit in toc -->
+- 画像、音声、動画などのメディア要素を正しく使用できる
+  - <img>, <audio>, <video>, <source>, <track>
+- メディア要素の属性やイベントを理解し、適切に利用できる
+  - src, alt, controls, autoplay, loop, muted, preload, poster
+  - loadstart, loadeddata, play, pause, ended
+
+### 1.5.2. インタラクティブ要素 / 旧 1.3.3
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- インタラクティブ要素を理解し、適切に使用できる。
+
+#### 詳細 <!-- omit in toc -->
+- フォーム要素やインタラクティブ要素を正しく使用できる
+  - <form>, <input>, <button>, <select>, <textarea>, <label>, <fieldset>, <legend>
+- フォーム要素の属性やイベントを理解し、適切に利用できる
+  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
+  - submit, reset, change, input, focus, blur
+
+### 1.5.3. 基本的なARIAの利用
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- ARIAを理解し、基本的なアクセシビリティ対応ができる。
+
+#### 詳細 <!-- omit in toc -->
+- ARIAの基本概念を理解し、適切に利用できる
+  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext
 
 # 2. HTML/CSS Level 2 出題範囲
 
