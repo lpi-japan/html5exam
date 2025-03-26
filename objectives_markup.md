@@ -255,7 +255,7 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 
 #### 詳細 <!-- omit in toc -->
 - 画像、音声、動画などのメディア要素を正しく使用できる
-  - <img>, <audio>, <video>, <source>, <track>
+  - `img`, `audio`, `video`, `source`, `track`
 - メディア要素の属性やイベントを理解し、適切に利用できる
   - src, alt, controls, autoplay, loop, muted, preload, poster
   - loadstart, loadeddata, play, pause, ended
@@ -268,7 +268,7 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 
 #### 詳細 <!-- omit in toc -->
 - フォーム要素やインタラクティブ要素を正しく使用できる  
-  - <form>, <input>, <button>, <select>, <textarea>, <label>, <fieldset>, <legend>  
+  - form, input, button, select, textarea, label, fieldset, legend 
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
   - submit, reset, change, input, focus, blur  
