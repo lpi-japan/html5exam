@@ -191,6 +191,7 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - ボックスモデルの理解と適用
 - フロートとクリアの使用方法
 - ポジショニング（static, relative, absolute, fixed, sticky）
+- 要素のスタッキング順序を制御する`z-index`プロパティの理解と適用
 
 ### 1.3.2 色と背景
 #### 概要 <!-- omit in toc -->
@@ -259,28 +260,28 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
   - src, alt, controls, autoplay, loop, muted, preload, poster
   - loadstart, loadeddata, play, pause, ended
 
-### 1.5.2. インタラクティブ要素 / 旧 1.3.3
-出題種別: 知識問題、コードリーディング問題、記述問題
+### 1.5.2. インタラクティブ要素 / 旧 1.3.3  
+出題種別: 知識問題、コードリーディング問題、記述問題  
 
 #### 概要 <!-- omit in toc -->
-- インタラクティブ要素を理解し、適切に使用できる。
+- インタラクティブ要素を理解し、適切に使用できる。  
 
 #### 詳細 <!-- omit in toc -->
-- フォーム要素やインタラクティブ要素を正しく使用できる
-  - <form>, <input>, <button>, <select>, <textarea>, <label>, <fieldset>, <legend>
-- フォーム要素の属性やイベントを理解し、適切に利用できる
+- フォーム要素やインタラクティブ要素を正しく使用できる  
+  - <form>, <input>, <button>, <select>, <textarea>, <label>, <fieldset>, <legend>  
+- フォーム要素の属性やイベントを理解し、適切に利用できる  
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
-  - submit, reset, change, input, focus, blur
+  - submit, reset, change, input, focus, blur  
 
-### 1.5.3. 基本的なARIAの利用
-出題種別: 知識問題、コードリーディング問題、記述問題
+### 1.5.3. 基本的なARIAの利用  
+出題種別: 知識問題、コードリーディング問題、記述問題  
 
 #### 概要 <!-- omit in toc -->
-- ARIAを理解し、基本的なアクセシビリティ対応ができる。
+- ARIAを理解し、基本的なアクセシビリティ対応ができる。  
 
 #### 詳細 <!-- omit in toc -->
-- ARIAの基本概念を理解し、適切に利用できる
-  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext
+- ARIAの基本概念を理解し、適切に利用できる  
+  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext  
 
 # 2. HTML/CSS Level 2 出題範囲
 
