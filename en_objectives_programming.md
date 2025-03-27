@@ -128,6 +128,7 @@ Question Types: Knowledge, Code Reading, Written.
   - Primitive types (string, number, boolean, null, undefined)
   - Object types (object, array, function)
   - Variable declaration (var, let, const) and scope, reassignment behavior
+  - Type Operators: instanceof, typeof
 - Template literals
 
 #### References
