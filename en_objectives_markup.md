@@ -303,10 +303,10 @@ Question Types: Knowledge, Code Reading, Written.
   - Table structure: table, thead, tbody, tr, th, td
 
 #### References
-- [Document sections](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#document_sections)
-- [Content sectioning](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#content_sectioning)
-- [Text content](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#text_content)
-- [Table content](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#table_content)
+- [HTML Document Sections](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#document_sections)
+- [HTML Content Sectioning](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#content_sectioning)
+- [HTML Text Content Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#text_content)
+- [HTML Table Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#table_content)
 - [Main element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/main/index.md)
 - [Navigation element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/nav/index.md)
 - [Header element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/header/index.md)
@@ -333,7 +333,7 @@ Question Types: Knowledge, Code Reading, Written.
   - Menu and menuitem for navigation
 
 #### References
-- [Forms](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#forms)
+- [HTML Form Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#forms)
 - [Form element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/form/index.md)
 - [Input element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/input/index.md)
 - [Select element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/select/index.md)
@@ -367,8 +367,8 @@ Question Types: Knowledge, Code Reading, Written.
   - svg for vector graphics
 
 #### References
-- [Embedded content](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#embedded_content)
-- [Image and multimedia](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#image_and_multimedia)
+- [HTML Embedded Content](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#embedded_content)
+- [HTML Image and Multimedia](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#image_and_multimedia)
 - [Video element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/video/index.md)
 - [Audio element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/audio/index.md)
 - [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/source/index.md)
@@ -398,12 +398,12 @@ Question Types: Knowledge, Code Reading, Written.
   - Keyboard shortcuts
 
 #### References
-- [Using ARIA](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/index.md)
+- [ARIA Overview](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/index.md)
 - [ARIA Reference](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/index.md)
 - [ARIA Roles](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/roles/index.md)
 - [ARIA States and Properties](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/attributes/index.md)
 - [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/index.md)
-- [HTML tabindex attribute](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/tabindex/index.md)
+- [tabindex](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/tabindex/index.md)
 
 ## 1.4. Responsive Web Design
 
@@ -422,15 +422,15 @@ Question Types: Knowledge, Code Reading, Written.
   - srcset, sizes
   - object-fit, object-position
 
-#### References <!-- omit in toc -->
-- [Responsive images](https://github.com/mdn/content/tree/main/files/en-us/web/html/responsive_images/index.md)
+#### References
+- [Responsive Images](https://github.com/mdn/content/tree/main/files/en-us/web/html/responsive_images/index.md)
 - [Picture element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/picture/index.md)
 - [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/source/index.md)
-- [Using the viewport meta tag](https://github.com/mdn/content/tree/main/files/en-us/web/html/viewport_meta_tag/index.md)
-- [Object-fit](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-fit/index.md)
-- [Object-position](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-position/index.md)
+- [Viewport meta tag](https://github.com/mdn/content/tree/main/files/en-us/web/html/viewport_meta_tag/index.md)
+- [object-fit](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-fit/index.md)
+- [object-position](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-position/index.md)
 - [CSS Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/index.md)
-- [CSS Flexible Box Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
+- [CSS Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
 
 ### 1.4.2. Media Queries
 Question Types: Knowledge, Code Reading, Written.
@@ -443,11 +443,11 @@ Question Types: Knowledge, Code Reading, Written.
   - `min-width`, `max-width`, @media
 - Implement custom styles for different breakpoints
 
-#### References <!-- omit in toc -->
-- [Using Media Queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/using_media_queries/index.md)
-- [Media Queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/@media/index.md)
-- [Testing Media Queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/testing_media_queries/index.md)
-- [Media Query Level 4](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/index.md)
+#### References
+- [Using media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/using_media_queries/index.md)
+- [Media query syntax](https://github.com/mdn/content/tree/main/files/en-us/web/css/@media/index.md)
+- [Testing media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/testing_media_queries/index.md)
+- [Media Queries Level 4](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/index.md)
 
 # 2. HTML/CSS Level 2 Exam Coverage
 
@@ -524,12 +524,11 @@ Question Types: Knowledge, Code Reading, Written.
   - Dynamic placement and size adjustment
 
 #### References
-- [web/css/css_flexible_box_layout/basic_concepts_of_flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
-- [web/css/css_grid_layout/basic_concepts_of_grid_layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/basic_concepts_of_grid_layout/index.md)
-- [web/css/css_grid_layout/grid_template_areas](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/grid_template_areas/index.md)
-- [web/css/css_grid_layout/box_alignment_in_grid_layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/box_alignment_in_grid_layout/index.md)
-- [web/css/css_grid_layout/auto-placement_in_grid_layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
-
+- [Flexbox basic concepts](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
+- [Grid basic concepts](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/basic_concepts_of_grid_layout/index.md)
+- [Grid template areas](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/grid_template_areas/index.md)
+- [Grid box alignment](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/box_alignment_in_grid_layout/index.md)
+- [Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
 
 ### 2.2.3. Responsive Design
 Question Types: Knowledge, Code Reading, Written.
@@ -547,6 +546,17 @@ Question Types: Knowledge, Code Reading, Written.
 - Optimize content and media
   - Detailed responsive image configuration and adaptive media selection strategies
   - Precise media display adjustments using CSS `object-fit` and `object-position`
+
+#### References
+- [Using media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/using_media_queries/index.md)
+- [CSS custom properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascading_variables/using_css_custom_properties/index.md)
+- [CSS custom properties (--*)](https://github.com/mdn/content/tree/main/files/en-us/web/css/--_star_/index.md)
+- [CSS calc()](https://github.com/mdn/content/tree/main/files/en-us/web/css/calc/index.md)
+- [CSS clamp()](https://github.com/mdn/content/tree/main/files/en-us/web/css/clamp/index.md)
+- [CSS Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
+- [CSS Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
+- [CSS Container queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_containment/container_queries/index.md)
+- [Responsive images](https://github.com/mdn/content/tree/main/files/en-us/web/html/responsive_images/index.md)
 
 ### 2.2.4. Animation and Transition
 Question Types: Knowledge, Code Reading, Written.
