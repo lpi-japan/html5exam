@@ -46,8 +46,7 @@
   - [1.4. レスポンシブWebデザイン](#14-レスポンシブwebデザイン)
     - [1.4.1. マルチデバイス対応 / 旧 1.4.1](#141-マルチデバイス対応--旧-141)
     - [1.4.2. メディアクエリ / 旧 1.4.2](#142-メディアクエリ--旧-142)
-    - [1.4.3. Flexboxの基礎](#143-flexboxの基礎)
-    - [1.4.4. CSS Gridの基礎](#144-css-gridの基礎)
+    - [1.4.3. フレックスボックスとCSS Gridの基礎](#143-フレックスボックスとcss-gridの基礎)
   - [1.5. 要素](#15-要素)
     - [1.5.1. メディア要素 / 旧 1.3.2](#151-メディア要素--旧-132)
     - [1.5.2. インタラクティブ要素 / 旧 1.3.3](#152-インタラクティブ要素--旧-133)
@@ -66,6 +65,7 @@
     - [2.2.5. パフォーマンス最適化](#225-パフォーマンス最適化)
     - [2.2.6. 可変フォント(Variable Fonts)](#226-可変フォントvariable-fonts)
     - [2.2.7. CSSネスティング](#227-cssネスティング)
+    - [2.2.8. コンテナクエリ](#228-コンテナクエリ)
 
 # 1. HTML/CSS Level 1 出題範囲
 
@@ -195,7 +195,7 @@
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細 <!-- omit in toc -->
 - フォント設定（font-*, line-height）
-- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow）
+- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow, vertical-align）
 - 単語の改行制御（word-break, word-wrap, overflow-wrap）
 - リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing, content）
 
@@ -236,23 +236,19 @@
   - `min-width`、`max-width`、@media
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
 
-### 1.4.3. Flexboxの基礎
+### 1.4.3. フレックスボックスとCSS Gridの基礎
+出題種別: 知識問題、コードリーディング問題、記述問題  
+
 #### 概要 <!-- omit in toc -->
-- Flexboxを用いて柔軟なレイアウトが組める基礎を身につける。
+- フレックスボックスとCSS Gridを用いて柔軟かつ基本的なレイアウトを構築するスキルを身につける。
 
 #### 詳細 <!-- omit in toc -->
-- 基本的なFlexboxプロパティを理解し、柔軟なレイアウトを組み立てる
-  - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`
-- Flexboxの子要素に関する基本プロパティ
+- フレックスボックスの基本プロパティを理解し、柔軟なレイアウトを組み立てる
+  - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`, `align-self`
+- フレックスボックスの子要素に関する基本プロパティ
   - `flex-grow`, `flex-shrink`, `flex-basis`, `order`
-
-### 1.4.4. CSS Gridの基礎
-#### 概要 <!-- omit in toc -->
-- CSS Gridを用いて基本的なレイアウトを構築するスキルを身につける。
-
-#### 詳細 <!-- omit in toc -->
 - CSS Gridの基本プロパティを理解し、シンプルなレイアウトを作成できる
-  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`
+  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
 - グリッドアイテムの配置に関する基本プロパティ
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
@@ -366,11 +362,11 @@
 
 #### 詳細 <!-- omit in toc -->
 - Flexboxの応用的なプロパティを活用し、複雑なレイアウトを効率的に構築できる
-  - `align-self`, `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
+  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
 - CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
-  - `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
+  - `grid-template-areas`
   - グリッドアイテムの詳細な配置制御
-    - `justify-self`, `align-self`, `place-self`
+    - `justify-self`, `place-self`
   - ネストされたグリッドの利用
 
 ### 2.2.3. レスポンシブデザイン
@@ -386,7 +382,6 @@
 - `calc()`, `clamp()`, CSSカスタムプロパティ等を活用した動的なレイアウト調整
 - 複雑なレイアウト設計
   - 高度なFlexboxやCSS Grid技術を使った柔軟なコンテンツ再配置
-  - 必要に応じたコンテナクエリなどの先進技術の検討・実装
 - コンテンツとメディアの最適化
   - 詳細なレスポンシブ画像の設定と、適応型メディア選択戦略
   - CSSの `object-fit` や `object-position` を活用した、精密なメディア表示の調整
@@ -436,3 +431,16 @@
 - ネスティングを使用したコードの可読性向上とメンテナンス性の向上
 - ネスティングの制限事項やブラウザ対応状況を理解する
   - PostCSSやSassなどのプリプロセッサとの違い
+
+### 2.2.8. コンテナクエリ
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- コンテナクエリを使用して、コンテナサイズに応じたスタイルを適用するスキルを身につける。
+
+#### 詳細 <!-- omit in toc -->
+- コンテナクエリの基本構文を理解し、柔軟なスタイルを適用できる
+  - `@container`ルールの使用方法
+  - コンテナサイズに基づくスタイルの切り替え
+- コンテナクエリを活用したレスポンシブデザインの実現
+- コンテナクエリの制限事項やブラウザ対応状況と制限事項
