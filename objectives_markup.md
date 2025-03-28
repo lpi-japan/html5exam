@@ -65,6 +65,7 @@
     - [2.2.4. アニメーションとトランジション](#224-アニメーションとトランジション)
     - [2.2.5. パフォーマンス最適化](#225-パフォーマンス最適化)
     - [2.2.6. 可変フォント(Variable Fonts)](#226-可変フォントvariable-fonts)
+    - [2.2.7. CSSネスティング](#227-cssネスティング)
 
 # 1. HTML/CSS Level 1 出題範囲
 
@@ -172,7 +173,7 @@
 - フロートとクリアの使用方法
 - ポジショニング（static, relative, absolute, fixed, sticky）
 - 要素のスタッキング順序を制御する`z-index`プロパティの理解と適用
-- カーソルのスタイル設定（cursor）
+- インタラクティブ制御（cursor, pointer-events, user-select）
 
 ### 1.3.2 ボックスモデル
 #### 概要 <!-- omit in toc -->
@@ -194,9 +195,9 @@
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細 <!-- omit in toc -->
 - フォント設定（font-*, line-height）
-- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing）
+- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow）
 - 単語の改行制御（word-break, word-wrap, overflow-wrap）
-- リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing）
+- リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing, content）
 
 ### 1.3.5 変形とアニメーション
 #### 概要 <!-- omit in toc -->
@@ -351,8 +352,10 @@
 - 高度なCSSレイアウト技術を使用して、複雑なレイアウトやスタイリングを実現できる。
 
 #### 詳細 <!-- omit in toc -->
-- CSS ShapesやSubgridなど、最先端のレイアウト技術を応用できる
-  - CSS Houdini, CSS Logical Properties
+- CSS Shapes
+- Subgrid
+- CSS Houdini
+- CSS Logical Properties
 
 ### 2.2.2. フレックスボックスとグリッド
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -419,3 +422,17 @@
 #### 詳細 <!-- omit in toc -->
 - フォントの軸調整を応用し、可変フォントでパフォーマンスとデザインを両立できる
   - font-variation-settings, @font-face
+
+### 2.2.7. CSSネスティング
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- CSSネスティングを使用して、スタイルの記述を簡潔にし、構造化されたスタイルを作成できる。
+
+#### 詳細 <!-- omit in toc -->
+- CSSネスティングの基本構文を理解し、効率的にスタイルを記述できる
+  - ネストされたセレクタの使用方法
+  - `&`（親セレクタ参照）の活用
+- ネスティングを使用したコードの可読性向上とメンテナンス性の向上
+- ネスティングの制限事項やブラウザ対応状況を理解する
+  - PostCSSやSassなどのプリプロセッサとの違い
