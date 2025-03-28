@@ -68,37 +68,33 @@
   - [2.2. WebブラウザにおけるJavaScript API](#22-webブラウザにおけるjavascript-api)
     - [2.2.1. DOM応用 / 旧 2.2.2](#221-dom応用--旧-222)
     - [2.2.2. History API / 旧 2.2.5](#222-history-api--旧-225)
+    - [2.2.3. Webコンポーネント](#223-webコンポーネント)
   - [2.3. グラフィックス・アニメーション / 旧 1.5.1](#23-グラフィックスアニメーション--旧-151)
     - [2.3.1. Canvas(2D) / 旧 2.3.1](#231-canvas2d--旧-231)
     - [2.3.2. SVG / 旧 2.3.2](#232-svg--旧-232)
-  - [2.4. グラフィックス・アニメーション / 旧 1.5.1](#24-グラフィックスアニメーション--旧-151)
-    - [2.4.1. Canvas(2D) / 旧 2.3.1](#241-canvas2d--旧-231)
-    - [2.4.2. SVG / 旧 2.3.2](#242-svg--旧-232)
-    - [2.4.3. Timing control for script-based animations / 旧 2.3.3](#243-timing-control-for-script-based-animations--旧-233)
-  - [2.5. マルチメディア / 旧 1.5.1](#25-マルチメディア--旧-151)
-    - [2.5.1. メディア要素のAPI / 旧 2.4.1](#251-メディア要素のapi--旧-241)
-    - [2.5.2. DeviceOrientation Event / 旧 2.7.2](#252-deviceorientation-event--旧-272)
-  - [2.6. ストレージ / 旧 1.5.3](#26-ストレージ--旧-153)
-    - [2.6.1. Web Storage / 旧 2.5.1](#261-web-storage--旧-251)
-    - [2.6.2. Indexed Database API / 旧 2.5.2](#262-indexed-database-api--旧-252)
-    - [2.6.3. File API / 旧 2.5.3](#263-file-api--旧-253)
-    - [2.6.4. バイナリーデータ / 旧 2.5.4](#264-バイナリーデータ--旧-254)
-  - [2.7. 通信　/ 旧 1.5.4](#27-通信-旧-154)
-    - [2.7.1. WebSocket / 旧 2.6.1](#271-websocket--旧-261)
-    - [2.7.2. XMLHttpRequest / 旧 2.6.2](#272-xmlhttprequest--旧-262)
-    - [2.7.3. Server-Sent Events / 旧 2.6.3](#273-server-sent-events--旧-263)
-  - [2.8. デバイスアクセス / 旧 1.5.2](#28-デバイスアクセス--旧-152)
-    - [2.8.1. Geolocation API / 旧 2.7.1](#281-geolocation-api--旧-271)
-    - [2.8.2. DeviceOrientation Event / 旧 2.7.2](#282-deviceorientation-event--旧-272)
-  - [2.9. パフォーマンスとオフライン /　1.5.3](#29-パフォーマンスとオフライン-153)
-    - [2.9.1. Web Workers / 旧 2.8.1](#291-web-workers--旧-281)
-    - [2.9.2. High Resolution Time / 旧 2.8.2](#292-high-resolution-time--旧-282)
-    - [2.9.3. Service Workerによるオフラインアプリケーション / 旧 2.8.3](#293-service-workerによるオフラインアプリケーション--旧-283)
-    - [2.9.4. Page Visibility / 旧 2.8.4](#294-page-visibility--旧-284)
-    - [2.9.5. Navigation Timing / 旧 2.8.5](#295-navigation-timing--旧-285)
-  - [2.10. セキュリティ](#210-セキュリティ)
-    - [2.10.1. クロスオリジン制約とCORS / 旧 2.9.1](#2101-クロスオリジン制約とcors--旧-291)
-    - [2.10.2. セキュリティモデルとSSLの関係 / 旧 2.9.2](#2102-セキュリティモデルとsslの関係--旧-292)
+    - [2.3.3. Timing control for script-based animations / 旧 2.3.3](#233-timing-control-for-script-based-animations--旧-233)
+  - [2.4. マルチメディア / 旧 1.5.1](#24-マルチメディア--旧-151)
+    - [2.4.1. メディア要素のAPI / 旧 2.4.1](#241-メディア要素のapi--旧-241)
+  - [2.5. ストレージ / 旧 1.5.3](#25-ストレージ--旧-153)
+    - [2.5.1. Web Storage / 旧 2.5.1](#251-web-storage--旧-251)
+    - [2.5.2. Indexed Database API / 旧 2.5.2](#252-indexed-database-api--旧-252)
+    - [2.5.3. File API / 旧 2.5.3](#253-file-api--旧-253)
+    - [2.5.4. バイナリーデータ / 旧 2.5.4](#254-バイナリーデータ--旧-254)
+  - [2.6. 通信　/ 旧 1.5.4](#26-通信-旧-154)
+    - [2.6.1. WebSocket / 旧 2.6.1](#261-websocket--旧-261)
+    - [2.6.2. XMLHttpRequest / 旧 2.6.2](#262-xmlhttprequest--旧-262)
+    - [2.6.3. Server-Sent Events / 旧 2.6.3](#263-server-sent-events--旧-263)
+  - [2.7. デバイスアクセス / 旧 1.5.2](#27-デバイスアクセス--旧-152)
+    - [2.7.1. Geolocation API / 旧 2.7.1](#271-geolocation-api--旧-271)
+  - [2.8. パフォーマンスとオフライン /　1.5.3](#28-パフォーマンスとオフライン-153)
+    - [2.8.1. Web Workers / 旧 2.8.1](#281-web-workers--旧-281)
+    - [2.8.2. High Resolution Time / 旧 2.8.2](#282-high-resolution-time--旧-282)
+    - [2.8.3. Service Workerによるオフラインアプリケーション / 旧 2.8.3](#283-service-workerによるオフラインアプリケーション--旧-283)
+    - [2.8.4. Page Visibility / 旧 2.8.4](#284-page-visibility--旧-284)
+    - [2.8.5. Navigation Timing / 旧 2.8.5](#285-navigation-timing--旧-285)
+  - [2.9. セキュリティ](#29-セキュリティ)
+    - [2.9.1. クロスオリジン制約とCORS / 旧 2.9.1](#291-クロスオリジン制約とcors--旧-291)
+    - [2.9.2. セキュリティモデルとSSLの関係 / 旧 2.9.2](#292-セキュリティモデルとsslの関係--旧-292)
 
 # 1. JavaScript Level 1 出題範囲
 
@@ -107,14 +103,12 @@
 ### 1.1.1. JavaScript文法
 
 #### Overview <!-- omit in toc -->
-- JavaScriptの基本構文、文や式の組み立て方、制御構造及び演算子の利用方法を理解する。
+- JavaScriptの基本文法を理解し、正しく記述できる。
 
 #### 詳細 <!-- omit in toc -->
 - 基本構文の記述方法
-  - 条件分岐 (if, else, switch)
-  - ループ (for, while, do-while)
-  - 演算子 (算術, 比較, 論理, 代入, ternary operator など)
-  - ※変数宣言・データ型の詳細は[1.1.2 データ型と変数]を参照
+- 文と式の違い
+- スコープとホイスティングの概念
 
 ### 1.1.2. データ型と変数
 出題種別: 知識問題、コードリーティング問題、記述問題
@@ -127,6 +121,7 @@
   - プリミティブ型 (文字列, 数値, 真偽値, null, undefined)
   - オブジェクト型 (オブジェクト, 配列, 関数)
   - 変数の宣言 (var, let, const) とスコープ、再代入の挙動
+  - 型に関する演算子: instanceof, typeof
 - テンプレートリテラル
 
 ### 1.1.3. 演算子と式
@@ -463,6 +458,16 @@
   - プロパティ（href, protocol, host, hostname, port, pathname, search, hash）
   - メソッド（assign(), replace(), reload()）
 
+### 2.2.3. Webコンポーネント
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- 既存のHTML要素を拡張し、再利用可能なカスタム要素を作成できる。
+
+#### 詳細 <!-- omit in toc -->
+- カスタム要素やShadow DOMを使い、再利用可能な部品を開発できる
+- CSSスコープ：Shadow DOM を利用して、コンポーネントのスタイルをカプセル化する
+
 ## 2.3. グラフィックス・アニメーション / 旧 1.5.1
 
 ### 2.3.1. Canvas(2D) / 旧 2.3.1
@@ -482,31 +487,6 @@
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
-- History APIを利用して、ブラウザの履歴管理やナビゲーション制御ができる。
-
-#### 詳細 <!-- omit in toc -->
-- HistoryオブジェクトやLocationオブジェクトのプロパティや関数の利用方法
- - go(), back(), forward(), pushState(), replaceState()
-
-## 2.4. グラフィックス・アニメーション / 旧 1.5.1
-
-### 2.4.1. Canvas(2D) / 旧 2.3.1
-出題種別: 知識問題、コードリーティング問題、記述問題
-
-#### Overview <!-- omit in toc -->
-- Canvasの特徴を理解し、2D描画およびアニメーションを実装できる。
-
-#### 詳細 <!-- omit in toc -->
-- Canvasの特徴・利用条件
-- CanvasとSVGの違い
-- 2Dコンテキストの概要と描画状態の遷移
-- 2Dコンテキストを使った描画やアニメーション
-  - canvas.getContext("2d"), context.arc(), context.fill()
-
-### 2.4.2. SVG / 旧 2.3.2
-出題種別: 知識問題、コードリーティング問題、記述問題
-
-#### Overview <!-- omit in toc -->
 - SVGの特性を理解し、ベクターグラフィックスを作成できる。
 
 #### 詳細 <!-- omit in toc -->
@@ -514,7 +494,7 @@
 - Canvasとの違い
   - ベクター描画, XML, <svg>要素
 
-### 2.4.3. Timing control for script-based animations / 旧 2.3.3
+### 2.3.3. Timing control for script-based animations / 旧 2.3.3
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -526,9 +506,9 @@
 - リフレッシュレートとの関係
   - requestAnimationFrame(), cancelAnimationFrame()
 
-## 2.5. マルチメディア / 旧 1.5.1
+## 2.4. マルチメディア / 旧 1.5.1
 
-### 2.5.1. メディア要素のAPI / 旧 2.4.1
+### 2.4.1. メディア要素のAPI / 旧 2.4.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -543,23 +523,9 @@
 - メディアリソースに関するエラーコード取得
   - HTMLMediaElement, play(), pause(), onplaying, onerror
 
-### 2.5.2. DeviceOrientation Event / 旧 2.7.2
-出題種別: 知識問題、コードリーティング問題、記述問題
+## 2.5. ストレージ / 旧 1.5.3
 
-#### Overview <!-- omit in toc -->
-- DeviceOrientation Eventを理解し、デバイスの動きや向きを検知してインタラクションに活用できる。
-
-#### 詳細 <!-- omit in toc -->
-- コンパスの方角の検知
-- デバイスの傾きの検知
-- デバイスの移動加速度の検知
-- デバイスの回転速度の検知
-- 加速度の単位
-  - deviceorientationイベント, devicemotionイベント
-
-## 2.6. ストレージ / 旧 1.5.3
-
-### 2.6.1. Web Storage / 旧 2.5.1
+### 2.5.1. Web Storage / 旧 2.5.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -570,7 +536,7 @@
 - ローカルストレージとセッションストレージの違い
   - localStorage, sessionStorage, setItem(), getItem(), removeItem()
 
-### 2.6.2. Indexed Database API / 旧 2.5.2
+### 2.5.2. Indexed Database API / 旧 2.5.2
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -583,7 +549,7 @@
   - データの保存
   - IDBFactory.open(), IDBDatabase, createObjectStore()
 
-### 2.6.3. File API / 旧 2.5.3
+### 2.5.3. File API / 旧 2.5.3
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -596,7 +562,7 @@
 - ローカルファイルの読み込み
   - FileList, FileReader, readAsText(), readAsDataURL()
 
-### 2.6.4. バイナリーデータ / 旧 2.5.4
+### 2.5.4. バイナリーデータ / 旧 2.5.4
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -608,9 +574,9 @@
 - バイトオーダー
   - TypedArray, ArrayBuffer, Blob
 
-## 2.7. 通信　/ 旧 1.5.4
+## 2.6. 通信　/ 旧 1.5.4
 
-### 2.7.1. WebSocket / 旧 2.6.1
+### 2.6.1. WebSocket / 旧 2.6.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -622,7 +588,7 @@
 - WebSocketを使ったサーバとの通信（クライアント側のコード）
   - WebSocketオブジェクト, send(), onopen, onmessage
 
-### 2.7.2. XMLHttpRequest / 旧 2.6.2
+### 2.6.2. XMLHttpRequest / 旧 2.6.2
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -635,7 +601,7 @@
 - タイムアウトの扱い方
   - open(), send(), onreadystatechange, responseText
 
-### 2.7.3. Server-Sent Events / 旧 2.6.3
+### 2.6.3. Server-Sent Events / 旧 2.6.3
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -648,9 +614,9 @@
 - サーバーから切断された時の挙動
   - EventSource, onmessage, onerror
 
-## 2.8. デバイスアクセス / 旧 1.5.2
+## 2.7. デバイスアクセス / 旧 1.5.2
 
-### 2.8.1. Geolocation API / 旧 2.7.1
+### 2.7.1. Geolocation API / 旧 2.7.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -662,23 +628,9 @@
 - 現在位置取得後のコールバック関数呼び出し
   - getCurrentPosition(), watchPosition(), Position, Coordinates
 
-### 2.8.2. DeviceOrientation Event / 旧 2.7.2
-出題種別: 知識問題、コードリーティング問題、記述問題
+## 2.8. パフォーマンスとオフライン /　1.5.3
 
-#### Overview <!-- omit in toc -->
-- DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
-
-#### 詳細 <!-- omit in toc -->
-- コンパスの方角の検知
-- デバイスの傾きの検知
-- デバイスの移動加速度の検知
-- デバイスの回転速度の検知
-- 加速度の単位
-  - DeviceOrientationEvent, DeviceMotionEvent
-
-## 2.9. パフォーマンスとオフライン /　1.5.3
-
-### 2.9.1. Web Workers / 旧 2.8.1
+### 2.8.1. Web Workers / 旧 2.8.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -696,7 +648,7 @@
 - Web Workersでバックグラウンド処理を実装
   - Worker, postMessage(), onmessage
 
-### 2.9.2. High Resolution Time / 旧 2.8.2
+### 2.8.2. High Resolution Time / 旧 2.8.2
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -707,7 +659,7 @@
 - High Resolution Time APIを利用した、高い精度のパフォーマンス測定
    - Performance.now()
 
-### 2.9.3. Service Workerによるオフラインアプリケーション / 旧 2.8.3
+### 2.8.3. Service Workerによるオフラインアプリケーション / 旧 2.8.3
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -719,7 +671,7 @@
 - PWA（Progressive Web Apps）の概要
   - Service Worker, install, activate, fetch
 
-### 2.9.4. Page Visibility / 旧 2.8.4
+### 2.8.4. Page Visibility / 旧 2.8.4
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -732,7 +684,7 @@
 - ページの表示状態を検知して動作を最適化
   - document.hidden, visibilitychangeイベント
 
-### 2.9.5. Navigation Timing / 旧 2.8.5
+### 2.8.5. Navigation Timing / 旧 2.8.5
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -744,9 +696,9 @@
 - ページの読み込み時間、DNSにおける名前解決などの各所要時間の計測
    - PerformanceTiming, navigationStart, loadEventEnd
 
-## 2.10. セキュリティ
+## 2.9. セキュリティ
 
-### 2.10.1. クロスオリジン制約とCORS / 旧 2.9.1
+### 2.9.1. クロスオリジン制約とCORS / 旧 2.9.1
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
@@ -757,7 +709,7 @@
 - 同一オリジンポリシーを堅持しつつ、オリジン間でのリソース共有を可能にする設定とデバッグ
    - Origin, Access-Control-Allow-Origin, プリフライトリクエスト
 
-### 2.10.2. セキュリティモデルとSSLの関係 / 旧 2.9.2
+### 2.9.2. セキュリティモデルとSSLの関係 / 旧 2.9.2
 出題種別: 知識問題、コードリーティング問題、記述問題
 
 #### Overview <!-- omit in toc -->
