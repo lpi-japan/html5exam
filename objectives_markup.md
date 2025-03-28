@@ -37,16 +37,17 @@
   - [1.2. CSSの基礎](#12-cssの基礎)
     - [1.2.1. スタイルシートの基本 / 旧 1.2.1](#121-スタイルシートの基本--旧-121)
     - [1.2.3. カスケード（優先順位） / 旧 1.2.3](#123-カスケード優先順位--旧-123)
-    - [1.2.4. Flexboxの基本](#124-flexboxの基本)
-    - [1.2.5. CSSネスティング](#125-cssネスティング)
   - [1.3. CSSデザイン](#13-cssデザイン)
-    - [1.3.1 レイアウトとボックスモデル](#131-レイアウトとボックスモデル)
-    - [1.3.2 色と背景](#132-色と背景)
-    - [1.3.3 テキスト、リスト、テーブル](#133-テキストリストテーブル)
-    - [1.3.4 変形とアニメーション](#134-変形とアニメーション)
+    - [1.3.1 レイアウト](#131-レイアウト)
+    - [1.3.2 ボックスモデル](#132-ボックスモデル)
+    - [1.3.3 色と背景](#133-色と背景)
+    - [1.3.4 テキスト、リスト、テーブル](#134-テキストリストテーブル)
+    - [1.3.5 変形とアニメーション](#135-変形とアニメーション)
   - [1.4. レスポンシブWebデザイン](#14-レスポンシブwebデザイン)
     - [1.4.1. マルチデバイス対応 / 旧 1.4.1](#141-マルチデバイス対応--旧-141)
     - [1.4.2. メディアクエリ / 旧 1.4.2](#142-メディアクエリ--旧-142)
+    - [1.4.3. Flexboxの基礎](#143-flexboxの基礎)
+    - [1.4.4. CSS Gridの基礎](#144-css-gridの基礎)
   - [1.5. 要素](#15-要素)
     - [1.5.1. メディア要素 / 旧 1.3.2](#151-メディア要素--旧-132)
     - [1.5.2. インタラクティブ要素 / 旧 1.3.3](#152-インタラクティブ要素--旧-133)
@@ -160,55 +161,44 @@
   - 継承されないプロパティの扱い
   - 詳細度 (Specificity)
 
-### 1.2.4. Flexboxの基本
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要 <!-- omit in toc -->
-- Flexboxを用いて柔軟なレイアウトが組める基礎を身につける。
-  - display: flex, flex-direction, justify-content, align-items
-
-#### 詳細 <!-- omit in toc -->
-- Flexboxを理解し、柔軟なレイアウトを組み立てる
-  - display: flex, flex-direction, justify-content, align-items
-
-### 1.2.5. CSSネスティング
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要 <!-- omit in toc -->
-CSSネスティングにより、スタイルルールを論理的にグループ化でき、可読性とメンテナンス性を向上する。
-
-#### 詳細 <!-- omit in toc -->
-- ネスト構文で親子関係に基づいた記述が可能  
-- 一部の最新ブラウザやコンパイラで利用可能
-
 ## 1.3. CSSデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
 
-### 1.3.1 レイアウトとボックスモデル
+### 1.3.1 レイアウト
 #### 概要 <!-- omit in toc -->
-- コンテンツのレイアウトに関する記述方法とボックスモデルの正しい適用を理解する。
+- コンテンツのレイアウトに関する記述方法を理解する。
+
 #### 詳細 <!-- omit in toc -->
-- ボックスモデルの理解と適用
 - フロートとクリアの使用方法
 - ポジショニング（static, relative, absolute, fixed, sticky）
 - 要素のスタッキング順序を制御する`z-index`プロパティの理解と適用
+- カーソルのスタイル設定（cursor）
 
-### 1.3.2 色と背景
+### 1.3.2 ボックスモデル
+#### 概要 <!-- omit in toc -->
+- ボックスモデルの正しい適用を理解する。
+
+#### 詳細 <!-- omit in toc -->
+- ボックスモデルの理解と適用（width, height, padding, margin, box-sizing）
+- アウトラインの利用（outline, outline-offset, outline-styleなど）
+
+### 1.3.3 色と背景
 #### 概要 <!-- omit in toc -->
 - 色の指定と背景設定の基本を理解する。
 #### 詳細 <!-- omit in toc -->
-- 色の指定方法（名前、hex、rgb、rgba、hsl、hsla）、透過 (opacity) およびグラデーション
+- 色指定（color, rgba(), hsl(), hsla()）、透過 (opacity) およびグラデーション
 - 背景プロパティ（background-*, border-*, box-shadow）
 
-### 1.3.3 テキスト、リスト、テーブル
+### 1.3.4 テキスト、リスト、テーブル
 #### 概要 <!-- omit in toc -->
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細 <!-- omit in toc -->
-- フォントファミリー、サイズ、ウェイトの設定
-- テキスト修飾（underline, overline, line-through）
-- リストスタイルとテーブルのスタイル設定（border-collapse, border-spacing）
+- フォント設定（font-*, line-height）
+- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing）
+- 単語の改行制御（word-break, word-wrap, overflow-wrap）
+- リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing）
 
-### 1.3.4 変形とアニメーション
+### 1.3.5 変形とアニメーション
 #### 概要 <!-- omit in toc -->
 - 変形とアニメーションの基本テクニックを理解し、インタラクティブなエフェクトを実現する。
 #### 詳細 <!-- omit in toc -->
@@ -244,6 +234,26 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - メディアクエリの基本使用
   - `min-width`、`max-width`、@media
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
+
+### 1.4.3. Flexboxの基礎
+#### 概要 <!-- omit in toc -->
+- Flexboxを用いて柔軟なレイアウトが組める基礎を身につける。
+
+#### 詳細 <!-- omit in toc -->
+- 基本的なFlexboxプロパティを理解し、柔軟なレイアウトを組み立てる
+  - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`
+- Flexboxの子要素に関する基本プロパティ
+  - `flex-grow`, `flex-shrink`, `flex-basis`, `order`
+
+### 1.4.4. CSS Gridの基礎
+#### 概要 <!-- omit in toc -->
+- CSS Gridを用いて基本的なレイアウトを構築するスキルを身につける。
+
+#### 詳細 <!-- omit in toc -->
+- CSS Gridの基本プロパティを理解し、シンプルなレイアウトを作成できる
+  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`
+- グリッドアイテムの配置に関する基本プロパティ
+  - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
 ## 1.5. 要素
 
@@ -352,8 +362,13 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - CSS GridやFlexboxを利用して、複雑なレイアウトを実現できる。
 
 #### 詳細 <!-- omit in toc -->
-- FlexboxやCSS Gridを活用し、複雑なレイアウトを効率的に構築できる
-  - ダイナミックな配置とサイズ調整
+- Flexboxの応用的なプロパティを活用し、複雑なレイアウトを効率的に構築できる
+  - `align-self`, `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
+- CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
+  - `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
+  - グリッドアイテムの詳細な配置制御
+    - `justify-self`, `align-self`, `place-self`
+  - ネストされたグリッドの利用
 
 ### 2.2.3. レスポンシブデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
