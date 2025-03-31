@@ -494,11 +494,21 @@ Question Types: Knowledge, Code Reading, Written.
   - Dynamic placement and size adjustment
 
 #### References
-- [Flexbox basic concepts](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
+- [CSS Flexible Box Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
+- [Basic Concepts of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
+- [Box Alignment in Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_box_alignment/box_alignment_in_flexbox/index.md)
+- [Typical Use Cases of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/typical_use_cases_of_flexbox/index.md)
+- [Aligning Items in Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/aligning_items_in_a_flex_container/index.md)
+- [Ordering Flex Items](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/ordering_flex_items/index.md)
+- [Controlling Ratios of Flex Items](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/controlling_ratios_of_flex_items_along_the_main_axis/index.md)
+- [Mastering Wrapping of Flex Items](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/mastering_wrapping_of_flex_items/index.md)
+- [Individual Flex Properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/flex/index.md)
+- [Relationship of Grid Layout with Other Layout Methods](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/relationship_of_grid_layout_with_other_layout_methods/index.md)
 - [Grid basic concepts](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/basic_concepts_of_grid_layout/index.md)
 - [Grid template areas](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/grid_template_areas/index.md)
 - [Grid box alignment](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/box_alignment_in_grid_layout/index.md)
 - [Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
+- [Masonry Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/masonry_layout/index.md)
 
 ### 2.2.3. Custom Properties and Functions
 Question Types: Knowledge, Code Reading, Written.
