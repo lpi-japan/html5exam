@@ -34,33 +34,38 @@
     - [1.1.2. HTTP, HTTPSプロトコル / 旧 1.1.1](#112-http-httpsプロトコル--旧-111)
     - [1.1.3. Web関連技術の概要 / 旧 1.1.3](#113-web関連技術の概要--旧-113)
     - [1.1.4. Emojiの使用](#114-emojiの使用)
-  - [1.2. CSS](#12-css)
+  - [1.2. CSSの基礎](#12-cssの基礎)
     - [1.2.1. スタイルシートの基本 / 旧 1.2.1](#121-スタイルシートの基本--旧-121)
-    - [1.2.2. CSSデザイン / 旧 1.2.2](#122-cssデザイン--旧-122)
-    - [1.2.3. カスケード（優先順位） / 旧 1.2.3](#123-カスケード優先順位--旧-123)
-    - [1.2.4. Flexboxの基本](#124-flexboxの基本)
-    - [1.2.5. CSSネスティング](#125-cssネスティング)
-  - [1.3. 要素](#13-要素)
-    - [1.3.1. メディア要素 / 旧 1.3.2](#131-メディア要素--旧-132)
-    - [1.3.2. インタラクティブ要素 / 旧 1.3.3](#132-インタラクティブ要素--旧-133)
-    - [1.3.3. 基本的なARIAの利用](#133-基本的なariaの利用)
+    - [1.2.2. カスケード（優先順位） / 旧 1.2.3](#122-カスケード優先順位--旧-123)
+  - [1.3. CSSデザイン](#13-cssデザイン)
+    - [1.3.1. レイアウト](#131-レイアウト)
+    - [1.3.2. ボックスモデル](#132-ボックスモデル)
+    - [1.3.3. 色と背景](#133-色と背景)
+    - [1.3.4. テキスト、リスト、テーブル](#134-テキストリストテーブル)
+    - [1.3.5. 変形とアニメーション](#135-変形とアニメーション)
   - [1.4. レスポンシブWebデザイン](#14-レスポンシブwebデザイン)
     - [1.4.1. マルチデバイス対応 / 旧 1.4.1](#141-マルチデバイス対応--旧-141)
     - [1.4.2. メディアクエリ / 旧 1.4.2](#142-メディアクエリ--旧-142)
+    - [1.4.3. フレックスボックスとCSS Gridの基礎](#143-フレックスボックスとcss-gridの基礎)
+  - [1.5. 要素](#15-要素)
+    - [1.5.1. メディア要素 / 旧 1.3.2](#151-メディア要素--旧-132)
+    - [1.5.2. インタラクティブ要素 / 旧 1.3.3](#152-インタラクティブ要素--旧-133)
+    - [1.5.3. 基本的なARIAの利用](#153-基本的なariaの利用)
 - [2. HTML/CSS Level 2 出題範囲](#2-htmlcss-level-2-出題範囲)
   - [2.1. 高度なHTML](#21-高度なhtml)
     - [2.1.1. セマンティクスの深堀り](#211-セマンティクスの深堀り)
     - [2.1.2. 高度なメディア要素](#212-高度なメディア要素)
     - [2.1.3. インタラクティブ要素の応用](#213-インタラクティブ要素の応用)
-    - [2.1.4. Webコンポーネント](#214-webコンポーネント)
-    - [2.1.5. アクセシビリティ応用](#215-アクセシビリティ応用)
+    - [2.1.4. アクセシビリティ応用](#214-アクセシビリティ応用)
   - [2.2. 高度なCSS](#22-高度なcss)
     - [2.2.1. CSSレイアウトの高度化](#221-cssレイアウトの高度化)
     - [2.2.2. フレックスボックスとグリッド](#222-フレックスボックスとグリッド)
-    - [2.2.3. レスポンシブデザイン](#223-レスポンシブデザイン)
+    - [2.2.3. カスタムプロパティと関数](#223-カスタムプロパティと関数)
     - [2.2.4. アニメーションとトランジション](#224-アニメーションとトランジション)
     - [2.2.5. パフォーマンス最適化](#225-パフォーマンス最適化)
     - [2.2.6. 可変フォント(Variable Fonts)](#226-可変フォントvariable-fonts)
+    - [2.2.7. CSSネスティング](#227-cssネスティング)
+    - [2.2.8. コンテナクエリ](#228-コンテナクエリ)
 
 # 1. HTML/CSS Level 1 出題範囲
 
@@ -130,7 +135,7 @@
 - アクセシビリティを考慮したemojiの使用方法を理解する
   - スクリーンリーダー対応, aria-labelの使用
 
-## 1.2. CSS
+## 1.2. CSSの基礎
 
 ### 1.2.1. スタイルシートの基本 / 旧 1.2.1
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -140,42 +145,12 @@
 
 #### 詳細 <!-- omit in toc -->
 - 適切なセレクタやプロパティを活用できる。
-  - <link>, @import, <style>, style属性
+  - <link>, @import, <style>, style属性の使い分けができる
   - セレクタ, タイプセレクタ, クラスセレクタ, IDセレクタ, ユニバーサルセレクタ, 属性セレクタ
   - シンプルセレクタ（疑似クラス）, 疑似要素, 結合子, グループ化
 - 外部スタイルシートのリンク方法やインライン・内部スタイルシートの使い分けができる
-  - link, @import, style, style属性
 
-### 1.2.2. CSSデザイン / 旧 1.2.2
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要 <!-- omit in toc -->
-- レイアウトや配色などの基礎を整理し、仕様に沿った正しいコードを記述する事ができる。
-
-#### 詳細 <!-- omit in toc -->
-- コンテンツのレイアウトに関する記述方法
-  - ボックスモデルの理解と適用
-  - フロートとクリアの使用方法
-  - ポジショニング（static, relative, absolute, fixed, sticky）
-- 色の指定方法
-  - 色の指定方法（名前、hex、rgb、rgba、hsl、hsla）
-  - 透過 (opacity)
-  - グラデーション (\*-gradient)
-- 背景・罫線に関する記述方法
-  - 背景 (background-\*)
-  - 罫線 (border-\*)
-  - ボックスシャドウ (box-shadow)
-- テキスト、リスト、テーブルに関する記述方法
-  - フォントファミリー、サイズ、ウェイトの設定
-  - テキスト修飾（underline, overline, line-through）
-  - リストスタイルの設定（list-style-type, list-style-image）
-  - テーブルのスタイル設定（border-collapse, border-spacing）
-- コンテンツの変形、アニメーションに関する記述方法
-  - 2D/3D変形（transform: translate, rotate, scale, skew）
-  - トランジション（transition-property, transition-duration, transition-timing-function, transition-delay）
-  - アニメーション（@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction）
-
-### 1.2.3. カスケード（優先順位） / 旧 1.2.3
+### 1.2.2. カスケード（優先順位） / 旧 1.2.3
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要 <!-- omit in toc -->
@@ -185,66 +160,55 @@
 - 記述場所による優先順位やセレクタの計算方法
   - !important
   - 継承されないプロパティの扱い
-  - 詳細度 (Specificity) 
+  - 詳細度 (Specificity)
 
-### 1.2.4. Flexboxの基本
+## 1.3. CSSデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+### 1.3.1. レイアウト
 #### 概要 <!-- omit in toc -->
-- Flexboxを用いて柔軟なレイアウトが組める基礎を身につける。
+- コンテンツのレイアウトに関する記述方法を理解する。
 
 #### 詳細 <!-- omit in toc -->
-- Flexboxを理解し、柔軟なレイアウトを組み立てる
-  - display: flex, flex-direction, justify-content, align-items
+- フロートとクリアの使用方法
+- ポジショニング（static, relative, absolute, fixed, sticky）
+- 要素のスタッキング順序を制御する`z-index`プロパティの理解と適用
+- インタラクティブ制御（cursor, pointer-events, user-select）
 
-### 1.2.5. CSSネスティング
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.2. ボックスモデル
 #### 概要 <!-- omit in toc -->
-CSSネスティングにより、スタイルルールを論理的にグループ化でき、可読性とメンテナンス性を向上する。
+- ボックスモデルの正しい適用を理解する。
 
 #### 詳細 <!-- omit in toc -->
-- ネスト構文で親子関係に基づいた記述が可能  
-- 一部の最新ブラウザやコンパイラで利用可能  
+- ボックスモデルの理解と適用（width, height, padding, margin, box-sizing）
+- アウトラインの利用（outline, outline-offset, outline-styleなど）
 
-## 1.3. 要素
-
-### 1.3.1. メディア要素 / 旧 1.3.2
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.3. 色と背景
 #### 概要 <!-- omit in toc -->
-- オーディオやビデオなどの活用方法を理解し、メディア要素を効果的に埋め込める。
-
+- 色の指定と背景設定の基本を理解する。
 #### 詳細 <!-- omit in toc -->
-- ビデオやオーディオに関連する要素と属性を理解し、適切に使用できる
-  - `<video>`, `<audio>`, `<source>`, `<track>`
-- ビデオファイルとオーディオファイルの知識を持ち、適切な形式を選択できる
-  - MP4, WebM, Ogg, MP3, AAC
-- 字幕表示のための知識を持ち、アクセシビリティを向上させる
-  - WebVTT, SRT
+- 色指定（color, rgba(), hsl(), hsla()）、透過 (opacity) およびグラデーション
+- 背景プロパティ（background-*, border-*, box-shadow）
 
-### 1.3.2. インタラクティブ要素 / 旧 1.3.3
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.4. テキスト、リスト、テーブル
 #### 概要 <!-- omit in toc -->
-- インタラクティブ要素を適切に設定して、ユーザーの操作性を向上できる。
-
+- テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細 <!-- omit in toc -->
-- インタラクティブ要素やフォームを正しく扱う
-  - button, input, select, textarea, label
-  - datalist, progress, meter
+- フォント設定（font-*, line-height）
+- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow, vertical-align）
+- 単語の改行制御（word-break, word-wrap, overflow-wrap）
+- リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing, content）
 
-### 1.3.3. 基本的なARIAの利用
-出題種別: 知識問題、コードリーディング問題、記述問題
-
+### 1.3.5. 変形とアニメーション
 #### 概要 <!-- omit in toc -->
-- シンプルなARIA属性を用いてアクセシビリティに配慮した実装ができる。
-
+- 変形とアニメーションの基本テクニックを理解し、インタラクティブなエフェクトを実現する。
 #### 詳細 <!-- omit in toc -->
-- シンプルなARIA属性を用いてアクセシビリティに配慮したUIを構築できる
-  - aria-hidden, aria-label, role属性
+- 2D/3D変形（transform: translate, rotate, scale, skew）
+- トランジション（transition-property, transition-duration, transition-timing-function, transition-delay）
+- アニメーション（@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction）
 
 ## 1.4. レスポンシブWebデザイン
+出題種別: 知識問題、コードリーディング問題、記述問題
 
 ### 1.4.1. マルチデバイス対応 / 旧 1.4.1
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -271,6 +235,60 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - メディアクエリの基本使用
   - `min-width`、`max-width`、@media
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
+
+### 1.4.3. フレックスボックスとCSS Gridの基礎
+出題種別: 知識問題、コードリーディング問題、記述問題  
+
+#### 概要 <!-- omit in toc -->
+- フレックスボックスとCSS Gridを用いて柔軟かつ基本的なレイアウトを構築するスキルを身につける。
+
+#### 詳細 <!-- omit in toc -->
+- フレックスボックスの基本プロパティを理解し、柔軟なレイアウトを組み立てる
+  - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`, `align-self`
+- フレックスボックスの子要素に関する基本プロパティ
+  - `flex-grow`, `flex-shrink`, `flex-basis`, `order`
+- CSS Gridの基本プロパティを理解し、シンプルなレイアウトを作成できる
+  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
+- グリッドアイテムの配置に関する基本プロパティ
+  - `grid-row`, `grid-column`, `justify-items`, `align-items`
+
+## 1.5. 要素
+
+### 1.5.1. メディア要素 / 旧 1.3.2
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- メディア要素を理解し、適切に使用できる。
+
+#### 詳細 <!-- omit in toc -->
+- 画像、音声、動画などのメディア要素を正しく使用できる
+  - `img`, `audio`, `video`, `source`, `track`
+- メディア要素の属性やイベントを理解し、適切に利用できる
+  - src, alt, controls, autoplay, loop, muted, preload, poster
+  - loadstart, loadeddata, play, pause, ended
+
+### 1.5.2. インタラクティブ要素 / 旧 1.3.3  
+出題種別: 知識問題、コードリーディング問題、記述問題  
+
+#### 概要 <!-- omit in toc -->
+- インタラクティブ要素を理解し、適切に使用できる。  
+
+#### 詳細 <!-- omit in toc -->
+- フォーム要素やインタラクティブ要素を正しく使用できる  
+  - form, input, button, select, textarea, label, fieldset, legend 
+- フォーム要素の属性やイベントを理解し、適切に利用できる  
+  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
+  - submit, reset, change, input, focus, blur  
+
+### 1.5.3. 基本的なARIAの利用  
+出題種別: 知識問題、コードリーディング問題、記述問題  
+
+#### 概要 <!-- omit in toc -->
+- ARIAを理解し、基本的なアクセシビリティ対応ができる。  
+
+#### 詳細 <!-- omit in toc -->
+- ARIAの基本概念を理解し、適切に利用できる  
+  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext  
 
 # 2. HTML/CSS Level 2 出題範囲
 
@@ -309,17 +327,7 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - 高度なインタラクティブ要素を実装し、ユーザーエクスペリエンスを向上できる
   - dialog, details, Constraint Validation API
 
-### 2.1.4. Webコンポーネント
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要 <!-- omit in toc -->
-- 既存のHTML要素を拡張し、再利用可能なカスタム要素を作成できる。
-
-#### 詳細 <!-- omit in toc -->
-- カスタム要素やShadow DOMを使い、再利用可能な部品を開発できる
-- CSSスコープ：Shadow DOM を利用して、コンポーネントのスタイルをカプセル化する
-
-### 2.1.5. アクセシビリティ応用
+### 2.1.4. アクセシビリティ応用
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要 <!-- omit in toc -->
@@ -340,8 +348,10 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - 高度なCSSレイアウト技術を使用して、複雑なレイアウトやスタイリングを実現できる。
 
 #### 詳細 <!-- omit in toc -->
-- CSS ShapesやSubgridなど、最先端のレイアウト技術を応用できる
-  - CSS Houdini, CSS Logical Properties
+- CSS Shapes
+- Subgrid
+- CSS Houdini
+- CSS Logical Properties
 
 ### 2.2.2. フレックスボックスとグリッド
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -351,26 +361,25 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 - CSS GridやFlexboxを利用して、複雑なレイアウトを実現できる。
 
 #### 詳細 <!-- omit in toc -->
-- FlexboxやCSS Gridを活用し、複雑なレイアウトを効率的に構築できる
-  - ダイナミックな配置とサイズ調整
+- Flexboxの応用的なプロパティを活用し、複雑なレイアウトを効率的に構築できる
+  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
+- CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
+  - `grid-template-areas`
+  - グリッドアイテムの詳細な配置制御
+    - `justify-self`, `place-self`
+  - ネストされたグリッドの利用
 
-### 2.2.3. レスポンシブデザイン
+### 2.2.3. カスタムプロパティと関数
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要 <!-- omit in toc -->
-
-- 高度なレスポンシブデザイン手法を理解し、複雑なデバイス環境や動的なレイアウト要求に対応したWebコンテンツを作成できる。
+- CSS変数や演算関数（var, calc, clamp）を活用し、動的なレスポンシブデザインを実現できる。
 
 #### 詳細 <!-- omit in toc -->
-- 高度なメディアクエリ戦略
-  - 複数のブレークポイントを組み合わせた柔軟なスタイル設計
-  - `calc()`, `clamp()`, CSSカスタムプロパティ等を活用した動的なレイアウト調整
-- 複雑なレイアウト設計
-  - 高度なFlexboxやCSS Grid技術を使った柔軟なコンテンツ再配置
-  - 必要に応じたコンテナクエリなどの先進技術の検討・実装
-- コンテンツとメディアの最適化
-  - 詳細なレスポンシブ画像の設定と、適応型メディア選択戦略
-  - CSSの `object-fit` や `object-position` を活用した、精密なメディア表示の調整
+- CSSカスタムプロパティ（--*）を利用して、テーマやレイアウトの柔軟な調整が可能
+- `var()`, `calc()`, `clamp()` を活用し、フォントサイズやコンテナサイズなどの動的な値を設定できる
+- これらの技術を用いた高度なレスポンシブレイアウトの実装例
+  - ブレークポイントに依存しない連続的なサイズ調整
 
 ### 2.2.4. アニメーションとトランジション
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -403,3 +412,30 @@ CSSネスティングにより、スタイルルールを論理的にグルー�
 #### 詳細 <!-- omit in toc -->
 - フォントの軸調整を応用し、可変フォントでパフォーマンスとデザインを両立できる
   - font-variation-settings, @font-face
+
+### 2.2.7. CSSネスティング
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- CSSネスティングを使用して、スタイルの記述を簡潔にし、構造化されたスタイルを作成できる。
+
+#### 詳細 <!-- omit in toc -->
+- CSSネスティングの基本構文を理解し、効率的にスタイルを記述できる
+  - ネストされたセレクタの使用方法
+  - `&`（親セレクタ参照）の活用
+- ネスティングを使用したコードの可読性向上とメンテナンス性の向上
+- ネスティングの制限事項やブラウザ対応状況を理解する
+  - PostCSSやSassなどのプリプロセッサとの違い
+
+### 2.2.8. コンテナクエリ
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要 <!-- omit in toc -->
+- コンテナクエリを使用して、コンテナサイズに応じたスタイルを適用するスキルを身につける。
+
+#### 詳細 <!-- omit in toc -->
+- コンテナクエリの基本構文を理解し、柔軟なスタイルを適用できる
+  - `@container`ルールの使用方法
+  - コンテナサイズに基づくスタイルの切り替え
+- コンテナクエリを活用したレスポンシブデザインの実現
+- コンテナクエリの制限事項やブラウザ対応状況と制限事項
