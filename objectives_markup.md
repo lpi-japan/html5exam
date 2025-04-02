@@ -349,7 +349,6 @@
 
 #### 詳細 <!-- omit in toc -->
 - CSS Shapes
-- Subgrid
 - CSS Houdini
 - CSS Logical Properties
 
@@ -365,9 +364,8 @@
   - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
 - CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
   - `grid-template-areas`
-  - グリッドアイテムの詳細な配置制御
-    - `justify-self`, `place-self`
-  - ネストされたグリッドの利用
+  - `justify-self`, `place-self`
+  - Subgrid
 
 ### 2.2.3. カスタムプロパティと関数
 出題種別: 知識問題、コードリーディング問題、記述問題
