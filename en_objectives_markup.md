@@ -36,18 +36,20 @@
     - [1.1.4. Using Emoji](#114-using-emoji)
   - [1.2. CSS](#12-css)
     - [1.2.1. Stylesheet Basics](#121-stylesheet-basics)
-    - [1.2.2. CSS Design](#122-css-design)
-    - [1.2.3. Cascade (Priority)](#123-cascade-priority)
-    - [1.2.4. Flexbox Basics](#124-flexbox-basics)
-    - [1.2.5. CSS Nesting](#125-css-nesting)
-  - [1.3. Elements](#13-elements)
-    - [1.3.1. Structural Elements](#131-structural-elements)
-    - [1.3.2. Interactive Elements](#132-interactive-elements)
-    - [1.3.3. Multimedia Elements](#133-multimedia-elements)
-    - [1.3.4. ARIA and Accessibility](#134-aria-and-accessibility)
+  - [1.3. CSS Design](#13-css-design)
+    - [1.3.1. Layout](#131-layout)
+    - [1.3.2. Box Model](#132-box-model)
+    - [1.3.3. Colors and Backgrounds](#133-colors-and-backgrounds)
+    - [1.3.4. Text, Lists, and Tables](#134-text-lists-and-tables)
+    - [1.3.5. Transformations and Animations](#135-transformations-and-animations)
   - [1.4. Responsive Web Design](#14-responsive-web-design)
     - [1.4.1. Multi-device Support](#141-multi-device-support)
     - [1.4.2. Media Queries](#142-media-queries)
+    - [1.4.3. Basics of Flexbox and CSS Grid](#143-basics-of-flexbox-and-css-grid)
+  - [1.5. Elements](#15-elements)
+    - [1.5.1. Multimedia Elements](#151-multimedia-elements)
+    - [1.5.2. Interactive Elements](#152-interactive-elements)
+    - [1.5.3. Basic ARIA Usage](#153-basic-aria-usage)
 - [2. HTML/CSS Level 2 Exam Coverage](#2-htmlcss-level-2-exam-coverage)
   - [2.1. Advanced HTML](#21-advanced-html)
     - [2.1.1. Deep Dive into Semantics](#211-deep-dive-into-semantics)
@@ -57,11 +59,12 @@
   - [2.2. Advanced CSS](#22-advanced-css)
     - [2.2.1. Advanced CSS Layout](#221-advanced-css-layout)
     - [2.2.2. Flexbox and Grid](#222-flexbox-and-grid)
-    - [2.2.3. Responsive Design](#223-responsive-design)
+    - [2.2.3. Custom Properties and Functions](#223-custom-properties-and-functions)
     - [2.2.4. Animation and Transition](#224-animation-and-transition)
     - [2.2.5. Performance Optimization](#225-performance-optimization)
     - [2.2.6. Variable Fonts](#226-variable-fonts)
-    - [2.2.7. Security Attributes](#227-security-attributes)
+    - [2.2.7. CSS Nesting](#227-css-nesting)
+    - [2.2.8. Container Queries](#228-container-queries)
 
 # 1. HTML/CSS Level 1 Exam Objectives
 
@@ -193,217 +196,62 @@ Question Types: Knowledge, Code Reading, Written.
 - [Cascade and inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/index.md)
 - [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
 
-### 1.2.2. CSS Design
+## 1.3. CSS Design
+
+### 1.3.1. Layout
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates can organize layout and color fundamentals and write correct code according to specifications.
+- Candidates understand layout techniques and can apply them to organize content effectively.
 
 #### Details
-- Apply content layout methods
-  - Understanding and application of the box model
-  - Usage of float and clear
-  - Positioning (static, relative, absolute, fixed, sticky)
-- Implement color specification methods
-  - Color notation (names, hex, rgb, rgba, hsl, hsla)
-  - Transparency (opacity)
-  - Gradients (*-gradient)
-- Apply background and border styling
-  - Backgrounds (background-*)
-  - Borders (border-*)
-  - Box shadows (box-shadow)
-- Format text, lists, and tables
-  - Font family, size, and weight settings
-  - Text decoration (underline, overline, line-through)
-  - List styling (list-style-type, list-style-image)
-  - Table styling (border-collapse, border-spacing)
-- Transform and animate content
-  - 2D/3D transformations (transform: translate, rotate, scale, skew)
-  - Transitions (transition-property, transition-duration, transition-timing-function, transition-delay)
-  - Animations (@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction)
+- Use float and clear for layout.
+- Apply positioning (static, relative, absolute, fixed, sticky).
+- Control stacking order with the `z-index` property.
+- Implement interactive controls (cursor, pointer-events, user-select).
 
-#### References <!-- omit in toc -->
-- [Box Model](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_box_model/index.md)
-- [Position](https://github.com/mdn/content/tree/main/files/en-us/web/css/position/index.md)
-- [Float](https://github.com/mdn/content/tree/main/files/en-us/web/css/float/index.md)
-- [Colors](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_colors/index.md)
-- [Colors: Using Color](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_colors/using_color_wisely/index.md)
-- [Background](https://github.com/mdn/content/tree/main/files/en-us/web/css/background/index.md)
-- [Border](https://github.com/mdn/content/tree/main/files/en-us/web/css/border/index.md)
-- [Text](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_text/index.md)
-- [Font](https://github.com/mdn/content/tree/main/files/en-us/web/css/font/index.md)
-- [Lists](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_lists/index.md)
-- [Tables](https://github.com/mdn/content/tree/main/files/en-us/web/css/table-layout/index.md)
-- [Transform](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform/index.md)
-- [Transitions](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_transitions/index.md)
-- [Animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_animations/index.md)
-
-### 1.2.3. Cascade (Priority)
+### 1.3.2. Box Model
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand cascade, inheritance, and specificity correctly, and can efficiently manage styles.
+- Candidates understand the box model and can apply it correctly.
 
 #### Details
-- Calculate priorities based on declaration location and selector calculation methods
-  - !important
-  - Handling non-inherited properties
-  - Specificity calculation
+- Understand and apply the box model (width, height, padding, margin, box-sizing).
+- Use outline properties (outline, outline-offset, outline-style).
 
-#### References
-- [web/css/css_cascade/specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
-- [web/css/css_cascade/inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/inheritance/index.md)
-
-### 1.2.4. Flexbox Basics
+### 1.3.3. Colors and Backgrounds
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates can master the fundamentals of creating flexible layouts using Flexbox.
+- Candidates understand color specification and background settings.
 
 #### Details
-- Understand Flexbox and construct flexible layouts
-  - display: flex, flex-direction, justify-content, align-items
+- Specify colors (color, rgba(), hsl(), hsla()), transparency (opacity), and gradients.
+- Apply background properties (background-*, border-*, box-shadow).
 
-#### References <!-- omit in toc -->
-- [CSS Flexible Box Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
-- [Basic Concepts of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
-- [Aligning Items in Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/aligning_items_in_a_flex_container/index.md)
-- [Ordering Flex Items](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/ordering_flex_items/index.md)
-
-### 1.2.5. CSS Nesting
+### 1.3.4. Text, Lists, and Tables
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand how CSS nesting enables logical grouping of style rules, improving readability and maintainability.
+- Candidates understand the basics of styling text, lists, and tables.
 
 #### Details
-- Write parent-child relationships using nesting syntax
-- Understand availability in modern browsers and compilers
+- Configure font settings (font-*, line-height).
+- Apply text decorations (text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow, vertical-align).
+- Control word wrapping (word-break, word-wrap, overflow-wrap).
+- Style lists and tables (list-style-*, border-collapse, border-spacing, content).
 
-#### References <!-- omit in toc -->
-- [CSS Nesting](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/index.md)
-- [Using CSS Nesting](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/using_css_nesting/index.md)
-- [Nesting and Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/nesting_and_specificity/index.md)
-
-## 1.3. Elements
-
-### 1.3.1. Structural Elements
+### 1.3.5. Transformations and Animations
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand semantic HTML elements and can create properly structured documents.
+- Candidates understand basic techniques for transformations and animations to create interactive effects.
 
 #### Details
-- Select and use appropriate structural elements
-  - Document structure: header, nav, main, article, section, aside, footer
-  - Content grouping: div, span
-  - Text organization: p, h1-h6, ul, ol, li
-  - Description and definition: figure, figcaption, dl, dt, dd
-  - Text semantics: em, strong, cite, blockquote
-  - Table structure: table, thead, tbody, tr, th, td
-
-#### References
-- [HTML Document Sections](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#document_sections)
-- [HTML Content Sectioning](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#content_sectioning)
-- [HTML Text Content Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#text_content)
-- [HTML Table Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#table_content)
-- [Main element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/main/index.md)
-- [Navigation element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/nav/index.md)
-- [Header element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/header/index.md)
-- [Footer element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/footer/index.md)
-- [Article element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/article/index.md)
-- [Section element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/section/index.md)
-- [Aside element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/aside/index.md)
-
-### 1.3.2. Interactive Elements
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates can implement interactive elements with proper validation and user experience considerations.
-
-#### Details
-- Create accessible and user-friendly forms
-  - Form elements: form, input, select, textarea, button
-  - Form organization: fieldset, legend
-  - Form validation attributes: required, pattern, min, max
-  - Data lists and options: datalist, option, optgroup
-- Implement interactive widgets
-  - Details and summary for expandable content
-  - Dialog for modal interfaces
-  - Menu and menuitem for navigation
-
-#### References
-- [HTML Form Elements](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#forms)
-- [Form element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/form/index.md)
-- [Input element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/input/index.md)
-- [Select element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/select/index.md)
-- [Textarea element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/textarea/index.md)
-- [Button element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/button/index.md)
-- [Label element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/label/index.md)
-- [Fieldset element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/fieldset/index.md)
-- [Legend element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/legend/index.md)
-- [Details element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/details/index.md)
-- [Summary element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/summary/index.md)
-- [Dialog element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/dialog/index.md)
-
-### 1.3.3. Multimedia Elements
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand how to utilize multimedia elements and can effectively embed various media types.
-
-#### Details
-- Implement image elements and responsive images
-  - Basic image element: img
-  - Responsive images: picture, source
-  - Image maps: map, area
-- Handle audio and video content
-  - Media elements: audio, video
-  - Media sources and fallbacks: source
-  - Captions and subtitles: track
-- Implement embedded content
-  - iframe for embedded documents
-  - canvas for graphics
-  - svg for vector graphics
-
-#### References
-- [HTML Embedded Content](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#embedded_content)
-- [HTML Image and Multimedia](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md#image_and_multimedia)
-- [Video element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/video/index.md)
-- [Audio element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/audio/index.md)
-- [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/source/index.md)
-- [Track element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/track/index.md)
-- [Picture element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/picture/index.md)
-- [Canvas element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/canvas/index.md)
-- [SVG element](https://github.com/mdn/content/tree/main/files/en-us/web/svg/element/svg/index.md)
-
-### 1.3.4. ARIA and Accessibility
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand ARIA roles, states, and properties for improving web accessibility.
-
-#### Details
-- Implement proper ARIA attributes
-  - Roles for element semantics
-  - States and properties for dynamic content
-  - Labels and descriptions
-- Use ARIA landmarks appropriately
-  - Main content areas
-  - Navigation sections
-  - Complementary content
-- Implement keyboard navigation
-  - Focus management
-  - Tab order
-  - Keyboard shortcuts
-
-#### References
-- [ARIA Overview](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/index.md)
-- [ARIA Reference](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/index.md)
-- [ARIA Roles](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/roles/index.md)
-- [ARIA States and Properties](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/attributes/index.md)
-- [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/index.md)
-- [tabindex](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/tabindex/index.md)
+- Apply 2D/3D transformations (transform: translate, rotate, scale, skew).
+- Use transitions (transition-property, transition-duration, transition-timing-function, transition-delay).
+- Create animations (@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction).
 
 ## 1.4. Responsive Web Design
 
@@ -448,6 +296,58 @@ Question Types: Knowledge, Code Reading, Written.
 - [Media query syntax](https://github.com/mdn/content/tree/main/files/en-us/web/css/@media/index.md)
 - [Testing media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/testing_media_queries/index.md)
 - [Media Queries Level 4](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/index.md)
+
+### 1.4.3. Basics of Flexbox and CSS Grid
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates acquire skills to build flexible and basic layouts using Flexbox and CSS Grid.
+
+#### Details
+- Understand essential Flexbox properties:
+  - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`, `align-self`
+- Grasp basic CSS Grid properties:
+  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
+- Learn positioning of grid items:
+  - `grid-row`, `grid-column`, `justify-items`, `align-items`
+
+## 1.5. Elements
+
+### 1.5.1. Multimedia Elements
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand multimedia elements and can use them appropriately.
+
+#### Details
+- Use media elements such as images, audio, and video correctly:
+  - `img`, `audio`, `video`, `source`, `track`.
+- Understand attributes and events for media elements:
+  - src, alt, controls, autoplay, loop, muted, preload, poster.
+  - loadstart, loadeddata, play, pause, ended.
+
+### 1.5.2. Interactive Elements
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand interactive elements and can use them appropriately.
+
+#### Details
+- Use form and interactive elements correctly:
+  - form, input, button, select, textarea, label, fieldset, legend.
+- Understand attributes and events for form elements:
+  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget.
+  - submit, reset, change, input, focus, blur.
+
+### 1.5.3. Basic ARIA Usage
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand ARIA and can implement basic accessibility features.
+
+#### Details
+- Understand and use basic ARIA concepts:
+  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext.
 
 # 2. HTML/CSS Level 2 Exam Coverage
 
@@ -530,33 +430,17 @@ Question Types: Knowledge, Code Reading, Written.
 - [Grid box alignment](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/box_alignment_in_grid_layout/index.md)
 - [Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
 
-### 2.2.3. Responsive Design
+### 2.2.3. Custom Properties and Functions
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand advanced responsive design techniques and can create web content that adapts to complex device environments and dynamic layout requirements.
+- Candidates can use CSS variables and functions (e.g., `var`, `calc`, `clamp`) to achieve dynamic responsive designs.
 
 #### Details
-- Implement advanced media query strategies
-  - Flexible style design combining multiple breakpoints
-  - Dynamic layout adjustments using `calc()`, `clamp()`, CSS custom properties
-- Design complex layouts
-  - Flexible content repositioning using advanced Flexbox and CSS Grid techniques
-  - Implementation of advanced technologies like container queries when needed
-- Optimize content and media
-  - Detailed responsive image configuration and adaptive media selection strategies
-  - Precise media display adjustments using CSS `object-fit` and `object-position`
-
-#### References
-- [Using media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/using_media_queries/index.md)
-- [CSS custom properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascading_variables/using_css_custom_properties/index.md)
-- [CSS custom properties (--*)](https://github.com/mdn/content/tree/main/files/en-us/web/css/--_star_/index.md)
-- [CSS calc()](https://github.com/mdn/content/tree/main/files/en-us/web/css/calc/index.md)
-- [CSS clamp()](https://github.com/mdn/content/tree/main/files/en-us/web/css/clamp/index.md)
-- [CSS Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
-- [CSS Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
-- [CSS Container queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_containment/container_queries/index.md)
-- [Responsive images](https://github.com/mdn/content/tree/main/files/en-us/web/html/responsive_images/index.md)
+- Utilize CSS custom properties (`--*`) for flexible theme and layout adjustments.
+- Apply `var()`, `calc()`, and `clamp()` for dynamic values like font sizes and container dimensions.
+- Implement advanced responsive layouts using these techniques:
+  - Continuous size adjustments without relying on breakpoints.
 
 ### 2.2.4. Animation and Transition
 Question Types: Knowledge, Code Reading, Written.
@@ -592,7 +476,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [web/css/contain](https://github.com/mdn/content/tree/main/files/en-us/web/css/contain/index.md)
 - [web/performance/guides/css_javascript_animation_performance](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/css_javascript_animation_performance/index.md)
 
-
 ### 2.2.6. Variable Fonts
 Question Types: Knowledge, Code Reading.
 
@@ -603,7 +486,27 @@ Question Types: Knowledge, Code Reading.
 - Apply font axis adjustments to balance performance and design with variable fonts
   - font-variation-settings, @font-face
 
-### 2.2.7. Security Attributes
-- [web/html/element/iframe](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/iframe/index.md)
-- [web/http/guides/cross-origin_resource_policy](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/cross-origin_resource_policy/index.md)
-- [web/http/guides/csp](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/csp/index.md)
+### 2.2.7. CSS Nesting
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand how CSS nesting enables logical grouping of style rules, improving readability and maintainability.
+
+#### Details
+- Write parent-child relationships using nesting syntax.
+- Use `&` (parent selector reference) effectively.
+- Improve code readability and maintainability with nesting.
+- Understand limitations and browser support for nesting.
+
+### 2.2.8. Container Queries
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates can use container queries to apply styles based on container size.
+
+#### Details
+- Understand the basic syntax of container queries:
+  - Use of the `@container` rule.
+  - Switching styles based on container size.
+- Implement responsive designs using container queries.
+- Understand limitations and browser support for container queries.
