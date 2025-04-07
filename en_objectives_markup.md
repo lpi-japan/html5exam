@@ -210,6 +210,15 @@ Question Types: Knowledge, Code Reading, Written.
 - Control stacking order with the `z-index` property.
 - Implement interactive controls (cursor, pointer-events, user-select).
 
+#### References
+- [CSS Float](https://github.com/mdn/content/tree/main/files/en-us/web/css/float/index.md)
+- [CSS Clear](https://github.com/mdn/content/tree/main/files/en-us/web/css/clear/index.md)
+- [CSS Positioning](https://github.com/mdn/content/tree/main/files/en-us/web/css/position/index.md)
+- [CSS z-index](https://github.com/mdn/content/tree/main/files/en-us/web/css/z-index/index.md)
+- [CSS Cursor](https://github.com/mdn/content/tree/main/files/en-us/web/css/cursor/index.md)
+- [CSS Pointer Events](https://github.com/mdn/content/tree/main/files/en-us/web/css/pointer-events/index.md)
+- [CSS User Select](https://github.com/mdn/content/tree/main/files/en-us/web/css/user-select/index.md)
+- 
 ### 1.3.2. Box Model
 Question Types: Knowledge, Code Reading, Written.
 
