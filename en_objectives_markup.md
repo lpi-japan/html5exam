@@ -229,6 +229,12 @@ Question Types: Knowledge, Code Reading, Written.
 - Understand and apply the box model (width, height, padding, margin, box-sizing).
 - Use outline properties (outline, outline-offset, outline-style).
 
+#### References
+- [CSS Box Model](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_box_model/index.md)
+- [CSS Outline](https://github.com/mdn/content/tree/main/files/en-us/web/css/outline/index.md)
+- [CSS Outline Offset](https://github.com/mdn/content/tree/main/files/en-us/web/css/outline-offset/index.md)
+- [CSS Outline Style](https://github.com/mdn/content/tree/main/files/en-us/web/css/outline-style/index.md)
+
 ### 1.3.3. Colors and Backgrounds
 Question Types: Knowledge, Code Reading, Written.
 
