@@ -36,6 +36,7 @@
     - [1.1.4. Using Emoji](#114-using-emoji)
   - [1.2. CSS](#12-css)
     - [1.2.1. Stylesheet Basics](#121-stylesheet-basics)
+    - [1.2.2. Cascade (Priority)](#122-cascade-priority)
   - [1.3. CSS Design](#13-css-design)
     - [1.3.1. Layout](#131-layout)
     - [1.3.2. Box Model](#132-box-model)
@@ -196,6 +197,23 @@ Question Types: Knowledge, Code Reading, Written.
 - [Cascade and inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/index.md)
 - [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
 
+### 1.2.2. Cascade (Priority)
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand cascade, inheritance, and specificity correctly and can manage styles efficiently.
+
+#### Details
+- Priority based on declaration location and selector calculation methods
+  - !important
+  - Handling non-inherited properties
+  - Specificity calculation
+
+#### References
+- [Cascade and inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/index.md)
+- [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
+- [Important declaration (!important)](https://github.com/mdn/content/tree/main/files/en-us/web/css/important/index.md)
+
 ## 1.3. CSS Design
 
 ### 1.3.1. Layout
@@ -218,7 +236,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS Cursor](https://github.com/mdn/content/tree/main/files/en-us/web/css/cursor/index.md)
 - [CSS Pointer Events](https://github.com/mdn/content/tree/main/files/en-us/web/css/pointer-events/index.md)
 - [CSS User Select](https://github.com/mdn/content/tree/main/files/en-us/web/css/user-select/index.md)
-- 
+
 ### 1.3.2. Box Model
 Question Types: Knowledge, Code Reading, Written.
 
