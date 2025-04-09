@@ -86,6 +86,7 @@
     - [2.6.3. Server-Sent Events / 旧 2.6.3](#263-server-sent-events--旧-263)
   - [2.7. デバイスアクセス / 旧 1.5.2](#27-デバイスアクセス--旧-152)
     - [2.7.1. Geolocation API / 旧 2.7.1](#271-geolocation-api--旧-271)
+    - [2.7.2. DeviceOrientation Event / 旧 2.7.2](#272-deviceorientation-event--旧-272)
   - [2.8. パフォーマンスとオフライン /　1.5.3](#28-パフォーマンスとオフライン-153)
     - [2.8.1. Web Workers / 旧 2.8.1](#281-web-workers--旧-281)
     - [2.8.2. High Resolution Time / 旧 2.8.2](#282-high-resolution-time--旧-282)
@@ -627,6 +628,20 @@
 - 端末における現在の位置情報を取得する方法
 - 現在位置取得後のコールバック関数呼び出し
   - getCurrentPosition(), watchPosition(), Position, Coordinates
+
+ ### 2.7.2. DeviceOrientation Event / 旧 2.7.2
+ 出題種別: 知識問題、コードリーティング問題、記述問題
+ 
+ #### Overview <!-- omit in toc -->
+ - DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
+ 
+ #### 詳細 <!-- omit in toc -->
+ - コンパスの方角の検知
+ - デバイスの傾きの検知
+ - デバイスの移動加速度の検知
+ - デバイスの回転速度の検知
+ - 加速度の単位
+   - DeviceOrientationEvent, DeviceMotionEvent
 
 ## 2.8. パフォーマンスとオフライン /　1.5.3
 
