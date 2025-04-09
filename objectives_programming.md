@@ -637,7 +637,7 @@
  ### 2.7.2. DeviceOrientation Event / 旧 2.7.2
  出題種別: 知識問題、コードリーティング問題、記述問題
  
- #### Overview <!-- omit in toc -->
+ #### 概要
  - DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
  
  #### 詳細 <!-- omit in toc -->
