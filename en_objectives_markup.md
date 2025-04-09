@@ -34,23 +34,23 @@
     - [1.1.2. HTTP, HTTPS Protocol](#112-http-https-protocol)
     - [1.1.3. Overview of Web-related Technologies](#113-overview-of-web-related-technologies)
     - [1.1.4. Using Emoji](#114-using-emoji)
-  - [1.2. CSS](#12-css)
-    - [1.2.1. Stylesheet Basics](#121-stylesheet-basics)
-    - [1.2.2. Cascade (Priority)](#122-cascade-priority)
-  - [1.3. CSS Design](#13-css-design)
-    - [1.3.1. Layout](#131-layout)
-    - [1.3.2. Box Model](#132-box-model)
-    - [1.3.3. Colors and Backgrounds](#133-colors-and-backgrounds)
-    - [1.3.4. Text, Lists, and Tables](#134-text-lists-and-tables)
-    - [1.3.5. Transformations and Animations](#135-transformations-and-animations)
-  - [1.4. Responsive Web Design](#14-responsive-web-design)
-    - [1.4.1. Multi-device Support](#141-multi-device-support)
-    - [1.4.2. Media Queries](#142-media-queries)
-    - [1.4.3. Basics of Flexbox and CSS Grid](#143-basics-of-flexbox-and-css-grid)
-  - [1.5. Elements](#15-elements)
-    - [1.5.1. Multimedia Elements](#151-multimedia-elements)
-    - [1.5.2. Interactive Elements](#152-interactive-elements)
-    - [1.5.3. Basic ARIA Usage](#153-basic-aria-usage)
+  - [1.2. Elements](#12-elements)
+    - [1.2.1. Multimedia Elements](#121-multimedia-elements)
+    - [1.2.2. Interactive Elements](#122-interactive-elements)
+  - [1.3. CSS](#13-css)
+    - [1.3.1. Stylesheet Basics](#131-stylesheet-basics)
+    - [1.3.2. Cascade (Priority)](#132-cascade-priority)
+  - [1.4. CSS Design](#14-css-design)
+    - [1.4.1. Layout](#141-layout)
+    - [1.4.2. Box Model](#142-box-model)
+    - [1.4.3. Colors and Backgrounds](#143-colors-and-backgrounds)
+    - [1.4.4. Text, Lists, and Tables](#144-text-lists-and-tables)
+    - [1.4.5. Transformations and Animations](#145-transformations-and-animations)
+  - [1.5. Responsive Web Design](#15-responsive-web-design)
+    - [1.5.1. Multi-device Support](#151-multi-device-support)
+    - [1.5.2. Media Queries](#152-media-queries)
+    - [1.5.3. Basics of Flexbox and CSS Grid](#153-basics-of-flexbox-and-css-grid)
+    - [1.5.4. Basic ARIA Usage](#154-basic-aria-usage)
 - [2. HTML/CSS Level 2 Exam Coverage](#2-htmlcss-level-2-exam-coverage)
   - [2.1. Advanced HTML](#21-advanced-html)
     - [2.1.1. Deep Dive into Semantics](#211-deep-dive-into-semantics)
@@ -169,9 +169,37 @@ Question Types: Knowledge, Code Reading, Written.
 - [Meta charset element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/meta/index.md)
 - [Unicode in HTML](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#unicode_in_html)
 
-## 1.2. CSS
+## 1.2. Elements
 
-### 1.2.1. Stylesheet Basics
+### 1.2.1. Multimedia Elements
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand multimedia elements and can use them appropriately.
+
+#### Details
+- Use media elements such as images, audio, and video correctly:
+  - `img`, `audio`, `video`, `source`, `track`.
+- Understand attributes and events for media elements:
+  - src, alt, controls, autoplay, loop, muted, preload, poster.
+  - loadstart, loadeddata, play, pause, ended.
+
+### 1.2.2. Interactive Elements
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand interactive elements and can use them appropriately.
+
+#### Details
+- Use form and interactive elements correctly:
+  - form, input, button, select, textarea, label, fieldset, legend.
+- Understand attributes and events for form elements:
+  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget.
+  - submit, reset, change, input, focus, blur.
+
+## 1.3. CSS
+
+### 1.3.1. Stylesheet Basics
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -197,7 +225,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Cascade and inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/index.md)
 - [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
 
-### 1.2.2. Cascade (Priority)
+### 1.3.2. Cascade (Priority)
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -214,9 +242,9 @@ Question Types: Knowledge, Code Reading, Written.
 - [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
 - [Important declaration (!important)](https://github.com/mdn/content/tree/main/files/en-us/web/css/important/index.md)
 
-## 1.3. CSS Design
+## 1.4. CSS Design
 
-### 1.3.1. Layout
+### 1.4.1. Layout
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -237,7 +265,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS Pointer Events](https://github.com/mdn/content/tree/main/files/en-us/web/css/pointer-events/index.md)
 - [CSS User Select](https://github.com/mdn/content/tree/main/files/en-us/web/css/user-select/index.md)
 
-### 1.3.2. Box Model
+### 1.4.2. Box Model
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -253,7 +281,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS Outline Offset](https://github.com/mdn/content/tree/main/files/en-us/web/css/outline-offset/index.md)
 - [CSS Outline Style](https://github.com/mdn/content/tree/main/files/en-us/web/css/outline-style/index.md)
 
-### 1.3.3. Colors and Backgrounds
+### 1.4.3. Colors and Backgrounds
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -263,7 +291,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Specify colors (color, rgba(), hsl(), hsla()), transparency (opacity), and gradients.
 - Apply background properties (background-*, border-*, box-shadow).
 
-### 1.3.4. Text, Lists, and Tables
+### 1.4.4. Text, Lists, and Tables
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -275,7 +303,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Control word wrapping (word-break, word-wrap, overflow-wrap).
 - Style lists and tables (list-style-*, border-collapse, border-spacing, content).
 
-### 1.3.5. Transformations and Animations
+### 1.4.5. Transformations and Animations
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -286,9 +314,9 @@ Question Types: Knowledge, Code Reading, Written.
 - Use transitions (transition-property, transition-duration, transition-timing-function, transition-delay).
 - Create animations (@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction).
 
-## 1.4. Responsive Web Design
+## 1.5. Responsive Web Design
 
-### 1.4.1. Multi-device Support
+### 1.5.1. Multi-device Support
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -313,7 +341,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/index.md)
 - [CSS Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
 
-### 1.4.2. Media Queries
+### 1.5.2. Media Queries
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -330,7 +358,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Testing media queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/testing_media_queries/index.md)
 - [Media Queries Level 4](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_media_queries/index.md)
 
-### 1.4.3. Basics of Flexbox and CSS Grid
+### 1.5.3. Basics of Flexbox and CSS Grid
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -344,35 +372,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Learn positioning of grid items:
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
-## 1.5. Elements
-
-### 1.5.1. Multimedia Elements
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand multimedia elements and can use them appropriately.
-
-#### Details
-- Use media elements such as images, audio, and video correctly:
-  - `img`, `audio`, `video`, `source`, `track`.
-- Understand attributes and events for media elements:
-  - src, alt, controls, autoplay, loop, muted, preload, poster.
-  - loadstart, loadeddata, play, pause, ended.
-
-### 1.5.2. Interactive Elements
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand interactive elements and can use them appropriately.
-
-#### Details
-- Use form and interactive elements correctly:
-  - form, input, button, select, textarea, label, fieldset, legend.
-- Understand attributes and events for form elements:
-  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget.
-  - submit, reset, change, input, focus, blur.
-
-### 1.5.3. Basic ARIA Usage
+### 1.5.4. Basic ARIA Usage
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
