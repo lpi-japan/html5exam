@@ -35,9 +35,10 @@
     - [1.1.3. Web関連技術の概要 / 旧 1.1.3](#113-web関連技術の概要--旧-113)
     - [1.1.4. Emojiの使用](#114-emojiの使用)
   - [1.2. 要素](#12-要素)
-    - [1.2.1. メディア要素 / 旧 1.3.2](#121-メディア要素--旧-132)
-    - [1.2.2. インタラクティブ要素 / 旧 1.3.3](#122-インタラクティブ要素--旧-133)
-    - [1.2.3. 基本的なARIAの利用](#123-基本的なariaの利用)
+    - [1.2.1. 要素と属性の意味（セマンティクス）](#121-要素と属性の意味セマンティクス)
+    - [1.2.2. メディア要素 / 旧 1.3.2](#122-メディア要素--旧-132)
+    - [1.2.3. インタラクティブ要素 / 旧 1.3.3](#123-インタラクティブ要素--旧-133)
+    - [1.2.4. 基本的なARIAの利用](#124-基本的なariaの利用)
   - [1.3. CSSの基礎](#13-cssの基礎)
     - [1.3.1. スタイルシートの基本 / 旧 1.2.1](#131-スタイルシートの基本--旧-121)
     - [1.3.2. カスケード（優先順位） / 旧 1.2.3](#132-カスケード優先順位--旧-123)
@@ -137,7 +138,32 @@
 
 ## 1.2. 要素
 
-### 1.2.1. メディア要素 / 旧 1.3.2
+### 1.2.1. 要素と属性の意味（セマンティクス）
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+#### 概要
+- HTML要素や属性のセマンティクスを理解し、コンテンツの意味を解釈しながら適切なHTML要素や属性を使ってマークアップできる。
+
+#### 詳細
+- セクショニング要素とアウトライン
+  - `article`, `section`, `nav`, `aside`, `header`, `footer`, `main`
+- テキスト
+  - `p`, `span`, `em`, `strong`, `mark`, `cite`, `q`, `blockquote`
+  - `ruby`, `rt`, `rp`
+  - `ins`, `del`
+  - `code`, `pre`, `kbd`, `samp`
+- グルーピング要素
+  - `div`, `hr`
+  - `ul`, `ol`, `li`, `dl`, `dt`, `dd`
+- 言語とテキストの方向性
+  - `lang`属性, `dir`属性
+- テーブル要素
+  - `table`, `caption`, `thead`, `tbody`, `tfoot`, `tr`, `th`, `td`
+  - `colspan`, `rowspan`, `scope`属性
+- リンク要素と関連性
+  - `a`要素の`href`, `rel`, `download`, `target`属性
+
+### 1.2.2. メディア要素 / 旧 1.3.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
@@ -150,7 +176,7 @@
   - src, alt, controls, autoplay, loop, muted, preload, poster
   - loadstart, loadeddata, play, pause, ended
 
-### 1.2.2. インタラクティブ要素 / 旧 1.3.3  
+### 1.2.3. インタラクティブ要素 / 旧 1.3.3
 出題種別: 知識問題、コードリーディング問題、記述問題  
 
 #### 概要
@@ -163,7 +189,7 @@
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
   - submit, reset, change, input, focus, blur  
 
-### 1.2.3. 基本的なARIAの利用  
+### 1.2.4. 基本的なARIAの利用
 出題種別: 知識問題、コードリーディング問題、記述問題  
 
 #### 概要

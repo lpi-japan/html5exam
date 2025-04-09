@@ -35,8 +35,9 @@
     - [1.1.3. Overview of Web-related Technologies](#113-overview-of-web-related-technologies)
     - [1.1.4. Using Emoji](#114-using-emoji)
   - [1.2. Elements](#12-elements)
-    - [1.2.1. Multimedia Elements](#121-multimedia-elements)
-    - [1.2.2. Interactive Elements](#122-interactive-elements)
+    - [1.2.1. Basic HTML Elements](#121-basic-html-elements)
+    - [1.2.2. Multimedia Elements](#122-multimedia-elements)
+    - [1.2.3. Interactive Elements](#123-interactive-elements)
   - [1.3. CSS](#13-css)
     - [1.3.1. Stylesheet Basics](#131-stylesheet-basics)
     - [1.3.2. Cascade (Priority)](#132-cascade-priority)
@@ -171,7 +172,43 @@ Question Types: Knowledge, Code Reading, Written.
 
 ## 1.2. Elements
 
-### 1.2.1. Multimedia Elements
+### 1.2.1. Basic HTML Elements
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand HTML element and attribute semantics and can markup content appropriately using proper HTML elements and attributes.
+
+#### Details
+- Sectioning elements and document outline
+  - `article`, `section`, `nav`, `aside`, `header`, `footer`, `main`
+- Text-level semantics
+  - `p`, `span`, `em`, `strong`, `mark`, `cite`, `q`, `blockquote`
+  - `ruby`, `rt`, `rp`
+  - `ins`, `del`
+  - `code`, `pre`, `kbd`, `samp`
+- Grouping elements
+  - `div`, `hr`
+  - `ul`, `ol`, `li`, `dl`, `dt`, `dd`
+- Language and text directionality
+  - `lang` attribute, `dir` attribute
+- Table elements
+  - `table`, `caption`, `thead`, `tbody`, `tfoot`, `tr`, `th`, `td`
+  - `colspan`, `rowspan`, `scope` attributes
+- Link elements and relationships
+  - `a` element with `href`, `rel`, `download`, `target` attributes
+
+#### References
+- [HTML elements reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md)
+- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md)
+- [Content categories](https://github.com/mdn/content/tree/main/files/en-us/web/html/content_categories/index.md)
+- [The <article> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/article/index.md)
+- [The <section> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/section/index.md)
+- [The <header> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/header/index.md)
+- [The <footer> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/footer/index.md)
+- [The <nav> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/nav/index.md)
+- [The <main> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/main/index.md)
+
+### 1.2.2. Multimedia Elements
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -184,7 +221,7 @@ Question Types: Knowledge, Code Reading, Written.
   - src, alt, controls, autoplay, loop, muted, preload, poster.
   - loadstart, loadeddata, play, pause, ended.
 
-### 1.2.2. Interactive Elements
+### 1.2.3. Interactive Elements
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
