@@ -24,6 +24,7 @@
 | 新トピック | 開発効率化、のような観点は出題するか？もしする場合、どんな趣旨の問題になるか？npm run dev、hot reload、○○アーキテクチャ (MCV, MVVM, Flux, Redux)、... | 他のAPI系と同じくらいの深さで出題する。 | |
 || v2.5 1.1.3 「Web関連技術の概要」が散らかっている印象。「MVCアーキテクチャ」は標準を問うのがメインの出題範囲には異質に見える。| マークアップ領域でMVCを意識する場面はbackbone.jsが主流から外れたので少なそう。cookie/セッションの話があるからクライアントサーバー方式とつなげる意図？クライアントサーバー方式、MPA（Multi Page Application）としてのサーバーサイドMVCフレームワーク（laravelやrails等）、それに追加してSPAへの弾みがつくような整理だと現代的なきもする。MPAはMVC、SPAのMVVMとデータバインディングが並びそう。 |  |
 || ↑↑はmarkup側はネットワークプロトコルの説明もこみこみでMVCフレームワークかーと理解したから、MVVMの話は、programming側に置くのを検討？|||
+| 修正 | v2.5 level1 は CSS -> 要素 (タグ) の順だった。タグが先の方が分かり安いのでは？ | とりあえずタグ先に | |
 | 修正 | v2.5 1.2.2 CSSデザインなど各セクションの粒度は再考すべきか？レスポンシブデザインもCSSデザインの一部？ | レスポンシブは別セクションで良いと思う。 | |
 | 修正 | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ | | |
 | 修正 | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | | |
@@ -37,7 +38,7 @@
 | 修正 | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | 名称変更する。 | |
 | 修正 | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | (Level1/2の棲み分けはともかく) 変更する。 | |
 | 追加 | array操作系 (map, filter, find, reduce, flatMap, ...) を追加すべきか？ (現行Level2にない) | 最低限map, filter, findまでは出題したい。 | |
-| 追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ 前者はオブジェクト・クラスに、後者は配列にいれるか？ | | |
+| 追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ | いまいち客観的にどこに配置すべきかよくわからないが、とりあえずオブジェクトの機能として掲載 | |
 | 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (現行Level2にない) | | |
 | 修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
 | 修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| File.lastModified | |
@@ -52,3 +53,4 @@
 | 追加 | フレックスボックスとCSS gridをLevel1基礎、Level2応用とした場合に今の記載に違和感はないか |  | |
 | 追加 | CSSネスティングはレベル1と2どちらで取り扱うべきか | とりあえずレベル2 | |
 | 追加 | コンテナクエリを独立したセクションへするべき？ | とりあえず独立させた | |
+| 追加 | scoped style, @scope | すべてのブラウザでサポートされていないため含めていません | |
