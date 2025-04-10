@@ -38,6 +38,7 @@
     - [1.2.1. Basic HTML Elements](#121-basic-html-elements)
     - [1.2.2. Multimedia Elements](#122-multimedia-elements)
     - [1.2.3. Interactive Elements](#123-interactive-elements)
+    - [1.2.4. Basic ARIA Usage](#124-basic-aria-usage)
   - [1.3. CSS](#13-css)
     - [1.3.1. Stylesheet Basics](#131-stylesheet-basics)
     - [1.3.2. Cascade (Priority)](#132-cascade-priority)
@@ -51,7 +52,6 @@
     - [1.5.1. Multi-device Support](#151-multi-device-support)
     - [1.5.2. Media Queries](#152-media-queries)
     - [1.5.3. Basics of Flexbox and CSS Grid](#153-basics-of-flexbox-and-css-grid)
-    - [1.5.4. Basic ARIA Usage](#154-basic-aria-usage)
 - [2. HTML/CSS Level 2 Exam Coverage](#2-htmlcss-level-2-exam-coverage)
   - [2.1. Advanced HTML](#21-advanced-html)
     - [2.1.1. Deep Dive into Semantics](#211-deep-dive-into-semantics)
@@ -234,6 +234,16 @@ Question Types: Knowledge, Code Reading, Written.
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget.
   - submit, reset, change, input, focus, blur.
 
+### 1.2.4. Basic ARIA Usage
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand ARIA and can implement basic accessibility features.
+
+#### Details
+- Understand and use basic ARIA concepts:
+  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext.
+
 ## 1.3. CSS
 
 ### 1.3.1. Stylesheet Basics
@@ -408,16 +418,6 @@ Question Types: Knowledge, Code Reading, Written.
   - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
 - Learn positioning of grid items:
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
-
-### 1.5.4. Basic ARIA Usage
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand ARIA and can implement basic accessibility features.
-
-#### Details
-- Understand and use basic ARIA concepts:
-  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext.
 
 # 2. HTML/CSS Level 2 Exam Coverage
 
