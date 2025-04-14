@@ -15,7 +15,7 @@ cd "$(dirname "$0")/../"
 # リファレンスリポジトリをクローンする (簡単のためsubmoduleではなく直接クローン)
 if [ ! -d "$REF_CLONE_PATH" ]; then
   mkdir -p "$REF_CLONE_PATH"
-  git clone --depth 1 "${REF_REPO_URL}.git" "$REF_CLONE_PATH"
+  git clone --depth 1 "${REF_REPO_URL}" "$REF_CLONE_PATH"
 fi
 
 ###############################################################################
