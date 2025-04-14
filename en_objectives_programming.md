@@ -98,7 +98,7 @@
     - [2.9.1. Cross-Origin Constraints and CORS](#291-cross-origin-constraints-and-cors)
     - [2.9.2. Security Model and SSL Relationship](#292-security-model-and-ssl-relationship)
 
-# 1. JavaScript Level 1 Exam Objectives
+# 1. JavaScript Level 1 Exam
 
 ## 1.1. JavaScript Basics
 
@@ -404,7 +404,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Canceling submission
 
 #### References
-- [Built-in form validation overview](https://github.com/mdn/content/tree/main/files/en-us/web/html/constraint_validation/index.md)
+- [Built-in form validation overview](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/constraint_validation/index.md)
 - [Check form validity](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlformelement/checkvalidity/index.md)
 - [Form element validation state](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlinputelement/checkvalidity/index.md)
 - [Set custom validation message](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlinputelement/setcustomvalidity/index.md)
@@ -489,7 +489,7 @@ Graphics:
 - [CanvasRenderingContext2D](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvasrenderingcontext2d/index.md)
 - [Drawing shapes with Canvas](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvas_api/tutorial/drawing_shapes/index.md)
 - [SVG API](https://github.com/mdn/content/tree/main/files/en-us/web/api/svg_api/index.md)
-- [SVG Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/svg/tutorial/index.md)
+- [SVG Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/svg/tutorials/index.md)
 
 ### 1.8.2. Device Access APIs
 Question Types: Knowledge, Written.
@@ -581,7 +581,7 @@ Server-Sent Events:
 - [Using Server-sent Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
 - [EventSource Interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
 
-# 2. JavaScript Level 2 Exam Objectives
+# 2. JavaScript Level 2 Exam
 
 ## 2.1. Advanced JavaScript
 
@@ -616,9 +616,6 @@ Question Types: Knowledge, Code Reading, Written.
   - Create and execute end-to-end test cases using Cypress
 
 #### References
-- [Cross browser testing](https://github.com/mdn/content/tree/main/files/en-us/learn/tools_and_testing/cross_browser_testing/index.md)
-- [JavaScript testing best practices](https://github.com/mdn/content/tree/main/files/en-us/learn/tools_and_testing/cross_browser_testing/javascript/index.md)
-- [Automated testing](https://github.com/mdn/content/tree/main/files/en-us/learn/tools_and_testing/cross_browser_testing/automated_testing/index.md)
 
 ### 2.1.3. Performance Measurement and Optimization
 Question Types: Knowledge, Code Reading, Written.
@@ -703,8 +700,8 @@ Question Types: Knowledge, Code Reading, Written.
 #### References
 - [Web Components](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_components/index.md)
 - [Custom Elements API](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_components/using_custom_elements/index.md)
-- [Using the HTML template element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/template/index.md)
-- [Using the HTML slot element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/slot/index.md)
+- [Using the HTML template element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/template/index.md)
+- [Using the HTML slot element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/slot/index.md)
 - [Using shadow DOM](https://github.com/mdn/content/tree/main/files/en-us/web/api/shadowroot/index.md)
 - [Element.attachShadow()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/attachshadow/index.md)
 
@@ -743,7 +740,7 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 - [SVG: Scalable Vector Graphics](https://github.com/mdn/content/tree/main/files/en-us/web/svg/index.md)
-- [SVG Element Reference](https://github.com/mdn/content/tree/main/files/en-us/web/svg/element/index.md)
+- [SVG Element Reference](https://github.com/mdn/content/tree/main/files/en-us/web/svg/reference/index.md)
 - [SVGElement interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/svgelement/index.md)
 
 ### 2.3.3. Timing control for script-based animations

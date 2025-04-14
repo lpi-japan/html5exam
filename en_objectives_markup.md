@@ -68,7 +68,7 @@
     - [2.2.7. CSS Nesting](#227-css-nesting)
     - [2.2.8. Container Queries](#228-container-queries)
 
-# 1. HTML/CSS Level 1 Exam Objectives
+# 1. HTML/CSS Level 1 Exam
 
 ## 1.1. HTML
 
@@ -81,22 +81,19 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### Details
 - Specify correct document type declarations and character encodings in compliance with HTML standards
-  - DOCTYPE declaration, lang attribute, meta charset, etc.
+  - `DOCTYPE` declaration, `lang` attribute, `meta` `charset`, etc.
 - Construct proper formatting and semantics using character references, link elements, and meta elements
-  - Character references (&nbsp;, &amp;, etc.)
-  - Link elements, meta elements
-- Understand content categories and document structure
-  - Flow content, phrasing content, sectioning content, etc.
-  - Head section elements vs body section elements
+  - Character references (`&nbsp;`, `&amp;`, etc.)
+  - `link` elements, `meta` elements
 
 #### References
-- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md)
-- [HEAD - Document metadata section](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/head/index.md)
-- [BODY - Document body section](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/body/index.md)
-- [META - Document metadata](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/meta/index.md)
-- [Content categories](https://github.com/mdn/content/tree/main/files/en-us/web/html/content_categories/index.md)
-- [HTML Comments](https://github.com/mdn/content/tree/main/files/en-us/web/html/comments/index.md)
-- [Character entity references](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#character-entity-references)
+
+- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/index.md)
+- [HEAD - Document metadata section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/head/index.md)
+- [BODY - Document body section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/body/index.md)
+- [META - Document metadata](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/meta/index.md)
+- [HTML Comments](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/comments/index.md)
+- [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/global_attributes/index.md)
 
 ### 1.1.2. HTTP, HTTPS Protocol
 Question Types: Knowledge, Written.
@@ -147,7 +144,7 @@ Question Types: Knowledge, Written.
 - [Introduction to the DOM](https://github.com/mdn/content/tree/main/files/en-us/web/api/document_object_model/introduction/index.md)
 - [CSS Basics](https://github.com/mdn/content/tree/main/files/en-us/web/css/index.md)
 - [JavaScript Basics](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/index.md)
-- [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/global_attributes/index.md)
+- [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/global_attributes/index.md)
 - [Content Security Policy (CSP)](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/csp/index.md)
 
 ### 1.1.4. Using Emoji
@@ -167,7 +164,7 @@ Question Types: Knowledge, Code Reading, Written.
 #### References <!-- omit in toc -->
 - [HTML Character encoding](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#character_encoding)
 - [Character entity references](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#character-entity-references)
-- [Meta charset element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/meta/index.md)
+- [Meta charset element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/meta/index.md)
 - [Unicode in HTML](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#unicode_in_html)
 
 ## 1.2. Elements
@@ -199,14 +196,14 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 - [HTML elements reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md)
-- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/index.md)
-- [Content categories](https://github.com/mdn/content/tree/main/files/en-us/web/html/content_categories/index.md)
-- [The <article> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/article/index.md)
-- [The <section> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/section/index.md)
-- [The <header> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/header/index.md)
-- [The <footer> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/footer/index.md)
-- [The <nav> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/nav/index.md)
-- [The <main> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/main/index.md)
+- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/index.md)
+- [Content categories](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/content_categories/index.md)
+- [The <article> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/article/index.md)
+- [The <section> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/section/index.md)
+- [The <header> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/header/index.md)
+- [The <footer> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/footer/index.md)
+- [The <nav> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/nav/index.md)
+- [The <main> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/main/index.md)
 
 ### 1.2.2. Multimedia Elements
 Question Types: Knowledge, Code Reading, Written.
@@ -379,10 +376,10 @@ Question Types: Knowledge, Code Reading, Written.
   - object-fit, object-position
 
 #### References
-- [Responsive Images](https://github.com/mdn/content/tree/main/files/en-us/web/html/responsive_images/index.md)
-- [Picture element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/picture/index.md)
-- [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/source/index.md)
-- [Viewport meta tag](https://github.com/mdn/content/tree/main/files/en-us/web/html/viewport_meta_tag/index.md)
+- [Responsive Images](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/responsive_images/index.md)
+- [Picture element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/picture/index.md)
+- [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/source/index.md)
+- [Viewport meta tag](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/viewport_meta_element/index.md)
 - [object-fit](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-fit/index.md)
 - [object-position](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-position/index.md)
 - [CSS Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/index.md)
@@ -419,7 +416,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Learn positioning of grid items:
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
-# 2. HTML/CSS Level 2 Exam Coverage
+# 2. HTML/CSS Level 2 Exam
 
 ## 2.1. Advanced HTML
 
@@ -434,8 +431,8 @@ Question Types: Knowledge, Code Reading, Written.
   - article, section, microdata
 
 #### References
-- [web/html/element/article](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/article/index.md)
-- [web/html/element/section](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/section/index.md)
+- [web/html/reference/elements/article](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/article/index.md)
+- [web/html/reference/elements/section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/section/index.md)
 
 ### 2.1.2. Advanced Media Elements
 Question Types: Knowledge, Code Reading, Written.
@@ -458,8 +455,8 @@ Question Types: Knowledge, Code Reading, Written.
   - dialog, details, Constraint Validation API
 
 #### References
-- [web/html/element/dialog](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/dialog/index.md)
-- [web/html/element/details](https://github.com/mdn/content/tree/main/files/en-us/web/html/element/details/index.md)
+- [web/html/reference/elements/dialog](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/dialog/index.md)
+- [web/html/reference/elements/details](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/details/index.md)
 
 ### 2.1.4. Advanced Accessibility
 Question Types: Knowledge, Code Reading, Written.
