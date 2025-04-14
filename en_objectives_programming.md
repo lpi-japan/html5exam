@@ -29,7 +29,7 @@
   - Ability to design and implement for convenience, including performance optimization and offline operation considerations.
 
 # Table of Contents <!-- omit in toc -->
-- [1. JavaScript Level 1 Exam Objectives](#1-javascript-level-1-exam-objectives)
+- [1. JavaScript Level 1 Exam](#1-javascript-level-1-exam)
   - [1.1. JavaScript Basics](#11-javascript-basics)
     - [1.1.1. JavaScript Syntax](#111-javascript-syntax)
     - [1.1.2. Data Types and Variables](#112-data-types-and-variables)
@@ -59,7 +59,7 @@
     - [1.8.2. Device Access APIs](#182-device-access-apis)
     - [1.8.3. Offline and Storage APIs](#183-offline-and-storage-apis)
     - [1.8.4. Communication APIs](#184-communication-apis)
-- [2. JavaScript Level 2 Exam Objectives](#2-javascript-level-2-exam-objectives)
+- [2. JavaScript Level 2 Exam](#2-javascript-level-2-exam)
   - [2.1. Advanced JavaScript](#21-advanced-javascript)
     - [2.1.1. Module and Package Management](#211-module-and-package-management)
     - [2.1.2. Testing](#212-testing)
@@ -167,6 +167,9 @@ Question Types: Knowledge, Code Reading, Written.
   - Writing comments (//, /* */)
   - Code formatting guidelines
 
+#### References
+- [JavaScript Guide](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/index.md) # General guide, specific comment syntax reference not found on MDN
+
 ## 1.2. Control Structures
 
 ### 1.2.1. Conditional Branching
@@ -193,7 +196,12 @@ Question Types: Knowledge, Code Reading, Written.
   - for, while, do-while, for...in, for...of
 
 #### References
-- [Control Structures](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/language_overview/index.md#control_structures)
+- [Loops and iteration](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/loops_and_iteration/index.md)
+- [for statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/for/index.md)
+- [while statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/while/index.md)
+- [do...while statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/do...while/index.md)
+- [for...in statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/for...in/index.md)
+- [for...of statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/for...of/index.md)
 
 ### 1.2.3. Exception Handling
 Question Types: Knowledge, Code Reading, Written.
@@ -206,7 +214,10 @@ Question Types: Knowledge, Code Reading, Written.
   - try-catch, throw, finally
 
 #### References
-- [Control Structures](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/language_overview/index.md#control_structures)
+- [try...catch statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/try...catch/index.md)
+- [throw statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/throw/index.md)
+- [Error](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/error/index.md)
+- [Error types](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/error/index.md#error_types)
 
 ## 1.3. Objects and Classes
 
@@ -340,17 +351,6 @@ Question Types: Knowledge, Code Reading, Written.
   - querySelector, querySelectorAll
 
 #### References
-- [Document.createElement()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/createelement/index.md)
-- [Node.appendChild()](https://github.com/mdn/content/tree/main/files/en-us/web/api/node/appendchild/index.md)
-- [Node.insertBefore()](https://github.com/mdn/content/tree/main/files/en-us/web/api/node/insertbefore/index.md)
-- [Element.setAttribute()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/setattribute/index.md)
-- [Element.getAttribute()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/getattribute/index.md)
-- [Element.hasAttribute()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/hasattribute/index.md)
-- [Element.removeAttribute()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/removeattribute/index.md)
-- [Document.getElementById()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/getelementbyid/index.md)
-- [Document.getElementsByClassName()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/getelementsbyclassname/index.md)
-- [Document.getElementsByName()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/getelementsbyname/index.md)
-- [Document.getElementsByTagName()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/getelementsbytagname/index.md)
 - [Document.querySelector()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/queryselector/index.md)
 - [Document.querySelectorAll()](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/queryselectorall/index.md)
 - [Element.querySelector()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/queryselector/index.md)
@@ -468,14 +468,14 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 Media Playback:
-- [HTMLMediaElement API](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/index.md)
+
 - [play()](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/play/index.md)
 - [pause()](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/pause/index.md)
 - [currentTime](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/currenttime/index.md)
 - [duration](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/duration/index.md)
 
 Streaming:
-- [Media Source Extensions API](https://github.com/mdn/content/tree/main/files/en-us/web/api/media_source_extensions_api/index.md)
+
 - [DASH Adaptive Streaming](https://github.com/mdn/content/tree/main/files/en-us/web/api/media_source_extensions_api/dash_adaptive_streaming/index.md)
 - [Setting up adaptive streaming media sources](https://github.com/mdn/content/tree/main/files/en-us/web/media/guides/audio_and_video_delivery/setting_up_adaptive_streaming_media_sources/index.md)
 
@@ -485,9 +485,9 @@ DRM:
 - [MediaKeySession](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediakeysession/index.md)
 
 Graphics:
-- [Canvas API](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvas_api/index.md)
-- [CanvasRenderingContext2D](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvasrenderingcontext2d/index.md)
-- [Drawing shapes with Canvas](https://github.com/mdn/content/tree/main/files/en-us/web/api/canvas_api/tutorial/drawing_shapes/index.md)
+
+
+
 - [SVG API](https://github.com/mdn/content/tree/main/files/en-us/web/api/svg_api/index.md)
 - [SVG Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/svg/tutorials/index.md)
 
@@ -510,18 +510,6 @@ Camera and Microphone Access:
 - [MediaDevices Interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediadevices/index.md)
 - [Media Capture and Streams API](https://github.com/mdn/content/tree/main/files/en-us/web/api/media_capture_and_streams_api/index.md)
 
-Device Position and Motion:
-- [Using the Geolocation API](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocation_api/using_the_geolocation_api/index.md)
-- [Geolocation API](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocation_api/index.md)
-- [GeolocationPosition](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocationposition/index.md)
-- [GeolocationCoordinates](https://github.com/mdn/content/tree/main/files/en-us/web/api/geolocationcoordinates/index.md)
-
-Device Orientation:
-- [Device Orientation Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/index.md)
-- [DeviceOrientationEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/deviceorientationevent/index.md)
-- [DeviceMotionEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/devicemotionevent/index.md)
-- [Using Device Orientation with Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/index.md)
-
 ### 1.8.3. Offline and Storage APIs
 Question Types: Knowledge, Written.
 
@@ -535,22 +523,20 @@ Question Types: Knowledge, Written.
 
 #### References
 Service Worker and Cache API:
-- [Service Worker API](https://github.com/mdn/content/tree/main/files/en-us/web/api/service_worker_api/index.md)
-- [Using Service Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/service_worker_api/using_service_workers/index.md)
 - [Cache API](https://github.com/mdn/content/tree/main/files/en-us/web/api/cache/index.md)
 - [CacheStorage](https://github.com/mdn/content/tree/main/files/en-us/web/api/cachestorage/index.md)
 
 Storage APIs:
-- [Web Storage API](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_storage_api/index.md)
+
 - [Using Web Storage](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_storage_api/using_the_web_storage_api/index.md)
 - [Storage API](https://github.com/mdn/content/tree/main/files/en-us/web/api/storage_api/index.md)
 - [Storage Quotas and Eviction](https://github.com/mdn/content/tree/main/files/en-us/web/api/storage_api/storage_quotas_and_eviction_criteria/index.md)
 
 IndexedDB:
-- [IndexedDB API](https://github.com/mdn/content/tree/main/files/en-us/web/api/indexeddb_api/index.md)
-- [Using IndexedDB](https://github.com/mdn/content/tree/main/files/en-us/web/api/indexeddb_api/using_indexeddb/index.md)
+
+
 - [IDBFactory](https://github.com/mdn/content/tree/main/files/en-us/web/api/idbfactory/index.md)
-- [IDBDatabase](https://github.com/mdn/content/tree/main/files/en-us/web/api/idbdatabase/index.md)
+
 
 ### 1.8.4. Communication APIs
 Question Types: Knowledge, Written.
@@ -565,21 +551,21 @@ Question Types: Knowledge, Written.
 
 #### References
 Communication with XMLHttpRequest and Fetch:
-- [XMLHttpRequest API](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest/index.md)
-- [Using XMLHttpRequest](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest_api/using_formdata_objects/index.md)
+
+
 - [Synchronous and Asynchronous Requests](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest_api/synchronous_and_asynchronous_requests/index.md)
 - [Fetch API](https://github.com/mdn/content/tree/main/files/en-us/web/api/fetch_api/index.md)
 - [Using Fetch](https://github.com/mdn/content/tree/main/files/en-us/web/api/fetch_api/using_fetch/index.md)
 
 WebSocket:
-- [WebSocket Object](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/index.md)
+
 - [WebSocket.close()](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/close/index.md)
 - [WebSocket.send()](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/send/index.md)
 
 Server-Sent Events:
-- [Server-sent Events API](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/index.md)
-- [Using Server-sent Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
-- [EventSource Interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
+
+
+
 
 # 2. JavaScript Level 2 Exam
 
@@ -629,8 +615,8 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 - [Performance fundamentals](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/fundamentals/index.md)
-- [Performance optimization basics](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/animation_performance_and_frame_rate/index.md)
-- [Navigation and Resource Timings](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/navigation_and_resource_timings/index.md)
+
+
 
 ### 2.1.4. Code Optimization
 Question Types: Knowledge, Code Reading, Written.
@@ -801,9 +787,7 @@ Question Types: Knowledge, Code Reading, Written.
   - deviceorientation event, devicemotion event
 
 #### References
-- [Device orientation events](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/index.md)
-- [DeviceOrientationEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/deviceorientationevent/index.md)
-- [DeviceMotionEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/devicemotionevent/index.md)
+- [Device Access APIs](https://github.com/mdn/content/tree/main/files/en-us/web/api/index.md)
 
 ## 2.5. Storage
 
@@ -933,9 +917,9 @@ Question Types: Knowledge, Code Reading, Written.
   - EventSource, onmessage, onerror
 
 #### References
-- [Server-sent events](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/index.md)
-- [Using server-sent events](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/using_server-sent_events/index.md)
-- [EventSource](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
+- [Server-sent Events API](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/index.md)
+- [Using Server-sent Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/server-sent_events/using_server-sent_events/index.md)
+- [EventSource Interface](https://github.com/mdn/content/tree/main/files/en-us/web/api/eventsource/index.md)
 
 ## 2.7. Device Access
 
@@ -971,9 +955,12 @@ Question Types: Knowledge, Code Reading, Written.
   - DeviceOrientationEvent, DeviceMotionEvent
 
 #### References
-- [Device orientation events](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/index.md)
+- [Device Orientation Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/index.md)
 - [DeviceOrientationEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/deviceorientationevent/index.md)
 - [DeviceMotionEvent](https://github.com/mdn/content/tree/main/files/en-us/web/api/devicemotionevent/index.md)
+- [Using Device Orientation with 3D Transforms](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/using_device_orientation_with_3d_transforms/index.md)
+- [Detecting Device Orientation](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/detecting_device_orientation/index.md)
+- [Orientation and Motion Data Explained](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/orientation_and_motion_data_explained/index.md)
 
 ## 2.8. Performance and Offline / 1.5.3
 
@@ -1069,9 +1056,6 @@ Question Types: Knowledge, Code Reading, Written.
    - PerformanceTiming, navigationStart, loadEventEnd
 
 #### References
-- [Performance Timeline](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/index.md)
-- [Performance Entry](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceentry/index.md)
-- [Performance Observer](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceobserver/index.md)
 - [Navigation and Resource Timings](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/navigation_and_resource_timings/index.md)
 
 ## 2.9. Security

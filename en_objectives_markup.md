@@ -28,7 +28,7 @@
   - Ability to optimize web content with performance considerations.
 
 # Table of Contents <!-- omit in toc -->
-- [1. HTML/CSS Level 1 Exam Objectives](#1-htmlcss-level-1-exam-objectives)
+- [1. HTML/CSS Level 1 Exam](#1-htmlcss-level-1-exam)
   - [1.1. HTML](#11-html)
     - [1.1.1. HTML Basics and Format](#111-html-basics-and-format)
     - [1.1.2. HTTP, HTTPS Protocol](#112-http-https-protocol)
@@ -52,7 +52,7 @@
     - [1.5.1. Multi-device Support](#151-multi-device-support)
     - [1.5.2. Media Queries](#152-media-queries)
     - [1.5.3. Basics of Flexbox and CSS Grid](#153-basics-of-flexbox-and-css-grid)
-- [2. HTML/CSS Level 2 Exam Coverage](#2-htmlcss-level-2-exam-coverage)
+- [2. HTML/CSS Level 2 Exam](#2-htmlcss-level-2-exam)
   - [2.1. Advanced HTML](#21-advanced-html)
     - [2.1.1. Deep Dive into Semantics](#211-deep-dive-into-semantics)
     - [2.1.2. Advanced Media Elements](#212-advanced-media-elements)
@@ -88,7 +88,7 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 
-- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/index.md)
+
 - [HEAD - Document metadata section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/head/index.md)
 - [BODY - Document body section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/body/index.md)
 - [META - Document metadata](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/meta/index.md)
@@ -113,7 +113,7 @@ Question Types: Knowledge, Written.
 - Comprehend the concepts, components, and mechanisms of URI and URL
   - URI, URL
 
-#### References <!-- omit in toc -->
+#### References
 - [HTTP Guide](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/index.md)
 - [HTTP Methods](https://github.com/mdn/content/tree/main/files/en-us/web/http/reference/methods/index.md)
 - [HTTP Status Codes](https://github.com/mdn/content/tree/main/files/en-us/web/http/reference/status/index.md)
@@ -141,11 +141,9 @@ Question Types: Knowledge, Written.
   - DOM element retrieval and manipulation, data-* attributes
 
 #### References
-- [Introduction to the DOM](https://github.com/mdn/content/tree/main/files/en-us/web/api/document_object_model/introduction/index.md)
+
 - [CSS Basics](https://github.com/mdn/content/tree/main/files/en-us/web/css/index.md)
 - [JavaScript Basics](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/index.md)
-- [HTML Global Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/global_attributes/index.md)
-- [Content Security Policy (CSP)](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/csp/index.md)
 
 ### 1.1.4. Using Emoji
 Question Types: Knowledge, Code Reading, Written.
@@ -161,10 +159,9 @@ Question Types: Knowledge, Code Reading, Written.
 - Implement emoji with accessibility considerations
   - Screen reader support, use of aria-label
 
-#### References <!-- omit in toc -->
+#### References
 - [HTML Character encoding](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#character_encoding)
 - [Character entity references](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#character-entity-references)
-- [Meta charset element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/meta/index.md)
 - [Unicode in HTML](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md#unicode_in_html)
 
 ## 1.2. Elements
@@ -196,7 +193,7 @@ Question Types: Knowledge, Code Reading, Written.
 
 #### References
 - [HTML elements reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/index.md)
-- [HTML element reference](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/index.md)
+
 - [Content categories](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/content_categories/index.md)
 - [The <article> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/article/index.md)
 - [The <section> element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/section/index.md)
@@ -218,6 +215,13 @@ Question Types: Knowledge, Code Reading, Written.
   - src, alt, controls, autoplay, loop, muted, preload, poster.
   - loadstart, loadeddata, play, pause, ended.
 
+#### References
+- [IMG element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/img/index.md)
+- [AUDIO element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/audio/index.md)
+- [VIDEO element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/video/index.md)
+- [SOURCE element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/source/index.md)
+- [TRACK element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/track/index.md)
+
 ### 1.2.3. Interactive Elements
 Question Types: Knowledge, Code Reading, Written.
 
@@ -231,6 +235,16 @@ Question Types: Knowledge, Code Reading, Written.
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget.
   - submit, reset, change, input, focus, blur.
 
+#### References
+- [FORM element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/form/index.md)
+- [INPUT element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/input/index.md)
+- [BUTTON element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/button/index.md)
+- [SELECT element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/select/index.md)
+- [TEXTAREA element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/textarea/index.md)
+- [LABEL element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/label/index.md)
+- [FIELDSET element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/fieldset/index.md)
+- [LEGEND element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/legend/index.md)
+
 ### 1.2.4. Basic ARIA Usage
 Question Types: Knowledge, Code Reading, Written.
 
@@ -240,6 +254,11 @@ Question Types: Knowledge, Code Reading, Written.
 #### Details
 - Understand and use basic ARIA concepts:
   - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext.
+
+#### References
+- [ARIA Basics](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/index.md)
+- [ARIA Roles](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/roles/index.md)
+- [ARIA Attributes](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/reference/attributes/index.md)
 
 ## 1.3. CSS
 
@@ -257,7 +276,7 @@ Question Types: Knowledge, Code Reading, Written.
 - Implement different methods for linking external stylesheets and distinguish between inline and internal stylesheets
   - link, @import, style, style attribute
 
-#### References <!-- omit in toc -->
+#### References
 - [Selectors](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_selectors/index.md)
 - [Type Selectors](https://github.com/mdn/content/tree/main/files/en-us/web/css/type_selectors/index.md)
 - [Class Selectors](https://github.com/mdn/content/tree/main/files/en-us/web/css/class_selectors/index.md)
@@ -266,8 +285,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [Attribute Selectors](https://github.com/mdn/content/tree/main/files/en-us/web/css/attribute_selectors/index.md)
 - [Pseudo-classes](https://github.com/mdn/content/tree/main/files/en-us/web/css/pseudo-classes/index.md)
 - [Pseudo-elements](https://github.com/mdn/content/tree/main/files/en-us/web/css/pseudo-elements/index.md)
-- [Cascade and inheritance](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/index.md)
-- [Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascade/specificity/index.md)
 
 ### 1.3.2. Cascade (Priority)
 Question Types: Knowledge, Code Reading, Written.
@@ -335,6 +352,15 @@ Question Types: Knowledge, Code Reading, Written.
 - Specify colors (color, rgba(), hsl(), hsla()), transparency (opacity), and gradients.
 - Apply background properties (background-*, border-*, box-shadow).
 
+#### References
+- [CSS Color](https://github.com/mdn/content/tree/main/files/en-us/web/css/color/index.md)
+- [CSS Color Value](https://github.com/mdn/content/tree/main/files/en-us/web/css/color_value/index.md)
+- [CSS Opacity](https://github.com/mdn/content/tree/main/files/en-us/web/css/opacity/index.md)
+- [CSS Gradient](https://github.com/mdn/content/tree/main/files/en-us/web/css/gradient/index.md)
+- [CSS Background](https://github.com/mdn/content/tree/main/files/en-us/web/css/background/index.md)
+- [CSS Border](https://github.com/mdn/content/tree/main/files/en-us/web/css/border/index.md)
+- [CSS box-shadow](https://github.com/mdn/content/tree/main/files/en-us/web/css/box-shadow/index.md)
+
 ### 1.4.4. Text, Lists, and Tables
 Question Types: Knowledge, Code Reading, Written.
 
@@ -347,6 +373,15 @@ Question Types: Knowledge, Code Reading, Written.
 - Control word wrapping (word-break, word-wrap, overflow-wrap).
 - Style lists and tables (list-style-*, border-collapse, border-spacing, content).
 
+#### References
+- [CSS Font](https://github.com/mdn/content/tree/main/files/en-us/web/css/font/index.md)
+- [CSS line-height](https://github.com/mdn/content/tree/main/files/en-us/web/css/line-height/index.md)
+- [CSS text-decoration](https://github.com/mdn/content/tree/main/files/en-us/web/css/text-decoration/index.md)
+- [CSS text-decoration-line](https://github.com/mdn/content/tree/main/files/en-us/web/css/text-decoration-line/index.md)
+- [CSS letter-spacing](https://github.com/mdn/content/tree/main/files/en-us/web/css/letter-spacing/index.md)
+- [CSS border-collapse](https://github.com/mdn/content/tree/main/files/en-us/web/css/border-collapse/index.md)
+- [CSS border-spacing](https://github.com/mdn/content/tree/main/files/en-us/web/css/border-spacing/index.md)
+
 ### 1.4.5. Transformations and Animations
 Question Types: Knowledge, Code Reading, Written.
 
@@ -357,6 +392,27 @@ Question Types: Knowledge, Code Reading, Written.
 - Apply 2D/3D transformations (transform: translate, rotate, scale, skew).
 - Use transitions (transition-property, transition-duration, transition-timing-function, transition-delay).
 - Create animations (@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction).
+
+#### References
+- [CSS Transforms](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_transforms/index.md)
+- [transform property](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform/index.md)
+
+- [transform functions](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform-function/index.md)
+- [CSS Transitions](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_transitions/index.md)
+- [transition property](https://github.com/mdn/content/tree/main/files/en-us/web/css/transition/index.md)
+- [transition-property](https://github.com/mdn/content/tree/main/files/en-us/web/css/transition-property/index.md)
+- [transition-duration](https://github.com/mdn/content/tree/main/files/en-us/web/css/transition-duration/index.md)
+- [transition-timing-function](https://github.com/mdn/content/tree/main/files/en-us/web/css/transition-timing-function/index.md)
+- [transition-delay](https://github.com/mdn/content/tree/main/files/en-us/web/css/transition-delay/index.md)
+- [CSS Animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_animations/index.md)
+- [@keyframes](https://github.com/mdn/content/tree/main/files/en-us/web/css/@keyframes/index.md)
+- [animation property](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation/index.md)
+- [animation-name](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-name/index.md)
+- [animation-duration](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-duration/index.md)
+- [animation-timing-function](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-timing-function/index.md)
+- [animation-delay](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-delay/index.md)
+- [animation-iteration-count](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-iteration-count/index.md)
+- [animation-direction](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-direction/index.md)
 
 ## 1.5. Responsive Web Design
 
@@ -378,12 +434,11 @@ Question Types: Knowledge, Code Reading, Written.
 #### References
 - [Responsive Images](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/responsive_images/index.md)
 - [Picture element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/picture/index.md)
-- [Source element](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/source/index.md)
 - [Viewport meta tag](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/viewport_meta_element/index.md)
 - [object-fit](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-fit/index.md)
 - [object-position](https://github.com/mdn/content/tree/main/files/en-us/web/css/object-position/index.md)
-- [CSS Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/index.md)
-- [CSS Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
+
+
 
 ### 1.5.2. Media Queries
 Question Types: Knowledge, Code Reading, Written.
@@ -416,6 +471,28 @@ Question Types: Knowledge, Code Reading, Written.
 - Learn positioning of grid items:
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
+#### References
+- [CSS Flexible Box Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
+- [Basic Concepts of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
+- [display: flex](https://github.com/mdn/content/tree/main/files/en-us/web/css/display/index.md#flex)
+- [flex-direction](https://github.com/mdn/content/tree/main/files/en-us/web/css/flex-direction/index.md)
+- [justify-content](https://github.com/mdn/content/tree/main/files/en-us/web/css/justify-content/index.md)
+- [align-items](https://github.com/mdn/content/tree/main/files/en-us/web/css/align-items/index.md)
+- [align-content](https://github.com/mdn/content/tree/main/files/en-us/web/css/align-content/index.md)
+- [align-self](https://github.com/mdn/content/tree/main/files/en-us/web/css/align-self/index.md)
+- [CSS Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/index.md)
+- [Basic Concepts of Grid Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/basic_concepts_of_grid_layout/index.md)
+- [display: grid](https://github.com/mdn/content/tree/main/files/en-us/web/css/display/index.md#grid)
+- [grid-template-rows](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-template-rows/index.md)
+- [grid-template-columns](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-template-columns/index.md)
+- [gap](https://github.com/mdn/content/tree/main/files/en-us/web/css/gap/index.md)
+- [grid-auto-rows](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-auto-rows/index.md)
+- [grid-auto-columns](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-auto-columns/index.md)
+- [grid-auto-flow](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-auto-flow/index.md)
+- [grid-row](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-row/index.md)
+- [grid-column](https://github.com/mdn/content/tree/main/files/en-us/web/css/grid-column/index.md)
+- [justify-items](https://github.com/mdn/content/tree/main/files/en-us/web/css/justify-items/index.md)
+
 # 2. HTML/CSS Level 2 Exam
 
 ## 2.1. Advanced HTML
@@ -431,8 +508,8 @@ Question Types: Knowledge, Code Reading, Written.
   - article, section, microdata
 
 #### References
-- [web/html/reference/elements/article](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/article/index.md)
-- [web/html/reference/elements/section](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/elements/section/index.md)
+- [Microdata](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/microdata/index.md)
+- [Schema.org](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/global_attributes/itemtype/index.md)
 
 ### 2.1.2. Advanced Media Elements
 Question Types: Knowledge, Code Reading, Written.
@@ -443,6 +520,11 @@ Question Types: Knowledge, Code Reading, Written.
 #### Details
 - Develop advanced skills in using media elements, including custom controls and captions
   - Media Source Extensions, WebVTT
+
+#### References
+- [Transcoding Assets for MSE](https://github.com/mdn/content/tree/main/files/en-us/web/api/media_source_extensions_api/transcoding_assets_for_mse/index.md)
+- [WebVTT API](https://github.com/mdn/content/tree/main/files/en-us/web/api/webvtt_api/index.md)
+- [Web Video Text Tracks Format](https://github.com/mdn/content/tree/main/files/en-us/web/api/webvtt_api/web_video_text_tracks_format/index.md)
 
 ### 2.1.3. Advanced Interactive Elements
 Question Types: Knowledge, Code Reading, Written.
@@ -468,6 +550,10 @@ Question Types: Knowledge, Code Reading, Written.
 - Provide accessibility for complex widgets through advanced use of ARIA
   - ARIA roles, states, properties
 
+#### References
+- [ARIA Techniques](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/guides/techniques/index.md)
+- [ARIA Live Regions](https://github.com/mdn/content/tree/main/files/en-us/web/accessibility/aria/guides/live_regions/index.md)
+
 ## 2.2. Advanced CSS
 
 ### 2.2.1. Advanced CSS Layout
@@ -480,6 +566,15 @@ Question Types: Knowledge, Code Reading, Written.
 - Apply cutting-edge layout technologies such as CSS Shapes and Subgrid
   - CSS Houdini, CSS Logical Properties
 
+#### References
+- [CSS Shapes](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_shapes/index.md)
+- [Overview of Shapes](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_shapes/overview_of_shapes/index.md)
+- [Basic Shapes](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_shapes/basic_shapes/index.md)
+- [CSS Grid Subgrid](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/subgrid/index.md)
+- [CSS Houdini](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_properties_and_values_api/houdini/index.md)
+- [CSS Logical Properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_logical_properties_and_values/index.md)
+- [Basic Concepts of Logical Properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_logical_properties_and_values/basic_concepts_of_logical_properties_and_values/index.md)
+
 ### 2.2.2. Flexbox and Grid
 Question Types: Knowledge, Code Reading, Written.
 
@@ -491,8 +586,8 @@ Question Types: Knowledge, Code Reading, Written.
   - Dynamic placement and size adjustment
 
 #### References
-- [CSS Flexible Box Layout](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/index.md)
-- [Basic Concepts of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/basic_concepts_of_flexbox/index.md)
+
+
 - [Box Alignment in Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_box_alignment/box_alignment_in_flexbox/index.md)
 - [Typical Use Cases of Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/typical_use_cases_of_flexbox/index.md)
 - [Aligning Items in Flexbox](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/aligning_items_in_a_flex_container/index.md)
@@ -501,7 +596,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Mastering Wrapping of Flex Items](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_flexible_box_layout/mastering_wrapping_of_flex_items/index.md)
 - [Individual Flex Properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/flex/index.md)
 - [Relationship of Grid Layout with Other Layout Methods](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/relationship_of_grid_layout_with_other_layout_methods/index.md)
-- [Grid basic concepts](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/basic_concepts_of_grid_layout/index.md)
+
 - [Grid template areas](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/grid_template_areas/index.md)
 - [Grid box alignment](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/box_alignment_in_grid_layout/index.md)
 - [Grid auto-placement](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_grid_layout/auto-placement_in_grid_layout/index.md)
@@ -519,6 +614,13 @@ Question Types: Knowledge, Code Reading, Written.
 - Implement advanced responsive layouts using these techniques:
   - Continuous size adjustments without relying on breakpoints.
 
+#### References
+- [CSS Cascading Variables](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascading_variables/index.md)
+- [Using CSS Custom Properties](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_cascading_variables/using_css_custom_properties/index.md)
+- [var() function](https://github.com/mdn/content/tree/main/files/en-us/web/css/var/index.md)
+- [calc() function](https://github.com/mdn/content/tree/main/files/en-us/web/css/calc/index.md)
+- [clamp() function](https://github.com/mdn/content/tree/main/files/en-us/web/css/clamp/index.md)
+
 ### 2.2.4. Animation and Transition
 Question Types: Knowledge, Code Reading, Written.
 
@@ -530,13 +632,11 @@ Question Types: Knowledge, Code Reading, Written.
   - @keyframes, animation, transform, transition
 
 #### References
-- [web/css/css_animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_animations/index.md)
-- [web/css/css_transitions](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_transitions/index.md)
-- [web/css/transform](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform/index.md)
-- [web/css/@keyframes](https://github.com/mdn/content/tree/main/files/en-us/web/css/@keyframes/index.md)
-- [web/css/animation-timing-function](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-timing-function/index.md)
-- [web/css/transform-function](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform-function/index.md)
-- [web/css/transform-function](https://github.com/mdn/content/tree/main/files/en-us/web/css/transform-function/index.md)
+- [Using CSS Animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_animations/using_css_animations/index.md)
+- [Using CSS Transitions](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_transitions/using_css_transitions/index.md)
+- [animation-fill-mode](https://github.com/mdn/content/tree/main/files/en-us/web/css/animation-fill-mode/index.md)
+- [CSS Scroll-driven Animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_scroll-driven_animations/index.md)
+- [View Transitions API](https://github.com/mdn/content/tree/main/files/en-us/web/api/view_transition_api/index.md)
 
 ### 2.2.5. Performance Optimization
 Question Types: Knowledge, Code Reading, Written.
@@ -551,7 +651,7 @@ Question Types: Knowledge, Code Reading, Written.
 #### References
 - [web/css/will-change](https://github.com/mdn/content/tree/main/files/en-us/web/css/will-change/index.md)
 - [web/css/contain](https://github.com/mdn/content/tree/main/files/en-us/web/css/contain/index.md)
-- [web/performance/guides/css_javascript_animation_performance](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/css_javascript_animation_performance/index.md)
+
 
 ### 2.2.6. Variable Fonts
 Question Types: Knowledge, Code Reading.
@@ -562,6 +662,12 @@ Question Types: Knowledge, Code Reading.
 #### Details
 - Apply font axis adjustments to balance performance and design with variable fonts
   - font-variation-settings, @font-face
+
+#### References
+- [Variable Fonts Guide](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_fonts/variable_fonts_guide/index.md)
+- [font-variation-settings](https://github.com/mdn/content/tree/main/files/en-us/web/css/font-variation-settings/index.md)
+- [@font-face](https://github.com/mdn/content/tree/main/files/en-us/web/css/@font-face/index.md)
+- [@font-face font-variation-settings descriptor](https://github.com/mdn/content/tree/main/files/en-us/web/css/@font-face/font-variation-settings/index.md)
 
 ### 2.2.7. CSS Nesting
 Question Types: Knowledge, Code Reading, Written.
@@ -575,6 +681,13 @@ Question Types: Knowledge, Code Reading, Written.
 - Improve code readability and maintainability with nesting.
 - Understand limitations and browser support for nesting.
 
+#### References
+- [CSS Nesting](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/index.md)
+- [Using CSS Nesting](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/using_css_nesting/index.md)
+- [Nesting and Specificity](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/nesting_and_specificity/index.md)
+- [Nesting At-rules](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_nesting/nesting_at-rules/index.md)
+- [Nesting Selector (&)](https://github.com/mdn/content/tree/main/files/en-us/web/css/nesting_selector/index.md)
+
 ### 2.2.8. Container Queries
 Question Types: Knowledge, Code Reading, Written.
 
@@ -587,3 +700,11 @@ Question Types: Knowledge, Code Reading, Written.
   - Switching styles based on container size.
 - Implement responsive designs using container queries.
 - Understand limitations and browser support for container queries.
+
+#### References
+- [Container Queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_containment/container_queries/index.md)
+- [@container](https://github.com/mdn/content/tree/main/files/en-us/web/css/@container/index.md)
+- [container](https://github.com/mdn/content/tree/main/files/en-us/web/css/container/index.md)
+- [container-type](https://github.com/mdn/content/tree/main/files/en-us/web/css/container-type/index.md)
+- [container-name](https://github.com/mdn/content/tree/main/files/en-us/web/css/container-name/index.md)
+- [Container Size and Style Queries](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_containment/container_size_and_style_queries/index.md)
