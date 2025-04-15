@@ -44,7 +44,7 @@
     - [1.3.2. Major Objects](#132-major-objects)
     - [1.3.3. Classes and Instances](#133-classes-and-instances)
   - [1.4. Asynchronous Processing](#14-asynchronous-processing)
-    - [1.4.1. Repetition and Timed Execution (Partial)](#141-repetition-and-timed-execution-partial)
+    - [1.4.1. Repetition and Timed Execution](#141-repetition-and-timed-execution)
     - [1.4.2. Promise, async/await](#142-promise-asyncawait)
   - [1.5. Debugging](#15-debugging)
     - [1.5.1. Debugging and Code Execution Time Measurement](#151-debugging-and-code-execution-time-measurement)
@@ -53,8 +53,8 @@
     - [1.6.2. Selectors API](#162-selectors-api)
   - [1.7. Event, Form, and Window Operations](#17-event-form-and-window-operations)
     - [1.7.1. Basic Events](#171-basic-events)
-    - [1.7.2. Form Operations and Validation (Partial)](#172-form-operations-and-validation-partial)
-    - [1.7.3. Basic Window Operations (Partial)](#173-basic-window-operations-partial)
+    - [1.7.2. Form Operations and Validation](#172-form-operations-and-validation)
+    - [1.7.3. Basic Window Operations](#173-basic-window-operations)
   - [1.8. Basic Knowledge of APIs](#18-basic-knowledge-of-apis)
     - [1.8.1. Multimedia and Graphics APIs](#181-multimedia-and-graphics-apis)
     - [1.8.2. Device Access APIs](#182-device-access-apis)
@@ -282,7 +282,7 @@ Question Types: Knowledge, Code Reading, Written.
 
 ## 1.4. Asynchronous Processing
 
-### 1.4.1. Repetition and Timed Execution (Partial)
+### 1.4.1. Repetition and Timed Execution
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -445,7 +445,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Using Pointer Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/pointer_events/using_pointer_events/index.md)
 - [Drag Events](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlelement/drag_event/index.md)
 
-### 1.7.2. Form Operations and Validation (Partial)
+### 1.7.2. Form Operations and Validation
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -465,7 +465,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Set custom validation message](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlinputelement/setcustomvalidity/index.md)
 - [Form noValidate attribute](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlinputelement/formnovalidate/index.md)
 
-### 1.7.3. Basic Window Operations (Partial)
+### 1.7.3. Basic Window Operations
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
