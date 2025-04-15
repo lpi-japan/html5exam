@@ -288,7 +288,6 @@ cssプロパティ名の部分を``で囲ってほしい
 - レイアウトの実装手法
   - viewport
   - ブレークポイント
-  - 単純なFlexboxやグリッドレイアウトの利用
 - コンテンツとメディアの最適化
   - srcset, sizes
   - `object-fit`, `object-position`
