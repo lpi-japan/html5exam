@@ -38,8 +38,9 @@
 | 修正 | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | 名称変更する。 | |
 | 修正 | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | (Level1/2の棲み分けはともかく) 変更する。 | |
 | 追加 | array操作系 (map, filter, find, reduce, flatMap, ...) を追加すべきか？ (現行Level2にない) | 最低限map, filter, findまでは出題したい。 | |
+| 追加 | Map, Setを追加すべきか？ (現行Level2にない) | 出題したい。 | |
 | 追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ | いまいち客観的にどこに配置すべきかよくわからないが、とりあえずオブジェクトの機能として掲載 | |
-| 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (現行Level2にない) | | |
+| 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (~~現行Level2にない~~RegExpだけあった…) | | |
 | 修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
 | 修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| File.lastModified | |
 ||markupがwebの話スタートで、programmingはjsの話スタートだから、jsのlv1ににセキュリティーの話の一般論は今今だと起きにくいということも理解しました。共通問題を作ってもよい説ある？ | 話広げすぎたから判断保留で良いです | |
