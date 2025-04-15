@@ -265,11 +265,11 @@
 
 ### 1.4.5. 変形とアニメーション
 #### 概要
-- 変形とアニメーションの基本テクニックを理解し、インタラクティブなエフェクトを実現する。
+- 基本的な変形とアニメーションの概念を理解し、シンプルなエフェクトを実装できる。
 #### 詳細
-- 2D/3D変形（transform: translate, rotate, scale, skew）
-- トランジション（transition-property, transition-duration, transition-timing-function, transition-delay）
-- アニメーション（@keyframes, animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction）
+- 基本的な2D変形の理解と適用（transform: translate, rotate, scale）
+- 単純なトランジションの実装（transition-property, transition-duration）
+- 基本的なアニメーションの作成（@keyframes の基本構文と animation の基本プロパティ）
 
 ## 1.5. レスポンシブWebデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -410,11 +410,14 @@
 
 #### 概要
 
-- CSSアニメーションやトランジションを利用して、インタラクティブなエフェクトを実現できる。
+- 高度なアニメーションとトランジション技術を駆使して、複雑で効率的なインタラクティブエフェクトを実現できる。
 
 #### 詳細
-- CSSアニメーションやトランジションを使い、動きのあるUIをデザインできる
-  - @keyframes, animation, transform, transition
+- 複雑な3D変形と空間での操作（transform: translate3d, rotate3d、perspective の活用）
+- パフォーマンスを考慮したアニメーション実装（will-change、GPU アクセラレーション活用）
+- タイミング関数の高度な制御（cubic-bezier、steps 関数の活用）
+- 複数のアニメーションの連続・並行実行とイベントハンドリング（animation-delay, animation-fill-mode の応用、AnimationEvent API）
+- インタラクティブなアニメーション制御
 
 ### 2.2.5. パフォーマンス最適化
 出題種別: 知識問題、コードリーディング問題、記述問題
