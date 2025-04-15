@@ -43,6 +43,7 @@
 | 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (~~現行Level2にない~~RegExpだけあった…) | | |
 | 修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
 | 修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| File.lastModified | |
+| 修正 | [console.profile()は非標準](https://developer.mozilla.org/ja/docs/Web/API/console/profile_static) | ひとまず削除 |
 ||markupがwebの話スタートで、programmingはjsの話スタートだから、jsのlv1ににセキュリティーの話の一般論は今今だと起きにくいということも理解しました。共通問題を作ってもよい説ある？ | 話広げすぎたから判断保留で良いです | |
 ||markupのメディアクエリ、レスポンシブはlevel1に寄せても良い気がします。PC画面でUI作ってるけど実はユーザー9割スマホからみたいなケースもあるので、入門したならレスポンシブ対応はできてほしいのではないかと思います。1.3.1. メディア要素、1.3.3. 基本的なARIAの利用あたりはlevel2でもよさそう。レスポンシブをやってから、メディアの見え方やアクセシビリティー対応の方が理解の流れや業務上の要請に対してもスムーズな気がします。 |  | |
 || ↑にからめてだと、2.2.2. フレックスボックスとグリッドはlevel1でもよい気がする。level2のままで良さそうなもの、2.1.4. Webコンポーネント、2.2.3. レスポンシブデザイン。コンポーネント化や動的設計はjavascriptがからむので難level1で扱うには難しい気がするので。level1はwebの基本と、基本的なHTMLとCSSを使ったflex boxとgridによるレスポンシブデザインまで見れれば良いのかな？という印象。|  | |
