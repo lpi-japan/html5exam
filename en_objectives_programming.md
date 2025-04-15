@@ -41,12 +41,13 @@
     - [1.2.3. Exception Handling](#123-exception-handling)
   - [1.3. Objects and Classes](#13-objects-and-classes)
     - [1.3.1. Objects and Properties](#131-objects-and-properties)
-    - [1.3.2. Classes and Instances](#132-classes-and-instances)
+    - [1.3.2. Major Objects](#132-major-objects)
+    - [1.3.3. Classes and Instances](#133-classes-and-instances)
   - [1.4. Asynchronous Processing](#14-asynchronous-processing)
     - [1.4.1. Repetition and Timed Execution (Partial)](#141-repetition-and-timed-execution-partial)
     - [1.4.2. Promise, async/await](#142-promise-asyncawait)
   - [1.5. Debugging](#15-debugging)
-    - [1.5.1. Basic Debugging](#151-basic-debugging)
+    - [1.5.1. Debugging and Code Execution Time Measurement](#151-debugging-and-code-execution-time-measurement)
   - [1.6. DOM Manipulation](#16-dom-manipulation)
     - [1.6.1. Basic DOM Operations](#161-basic-dom-operations)
     - [1.6.2. Selectors API](#162-selectors-api)
@@ -62,9 +63,8 @@
 - [2. JavaScript Level 2 Exam](#2-javascript-level-2-exam)
   - [2.1. Advanced JavaScript](#21-advanced-javascript)
     - [2.1.1. Module and Package Management](#211-module-and-package-management)
-    - [2.1.2. Testing](#212-testing)
-    - [2.1.3. Performance Measurement and Optimization](#213-performance-measurement-and-optimization)
-    - [2.1.4. Code Optimization](#214-code-optimization)
+    - [2.1.2. Advanced Operations on Functions and Collections](#212-advanced-operations-on-functions-and-collections)
+    - [2.1.3. Advanced Asynchronous/Parallel Patterns](#213-advanced-asynchronousparallel-patterns)
   - [2.2. JavaScript API in Web Browsers](#22-javascript-api-in-web-browsers)
     - [2.2.1. DOM Applications](#221-dom-applications)
     - [2.2.2. History API](#222-history-api)
@@ -75,7 +75,6 @@
     - [2.3.3. Timing control for script-based animations](#233-timing-control-for-script-based-animations)
   - [2.4. Multimedia](#24-multimedia)
     - [2.4.1. Media Element API](#241-media-element-api)
-    - [2.4.2. DeviceOrientation Event](#242-deviceorientation-event)
   - [2.5. Storage](#25-storage)
     - [2.5.1. Web Storage](#251-web-storage)
     - [2.5.2. Indexed Database API](#252-indexed-database-api)
@@ -88,14 +87,15 @@
   - [2.7. Device Access](#27-device-access)
     - [2.7.1. Geolocation API](#271-geolocation-api)
     - [2.7.2. DeviceOrientation Event](#272-deviceorientation-event)
-  - [2.8. Performance and Offline / 1.5.3](#28-performance-and-offline--153)
+  - [2.8. Offline API](#28-offline-api)
     - [2.8.1. Web Workers](#281-web-workers)
-    - [2.8.2. High Resolution Time](#282-high-resolution-time)
-    - [2.8.3. Offline Applications with Service Worker](#283-offline-applications-with-service-worker)
-    - [2.8.4. Page Visibility](#284-page-visibility)
-    - [2.8.5. Navigation Timing](#285-navigation-timing)
-  - [2.9. Security](#29-security)
-    - [2.9.1. Cross-Origin Constraints and CORS](#291-cross-origin-constraints-and-cors)
+    - [2.8.2. Service Worker](#282-service-worker)
+    - [2.8.3. Page Visibility](#283-page-visibility)
+  - [2.9. Performance API](#29-performance-api)
+    - [2.9.1. Performance Timing API](#291-performance-timing-api)
+    - [2.9.2. Navigation and Resource Timing](#292-navigation-and-resource-timing)
+  - [2.10. Security](#210-security)
+    - [2.10.1. Cross-Origin Constraints and CORS](#2101-cross-origin-constraints-and-cors)
     - [2.9.2. Security Model and SSL Relationship](#292-security-model-and-ssl-relationship)
 
 # 1. JavaScript Level 1 Exam
@@ -225,17 +225,48 @@ Question Types: Knowledge, Code Reading, Written.
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates are proficient in the concept of objects and the manipulation of properties.
+- Candidates understand the basic concepts and operations of objects and properties.
+- Candidates can utilize convenient syntax related to object manipulation.
 
 #### Details
-- Understand the concept of objects and manipulate properties
-  - Create objects, define and access properties
-  - Define methods
+- Concept of objects and property manipulation
+  - Object creation, property definition/access
+  - Method definition
+  - Arrow function (`() => {}`) syntax and differences from traditional functions
+- Syntax related to object expansion and assignment
+  - Spread syntax (`...`)
+  - Rest parameters
+  - Destructuring assignment
 
 #### References
 - [JavaScript Objects](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/language_overview/index.md#objects)
+- [Arrow function expressions](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/functions/arrow_functions/index.md)
+- [Spread syntax (...)](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/operators/spread_syntax/index.md)
+- [Rest parameters](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/functions/rest_parameters/index.md)
+- [Destructuring assignment](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/operators/destructuring/index.md)
 
-### 1.3.2. Classes and Instances
+### 1.3.2. Major Objects
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates understand the characteristics and usage methods of standard built-in objects in JavaScript and can utilize them appropriately.
+
+#### Details
+- Array object and its main operations
+  - Basic methods: `push()`, `pop()`, `shift()`, `unshift()`, `splice()`
+  - Higher-order functions: `map()`, `filter()`, `reduce()`, `forEach()`
+  - Search methods: `find()`, `findIndex()`, `includes()`, `indexOf()`
+- Date and time operations (`Date`)
+- Regular expression pattern matching (`RegExp`)
+- JSON data operations (`parse`, `stringify`)
+
+#### References
+- [Array](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/array/index.md)
+- [Date](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/date/index.md)
+- [RegExp](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/regexp/index.md)
+- [JSON](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/json/index.md)
+
+### 1.3.3. Classes and Instances
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
@@ -285,22 +316,46 @@ Question Types: Knowledge, Code Reading, Written.
 
 ## 1.5. Debugging
 
-### 1.5.1. Basic Debugging
+### 1.5.1. Debugging and Code Execution Time Measurement
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
 - Candidates can use basic debugging tools to investigate errors.
+- Candidates understand and can apply standard methods for measuring code execution time.
 
 #### Details
-- Perform basic operation checks.
-  - console.log
+- Operation checks and debugging using the console
+  - `console.log` - Basic log output
+  - `console.info()`, `console.warn()`, `console.error()` - Log output by severity
+  - `console.table()` - Output of structured data in table format
+  - `console.group()`, `console.groupEnd()` - Grouping logs
+  - `console.count()` - Counting calls
+  - `console.trace()` - Outputting stack trace
+  - `console.assert()` - Conditional error log output
+- Measuring code execution time
+  - `console.time()`, `console.timeEnd()`, `console.timeLog()` - Console-based timing measurement
+  - `Date.now()`, `new Date().getTime()` - Time measurement in milliseconds
 - Investigate using browser developer tools.
   - Data verification and code snippet testing using the console tab of developer tools
-  - Break, step execution, variable, and call stack verification using the source tab of developer tools
+  - Script breaking, step execution, variable, and call stack inspection using the sources tab of developer tools
   - Embedding debugger statements
 
 #### References
-- [console.debug()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/debug_static/index.md)
+- [Console API](https://github.com/mdn/content/tree/main/files/en-us/web/api/console_api/index.md)
+- [console.log()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/log_static/index.md)
+- [console.info()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/info_static/index.md)
+- [console.warn()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/warn_static/index.md)
+- [console.error()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/error_static/index.md)
+- [console.table()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/table_static/index.md)
+- [console.group()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/group_static/index.md)
+- [console.groupEnd()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/groupend_static/index.md)
+- [console.count()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/count_static/index.md)
+- [console.trace()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/trace_static/index.md)
+- [console.assert()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/assert_static/index.md)
+- [console.time()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/time_static/index.md)
+- [console.timeEnd()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/timeend_static/index.md)
+- [console.timeLog()](https://github.com/mdn/content/tree/main/files/en-us/web/api/console/timelog_static/index.md)
+- [Date.now()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/date/now/index.md)
 - [debugger statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/debugger/index.md)
 - [Error.stack](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/error/stack/index.md)
 
@@ -467,27 +522,15 @@ Question Types: Knowledge, Code Reading, Written.
   - SVG markup and API
 
 #### References
-Media Playback:
-
 - [play()](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/play/index.md)
 - [pause()](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/pause/index.md)
 - [currentTime](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/currenttime/index.md)
 - [duration](https://github.com/mdn/content/tree/main/files/en-us/web/api/htmlmediaelement/duration/index.md)
-
-Streaming:
-
 - [DASH Adaptive Streaming](https://github.com/mdn/content/tree/main/files/en-us/web/api/media_source_extensions_api/dash_adaptive_streaming/index.md)
 - [Setting up adaptive streaming media sources](https://github.com/mdn/content/tree/main/files/en-us/web/media/guides/audio_and_video_delivery/setting_up_adaptive_streaming_media_sources/index.md)
-
-DRM:
 - [Encrypted Media Extensions API](https://github.com/mdn/content/tree/main/files/en-us/web/api/encrypted_media_extensions_api/index.md)
 - [MediaKeys](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediakeys/index.md)
 - [MediaKeySession](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediakeysession/index.md)
-
-Graphics:
-
-
-
 - [SVG API](https://github.com/mdn/content/tree/main/files/en-us/web/api/svg_api/index.md)
 - [SVG Tutorial](https://github.com/mdn/content/tree/main/files/en-us/web/svg/tutorials/index.md)
 
@@ -522,19 +565,13 @@ Question Types: Knowledge, Written.
 - Considerations for building offline-capable applications
 
 #### References
-Service Worker and Cache API:
+- [Using Service Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/service_worker_api/using_service_workers/index.md)
+- [Offline and background operation](https://github.com/mdn/content/tree/main/files/en-us/web/progressive_web_apps/guides/offline_and_background_operation/index.md)
 - [Cache API](https://github.com/mdn/content/tree/main/files/en-us/web/api/cache/index.md)
 - [CacheStorage](https://github.com/mdn/content/tree/main/files/en-us/web/api/cachestorage/index.md)
-
-Storage APIs:
-
 - [Using Web Storage](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_storage_api/using_the_web_storage_api/index.md)
 - [Storage API](https://github.com/mdn/content/tree/main/files/en-us/web/api/storage_api/index.md)
 - [Storage Quotas and Eviction](https://github.com/mdn/content/tree/main/files/en-us/web/api/storage_api/storage_quotas_and_eviction_criteria/index.md)
-
-IndexedDB:
-
-
 - [IDBFactory](https://github.com/mdn/content/tree/main/files/en-us/web/api/idbfactory/index.md)
 
 
@@ -550,20 +587,11 @@ Question Types: Knowledge, Written.
 - Considerations for error handling and security during communication
 
 #### References
-Communication with XMLHttpRequest and Fetch:
-
-
 - [Synchronous and Asynchronous Requests](https://github.com/mdn/content/tree/main/files/en-us/web/api/xmlhttprequest_api/synchronous_and_asynchronous_requests/index.md)
 - [Fetch API](https://github.com/mdn/content/tree/main/files/en-us/web/api/fetch_api/index.md)
 - [Using Fetch](https://github.com/mdn/content/tree/main/files/en-us/web/api/fetch_api/using_fetch/index.md)
-
-WebSocket:
-
 - [WebSocket.close()](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/close/index.md)
 - [WebSocket.send()](https://github.com/mdn/content/tree/main/files/en-us/web/api/websocket/send/index.md)
-
-Server-Sent Events:
-
 
 
 
@@ -590,48 +618,62 @@ Question Types: Knowledge, Code Reading, Written.
 - [import statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/import/index.md)
 - [export statement](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/export/index.md)
 
-### 2.1.2. Testing
+### 2.1.2. Advanced Operations on Functions and Collections
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates know the types of tests and their specific implementation methods.
+- Candidates understand advanced usage of JavaScript functions and applied techniques for collection operations, enabling them to write efficient code.
+- Candidates understand the purpose of collection objects (Map, Set) and can use them appropriately.
 
 #### Details
-- Automate tests using frameworks
-  - Create and execute unit test cases using Jest
-  - Create and execute end-to-end test cases using Cypress
+- Advanced function operations
+  - `Function.prototype.bind()`, `Function.prototype.call()`, `Function.prototype.apply()`
+  - Concept and application of closures
+- Advanced array operations and iteration
+  - `Array.prototype.flatMap()`, `Array.prototype.some()`, `Array.prototype.every()`
+- Map
+- Set
+- Deep copy
 
 #### References
+- [Function.prototype.bind()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/function/bind/index.md)
+- [Function.prototype.call()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/function/call/index.md)
+- [Function.prototype.apply()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/function/apply/index.md)
+- [Closures](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/closures/index.md)
+- [Array.prototype.flatMap()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/array/flatmap/index.md)
+- [Array.prototype.some()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/array/some/index.md)
+- [Array.prototype.every()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/array/every/index.md)
+- [Map](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/map/index.md)
+- [Set](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/set/index.md)
+- [Deep copy (structuredClone)](https://github.com/mdn/content/tree/main/files/en-us/web/api/window/structuredclone/index.md)
 
-### 2.1.3. Performance Measurement and Optimization
+### 2.1.3. Advanced Asynchronous/Parallel Patterns
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand performance measurement methods and can write efficient code.
+- Candidates understand standard methods for controlling multiple asynchronous operations and can use them appropriately.
+- Candidates can define and use generators.
 
 #### Details
-- Understand performance measurement methods and metrics, and write efficient code
-  - Performance API, console.time
+- Advanced Promise operations
+  - `Promise.all()`, `Promise.race()`, `Promise.allSettled()`, `Promise.any()`
+  - `Promise.prototype.finally()`
+- generator
+  - `function*`
+- Asynchronous iteration syntax
+  - `for await...of` syntax
+  - Asynchronous generator function: `async function*`
 
 #### References
-- [Performance fundamentals](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/fundamentals/index.md)
-
-
-
-### 2.1.4. Code Optimization
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand code optimization techniques and can improve performance.
-
-#### Details
-- Code optimization techniques and best practices
-  - Memory management, rendering optimization
-
-#### References
-- [Performance fundamentals](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/understanding_latency/index.md)
-- [Performance basics](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/optimizing_startup_performance/index.md)
-- [Performance budgets](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/performance_budgets/index.md)
+- [Promise.all()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/promise/all/index.md)
+- [Promise.race()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/promise/race/index.md)
+- [Promise.allSettled()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/promise/allsettled/index.md)
+- [Promise.any()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/promise/any/index.md)
+- [Promise.prototype.finally()](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/promise/finally/index.md)
+- [function*](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide/iterators_and_generators/index.md)
+- [Iteration protocols](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/iteration_protocols/index.md)
+- [for await...of](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/statements/for-await...of/index.md)
+- [async function*](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/asyncgeneratorfunction/index.md)
 
 ## 2.2. JavaScript API in Web Browsers
 
@@ -692,7 +734,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [Element.attachShadow()](https://github.com/mdn/content/tree/main/files/en-us/web/api/element/attachshadow/index.md)
 
 ## 2.3. Graphics and Animation
-Question Types: Knowledge, Code Reading, Written.
 
 ### 2.3.1. Canvas(2D)
 Question Types: Knowledge, Code Reading, Written.
@@ -772,23 +813,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [MediaSource](https://github.com/mdn/content/tree/main/files/en-us/web/api/mediasource/index.md)
 - [SourceBuffer](https://github.com/mdn/content/tree/main/files/en-us/web/api/sourcebuffer/index.md)
 
-### 2.4.2. DeviceOrientation Event
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand the DeviceOrientation Event and can detect device movement and orientation for interaction.
-
-#### Details
-- Detect compass direction
-- Detect device tilt
-- Detect device movement acceleration
-- Detect device rotation speed
-- Units of acceleration
-  - deviceorientation event, devicemotion event
-
-#### References
-- [Device Access APIs](https://github.com/mdn/content/tree/main/files/en-us/web/api/index.md)
-
 ## 2.5. Storage
 
 ### 2.5.1. Web Storage
@@ -846,7 +870,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [Using files from web applications](https://github.com/mdn/content/tree/main/files/en-us/web/api/file_api/using_files_from_web_applications/index.md)
 - [FileReader](https://github.com/mdn/content/tree/main/files/en-us/web/api/filereader/index.md)
 - [File](https://github.com/mdn/content/tree/main/files/en-us/web/api/file/index.md)
-- [Blob](https://github.com/mdn/content/tree/main/files/en-us/web/api/blob/index.md)
 
 ### 2.5.4. Binary Data
 Question Types: Knowledge, Code Reading, Written.
@@ -864,6 +887,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [ArrayBuffer](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/arraybuffer/index.md)
 - [TypedArray](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/typedarray/index.md)
 - [DataView](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/reference/global_objects/dataview/index.md)
+- [Blob](https://github.com/mdn/content/tree/main/files/en-us/web/api/blob/index.md)
 
 ## 2.6. Communication
 
@@ -962,7 +986,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Detecting Device Orientation](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/detecting_device_orientation/index.md)
 - [Orientation and Motion Data Explained](https://github.com/mdn/content/tree/main/files/en-us/web/api/device_orientation_events/orientation_and_motion_data_explained/index.md)
 
-## 2.8. Performance and Offline / 1.5.3
+## 2.8. Offline API
 
 ### 2.8.1. Web Workers
 Question Types: Knowledge, Code Reading, Written.
@@ -971,96 +995,121 @@ Question Types: Knowledge, Code Reading, Written.
 - Candidates understand the mechanism of Web Workers and can implement background processing.
 
 #### Details
-- Characteristics and benefits of using Web Workers
-- Create new Worker
-- Send and receive messages
-- Precautions regarding processing within Worker
-- Memory usage for passing parameters
-- Error detection and error events
-- Implement background processing with Web Workers
-  - Worker, postMessage(), onmessage
+- Scope and usage of Web Workers
+  - Creating a new Worker using the `Worker` constructor
+  - Sending and receiving data with the Worker using `postMessage()`
+  - Implementing the `onmessage` event handler
+  - Using Transferable objects
+  - APIs available within Workers and their limitations
 
 #### References
-- [Using Web Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_workers_api/using_web_workers/index.md)
 - [Web Workers API](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_workers_api/index.md)
+- [Using Web Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_workers_api/using_web_workers/index.md)
 - [Worker](https://github.com/mdn/content/tree/main/files/en-us/web/api/worker/index.md)
-- [WorkerGlobalScope](https://github.com/mdn/content/tree/main/files/en-us/web/api/workerglobalscope/index.md)
+- [Worker.postMessage()](https://github.com/mdn/content/tree/main/files/en-us/web/api/worker/postmessage/index.md)
+- [Transferable objects](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_workers_api/transferable_objects/index.md)
+- [Functions and classes available to Web Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/web_workers_api/functions_and_classes_available_to_workers/index.md)
 
-### 2.8.2. High Resolution Time
+### 2.8.2. Service Worker
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand the mechanism of the High Resolution Time API and can perform high-precision performance measurement.
+- Candidates understand the mechanism of Service Workers and can build offline-capable applications.
 
 #### Details
-- Characteristics and features provided by the High Resolution Time API
-- High-precision performance measurement using the High Resolution Time API
-   - Performance.now()
-
-#### References
-- [Performance API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/index.md)
-- [High Resolution Time](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/high_precision_timing/index.md)
-- [Performance.now()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/now/index.md)
-- [Performance Entry](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceentry/index.md)
-- [Performance Observer](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceobserver/index.md)
-- [Performance.getEntries()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/getentries/index.md)
-- [Navigation Timing](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/navigation_timing/index.md)
-- [Resource Timing](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/resource_timing/index.md)
-
-### 2.8.3. Offline Applications with Service Worker
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates understand the mechanism of Service Worker and can build offline-capable apps.
-
-#### Details
-- Registration and lifecycle of Service Worker
-- Design of offline cache
-- Overview of PWA (Progressive Web Apps)
-  - Service Worker, install, activate, fetch 
+- Service Worker registration and lifecycle management
+  - Registering a Service Worker using `navigator.serviceWorker.register()`
+  - Install, activation, and update lifecycle events
+  - Handling `install`, `activate`, and `fetch` events
+- Resource management using the Cache Storage API
+  - `Cache` object and `caches` global
+  - Creating, reading, updating, and deleting caches
+- Implementing offline features for PWAs (Progressive Web Apps)
 
 #### References
 - [Service Worker API](https://github.com/mdn/content/tree/main/files/en-us/web/api/service_worker_api/index.md)
-- [Using Service Workers](https://github.com/mdn/content/tree/main/files/en-us/web/api/service_worker_api/using_service_workers/index.md)
+- [install event](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/install_event/index.md)
+- [activate event](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/activate_event/index.md)
+- [fetch event](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/fetch_event/index.md)
+- [sync event](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/sync_event/index.md)
+- [push event](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/push_event/index.md)
 - [ServiceWorkerGlobalScope](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/index.md)
 - [Service Worker Registration](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerregistration/index.md)
 
-### 2.8.4. Page Visibility
+### 2.8.3. Page Visibility
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand the mechanism of the Page Visibility API and can detect page visibility to optimize behavior.
+- Candidates can use the Page Visibility API to implement resource optimization based on the user's viewing state.
 
 #### Details
-- Overview of display control using Page Visibility feature
-- Retrieve page visibility state
-- Event processing when visibility state changes
-- Optimize behavior by detecting page visibility
-  - document.hidden, visibilitychange event
+- Retrieving and monitoring Page Visibility status
+  - Using the `document.hidden` property
+  - Distinguishing between states of `document.visibilityState`
+  - Detecting and handling the `visibilitychange` event
+- Resource control based on background/foreground state
 
 #### References
 - [Page Visibility API](https://github.com/mdn/content/tree/main/files/en-us/web/api/page_visibility_api/index.md)
-- [Document: visibilitychange event](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitychange_event/index.md)
+- [Document: hidden property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/hidden/index.md)
 - [Document: visibilityState property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitystate/index.md)
+- [Document: visibilitychange event](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitychange_event/index.md)
 
-### 2.8.5. Navigation Timing
+## 2.9. Performance API
+
+### 2.9.1. Performance Timing API
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates understand the mechanism of the Navigation Timing API and can measure page load time to optimize performance.
+- Candidates can use the Web Performance API suite to measure and analyze application performance data.
 
 #### Details
-- Retrieve occurrence time for user actions
-- Measure image load time
-- Measure time required for page load, DNS name resolution, etc.
-   - PerformanceTiming, navigationStart, loadEventEnd
+- Custom performance marks using the User Timing API
+  - Recording timestamps at specific points using `performance.mark()`
+  - Measuring and naming intervals between marks using `performance.measure()`
+  - Retrieving measurement results using `performance.getEntriesByType('mark')` and `performance.getEntriesByName()`
+- Usage of the High Resolution Time API
+  - Obtaining high-precision timestamps using `performance.now()`
+  - Specification and usage of `DOMHighResTimeStamp`
+  - Utilizing `performance.timeOrigin`
 
 #### References
-- [Navigation and Resource Timings](https://github.com/mdn/content/tree/main/files/en-us/web/performance/guides/navigation_and_resource_timings/index.md)
+- [User Timing API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/user_timing/index.md)
+- [performance.mark()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/mark/index.md)
+- [performance.measure()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/measure/index.md)
+- [performance.getEntriesByType()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/getentriesbytype/index.md)
+- [performance.getEntriesByName()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/getentriesbyname/index.md)
+- [High Resolution Time API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/high_precision_timing/index.md)
+- [performance.now()](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/now/index.md)
+- [DOMHighResTimeStamp](https://github.com/mdn/content/tree/main/files/en-us/web/api/domhighrestimestamp/index.md)
+- [performance.timeOrigin](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance/timeorigin/index.md)
 
-## 2.9. Security
+### 2.9.2. Navigation and Resource Timing
+Question Types: Knowledge, Code Reading, Written.
 
-### 2.9.1. Cross-Origin Constraints and CORS
+#### Overview
+- Candidates can collect and analyze performance data for page loading and resource retrieval.
+
+#### Details
+- Utilizing the Navigation Timing API (Levels 1 & 2)
+  - Page navigation measurement using `window.performance.timing` (Level 1)
+  - Retrieving detailed navigation data using `PerformanceNavigationTiming` (Level 2)
+  - Measuring various stages of the navigation process (DNS resolution, TCP connection, request, response, DOM processing)
+- Measuring resource loading using the Resource Timing API
+  - Using the `PerformanceResourceTiming` interface
+  - Collecting resource measurement data using `performance.getEntriesByType('resource')`
+  - Timing restrictions for cross-origin resources and handling methods
+
+#### References
+- [Navigation Timing API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/navigation_timing/index.md) (Level 1)
+- [PerformanceNavigationTiming](https://github.com/mdn/content/tree/main/files/en-us/web/api/performancenavigationtiming/index.md) (Level 2)
+- [Resource Timing API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/resource_timing/index.md)
+- [PerformanceResourceTiming](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceresourcetiming/index.md)
+- [Timing-Allow-Origin](https://github.com/mdn/content/tree/main/files/en-us/web/http/reference/headers/timing-allow-origin/index.md)
+
+## 2.10. Security
+
+### 2.10.1. Cross-Origin Constraints and CORS
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
