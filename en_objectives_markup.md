@@ -63,7 +63,7 @@
     - [2.2.2. Flexbox and Grid](#222-flexbox-and-grid)
     - [2.2.3. Custom Properties and Functions](#223-custom-properties-and-functions)
     - [2.2.4. Animation and Transition](#224-animation-and-transition)
-    - [2.2.5. Performance Optimization](#225-performance-optimization)
+    - [2.2.5. CSS Performance Optimization](#225-css-performance-optimization)
     - [2.2.6. Variable Fonts](#226-variable-fonts)
     - [2.2.7. CSS Nesting](#227-css-nesting)
     - [2.2.8. Container Queries](#228-container-queries)
@@ -638,7 +638,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [CSS Scroll-driven Animations](https://github.com/mdn/content/tree/main/files/en-us/web/css/css_scroll-driven_animations/index.md)
 - [View Transitions API](https://github.com/mdn/content/tree/main/files/en-us/web/api/view_transition_api/index.md)
 
-### 2.2.5. Performance Optimization
+### 2.2.5. CSS Performance Optimization
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
