@@ -154,8 +154,9 @@
 - グルーピング要素
   - `div`, `hr`
   - `ul`, `ol`, `li`, `dl`, `dt`, `dd`
-- 言語とテキストの方向性
-  - `lang`属性, `dir`属性
+- 文書構造と見出し階層
+  - 見出しレベル (`h1`-`h6`) の適切な使用と階層構造
+  - 文書アウトラインの基本概念
 - テーブル要素
   - `table`, `caption`, `thead`, `tbody`, `tfoot`, `tr`, `th`, `td`
   - `colspan`, `rowspan`, `scope`属性
@@ -327,8 +328,18 @@
 - HTML要素や属性のセマンティクスを深く理解し、SEOやアクセシビリティを考慮したコーディングができる。
 
 #### 詳細
-- 深いセマンティクスを意識したタグ選択やARIA属性の使い方を身につける
-  - article, section, マイクロデータ
+- 構造化データとマイクロデータの実装と活用ができる
+  - `itemscope`, `itemtype`, `itemprop` 属性
+  - Schema.org語彙の活用（Person, Product, Event, Organization, Recipe等）
+- 文書概要と情報アーキテクチャの高度な設計ができる
+  - `figure`, `figcaption` を使用した高度な図表表現
+  - `time` 要素と `datetime` 属性による時間情報の構造化
+- SEO向け高度なメタデータの実装
+  - Open Graph Protocol (`og:*` メタタグ)
+- 国際化とローカライゼーション対応
+  - `hreflang` 属性によるコンテンツ代替言語指定
+  - 方向性制御 (`bdi`, `dir`属性の応用)
+  - 言語固有のタイポグラフィ考慮
 
 ### 2.1.2. 高度なメディア要素
 出題種別: 知識問題、コードリーディング問題、記述問題
