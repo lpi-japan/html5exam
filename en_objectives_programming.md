@@ -96,7 +96,7 @@
     - [2.9.2. Navigation and Resource Timing](#292-navigation-and-resource-timing)
   - [2.10. Security](#210-security)
     - [2.10.1. Cross-Origin Constraints and CORS](#2101-cross-origin-constraints-and-cors)
-    - [2.9.2. Security Model and SSL Relationship](#292-security-model-and-ssl-relationship)
+    - [2.10.2. Security Model and SSL Relationship](#2102-security-model-and-ssl-relationship)
 
 # 1. JavaScript Level 1 Exam
 
@@ -1125,7 +1125,7 @@ Question Types: Knowledge, Code Reading, Written.
 - [Same-origin policy](https://github.com/mdn/content/tree/main/files/en-us/web/security/same-origin_policy/index.md)
 - [CORS errors](https://github.com/mdn/content/tree/main/files/en-us/web/http/guides/cors/errors/index.md)
 
-### 2.9.2. Security Model and SSL Relationship
+### 2.10.2. Security Model and SSL Relationship
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
