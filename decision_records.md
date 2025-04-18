@@ -26,7 +26,7 @@
 || ↑↑はmarkup側はネットワークプロトコルの説明もこみこみでMVCフレームワークかーと理解したから、MVVMの話は、programming側に置くのを検討？|||
 | 修正 | v2.5 level1 は CSS -> 要素 (タグ) の順だった。タグが先の方が分かり安いのでは？ | とりあえずタグ先に | |
 | 修正 | v2.5 1.2.2 CSSデザインなど各セクションの粒度は再考すべきか？レスポンシブデザインもCSSデザインの一部？ | レスポンシブは別セクションで良いと思う。 | |
-| 修正 | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ | | |
+| 修正 | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ むしろ入れるとしたらProxyを入れるべきでは？definePropertyの代わりという意図の他にも、Vueなどのフレームワークの仕組みの理解、[透過的なアクセス制御・キャッシュ等の実装手段として](https://blog.bitsrc.io/proxy-design-pattern-with-react-c0b465980fbf)、などいくつかモチベがある。 | | |
 | 修正 | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | | |
 | 修正 | v2.5 Level 1 1.3.3 の「フレーム」について、frameタグはHTML5で非推奨になっているので、書き方を変えたい。どうすると良いか？ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。(インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそも[HTML Standardのインタラクティブ要素の分類](https://html.spec.whatwg.org/multipage/dom.html#interactive-content)と、1.3.3の分類は必ずしも一致していない。iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) | | |
 | 修正 | v2.5 Level 1 1.4.1 > フルードグリッド → Fluid GridはW3CやWHATWG発祥の言葉やCSSではなく[一有識者の言葉のようなので]( https://ebisu.com/note/grid-system-and-css-grid/)、記載を改めるべきか？おそらくここで想定される具体的な実装はfloatだと思うので、Flexbox, CSS Grid の要不要とも関連する。 | | |
@@ -38,10 +38,12 @@
 | 修正 | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | 名称変更する。 | |
 | 修正 | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | (Level1/2の棲み分けはともかく) 変更する。 | |
 | 追加 | array操作系 (map, filter, find, reduce, flatMap, ...) を追加すべきか？ (現行Level2にない) | 最低限map, filter, findまでは出題したい。 | |
+| 追加 | Map, Setを追加すべきか？ (現行Level2にない) | 出題したい。 | |
 | 追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ | いまいち客観的にどこに配置すべきかよくわからないが、とりあえずオブジェクトの機能として掲載 | |
-| 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (現行Level2にない) | | |
+| 追加 | JS基本文法の1つとして正規表現を追加すべきか？ (~~現行Level2にない~~RegExpだけあった…) | | |
 | 修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | 取り下げる | (事務局内判断) |
 | 修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| File.lastModified | |
+| 修正 | [console.profile()は非標準](https://developer.mozilla.org/ja/docs/Web/API/console/profile_static) | ひとまず削除 |
 ||markupがwebの話スタートで、programmingはjsの話スタートだから、jsのlv1ににセキュリティーの話の一般論は今今だと起きにくいということも理解しました。共通問題を作ってもよい説ある？ | 話広げすぎたから判断保留で良いです | |
 ||markupのメディアクエリ、レスポンシブはlevel1に寄せても良い気がします。PC画面でUI作ってるけど実はユーザー9割スマホからみたいなケースもあるので、入門したならレスポンシブ対応はできてほしいのではないかと思います。1.3.1. メディア要素、1.3.3. 基本的なARIAの利用あたりはlevel2でもよさそう。レスポンシブをやってから、メディアの見え方やアクセシビリティー対応の方が理解の流れや業務上の要請に対してもスムーズな気がします。 |  | |
 || ↑にからめてだと、2.2.2. フレックスボックスとグリッドはlevel1でもよい気がする。level2のままで良さそうなもの、2.1.4. Webコンポーネント、2.2.3. レスポンシブデザイン。コンポーネント化や動的設計はjavascriptがからむので難level1で扱うには難しい気がするので。level1はwebの基本と、基本的なHTMLとCSSを使ったflex boxとgridによるレスポンシブデザインまで見れれば良いのかな？という印象。|  | |

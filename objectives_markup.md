@@ -21,7 +21,6 @@
   - CSS の基本的なセレクタ、プロパティ、カスケードを理解し、それを用いて Web コンテンツをレイアウトできる。
   - ブラウザが利用可能な様々なデバイスに対応するためのレスポンシブデザインができる。
 - Level2
-  - セキュリティやセッション管理など、実践的な Web サイトに求められる要件に関わる HTTP 及び関連の仕様を理解している。
   - マルチメディア操作やアクセシビリティ向上に関わる HTML 要素を活用できる。
   - 複雑なレイアウトやアニメーション・トランジションなどのための CSS を活用してリッチな Web コンテンツを制作できる。
   - 再利用性を高めるための HTML / CSS の設計手法を活用できる。
@@ -155,8 +154,9 @@
 - グルーピング要素
   - `div`, `hr`
   - `ul`, `ol`, `li`, `dl`, `dt`, `dd`
-- 言語とテキストの方向性
-  - `lang`属性, `dir`属性
+- 文書構造と見出し階層
+  - 見出しレベル (`h1`-`h6`) の適切な使用と階層構造
+  - 文書アウトラインの基本概念
 - テーブル要素
   - `table`, `caption`, `thead`, `tbody`, `tfoot`, `tr`, `th`, `td`
   - `colspan`, `rowspan`, `scope`属性
@@ -229,47 +229,51 @@
 ## 1.4. CSSデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+cssプロパティ名の部分を``で囲ってほしい
+
 ### 1.4.1. レイアウト
 #### 概要
 - コンテンツのレイアウトに関する記述方法を理解する。
 
 #### 詳細
-- フロートとクリアの使用方法
-- ポジショニング（static, relative, absolute, fixed, sticky）
-- 要素のスタッキング順序を制御する`z-index`プロパティの理解と適用
-- インタラクティブ制御（cursor, pointer-events, user-select）
+- `float` と `clear` の使用方法
+- ポジショニング（`static`, `relative`, `absolute`, `fixed`, `sticky`）
+- 要素のスタッキング順序を制御する `z-index` プロパティの理解と適用
+- インタラクティブ制御（`cursor`, `pointer-events`, `user-select`）
 
 ### 1.4.2. ボックスモデル
 #### 概要
 - ボックスモデルの正しい適用を理解する。
 
 #### 詳細
-- ボックスモデルの理解と適用（width, height, padding, margin, box-sizing）
-- アウトラインの利用（outline, outline-offset, outline-styleなど）
+- ボックスモデルの理解と適用（`width`, `height`, `padding`, `margin`, `box-sizing`）
+- アウトラインの利用（`outline`, `outline-offset`, `outline-style` など）
+- `overflow`, `visibility`
 
+────────────────────
 ### 1.4.3. 色と背景
 #### 概要
 - 色の指定と背景設定の基本を理解する。
 #### 詳細
-- 色指定（color, rgba(), hsl(), hsla()）、透過 (opacity) およびグラデーション
-- 背景プロパティ（background-*, border-*, box-shadow）
+- 色指定（`color`, `rgba()`, `hsl()`, `hsla()`）、透過（`opacity`）およびグラデーション
+- 背景プロパティ（`background-*`, `border-*`, `box-shadow`）
 
 ### 1.4.4. テキスト、リスト、テーブル
 #### 概要
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 #### 詳細
-- フォント設定（font-*, line-height）
-- テキスト修飾（text-*, underline, overline, line-through, letter-spacing, word-spacing, direction, text-shadow, vertical-align）
-- 単語の改行制御（word-break, word-wrap, overflow-wrap）
-- リストスタイルとテーブルのスタイル設定（list-style-*, border-collapse, border-spacing, content）
+- フォント設定（`font-*`, `line-height`）
+- テキスト修飾（`text-*`, `underline`, `overline`, `line-through`, `letter-spacing`, `word-spacing`, `direction`, `text-shadow`, `vertical-align`）
+- 単語の改行制御（`word-break`, `word-wrap`, `overflow-wrap`）
+- リストスタイルとテーブルのスタイル設定（`list-style-*`, `border-collapse`, `border-spacing`, `content`）
 
 ### 1.4.5. 変形とアニメーション
 #### 概要
 - 基本的な変形とアニメーションの概念を理解し、シンプルなエフェクトを実装できる。
 #### 詳細
-- 基本的な2D変形の理解と適用（transform: translate, rotate, scale）
-- 単純なトランジションの実装（transition-property, transition-duration）
-- 基本的なアニメーションの作成（@keyframes の基本構文と animation の基本プロパティ）
+- 基本的な2D変形の理解と適用（`transform`（`translate`, `rotate`, `scale`））
+- 単純なトランジションの実装（`transition-property`, `transition-duration`）
+- 基本的なアニメーションの作成（`@keyframes` の基本構文と `animation` の基本プロパティ）
 
 ## 1.5. レスポンシブWebデザイン
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -284,10 +288,9 @@
 - レイアウトの実装手法
   - viewport
   - ブレークポイント
-  - 単純なFlexboxやグリッドレイアウトの利用
 - コンテンツとメディアの最適化
   - srcset, sizes
-  - object-fit, object-position
+  - `object-fit`, `object-position`
 
 ### 1.5.2. メディアクエリ / 旧 1.4.2
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -328,8 +331,18 @@
 - HTML要素や属性のセマンティクスを深く理解し、SEOやアクセシビリティを考慮したコーディングができる。
 
 #### 詳細
-- 深いセマンティクスを意識したタグ選択やARIA属性の使い方を身につける
-  - article, section, マイクロデータ
+- 構造化データとマイクロデータの実装と活用ができる
+  - `itemscope`, `itemtype`, `itemprop` 属性
+  - Schema.org語彙の活用（Person, Product, Event, Organization, Recipe等）
+- 文書概要と情報アーキテクチャの高度な設計ができる
+  - `figure`, `figcaption` を使用した高度な図表表現
+  - `time` 要素と `datetime` 属性による時間情報の構造化
+- SEO向け高度なメタデータの実装
+  - Open Graph Protocol (`og:*` メタタグ)
+- 国際化とローカライゼーション対応
+  - `hreflang` 属性によるコンテンツ代替言語指定
+  - 方向性制御 (`bdi`, `dir`属性の応用)
+  - 言語固有のタイポグラフィ考慮
 
 ### 2.1.2. 高度なメディア要素
 出題種別: 知識問題、コードリーディング問題、記述問題

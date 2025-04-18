@@ -183,8 +183,9 @@ Question Types: Knowledge, Code Reading, Written.
 - Grouping elements
   - `div`, `hr`
   - `ul`, `ol`, `li`, `dl`, `dt`, `dd`
-- Language and text directionality
-  - `lang` attribute, `dir` attribute
+- Document structure and heading hierarchy
+  - Proper use of heading levels (`h1`-`h6`) and hierarchy
+  - Basic concepts of document outline
 - Table elements
   - `table`, `caption`, `thead`, `tbody`, `tfoot`, `tr`, `th`, `td`
   - `colspan`, `rowspan`, `scope` attributes
@@ -501,15 +502,22 @@ Question Types: Knowledge, Code Reading, Written.
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
+
 - Candidates understand HTML elements and attribute semantics deeply, and can code with consideration for SEO and accessibility.
 
 #### Details
-- Master tag selection and ARIA attribute usage with deep semantic awareness
-  - article, section, microdata
-
-#### References
-- [Microdata](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/microdata/index.md)
-- [Schema.org](https://github.com/mdn/content/tree/main/files/en-us/web/html/reference/global_attributes/itemtype/index.md)
+- Implement and utilize structured data and microdata
+  - `itemscope`, `itemtype`, `itemprop` attributes
+  - Schema.org vocabulary usage (Person, Product, Event, Organization, Recipe, etc.)
+- Design advanced document outlines and information architecture
+  - Advanced use of `figure`, `figcaption` for complex illustrations
+  - `time` element and `datetime` attribute for structured time information
+- Implement advanced SEO metadata
+  - Open Graph Protocol (`og:*` meta tags)
+- Apply internationalization and localization techniques
+  - `hreflang` attribute for alternate language content specification
+  - Directional control (`bdi`, advanced use of `dir` attribute)
+  - Language-specific typography considerations
 
 ### 2.1.2. Advanced Media Elements
 Question Types: Knowledge, Code Reading, Written.
