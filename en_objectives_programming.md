@@ -90,10 +90,10 @@
   - [2.8. Offline API](#28-offline-api)
     - [2.8.1. Web Workers](#281-web-workers)
     - [2.8.2. Service Worker](#282-service-worker)
-    - [2.8.3. Page Visibility](#283-page-visibility)
   - [2.9. Performance API](#29-performance-api)
     - [2.9.1. Performance Timing API](#291-performance-timing-api)
     - [2.9.2. Navigation and Resource Timing](#292-navigation-and-resource-timing)
+    - [2.9.3. Page Visibility](#293-page-visibility)
   - [2.10. Security](#210-security)
     - [2.10.1. Cross-Origin Constraints and CORS](#2101-cross-origin-constraints-and-cors)
     - [2.10.2. Security Model and SSL Relationship](#2102-security-model-and-ssl-relationship)
@@ -1036,25 +1036,6 @@ Question Types: Knowledge, Code Reading, Written.
 - [ServiceWorkerGlobalScope](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerglobalscope/index.md)
 - [Service Worker Registration](https://github.com/mdn/content/tree/main/files/en-us/web/api/serviceworkerregistration/index.md)
 
-### 2.8.3. Page Visibility
-Question Types: Knowledge, Code Reading, Written.
-
-#### Overview
-- Candidates can use the Page Visibility API to implement resource optimization based on the user's viewing state.
-
-#### Details
-- Retrieving and monitoring Page Visibility status
-  - Using the `document.hidden` property
-  - Distinguishing between states of `document.visibilityState`
-  - Detecting and handling the `visibilitychange` event
-- Resource control based on background/foreground state
-
-#### References
-- [Page Visibility API](https://github.com/mdn/content/tree/main/files/en-us/web/api/page_visibility_api/index.md)
-- [Document: hidden property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/hidden/index.md)
-- [Document: visibilityState property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitystate/index.md)
-- [Document: visibilitychange event](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitychange_event/index.md)
-
 ## 2.9. Performance API
 
 ### 2.9.1. Performance Timing API
@@ -1106,6 +1087,25 @@ Question Types: Knowledge, Code Reading, Written.
 - [Resource Timing API](https://github.com/mdn/content/tree/main/files/en-us/web/api/performance_api/resource_timing/index.md)
 - [PerformanceResourceTiming](https://github.com/mdn/content/tree/main/files/en-us/web/api/performanceresourcetiming/index.md)
 - [Timing-Allow-Origin](https://github.com/mdn/content/tree/main/files/en-us/web/http/reference/headers/timing-allow-origin/index.md)
+
+### 2.9.3. Page Visibility
+Question Types: Knowledge, Code Reading, Written.
+
+#### Overview
+- Candidates can use the Page Visibility API to implement resource optimization based on the user's viewing state.
+
+#### Details
+- Retrieving and monitoring Page Visibility status
+  - Using the `document.hidden` property
+  - Distinguishing between states of `document.visibilityState`
+  - Detecting and handling the `visibilitychange` event
+- Resource control based on background/foreground state
+
+#### References
+- [Page Visibility API](https://github.com/mdn/content/tree/main/files/en-us/web/api/page_visibility_api/index.md)
+- [Document: hidden property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/hidden/index.md)
+- [Document: visibilityState property](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitystate/index.md)
+- [Document: visibilitychange event](https://github.com/mdn/content/tree/main/files/en-us/web/api/document/visibilitychange_event/index.md)
 
 ## 2.10. Security
 
