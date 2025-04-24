@@ -216,13 +216,8 @@
 - JavaScript における標準的な組み込みオブジェクトの特性と使用方法を理解し、適切に活用できる
 
 #### 詳細
-- 配列オブジェクトとその主要操作
-  - 基本メソッド: `push()`, `pop()`, `shift()`, `unshift()`, `splice()`
-  - 高階関数: `map()`, `filter()`, `reduce()`, `forEach()`
-  - 検索メソッド: `find()`, `findIndex()`, `includes()`, `indexOf()`
-- 日付と時刻の操作 (`Date`)
-- 正規表現のパターンマッチング (`RegExp`)
-- JSON データの操作 (`parse`, `stringify`)
+- 組み込みグローバルオブジェクト:
+  Array／Boolean／Date／Error／JSON／Math／Number／Object／RegExp／String
 
 ### 1.3.3. クラスとインスタンス (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
