@@ -193,11 +193,13 @@
 出題種別: 知識問題、コードリーディング問題、記述問題  
 
 #### 概要
-- ARIAを理解し、基本的なアクセシビリティ対応ができる。  
+- ページの静的構造に対し、基本属性を用いてアクセシビリティ対応ができる。
 
 #### 詳細
-- ARIAの基本概念を理解し、適切に利用できる  
-  - role, aria-label, aria-labelledby, aria-describedby, aria-hidden, aria-live, aria-atomic, aria-relevant, aria-busy, aria-controls, aria-expanded, aria-haspopup, aria-pressed, aria-selected, aria-checked, aria-disabled, aria-readonly, aria-required, aria-valuemax, aria-valuemin, aria-valuenow, aria-valuetext  
+- Landmark RoleやPresentation Roleを理解し、適切に利用できる  
+  - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"`  
+- 基本的なARIA属性を利用して、静的コンテンツのアクセシビリティ対応ができる  
+  - `aria-label`, `aria-labelledby`, `aria-hidden`  
 
 ## 1.3. CSSの基礎
 
@@ -369,13 +371,16 @@ cssプロパティ名の部分を``で囲ってほしい
 ### 2.1.4. アクセシビリティ向上の実践 (重要度: 6)
 出題種別: 知識問題、コードリーディング問題、記述問題
 
-#### 概要
+#### 概要　　
 
-- ARIAを高度に活用し、複雑なウィジェットのアクセシビリティを向上させることができる。
+- ダイアログやタブなど動的かつ複合的なUIに対し、高いアクセシビリティを実装できる。
 
-#### 詳細
-- ARIAを高度に活用し、複雑なウィジェットにもアクセシビリティを提供できる
-  - ARIA roles, states, properties
+#### 詳細　　
+
+- Widget RoleやState/Propertyを理解し、動的UIで適切に適用できる  
+  - `role="dialog"`, `role="tab"`, `role="tabpanel"`, `role="menu"`, `role="tree"`  
+- 動的挙動を管理するARIA属性を理解し、実装できる  
+  - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy` 
 
 ## 2.2. 高度なCSS
 
