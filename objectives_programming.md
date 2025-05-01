@@ -216,8 +216,12 @@
 - JavaScript における標準的な組み込みオブジェクトの特性と使用方法を理解し、適切に活用できる
 
 #### 詳細
-- 組み込みグローバルオブジェクト:
-  Array／Boolean／Date／Error／JSON／Math／Number／Object／RegExp／String
+- 組み込みグローバルオブジェクトの特性と使用方法
+ - Array／Boolean／Date／Error
+ - JSON:
+  - `JSON.parse()`, `JSON.stringify()`
+  - JSON フォーマットのルールと JavaScript オブジェクトリテラルとの違い
+ - Math／Number／Object／RegExp／String
 
 ### 1.3.3. クラスとインスタンス (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -668,20 +672,6 @@
 - 端末における現在の位置情報を取得する方法
 - 現在位置取得後のコールバック関数呼び出し
   - getCurrentPosition(), watchPosition(), Position, Coordinates
-
-### 2.7.2. DeviceOrientation Event / 旧 2.7.2 (重要度: 1)
-出題種別: 知識問題、コードリーディング問題、記述問題
-
-#### 概要
-- DeviceOrientation Eventの仕組みを理解し、デバイスの向きや加速度を検知してアプリに反映することができる。
-
-#### 詳細 <!-- omit in toc -->
-- コンパスの方角の検知
-- デバイスの傾きの検知
-- デバイスの移動加速度の検知
-- デバイスの回転速度の検知
-- 加速度の単位
-  - DeviceOrientationEvent, DeviceMotionEvent
 
 ## 2.8. オフラインAPI
 
