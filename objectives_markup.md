@@ -504,7 +504,7 @@ cssプロパティ名の部分を``で囲ってほしい
 
 #### 詳細
 - `@page` ルールの基本構文とマージン設定
-- ページ疑似クラス (`:first`, `:left`, `:right`, `:blank`) の利用
+- ページ疑似クラス (`:first`) の利用
 - 改ページ制御プロパティ (`break-before`, `break-after`, `break-inside`)
 - 改ページ時の行制御プロパティ (`orphans`, `widows`)
 - 印刷用メディアクエリ (`@media print`) との連携
