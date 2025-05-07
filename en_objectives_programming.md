@@ -449,14 +449,22 @@ Question Types: Knowledge, Code Reading, Written.
 Question Types: Knowledge, Code Reading, Written.
 
 #### Overview
-- Candidates can implement form input control and validation.
+- Candidates can retrieve and validate form input values.
+- Candidates can programmatically construct form data and control form submission.
 
 #### Details
 - Control and validation of form input
-  - Retrieving and setting values, required checks, format checks
-- Accessing form data and validating input values
-  - document.forms
-- Canceling submission
+  - Getting form element values (`element.value`, `element.checked`, `element.selectedIndex`)
+  - Constraint Validation API (`checkValidity()`, `reportValidity()`, `setCustomValidity()`)
+  - Validation attributes (`required`, `pattern`, `minlength`, `maxlength`, `optional`)
+  - Validation pseudo-classes (`:valid`, `:invalid`)
+- HTML form element manipulation
+  - Accessing form elements through `document.forms` collection
+  - `form.submit()` and `form.reset()` methods
+  - `onsubmit` event and `preventDefault()` for submission control
+- Using FormData object
+  - Collecting data from forms (`new FormData(formElement)`)
+  - Adding data programmatically (`formData.append()`)
 
 #### References
 - [Built-in form validation overview](https://github.com/mdn/content/tree/main/files/en-us/web/html/guides/constraint_validation/index.md)

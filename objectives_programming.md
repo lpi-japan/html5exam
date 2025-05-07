@@ -338,14 +338,22 @@
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- フォーム入力の制御とバリデーションを実装できること
+- フォーム入力値の取得と検証ができる
+- プログラムからフォームデータの構築や送信制御ができる
 
 #### 詳細
 - フォーム入力の制御とバリデーション
-  - 値の取得と設定、必須チェック、形式チェック
-- フォームのデータにアクセスおよび、入力値の検証
-  - document.forms
-- サブミットの中止
+  - フォーム要素の値の取得 (`element.value`, `element.checked`, `element.selectedIndex`)
+  - 制約検証API (`checkValidity()`, `reportValidity()`, `setCustomValidity()`)
+  - バリデーション属性 (`required`, `pattern`, `minlength`, `maxlength`, `optional`)
+  - バリデーション擬似クラス (`:valid`, `:invalid`)
+- HTMLフォーム要素の操作
+  - `document.forms` コレクションによるフォーム要素へのアクセス
+  - `form.submit()` と `form.reset()` メソッド
+  - `onsubmit` イベントと `preventDefault()` によるサブミット制御
+- FormDataオブジェクトの利用
+  - フォームからのデータ収集 (`new FormData(formElement)`)
+  - プログラムによるデータ追加 (`formData.append()`)
 
 ### 1.7.3. 基本的なウィンドウ操作 / 旧 2.2.3 (一部) (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
