@@ -215,7 +215,13 @@
 
 #### 詳細
 - 組み込みグローバルオブジェクトの特性と使用方法
- - Array／Boolean／Date／Error
+ - Array:
+  - 配列の基本操作: `length`, インデックスアクセス
+  - 配列の変更操作: `push()`, `pop()`, `shift()`, `unshift()`, `splice()`, `concat()`, `slice()`
+  - 配列の反復処理メソッド: 
+    - `map()`, `filter()`, `find()`, `reduce()`, `forEach()`
+  - 配列の検索と確認: `indexOf()`, `includes()`, `some()`, `every()`
+ - Boolean／Date／Error
  - JSON:
   - `JSON.parse()`, `JSON.stringify()`
   - JSON フォーマットのルールと JavaScript オブジェクトリテラルとの違い
@@ -474,7 +480,7 @@
   - クロージャ(closure)の概念と活用
 - 配列の高度な操作とイテレーション
   - `Array.prototype.flatMap()`, `Array.prototype.some()`, `Array.prototype.every()`
-- Map Set
+- Mapオブジェクト, Setオブジェクト
 - ディープコピー
 - Proxy
   - 基本構文: `new Proxy(target, handler)`
