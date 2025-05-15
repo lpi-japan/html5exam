@@ -218,8 +218,7 @@
  - Array:
   - 配列の基本操作: `length`, インデックスアクセス
   - 配列の変更操作: `push()`, `pop()`, `shift()`, `unshift()`, `splice()`, `concat()`, `slice()`
-  - 配列の反復処理メソッド: 
-    - `map()`, `filter()`, `find()`, `reduce()`, `forEach()`
+  - 配列の反復処理メソッド: `map()`, `filter()`, `find()`, `reduce()`, `forEach()`
   - 配列の検索と確認: `indexOf()`, `includes()`, `some()`, `every()`
  - Boolean／Date／Error
  - JSON:
