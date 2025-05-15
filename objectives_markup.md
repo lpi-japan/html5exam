@@ -418,6 +418,9 @@ cssプロパティ名の部分を``で囲ってほしい
   - 基本プロパティ: `column-count`, `column-width`, `column-gap`, `column-rule`
   - 段組コンテンツのバランス調整: `column-fill`, `column-span`
   - スパニング: `column-span`
+- スクロールスナップ
+  - `scroll-snap-type`, `scroll-snap-align`, `scroll-padding`
+  - スクロール位置の制御とスナップポイントの設定
 - CSS Shapes
   - `shape-outside`
   - `shape-margin`
@@ -461,6 +464,7 @@ cssプロパティ名の部分を``で囲ってほしい
 - 複雑な3D変形と空間での操作（transform: translate3d, rotate3d、perspective の活用）
 - パフォーマンスを考慮したアニメーション実装（will-change、GPU アクセラレーション活用）
 - タイミング関数の高度な制御（cubic-bezier、steps 関数の活用）
+- トランジション動作の細かい制御（`transition-behavior` プロパティを使ったスクロール時のトランジション挙動制御）
 - 複数のアニメーションの連続・並行実行とイベントハンドリング（animation-delay, animation-fill-mode の応用、AnimationEvent API）
 - インタラクティブなアニメーション制御
 

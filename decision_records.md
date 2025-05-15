@@ -40,6 +40,7 @@
 | 新トピック | (マークアップ Level2 ネタ) アクセシビリティは？色、文字サイズ、文字方向など | Markup | dbi, color-scheme, prefers-color-scheme, ... 他には？ | |  |
 | 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | | |  |
 | 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | |  |
+| 新トピック | (マークアップ Level2 ネタ) 視覚効果は？ 具体的には backdrop-filter (blur, saturrate, hue-rotate)、filterとの使い分け、mix-blend-mode, background-blend-modeなど。| Markup | | | |
 | 章立て | v2.5 では別格として扱っていたES6について、従来の項目に内容ごとに混ぜ込むのはどうか？ | Programming | 専用セクションを用意するのはやめ、通常のセクション分けに混ぜ込む。 | | 解決 |
 | 章立て | v2.5 1.1.3 「Web関連技術の概要」が散らかっている印象。「MVCアーキテクチャ」は標準を問うのがメインの出題範囲には異質に見える。| Both | マークアップ領域にてネットワークプロトコルの説明込みでMVCを意識する場面は少なそう。backbone.jsが主流から外れた。cookie/セッションの話があるからクライアントサーバー方式とつなげる意図？クライアントサーバー方式、MPA（Multi Page Application）としてのサーバーサイドMVCフレームワーク（laravelやrails等）、それに追加してSPAへの弾みがつくような整理だと現代的なきもする。MPAはMVC、SPAのMVVMとデータバインディングが並びそう。MVVMの話は、programming側に置くのを検討？ |  |  |
 | 章立て | v2.5 level1 は CSS -> 要素 (タグ) の順だった。タグが先の方が分かり安いのでは？ | Markup | とりあえずタグ先に | | 解決 |
