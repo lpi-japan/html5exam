@@ -39,7 +39,7 @@
 | 新トピック | 開発効率化、のような観点は出題するか？もしする場合、どんな趣旨の問題になるか？npm run dev、hot reload、○○アーキテクチャ (MCV, MVVM, Flux, Redux)、... | Programming | 他のAPI系と同じくらいの深さで出題する。 | |  |
 | 新トピック | サードパーティcookie禁止、リソース読み込み時のリファラ禁止、といった最近の流れを取り入れるか？ | Both | 入れたくはある。基本はプログラミング側だと思うが、htmlタグ内でできるセキュリティがいろいろありそうなので、それをマークアップ側でも出せるかも？ [参考](https://www.perplexity.ai/search/webahurinosekiyuriteinimatuwar-S0hxCSHEQMeP3rJJb8KcOw) | |  |
 | 新トピック | (マークアップ Level2 ネタ) アクセシビリティは？色、文字サイズ、文字方向など | Markup | dbi, color-scheme, prefers-color-scheme, ... 他には？ | |  |
-| 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | | 2.2.9. 印刷スタイルとして追加したがブラウザ対応が微妙なためいらないか？ |  |
+| 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | 現時点では仕様や機能が十分に確立されておらずすべてのブラウザでサポートされていないため含めない |  | 解決 |
 | 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | 却下。数式を使う人も自力で書く人は基本的にいない (LatexやOffice数式エディタ等から出すので) ので。|  |
 | 新トピック | (マークアップ Level2 ネタ) 視覚効果は？ 具体的には backdrop-filter (blur, saturrate, hue-rotate)、filterとの使い分け、mix-blend-mode, background-blend-modeなど。| Markup | | | |
 | 章立て | v2.5 では別格として扱っていたES6について、従来の項目に内容ごとに混ぜ込むのはどうか？ | Programming | 専用セクションを用意するのはやめ、通常のセクション分けに混ぜ込む。 | | 解決 |
