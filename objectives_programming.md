@@ -436,7 +436,7 @@
 
 #### 詳細
 - リアルタイム通信と非同期通信の手法
-  - XMLHttpRequest, fetch, WebSocket, Server-Sent Events など
+  - fetch, WebSocket, Server-Sent Events など
 - 通信時のエラーハンドリングやセキュリティ対応の考慮事項
 
 # 2. JavaScript Level 2 出題範囲
