@@ -1,16 +1,16 @@
-# JavaScript 認定 <!-- omit in toc -->
+# Web プロフェッショナルプログラミング認定 <!-- omit in toc -->
 
 ## 名称 <!-- omit in toc -->
 
-|                    |                                               |
-|--------------------|-----------------------------------------------|
-| **認定名**         | JavaScript Professional Certification Level 1/2 |
-| **試験の正式名称** | JavaScript Professional Certification Level 1/2 Exam |
+| | 日 | 英 |
+|---|---|---|
+| **認定名** | Web プロフェッショナルプログラミング Level 1/2 認定 | Web Professional Programming Level 1/2 Certification |
+| **試験名** | Web プロフェッショナルプログラミング Level 1/2 試験 | Web Professional Programming Level 1/2 Exam |
 
 ## 認定条件 <!-- omit in toc -->
 
-- JavaScript Professional Certification Level 1 試験に合格すると JavaScript Professional Certification Level 1 に認定されます。
-- JavaScript Professional Certification Level 1 認定を保有し、JavaScript Professional Certification Level 2 試験に合格すると JavaScript Professional Certification Level 2 に認定されます。
+- Web プロフェッショナル プログラミング Level 1 試験に合格すると Web プロフェッショナル プログラミング Level 1 に認定されます。
+- Web プロフェッショナル プログラミング Level 1 認定を保有し、Web プロフェッショナル プログラミング Level 2 試験に合格すると Web プロフェッショナル プログラミング Level 2 に認定されます。
 
 ## 望まれるスキルレベル <!-- omit in toc -->
 
@@ -28,8 +28,10 @@
   - ストレージ、リアルタイム通信、デバイス情報取得など、実践的な Web サイトで必要になる機能を扱うことができる。
   - パフォーマンス最適化やオフライン時動作の配慮など、利便性のための設計・実装ができる。
 
+(仮) Level 2 の試験では、プログラミング Level 1 試験だけでなくマークアップ Level 1 試験に対応する知識が前提となる出題が含まれる場合があります。
+
 # 目次 <!-- omit in toc -->
-- [1. JavaScript Level 1 出題範囲](#1-javascript-level-1-出題範囲)
+- [1. Web プロフェッショナルプログラミング Level 1 試験 出題範囲](#1-web-プロフェッショナルプログラミング-level-1-試験-出題範囲)
   - [1.1. JavaScriptの基礎 / 旧 2.1.1](#11-javascriptの基礎--旧-211)
     - [1.1.1. JavaScript文法 (重要度: 3)](#111-javascript文法-重要度-3)
     - [1.1.2. データ型と変数 (重要度: 3)](#112-データ型と変数-重要度-3)
@@ -60,7 +62,7 @@
     - [1.8.2. メディアキャプチャAPIとデバイス権限 / 旧 1.5.2 (重要度: 2)](#182-メディアキャプチャapiとデバイス権限--旧-152-重要度-2)
     - [1.8.3. オフライン・ストレージ系API / 旧 1.5.3 (重要度: 2)](#183-オフラインストレージ系api--旧-153-重要度-2)
     - [1.8.4. 通信系API / 旧 1.5.4 (重要度: 2)](#184-通信系api--旧-154-重要度-2)
-- [2. JavaScript Level 2 出題範囲](#2-javascript-level-2-出題範囲)
+- [2. Web プロフェッショナルプログラミング Level 2 試験 出題範囲](#2-web-プロフェッショナルプログラミング-level-2-試験-出題範囲)
   - [2.1. 高度なJavaScript](#21-高度なjavascript)
     - [2.1.1. モジュールとパッケージ管理 (重要度: 3)](#211-モジュールとパッケージ管理-重要度-3)
     - [2.1.2. 関数とコレクションの高度な操作 (重要度: 2)](#212-関数とコレクションの高度な操作-重要度-2)
@@ -96,7 +98,7 @@
     - [2.9.1. クロスオリジン制約とCORS / 旧 2.9.1 (重要度: 2)](#291-クロスオリジン制約とcors--旧-291-重要度-2)
     - [2.9.2. セキュリティモデルとSSLの関係 / 旧 2.9.2 (重要度: 2)](#292-セキュリティモデルとsslの関係--旧-292-重要度-2)
 
-# 1. JavaScript Level 1 出題範囲
+# 1. Web プロフェッショナルプログラミング Level 1 試験 出題範囲
 
 ## 1.1. JavaScriptの基礎 / 旧 2.1.1
 
@@ -439,7 +441,7 @@
   - XMLHttpRequest, fetch, WebSocket, Server-Sent Events など
 - 通信時のエラーハンドリングやセキュリティ対応の考慮事項
 
-# 2. JavaScript Level 2 出題範囲
+# 2. Web プロフェッショナルプログラミング Level 2 試験 出題範囲
 
 ## 2.1. 高度なJavaScript
 
