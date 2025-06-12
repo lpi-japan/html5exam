@@ -64,6 +64,7 @@
 | 項目修正 | v2.5 ではJSONが単なるグローバル関数として出ている。プログラミング2試験にするのならjsonというフォーマットについてももう少し取り上げるべき？ | Programming | (今時点でJSON.parse/stringifyも書いてないので、どこかに書き足す)JSON オブジェクト内にJS内の記述差異と併せて追記 | | 解決 |
 | 項目修正 | v2.5 [Generic Sensor APIはFirefoxで対応しないらしい](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)が、残すのか？ | Programming | 削除 | | 解決 |
 | 項目修正 | v2.5 Level 2 2.6.2 でXMLHttpRequestがあるが、fetch APIに置き換えるか？併記するか？ | Programming | 今後新たに使うことは少なく、Fetchでできないことはないだろうということで試験範囲から削除する | | 解決 |
+| 項目修正 | XMLHttpRequest → fetch について、Level1 の「1.5.4 通信系API概要」でも fetch に寄せたが、そこにもともと併記されていた WebSocket、Server-Sent Event をどうするか？Level1 に Level2 全体を広く浅く言及する形式を残すにしても、具体的にどこまで問うのかは明記すべき | Programming | | | |
 | 項目修正 | v2.5 ではfor inしかないので、for ofを加えるべきでは？またfor inは[削除しても良いのでは？](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...in#%E9%85%8D%E5%88%97%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A8_for...in) | Programming | for ofは入れたい。for inはどうするか未決。for await...ofというのもあるようです。for inは現時点でESでdropされてないため削除しない | | 解決 |
 | 項目修正 | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | Programming | 名称変更する。 | | 解決 |
 | 項目修正 | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | Programming | (Level1/2の棲み分けはともかく) 変更する。 | | 解決 |
