@@ -40,7 +40,7 @@
 | 新トピック | サードパーティcookie禁止、リソース読み込み時のリファラ禁止、といった最近の流れを取り入れるか？ | Both | 入れたくはある。基本はプログラミング側だと思うが、htmlタグ内でできるセキュリティがいろいろありそうなので、それをマークアップ側でも出せるかも？ [参考](https://www.perplexity.ai/search/webahurinosekiyuriteinimatuwar-S0hxCSHEQMeP3rJJb8KcOw) | |  |
 | 新トピック | (マークアップ Level2 ネタ) アクセシビリティは？色、文字サイズ、文字方向など | Markup | dbi, color-scheme, prefers-color-scheme, ... 他には？ | |  |
 | 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | 現時点では仕様や機能が十分に確立されておらずすべてのブラウザでサポートされていないため含めない |  | 解決 |
-| 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | 却下。数式を使う人も自力で書く人は基本的にいない (LatexやOffice数式エディタ等から出すので) ので。|  |
+| 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | 却下。数式を使う人も自力で書く人は基本的にいない (LatexやOffice数式エディタ等から出すので) ので。| 解決 |
 | 新トピック | (マークアップ Level2 ネタ) 視覚効果は？ 具体的には backdrop-filter (blur, saturrate, hue-rotate)、filterとの使い分け、mix-blend-mode, background-blend-modeなど。| Markup | | | |
 | 章立て | v2.5 では別格として扱っていたES6について、従来の項目に内容ごとに混ぜ込むのはどうか？ | Programming | 専用セクションを用意するのはやめ、通常のセクション分けに混ぜ込む。 | | 解決 |
 | 章立て | v2.5 1.1.3 「Web関連技術の概要」が散らかっている印象。「MVCアーキテクチャ」は標準を問うのがメインの出題範囲には異質に見える。| Both | マークアップ領域にてネットワークプロトコルの説明込みでMVCを意識する場面は少なそう。backbone.jsが主流から外れた。cookie/セッションの話があるからクライアントサーバー方式とつなげる意図？クライアントサーバー方式、MPA（Multi Page Application）としてのサーバーサイドMVCフレームワーク（laravelやrails等）、それに追加してSPAへの弾みがつくような整理だと現代的なきもする。MPAはMVC、SPAのMVVMとデータバインディングが並びそう。MVVMの話は、programming側に置くのを検討？ |  |  |
@@ -63,7 +63,8 @@
 | 項目修正 | v2.5 Level 1 1.5.2 > 加速度センサーの記載に対応する重要な技術要素としてDeviceMotion Eventが記載ない。不釣り合いでは？ ジャイロの方は主要な知識範囲の方に「ジャイロ」、重要な技術要素の方にDeviceOrientation Eventと併記されている。 | Programming | 現在の Web 開発における重要性は低下しているため削除 | | 解決 |
 | 項目修正 | v2.5 ではJSONが単なるグローバル関数として出ている。プログラミング2試験にするのならjsonというフォーマットについてももう少し取り上げるべき？ | Programming | (今時点でJSON.parse/stringifyも書いてないので、どこかに書き足す)JSON オブジェクト内にJS内の記述差異と併せて追記 | | 解決 |
 | 項目修正 | v2.5 [Generic Sensor APIはFirefoxで対応しないらしい](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)が、残すのか？ | Programming | 削除 | | 解決 |
-| 項目修正 | v2.5 Level 2 2.6.2 でXMLHttpRequestがあるが、fetch APIに置き換えるか？併記するか？ | Programming | | | 解決 |
+| 項目修正 | v2.5 Level 2 2.6.2 でXMLHttpRequestがあるが、fetch APIに置き換えるか？併記するか？ | Programming | 今後新たに使うことは少なく、Fetchでできないことはないだろうということで試験範囲から削除する | | 解決 |
+| 項目修正 | XMLHttpRequest → fetch について、Level1 の「1.5.4 通信系API概要」でも fetch に寄せたが、そこにもともと併記されていた WebSocket、Server-Sent Event をどうするか？Level1 に Level2 全体を広く浅く言及する形式を残すにしても、具体的にどこまで問うのかは明記すべき | Programming | | | |
 | 項目修正 | v2.5 ではfor inしかないので、for ofを加えるべきでは？またfor inは[削除しても良いのでは？](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...in#%E9%85%8D%E5%88%97%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A8_for...in) | Programming | for ofは入れたい。for inはどうするか未決。for await...ofというのもあるようです。for inは現時点でESでdropされてないため削除しない | | 解決 |
 | 項目修正 | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | Programming | 名称変更する。 | | 解決 |
 | 項目修正 | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | Programming | (Level1/2の棲み分けはともかく) 変更する。 | | 解決 |
