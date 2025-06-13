@@ -1,17 +1,16 @@
-# HTML/CSS 認定 <!-- omit in toc -->
+# Web プロフェッショナルマークアップ認定 <!-- omit in toc -->
 
 ## 名称 <!-- omit in toc -->
 
-|                    |                                               |
-|--------------------|-----------------------------------------------|
-| **認定名**         | HTML/CSS Professional Certification Level 1/2   |
-| **試験の正式名称** | HTML/CSS Professional Certification Level 1/2 Exam |
+| | 日 | 英 |
+|---|---|---|
+| **認定名** | Web プロフェッショナルマークアップ Level 1/2 認定 | Web Professional Markup Level 1/2 Certification |
+| **試験名** | Web プロフェッショナルマークアップ Level 1/2 試験 | Web Professional Markup Level 1/2 Exam |
 
 ## 認定条件 <!-- omit in toc -->
 
-- HTML/CSS Professional Certification Level 1 試験に合格すると HTML/CSS Professional Certification Level 1 に認定されます。
-- HTML/CSS Professional Certification Level 1 認定を保有し、HTML/CSS Professional Certification Level 2 試験に合格すると HTML/CSS Professional Certification Level 2 に認定されます。
-- (programming認定との関連は未定)
+- Web プロフェッショナルマークアップ Level 1 試験に合格すると Web プロフェッショナルマークアップ Level 1 に認定されます。
+- Web プロフェッショナルマークアップ Level 1 認定を保有し、Web プロフェッショナルマークアップ Level 2 試験に合格すると Web プロフェッショナルマークアップ Level 2 に認定されます。
 
 ## 望まれるスキルレベル <!-- omit in toc -->
 
@@ -26,8 +25,10 @@
   - 再利用性を高めるための HTML / CSS の設計手法を活用できる。
   - パフォーマンスを考慮し Web コンテンツの最適化ができる。
 
+(仮) Level 2 の試験では、マークアップ Level 1 試験だけでなくプログラミング Level 1 試験に対応する知識が前提となる出題が含まれる場合があります。
+
 # 目次 <!-- omit in toc -->
-- [1. HTML/CSS Level 1 出題範囲](#1-htmlcss-level-1-出題範囲)
+- [1. Web プロフェッショナルマークアップ Level 1 試験 出題範囲](#1-web-プロフェッショナルマークアップ-level-1-試験-出題範囲)
   - [1.1. Webの基礎](#11-webの基礎)
     - [1.1.1. HTMLの基礎と書式 / 旧 1.1.2 (重要度: 4)](#111-htmlの基礎と書式--旧-112-重要度-4)
     - [1.1.2. HTTP, HTTPSプロトコル / 旧 1.1.1 (重要度: 4)](#112-http-httpsプロトコル--旧-111-重要度-4)
@@ -51,7 +52,7 @@
     - [1.5.1. マルチデバイス対応 / 旧 1.4.1 (重要度: 3)](#151-マルチデバイス対応--旧-141-重要度-3)
     - [1.5.2. メディアクエリ / 旧 1.4.2 (重要度: 3)](#152-メディアクエリ--旧-142-重要度-3)
     - [1.5.3. フレックスボックスとCSS Gridの基礎 (重要度: 2)](#153-フレックスボックスとcss-gridの基礎-重要度-2)
-- [2. HTML/CSS Level 2 出題範囲](#2-htmlcss-level-2-出題範囲)
+- [2. Web プロフェッショナルマークアップ Level 2 試験 出題範囲](#2-web-プロフェッショナルマークアップ-level-2-試験-出題範囲)
   - [2.1. HTML設計と最適化](#21-html設計と最適化)
     - [2.1.1. 構造化データとセマンティクス活用 (重要度: 8)](#211-構造化データとセマンティクス活用-重要度-8)
     - [2.1.2. メディアコンテンツ高度設計 (重要度: 6)](#212-メディアコンテンツ高度設計-重要度-6)
@@ -71,7 +72,7 @@
     - [2.3.1. フロントエンドセキュリティ対策](#231-フロントエンドセキュリティ対策)
     - [2.3.2. データ保護とプライバシー](#232-データ保護とプライバシー)
 
-# 1. HTML/CSS Level 1 出題範囲
+# 1. Web プロフェッショナルマークアップ Level 1 試験 出題範囲
 
 ## 1.1. Webの基礎
 
@@ -325,7 +326,7 @@ cssプロパティ名の部分を``で囲ってほしい
 - グリッドアイテムの配置に関する基本プロパティ
   - `grid-row`, `grid-column`, `justify-items`, `align-items`
 
-# 2. HTML/CSS Level 2 出題範囲
+# 2. Web プロフェッショナルマークアップ Level 2 試験 出題範囲
 
 ## 2.1. HTML設計と最適化
 
