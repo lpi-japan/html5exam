@@ -422,9 +422,9 @@ cssプロパティ名の部分を``で囲ってほしい
   - 基本プロパティ: `column-count`, `column-width`, `column-gap`, `column-rule`
   - 段組コンテンツのバランス調整: `column-fill`, `column-span`
   - スパニング: `column-span`
-- スクロールスナップ
-  - `scroll-snap-type`, `scroll-snap-align`, `scroll-padding`
-  - スクロール位置の制御とスナップポイントの設定
+- スクロール位置の制御とスナップポイントの設定
+  - scroll-behavior, scroll-margin, scroll-padding
+  - scroll-snap-type, scroll-snap-align
 - CSS Shapes
   - `shape-outside`
   - `shape-margin`
