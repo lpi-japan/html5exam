@@ -261,12 +261,12 @@ cssプロパティ名の部分を``で囲ってほしい
 - アウトラインの利用（`outline`, `outline-offset`, `outline-style` など）
 - `overflow`, `visibility`
 
-────────────────────
 ### 1.4.3. 色と背景 (重要度: 3)
 #### 概要
 - 色の指定と背景設定の基本を理解する。
 #### 詳細
 - 色指定（`color`, `rgba()`, `hsl()`, `hsla()`）、透過（`opacity`）およびグラデーション
+- `currentColor`キーワードによる色の参照と再利用
 - 背景プロパティ（`background-*`, `border-*`, `box-shadow`）
 
 ### 1.4.4. テキスト、リスト、テーブル (重要度: 4)
@@ -314,6 +314,9 @@ cssプロパティ名の部分を``で囲ってほしい
 - メディアクエリの基本使用
   - `min-width`、`max-width`、@media
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
+- インタラクション メディア クエリ
+  - `any-hover`メディア特性による入力デバイスの検出
+  - `prefers-reduced-motion`メディア特性によるアニメーション削減設定の検出
 
 ### 1.5.3. フレックスボックスとCSS Gridの基礎 (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題  
@@ -406,7 +409,8 @@ cssプロパティ名の部分を``で囲ってほしい
 - Widget RoleやState/Propertyを理解し、動的UIで適切に適用できる  
   - `role="dialog"`, `role="tab"`, `role="tabpanel"`, `role="menu"`, `role="tree"`  
 - 動的挙動を管理するARIA属性を理解し、実装できる  
-  - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy` 
+  - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy`
+- Visually Hidden技術によるスクリーンリーダー専用コンテンツの実装
 
 ## 2.2. 高度なレイアウトとデザイン
 
@@ -432,6 +436,11 @@ cssプロパティ名の部分を``で囲ってほしい
 - CSS Shapes
   - `shape-outside`
   - `shape-margin`
+- ビジュアルエフェクトとフィルタ
+  - `filter`プロパティと基本フィルタ関数の理解と適用（`blur()`, `brightness()`, `contrast()`, `grayscale()`, `saturate()`, `hue-rotate()`）
+  - `backdrop-filter`による背景要素への効果適用とモダンUI実装
+  - `mix-blend-mode`による要素合成とブレンド効果の実現（`multiply`, `screen`, `overlay`, `darken`, `lighten`等）
+  - `clip-path`による要素のクリッピングパスとマスク効果の実現（基本図形関数：`circle()`, `ellipse()`, `polygon()`, `inset()`の理解と適用）
 - CSS Houdini
 
 ### 2.2.2. フレックスボックスとグリッド (重要度: 8)
@@ -517,7 +526,7 @@ cssプロパティ名の部分を``で囲ってほしい
 #### 詳細
 - CSSカスタムプロパティ（--*）を利用して、テーマ（例: ライト/ダークモード）やレイアウトの柔軟な調整が可能
 - `var()`, `calc()`, `clamp()` を活用し、フォントサイズ、スペーシング、コンテナサイズなどの動的な値を設定できる
-- スタイル定義の再利用性を高め、コードの重複を削減できる
+- 新しいビューポート単位（`svh`, `lvh`, `dvh`）によるモバイル対応の高度なレイアウト制御
 
 ### 2.3.2. CSSネスティング (重要度: 3)
 出題種別: 知識問題、コードリーディング問題、記述問題
