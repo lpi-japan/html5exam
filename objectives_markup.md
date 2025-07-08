@@ -91,6 +91,7 @@
 - 文字参照やリンク要素、メタ要素を理解して正しい書式・セマンティクスを構築できる
   - 文字参照(`&nbsp;`, `&amp;` など)
   - `link`要素, `meta`要素
+  - `base`要素（`href`属性、`target`属性）
 
 ### 1.1.2. HTTP, HTTPSプロトコル / 旧 1.1.1 (重要度: 4)
 出題種別: 知識問題、記述問題
@@ -192,7 +193,8 @@
 
 #### 詳細
 - フォーム要素やインタラクティブ要素を正しく使用できる  
-  - form, input, button, select, textarea, label, fieldset, legend 
+  - form, input, button, select, textarea, label, fieldset, legend, progress
+  - `iframe`要素（`src`, `title`, `sandbox`, `loading`属性）
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
   - submit, reset, change, input, focus, blur  
@@ -396,6 +398,10 @@ cssプロパティ名の部分を``で囲ってほしい
 - モーダルダイアログを実装する
   - `<dialog>` 要素のライフサイクルとイベント
   - `inert` 属性
+- テンプレート要素による動的コンテンツ生成を実装する
+  - `<template>` 要素の基本的な使用方法
+  - `content` プロパティとcloneNode()による複製
+  - `<slot>` 要素による柔軟なコンテンツ配布
 
 ### 2.1.4. アクセシビリティ向上の実践 (重要度: 6)
 出題種別: 知識問題、コードリーディング問題、記述問題
