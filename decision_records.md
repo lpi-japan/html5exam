@@ -37,7 +37,7 @@
 | 新トピック | CSSネスティングやコンテナクエリなど最近標準に入った便利CSSを入れるか？入れるならレベル1と2どちらで取り扱うべきか | Markup | とりあえずレベル2に追加 | | 解決 |
 | 新トピック | emojiは？ | Markup | Unicodeに関する副題の中の1要素として追加 | | 解決 |
 | 新トピック | 開発効率化、のような観点は出題するか？もしする場合、どんな趣旨の問題になるか？npm run dev、hot reload、○○アーキテクチャ (MCV, MVVM, Flux, Redux)、... | Programming | 他のAPI系と同じくらいの深さで出題する。 | |  |
-| 新トピック | サードパーティcookie禁止、リソース読み込み時のリファラ禁止、といった最近の流れを取り入れるか？ | Both | 入れたくはある。基本はプログラミング側だと思うが、htmlタグ内でできるセキュリティがいろいろありそうなので、それをマークアップ側でも出せるかも？ [参考](https://www.perplexity.ai/search/webahurinosekiyuriteinimatuwar-S0hxCSHEQMeP3rJJb8KcOw) | |  |
+| 新トピック | サードパーティcookie禁止、リソース読み込み時のリファラ禁止、といった最近の流れを取り入れるか？ | Both | 入れたくはある。基本はプログラミング側だと思うが、htmlタグ内でできるセキュリティがいろいろありそうなので、それをマークアップ側でも出せるかも？ [参考](https://www.perplexity.ai/search/webahurinosekiyuriteinimatuwar-S0hxCSHEQMeP3rJJb8KcOw) | マークアップ側には追加済 |  |
 | 新トピック | (マークアップ Level2 ネタ) アクセシビリティは？色、文字サイズ、文字方向など | Markup | dbi, color-scheme, prefers-color-scheme, ... 他には？ | |  |
 | 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | 現時点では仕様や機能が十分に確立されておらずすべてのブラウザでサポートされていないため含めない |  | 解決 |
 | 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | 却下。数式を使う人も自力で書く人は基本的にいない (LatexやOffice数式エディタ等から出すので) ので。| 解決 |

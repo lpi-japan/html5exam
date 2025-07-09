@@ -118,13 +118,11 @@
 - Web関連のスクリプトやセキュリティ対策などの概要を理解し、チームで円滑にコミュニケーションできる。
 
 #### 詳細
-- Web関連のスクリプトや規格の概要とセキュリティ対策の理解
+- Web関連のスクリプトや規格の概要の理解
   - MVCアーキテクチャ
   - Model, View, Controllerの役割
   - Ajaxの利用, Cookieやセッションの使い分け, 画像形式の特徴
-  - パラメータエスケープ, CSP等の対策
   - Base64
-  - 一般的な攻撃手法の概要（SQLインジェクション、XSS等）
 - DOMとカスタムデータ属性の基本概念を理解し、柔軟な操作が行える
   - DOM要素の取得・操作, data-*属性
 
@@ -194,7 +192,7 @@
 #### 詳細
 - フォーム要素やインタラクティブ要素を正しく使用できる  
   - form, input, button, select, textarea, label, fieldset, legend, progress
-  - `iframe`要素（`src`, `title`, `sandbox`, `loading`属性）
+  - `iframe`要素による外部コンテンツの埋め込み（`src`, `width`, `height`, `title`, `loading`属性）
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
   - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
   - submit, reset, change, input, focus, blur  
@@ -610,6 +608,16 @@ cssプロパティ名の部分を``で囲ってほしい
   - サニタイズライブラリの利用 (DOMPurify など)
 - セキュリティヘッダーの活用
   - `X-Content-Type-Options`, `X-Frame-Options`, `Strict-Transport-Security` (HSTS)
+- リソース完全性とサブリソース保護
+  - `integrity` 属性による外部リソースの改ざん検知（Subresource Integrity, SRI）
+  - `crossorigin` 属性による基本的な CORS 制御（`anonymous`, `use-credentials`）
+- 安全な外部リンクの実装
+  - `rel="noopener noreferrer"` による Tabnabbing 攻撃対策
+  - `target="_blank"` 使用時のセキュリティリスクと対策
+  - `referrerpolicy` 属性による基本的なリファラー制御
+- 埋め込みコンテンツのセキュリティ制御
+  - `iframe` 要素の高度なセキュリティ制御
+  - Content Security Policy (CSP) における `frame-src` ディレクティブの活用
 - セキュリティに関するブラウザのデバッグツールの活用
 
 ### 2.4.2. データ保護とプライバシー
