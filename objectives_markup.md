@@ -249,9 +249,11 @@ cssプロパティ名の部分を``で囲ってほしい
 
 #### 詳細
 - `float` と `clear` の使用方法
+
 - ポジショニング（`static`, `relative`, `absolute`, `fixed`, `sticky`）
 - 位置指定プロパティ（`top`, `right`, `bottom`, `left`, `inset`）
 - 要素のスタッキング順序を制御する `z-index` プロパティの理解と適用
+
 - インタラクティブ制御（`cursor`, `pointer-events`, `user-select`）
 
 ### 1.4.2. ボックスモデル (重要度: 4)
@@ -299,10 +301,10 @@ cssプロパティ名の部分を``で囲ってほしい
 
 #### 詳細
 - レイアウトの実装手法
-  - viewport
+  - ビューポート: `vw`, `vh`, `vmin`, `vmax`
   - ブレークポイント
 - コンテンツとメディアの最適化
-  - srcset, sizes
+  - `srcset`, `sizes`
   - `object-fit`, `object-position`
   - `aspect-ratio` プロパティによる縦横比制御
 
