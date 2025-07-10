@@ -423,8 +423,9 @@ cssプロパティ名の部分を``で囲ってほしい
   - 段組コンテンツのバランス調整: `column-fill`, `column-span`
   - スパニング: `column-span`
 - スムーススクロールと位置制御、スナップ
-  - `scroll-behavior`, `scroll-margin`, `scroll-padding`
-  - `scroll-snap-type`, `scroll-snap-align`
+  - `scroll-behavior` <!-- CSS Overflow Module Level 3 -->
+  - `scroll-margin`, `scroll-padding` <!-- CSS Scroll Snap Module Level 1 -->
+  - `scroll-snap-type`, `scroll-snap-align` <!-- CSS Scroll Snap Module Level 1 -->
 - CSS Shapes
   - `shape-outside`
   - `shape-margin`
