@@ -493,12 +493,12 @@
 - 高度なアニメーションとトランジション技術を駆使して、複雑で効率的なインタラクティブエフェクトを実現できる。
 
 #### 詳細
-- 複雑な3D変形と空間での操作（transform: translate3d, rotate3d、perspective の活用）
-- パフォーマンスを考慮したアニメーション実装（will-change、GPU アクセラレーション活用）
-- タイミング関数の高度な制御（cubic-bezier、steps 関数の活用）
-- トランジション動作の細かい制御（`transition-behavior` プロパティを使ったスクロール時のトランジション挙動制御）
-- 複数のアニメーションの連続・並行実行とイベントハンドリング（animation-delay, animation-fill-mode の応用、AnimationEvent API）
-- インタラクティブなアニメーション制御
+- 複雑な3D変形と空間での操作（`transform: translate3d`, `rotate3d`、`perspective`の活用）
+- パフォーマンスを考慮したアニメーション実装（`will-change`プロパティ、GPU アクセラレーション活用） <!-- CSS Will Change Module Level 1 -->
+- タイミング関数の高度な制御（`cubic-bezier`、`steps`関数の活用）
+- トランジション動作の細かい制御（`transition-behavior`プロパティを使ったスクロール時のトランジション挙動制御） <!-- CSS Transitions Level 2 -->
+- 複数のアニメーションの連続・並行実行（`animation-delay`, `animation-fill-mode`の応用）
+- CSS Scroll-driven Animationsの基礎（`animation-timeline`プロパティ） <!-- CSS Animations Level 2 -->
 
 ### 2.2.4. CSSパフォーマンス最適化 (重要度: 4)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -509,14 +509,22 @@
 
 #### 詳細
 - レンダリング最適化
-  - ペイントとリフロー
-  - `will-change`プロパティ
-  - アニメーションプロパティ分類
-  - コンポジタプロパティ
-- コンテンツの軽量化を意識し、効率的なスタイルを実現できる
-  - Critical CSS
-  - Lazy Loading
-  - Minification
+  - レンダリングパイプライン（Layout、Paint、Composite）の理解
+  - リフローとリペイントを引き起こすプロパティの分類
+  - `will-change`プロパティによる最適化ヒント <!-- CSS Will Change Module Level 1 -->
+  - コンポジタレイヤーの活用（`transform`, `opacity`など）
+- セレクタ効率性とパフォーマンス
+  - セレクタの評価順序（右から左）
+  - 効率的なセレクタの記述方法
+  - 過度に複雑なセレクタの回避
+- リソース最適化
+  - Critical CSSの抽出と適用
+  - CSSの分割とLazy Loading
+  - 未使用CSS除去（PurgeCSS等）
+  - ファイルサイズ削減（Minification、Gzip圧縮）
+- メモリ使用量最適化
+  - DOM要素数の制御
+  - 複雑なグラデーションやシャドウの制限
 
 ### 2.2.5. Webフォントと可変フォント (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -548,9 +556,20 @@
 - CSSカスタムプロパティ（変数）や関数を活用し、動的で保守性の高いスタイルを実現できる。
 
 #### 詳細
-- CSSカスタムプロパティ（--*）を利用して、テーマ（例: ライト/ダークモード）やレイアウトの柔軟な調整が可能
-- `var()`, `calc()`, `clamp()` を活用し、フォントサイズ、スペーシング、コンテナサイズなどの動的な値を設定できる
-- スタイル定義の再利用性を高め、コードの重複を削減できる
+- CSSカスタムプロパティ（`--*`）の実装と活用
+  - 変数の定義と継承特性 <!-- CSS Custom Properties for Cascading Variables Module Level 1 -->
+  - 条件分岐的な値設定（`var()`のフォールバック機能） <!-- CSS Custom Properties for Cascading Variables Module Level 1 -->
+  - テーマ（例: ライト/ダークモード）の実装
+- CSS関数を活用した動的値設定
+  - `calc()`による数値計算（異なる単位の組み合わせ） <!-- CSS Values and Units Module Level 4 -->
+  - `clamp()`による値の制約（レスポンシブタイポグラフィ） <!-- CSS Values and Units Module Level 4 -->
+  - `min()`, `max()`関数の活用 <!-- CSS Values and Units Module Level 4 -->
+- 数学関数とレイアウト関数
+  - `round()`, `mod()`, `rem()`などの数学関数 <!-- CSS Values and Units Module Level 4 -->
+  - `abs()`, `sign()`による値の操作 <!-- CSS Values and Units Module Level 4 -->
+- スタイル定義の再利用性向上
+  - カスタムプロパティのスコープ管理（`:root`, 要素レベル）
+  - コンポーネント間でのプロパティ共有パターン
 
 ### 2.3.2. CSSネスティング (重要度: 3)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -573,11 +592,20 @@
 - コンテナクエリを使用して、コンテナサイズに応じたスタイルを適用するスキルを身につける。
 
 #### 詳細
-- コンテナクエリの基本構文を理解し、柔軟なスタイルを適用できる
-  - `@container`ルールの使用方法
-  - コンテナサイズに基づくスタイルの切り替え
-- コンテナクエリを活用したレスポンシブデザインの実現
-- コンテナクエリの制限事項やブラウザ対応状況と制限事項
+- コンテナクエリの基本構文と設定
+  - `container-type`プロパティ（`size`, `inline-size`, `block-size`, `style`） <!-- CSS Containment Module Level 3 -->
+  - `container-name`による名前付きコンテナ <!-- CSS Containment Module Level 3 -->
+  - `@container`ルールの条件記述 <!-- CSS Containment Module Level 3 -->
+- サイズベースコンテナクエリ
+  - コンテナの幅・高さに基づくスタイル切り替え
+  - 単位（`cqw`, `cqh`, `cqi`, `cqb`）の活用 <!-- CSS Containment Module Level 3 -->
+  - アスペクト比を考慮したレスポンシブデザイン
+- スタイルベースコンテナクエリ
+  - カスタムプロパティの値に基づくスタイル制御 <!-- CSS Containment Module Level 3 -->
+  - 状態管理とコンポーネント設計
+- メディアクエリとの使い分け
+  - ビューポートベースとコンテナベースの適切な選択
+  - パフォーマンス考慮事項
 
 ### 2.3.4. CSSカプセル化とShadow DOM (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -588,7 +616,7 @@
 #### 詳細
 - Shadow DOM の基本概念と CSS スコープへの影響
 - Light DOM と Shadow DOM のスタイルの分離と相互作用
-- Shadow DOM 固有の CSS 疑似クラスと疑似要素 (`:host`, `:host()`, `::slotted()` など)
+- Shadow DOM 固有の CSS 疑似クラスと疑似要素 (`:host`, `:host()`, `::slotted()` など) <!-- CSS Scoping Module Level 1 -->
 - CSS カスタムプロパティを用いた Shadow DOM 内外のスタイル連携
 - CSS 設計における Shadow DOM の活用と注意点
 
