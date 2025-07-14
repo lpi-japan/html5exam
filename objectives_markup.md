@@ -204,9 +204,9 @@
 
 #### 詳細
 - Landmark RoleやPresentation Roleを理解し、適切に利用できる  
-  - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"`  
+  - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"` <!-- ARIA in HTML -->
 - 基本的なARIA属性を利用して、静的コンテンツのアクセシビリティ対応ができる  
-  - `aria-label`, `aria-labelledby`, `aria-hidden`  
+  - `aria-label`, `aria-labelledby`, `aria-hidden` <!-- Accessible Name and Description Computation 1.1 -->  
 
 ## 1.3. CSSの基礎
 
@@ -419,9 +419,28 @@
 #### 詳細　　
 
 - Widget RoleやState/Propertyを理解し、動的UIで適切に適用できる  
-  - `role="dialog"`, `role="tab"`, `role="tabpanel"`, `role="menu"`, `role="tree"`  
+  - `role="dialog"`, `role="tab"`, `role="tabpanel"`, `role="tablist"`, `role="menu"`, `role="menuitem"`, `role="tree"`, `role="treeitem"` <!-- WAI-ARIA 1.2 -->
+  - `role="button"`, `role="switch"`, `role="slider"`, `role="progressbar"`, `role="alert"`, `role="alertdialog"` <!-- WAI-ARIA 1.2 -->
 - 動的挙動を管理するARIA属性を理解し、実装できる  
-  - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy` 
+  - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-pressed`, `aria-current` <!-- WAI-ARIA 1.2 -->
+  - `aria-live`, `aria-atomic`, `aria-busy`, `aria-relevant` <!-- WAI-ARIA 1.2 -->
+  - `aria-describedby`, `aria-details`, `aria-errormessage` <!-- Accessible Name and Description Computation 1.1 -->
+- フォーカス管理とキーボードナビゲーション
+  - `tabindex`属性の適切な使用（`0`, `-1`の使い分け）
+  - フォーカス可視化のスタイリング（`:focus`, `:focus-visible`, `:focus-within`）
+  - `inert`属性によるフォーカストラップ
+- 色・コントラスト・視覚的表現のアクセシビリティ
+  - WCAG 2.1 色彩コントラスト基準（AA: 4.5:1, AAA: 7:1）
+  - `prefers-color-scheme`、`prefers-contrast`、`prefers-reduced-motion`メディアクエリ <!-- CSS Media Queries Level 5 -->
+  - アイコンフォントの代替テキスト対応（`aria-hidden`, `aria-label`） <!-- Accessible Name and Description Computation 1.1 -->
+- レスポンシブアクセシビリティ
+  - タッチターゲットサイズ（最小44×44ピクセル）
+  - ズームレベル対応（200%まで）
+  - 横スクロールの回避
+- エラーハンドリングとバリデーション
+  - フォームエラーの適切な通知（`aria-invalid`, `aria-describedby`） <!-- ARIA in HTML -->
+  - 必須フィールドの明示（`required`, `aria-required`） <!-- ARIA in HTML -->
+  - エラーメッセージの関連付け 
 
 ## 2.2. 高度なレイアウトとデザイン
 
