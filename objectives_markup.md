@@ -429,20 +429,20 @@ cssプロパティ名の部分を``で囲ってほしい
 
 #### 詳細
 - CSS Logical Properties
-  - `inline-*`と`block-*`プロパティ
+  - `inline-*`と`block-*`プロパティ <!-- CSS Logical Properties and Values Level 1 -->
   - 方向に依存しないレイアウト
   - 多言語・多方向サイト
 - 多段組レイアウト
-  - 基本プロパティ: `column-count`, `column-width`, `column-gap`, `column-rule`
-  - 段組コンテンツのバランス調整: `column-fill`, `column-span`
-  - スパニング: `column-span`
+  - 基本プロパティ: `column-count`, `column-width`, `column-gap`, `column-rule` <!-- CSS Multi-column Layout Module Level 1 -->
+  - 段組コンテンツのバランス調整: `column-fill`, <!-- CSS Multi-column Layout Module Level 1 -->
+  - スパニング: `column-span` <!-- CSS Multi-column Layout Module Level 1 -->
 - スムーススクロールと位置制御、スナップ
   - `scroll-behavior` <!-- CSS Overflow Module Level 3 -->
   - `scroll-margin`, `scroll-padding` <!-- CSS Scroll Snap Module Level 1 -->
   - `scroll-snap-type`, `scroll-snap-align` <!-- CSS Scroll Snap Module Level 1 -->
 - CSS Shapes
-  - `shape-outside`
-  - `shape-margin`
+  - `shape-outside` <!-- CSS Shapes Module Level 1 -->
+  - `shape-margin` <!-- CSS Shapes Module Level 1 -->
 - ビジュアルエフェクトとフィルタ
   - `filter`プロパティと基本フィルタ関数の理解と適用（`blur()`, `brightness()`, `contrast()`, `grayscale()`, `saturate()`, `hue-rotate()`）
   - `backdrop-filter`による背景要素への効果適用とモダンUI実装
@@ -509,12 +509,12 @@ cssプロパティ名の部分を``で囲ってほしい
 - 可変フォント技術の特徴を理解し、パフォーマンスとデザイン表現の幅を両立したWebサイトを構築できる。
 
 #### 詳細
-- Webフォントの実装（CSS Fonts Module Level 4）
+- Webフォントの実装 <!-- CSS Fonts Module Level 4 -->
   - `@font-face`規則の構文と必須属性（`font-family`, `src`）
   - Webフォント形式とブラウザ対応（WOFF2: RFC 8081, WOFF: RFC 8081）
   - `font-display`プロパティの各値と読み込み動作（`auto`, `block`, `swap`, `fallback`, `optional`）
   - `unicode-range`によるサブセット化（Unicode範囲記述子）
-- 可変フォント技術（CSS Fonts Module Level 4 - Variable Fonts）
+- 可変フォント技術 <!-- CSS Fonts Module Level 4 -->
   - OpenType可変フォント仕様（OpenType Font Variations）に基づくデザイン軸
   - `font-variation-settings`プロパティの構文と使用法
   - 登録済み軸（`wght`, `wdth`, `slnt`, `ital`, `opsz`）とCSS対応プロパティ
@@ -542,7 +542,7 @@ cssプロパティ名の部分を``で囲ってほしい
 - CSSネスティングを使用して、スタイルの記述を簡潔にし、構造化されたスタイルを作成できる。
 
 #### 詳細
-- CSSネスティングの基本構文を理解し、効率的にスタイルを記述できる
+- CSSネスティングの基本構文を理解し、効率的にスタイルを記述できる <!-- CSS Nesting Module Level 1 -->
   - ネストされたセレクタの使用方法
   - `&`（親セレクタ参照）の活用
 - ネスティングを使用したコードの可読性向上とメンテナンス性の向上
