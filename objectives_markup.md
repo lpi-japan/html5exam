@@ -176,6 +176,7 @@
 #### 詳細
 - 画像、音声、動画などのメディア要素を正しく使用できる
   - `img`, `audio`, `video`, `source`, `track`
+  - Data URI を使用した小さな画像の埋め込み（Base64エンコード）
 - メディア要素の属性やイベントを理解し、適切に利用できる
   - src, alt, controls, autoplay, loop, muted, preload, poster
   - loadstart, loadeddata, play, pause, ended
