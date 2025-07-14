@@ -478,12 +478,12 @@
 
 #### 詳細
 - Flexboxの応用的なプロパティを活用し、複雑なレイアウトを効率的に構築できる
-  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
+  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap` <!-- CSS Box Alignment Module Level 3 -->
 - CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
-  - `grid-template-areas`
-  - `justify-self`, `place-self`
-  - 非均一グリッド: `minmax()`, `auto-fit`, `auto-fill`
-  - Subgrid
+  - `grid-template-areas` <!-- CSS Grid Layout Module Level 1 -->
+  - `justify-self`, `place-self` <!-- CSS Box Alignment Module Level 3 -->
+  - 非均一グリッド: `minmax()`, `auto-fit`, `auto-fill` <!-- CSS Grid Layout Module Level 1 -->
+  - Subgrid <!-- CSS Grid Layout Module Level 2 -->
 
 ### 2.2.3. アニメーションとトランジション (重要度: 4)
 出題種別: 知識問題、コードリーディング問題、記述問題
