@@ -632,12 +632,13 @@
 - コンテンツセキュリティポリシー (CSP) の基本概念と設定方法
   - `Content-Security-Policy` ヘッダーの構文と主要ディレクティブ (`default-src`, `script-src`, `style-src` など)
   - レポート専用モード (`report-uri`, `report-to`)
-- クロスサイトスクリプティング (XSS) 攻撃の種類と防御方法
-  - エスケープ処理 (`innerHTML` の使用を避ける、テンプレートエンジンの活用)
-  - サニタイズライブラリの利用 (DOMPurify など)
+  - インラインスタイルとCSPの関係（`unsafe-inline`, `nonce`, `hash`）
 - セキュリティヘッダーの活用
   - `X-Content-Type-Options`, `X-Frame-Options`, `Strict-Transport-Security` (HSTS)
-- セキュリティに関するブラウザのデバッグツールの活用
+  - `Referrer-Policy`によるリファラー制御
+- リソース保護とCORS
+  - フォントやスタイルシートのクロスオリジン制御
+  - `crossorigin`属性の活用
 
 ### 2.4.2. データ保護とプライバシー (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
