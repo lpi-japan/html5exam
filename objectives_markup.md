@@ -43,10 +43,10 @@
     - [1.3.1. スタイルシートの基本 / 旧 1.2.1 (重要度: 6)](#131-スタイルシートの基本--旧-121-重要度-6)
     - [1.3.2. カスケード（優先順位） / 旧 1.2.3 (重要度: 5)](#132-カスケード優先順位--旧-123-重要度-5)
   - [1.4. CSSデザイン](#14-cssデザイン)
-    - [1.4.1. レイアウト (重要度: 4)](#141-レイアウト-重要度-4)
-    - [1.4.2. ボックスモデル (重要度: 4)](#142-ボックスモデル-重要度-4)
-    - [1.4.3. 色と背景 (重要度: 3)](#143-色と背景-重要度-3)
-    - [1.4.4. テキスト、リスト、テーブル (重要度: 4)](#144-テキストリストテーブル-重要度-4)
+    - [1.4.1. レイアウト (重要度: 5) / 旧 1.2.2](#141-レイアウト-重要度-5--旧-122)
+    - [1.4.2. インタラクション (重要度: 3)](#142-インタラクション-重要度-3)
+    - [1.4.3. 色と背景 (重要度: 3) / 旧 1.2.2](#143-色と背景-重要度-3--旧-122)
+    - [1.4.4. テキスト、リスト、テーブル (重要度: 4) / 旧 1.2.2](#144-テキストリストテーブル-重要度-4--旧-122)
     - [1.4.5. 変形とアニメーション (重要度: 2)](#145-変形とアニメーション-重要度-2)
   - [1.5. レスポンシブWebデザイン](#15-レスポンシブwebデザイン)
     - [1.5.1. マルチデバイス対応 / 旧 1.4.1 (重要度: 3)](#151-マルチデバイス対応--旧-141-重要度-3)
@@ -236,30 +236,51 @@
 
 ## 1.4. CSSデザイン
 
-### 1.4.1. レイアウト (重要度: 4)
+<!-- TODO: 旧 1.2.2 にあったがLevel2に移動したものがいくつかある。可否を再確認 -->
+<!-- - マルチカラムレイアウト: column-* -->
+<!-- - Webフォント: @font-face -->
+
+### 1.4.1. レイアウト (重要度: 5) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- コンテンツのレイアウトに関する記述方法を理解する。
+- ボックスモデルの基本構造を理解し、コンテンツの配置に関する基本的な制御ができる。
 
 #### 詳細
-- `float` と `clear` の使用方法
-- ポジショニング（`static`, `relative`, `absolute`, `fixed`, `sticky`）
-- 要素のスタッキング順序を制御する `z-index` プロパティの理解と適用
-- インタラクティブ制御（`cursor`, `pointer-events`, `user-select`）
+- ボックスモデルの基本構造理解
+  - ブロック要素・インライン要素
+  - 領域の概念: マージン、ボーダー、パディング、コンテンツ
+- ボックスモデルの利用
+  - `display`: `block`, `inline`, `inline-block`, `none` <!-- CSS Display Module Level 3 -->
+  - `width`, `height`, `(min|max)-(width|height)` <!-- Cascading Style Sheets Level 2 -->
+  - `margin`, `padding`, `(margin|padding)-(top|right|bottom|left)`, `(margin|padding)-(block*|inline*)` <!-- CSS Box Model Module Level 3 -->
+- ブロック要素の表示制御
+  - `box-sizing` <!-- CSS Box Sizing Module Level 3 -->
+  - `visibility` <!-- CSS Display Module Level 3 -->
+  - `overflow` <!-- CSS Overflow Module Level 3 -->
+- ポジショニングとスタッキング:
+  - `position`: `static`, `relative`, `absolute`, `fixed`, `sticky` <!-- CSS Positioned Layout Module Level 3 -->
+  - `z-index` <!-- Cascading Style Sheets Level 2 -->
+- インライン要素の表示制御
+  - `float` と `clear` <!-- Cascading Style Sheets Level 2 -->
 
-### 1.4.2. ボックスモデル (重要度: 4)
+### 1.4.2. インタラクション (重要度: 3)
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<!-- TODO: ここは現行にない。Level1でよいか？良いとしても順番はこの主題の中で最後？ -->
+
 #### 概要
-- ボックスモデルの正しい適用を理解する。
+- ユーザー操作に対する表示や選択制御などに関する CSS プロパティを利用できる。
 
 #### 詳細
-- ボックスモデルの理解と適用（`width`, `height`, `padding`, `margin`, `box-sizing`）
-- アウトラインの利用（`outline`, `outline-offset`, `outline-style` など）
-- `overflow`, `visibility`
+- カーソル操作制御
+  - `cursor` <!-- CSS Basic User Interface Module Level 3 -->
+  - `pointer-events` <!-- CSS Basic User Interface Module Level 4 -->
+  - `user-select` <!-- CSS Basic User Interface Module Level 4 -->
+- フォーカス可視化
+  - `outline`, `outline-*` <!-- CSS Basic User Interface Module Level 3 -->
 
-### 1.4.3. 色と背景 (重要度: 3)
+### 1.4.3. 色と背景 (重要度: 3) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
@@ -267,13 +288,18 @@
 
 #### 詳細
 - 色指定（`color`, `rgba()`, `hsl()`, `hsla()`）、透過（`opacity`）およびグラデーション
-- 背景プロパティ（`background-*`, `border-*`, `box-shadow`）
+- 背景と枠（`background-*`, `border-*`, `box-shadow`）
 
-### 1.4.4. テキスト、リスト、テーブル (重要度: 4)
+### 1.4.4. テキスト、リスト、テーブル (重要度: 4) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
+
+<!-- TODO: ↓は近いとこにあった方がいいので整理 -->
+<!-- - Overflow -> overflow, text-overflow ただしoverflowは↑で既出 -->
+<!-- - Text -> word-break, word-wrap, white-space, overflow-wrap, hyphens -->
 
 #### 概要
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
+
 #### 詳細
 - フォント設定（`font-*`, `line-height`）
 - テキスト修飾（`text-*`, `underline`, `overline`, `line-through`, `letter-spacing`, `word-spacing`, `direction`, `text-shadow`, `vertical-align`）
@@ -285,6 +311,7 @@
 
 #### 概要
 - 基本的な変形とアニメーションの概念を理解し、シンプルなエフェクトを実装できる。
+
 #### 詳細
 - 基本的な2D変形の理解と適用（`transform`（`translate`, `rotate`, `scale`））
 - 単純なトランジションの実装（`transition-property`, `transition-duration`）

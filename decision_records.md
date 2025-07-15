@@ -51,10 +51,9 @@
 | 項目追加 | Map, Setを追加すべきか？ (現行Level2にない) | Programming | 出題したい。 | |  |
 | 項目追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ | Programming | いまいち客観的にどこに配置すべきかよくわからないが、とりあえずオブジェクトの機能として掲載 | | 解決 |
 | 項目追加 | JS基本文法の1つとして正規表現を追加すべきか？ (~~現行Level2にない~~RegExpだけあった…) | Programming | | |  |
-| 項目追加 | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | Markup | | |  |
-| 項目追加 | CSS利用統計で上位に来る cursor は入れる？ | Markup | 1.3.1 レイアウトに追加 | | 解決 |
-| 項目追加 | CSS利用統計で上位に来る outline は入れる？ | Markup | 1.3.2 ボックスモデルに追加 | | 解決 |
-| 項目追加 | CSS利用統計で上位に来る word-wrap, overflow-wrap は入れる？ | Markup | 1.3.4 テキスト、リスト、テーブルに追加 | | 解決 |
+| 項目追加 | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | Markup | | 追加済み | 解決 |
+| 項目追加 | CSS利用統計で上位に来る cursor, outline は入れる？ | Markup | 1.4.2 インタラクションに追加したが、level1でよいか？ | | |
+| 項目追加 | CSS利用統計で上位に来る word-wrap, overflow-wrap は入れる？ | Markup | 1.4.4 テキスト、リスト、テーブルに追加 | | 解決 |
 | 項目追加 | scoped style, @scope | Markup | すべてのブラウザでサポートされていないため**含めていません** | | 解決 |
 | 項目修正 | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ むしろ入れるとしたらProxyを入れるべきでは？definePropertyの代わりという意図の他にも、Vueなどのフレームワークの仕組みの理解、[透過的なアクセス制御・キャッシュ等の実装手段として](https://blog.bitsrc.io/proxy-design-pattern-with-react-c0b465980fbf)、などいくつかモチベがある。 | Programming | v2.5で強調されていた「プロパティの追加・削除の操作方法やプロトタイププロパティ」への直接的な言及はなし。Proxyを追加 | | 解決 |
 | 項目修正 | v2.5 Level 1 1.3.3 の「フレーム」について、frameタグはHTML5で非推奨になっているので、書き方を変えたい。どうすると良いか？ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。(インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそも[HTML Standardのインタラクティブ要素の分類](https://html.spec.whatwg.org/multipage/dom.html#interactive-content)と、1.3.3の分類は必ずしも一致していない。iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) | Markup | |  |
