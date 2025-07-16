@@ -189,10 +189,12 @@
 
 #### 詳細
 - フォーム要素やインタラクティブ要素を正しく使用できる  
-  - form, input, button, select, textarea, label, fieldset, legend 
+  - `form`, `input`, `button`, `select`, `textarea`, `label`, `fieldset`, `legend` 
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
-  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
-  - submit, reset, change, input, focus, blur  
+  - `type`, `name`, `value`, `placeholder`, `disabled`, `readonly`, `checked`, `selected`, `multiple`, `size`
+  - `required`, `maxlength`, `minlength`, `pattern`, `step`, `min`, `max`, `novalidate`, `formnovalidate`
+  - `autocomplete`, `autofocus`
+  - `submit`, `reset`, `change`, `input`, `focus`, `blur`
 
 ### 1.2.4. 基本的なARIAの利用 (重要度: 1)
 出題種別: 知識問題、コードリーディング問題、記述問題  
@@ -384,16 +386,28 @@
 ### 2.1.3. ユーザーインタラクション実装 (重要度: 4)
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<!-- showModalは厳密にはJSだが、Level2にある = プログラミングLevel1は前提としてよい、ということで、含める？ -->
+<!-- popoverはexperimentalとのことなので今は含めない -->
+
 #### 概要
 
 - インタラクティブ要素を応用し、ユーザーエクスペリエンスを向上させる高度なフォームやウィジェットを作成できる。
 
 #### 詳細
-- 詳細折りたたみ要素を利用した UI を実装する
-  - `<details>`, `<summary>`
-- モーダルダイアログを実装する
-  - `<dialog>` 要素のライフサイクルとイベント
-  - `inert` 属性
+- 詳細折りたたみ要素 (`details`) を利用した UI を実装する
+  - `summary`
+  - `open` 属性
+  - `name` 属性
+- `dialog` を利用した UI を実装する
+  - `showModal()`、`show()`、`close()` メソッド
+  - `::backdrop` 疑似要素
+  - モーダルダイアログ以外のコンテンツの不活性化
+- フォームの動作を細かく制御する
+  - `autocomplete`
+  - `form`, `formaction`, `formenctype`, `formmethod`, `formtarget`
+- 特定動作のためにスクリプトと組み合わせて使う属性について知っている
+  - `draggable`
+  - `contenteditable`
 
 ### 2.1.4. アクセシビリティ向上の実践 (重要度: 6)
 出題種別: 知識問題、コードリーディング問題、記述問題
