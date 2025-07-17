@@ -204,9 +204,9 @@
 - ページの静的構造に対し、基本属性を用いてアクセシビリティ対応ができる。
 
 #### 詳細
-- Landmark RoleやPresentation Roleを理解し、適切に利用できる  
+- Landmark RoleやPresentation Roleを理解し、適切に利用できる  <!-- Accessible Rich Internet Applications (WAI-ARIA) 1.2, ARIA in HTML -->
   - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"`  
-- 基本的なARIA属性を利用して、静的コンテンツのアクセシビリティ対応ができる  
+- 基本的なARIA属性を利用して、静的コンテンツのアクセシビリティ対応ができる <!-- Accessible Rich Internet Applications (WAI-ARIA) 1.2, ARIA in HTML --> 
   - `aria-label`, `aria-labelledby`, `aria-hidden`  
 
 ## 1.3. CSSの基礎
@@ -406,17 +406,56 @@ cssプロパティ名の部分を``で囲ってほしい
 ### 2.1.4. アクセシビリティ向上の実践 (重要度: 6)
 出題種別: 知識問題、コードリーディング問題、記述問題
 
-#### 概要　　
+#### 概要
 
 - ダイアログやタブなど動的かつ複合的なUIに対し、高いアクセシビリティを実装できる。
 
-#### 詳細　　
-
-- Widget RoleやState/Propertyを理解し、動的UIで適切に適用できる  
+#### 詳細
+- Widget RoleやState/Propertyを理解し、動的UIで適切に適用できる<!-- Accessible Rich Internet Applications (WAI-ARIA) 1.2, ARIA in HTML -->
   - `role="dialog"`, `role="tab"`, `role="tabpanel"`, `role="menu"`, `role="tree"`  
-- 動的挙動を管理するARIA属性を理解し、実装できる  
+- 動的挙動を管理するARIA属性を理解し、実装できる<!-- Accessible Rich Internet Applications (WAI-ARIA) 1.2, ARIA in HTML -->
   - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy`
-- Visually Hidden技術によるスクリーンリーダー専用コンテンツの実装
+- 出版・学術コンテンツ向けの構造的セマンティクスを実装できる<!-- Digital Publishing WAI-ARIA Module 1.0 -->
+  - 基本的な文書構造: `doc-chapter`, `doc-part`, `doc-introduction`, `doc-conclusion`
+  - 参考文献と注釈: `doc-bibliography`, `doc-footnote`, `doc-noteref`, `doc-backlink`
+  - ナビゲーション補助: `doc-toc`, `doc-index`, `doc-pagebreak`
+- 支援技術が正しくラベル・説明を取得できるUIを設計・実装できる<!-- Accessible Name and Description Computation 1.2, ARIA in HTML -->
+  - `aria-label`, `aria-labelledby`, `aria-describedby`
+- HTML要素とARIA属性の適切な組み合わせによるアクセシブルなUIを実装できる<!-- ARIA in HTML -->
+  - セマンティックHTML要素に対するARIA属性の不要な重複使用を避ける
+  - カスタム要素でのrole属性とプロパティの必要最小限の使用
+  - HTML要素の暗黙的なARIAセマンティクスの理解と活用
+- Visually Hidden技術によるスクリーンリーダー専用コンテンツの実装<!-- Accessible Rich Internet Applications (WAI-ARIA) 1.2, ARIA in HTML -->
+- WCAG 2.1の基本原則に基づいたアクセシブルなWebコンテンツ設計ができる<!-- Web Content Accessibility Guidelines (WCAG) 2.1 -->
+  - 知覚可能性: 代替テキスト、コントラスト比、拡大縮小対応
+  - 操作可能性: キーボードナビゲーション、フォーカス管理、時間制限の配慮
+  - 理解可能性: 読みやすさ、予測可能性、エラー処理
+  - 堅牢性: 支援技術との互換性、マークアップの妥当性
+- 音声合成によるアクセシビリティ向上を実装できる<!-- CSS Speech Module Level 1 -->
+  - `speak`, `speak-as`, `pause-before`, `pause-after`, `rest-before`, `rest-after`プロパティ
+  - `voice-volume`, `voice-balance`, `voice-rate`, `voice-pitch`, `voice-range`プロパティ
+  - `voice-stress`, `voice-duration`プロパティ
+  - スクリーンリーダーとの連携最適化
+- SVGコンテンツのアクセシビリティ向上を実装できる<!-- SVG Accessibility API Mappings -->
+  - SVG要素の適切な役割（role）とプロパティの設定
+  - `<title>`, `<desc>` 要素による代替テキストと説明の提供
+  - `aria-labelledby`, `aria-describedby` を用いたSVG内要素の関連付け
+  - 複雑なSVGグラフィックスの構造化とナビゲーション支援
+- HTML要素の支援技術マッピングを理解し、適切に実装できる<!-- HTML Accessibility API Mappings -->
+  - セマンティックHTML要素の暗黙的なARIAロール
+  - フォーム要素の自動ラベル関連付けとバリデーション
+  - インタラクティブ要素のフォーカス管理と状態通知
+  - カスタム要素での適切なアクセシビリティ実装
+- アクセシビリティに配慮したメディアクエリ設計ができる<!-- Media Queries Level 5 -->
+  - `prefers-contrast`: 高コントラスト設定への対応
+  - `prefers-color-scheme`: ダークモード・ライトモード対応
+  - `forced-colors`: 強制色モードでの適切な表示
+  - `prefers-reduced-transparency`: 透明度削減設定への対応
+- 出版物型コンテンツのアクセシビリティ設計ができる<!-- EPUB Accessibility 1.1 -->
+  - Schema.orgアクセシビリティメタデータの実装（`accessMode`, `accessibilityFeature`, `accessibilityHazard`）
+  - ページナビゲーション実装（静的ページ境界、ページリスト）
+  - 読み上げ順序の論理的構造化
+  - 出版物メタデータによるアクセシビリティ発見可能性の向上
 
 ## 2.2. 高度なレイアウトとデザイン
 
