@@ -22,7 +22,7 @@
       - 4.6 link (a, link-type)
       - 4.7 edits (ins, del)
       - 4.8 埋め込みコンテンツ (picture, source,img, iframe, video, etc.)
-      - 4.9 tabular (table, caption, etc.)
+      - <a id="html_4.9"></a> 4.9 tabular (table, caption, etc.) :bookmark: <a href="#lpij_1.3.1_tabular">1.3.1 要素と属性の意味 > 表</a>
       - 4.10 forms (form, label, input, etc.)
       - 4.11 interactive (details, summary, dialog, etc.)
       - 4.12 script (script, noscript, template, canvas, etc.)
@@ -401,6 +401,15 @@
   - 1.2.3 カスケード（優先順位）（重要度：2）
 - 1.3 要素
   - 1.3.1 要素と属性の意味（セマンティクス）（重要度：10）
+    - セクション
+    - 書式方向
+    - ルビ
+    - 挿入と削除のセマンティクス
+    - グルーピングのセマンティクス
+    - テキストレベルのセマンティクス
+    - リンクの関連性のセマンティクス
+    - 言語のセマンティクス
+    - <a id="lpij_1.3.1_tabular"></a> 表のセマンティクス :pencil: <a href="#html_4.9">LS 4.9 tabular</a>
   - 1.3.2 メディア要素（重要度：6）
   - 1.3.3 インタラクティブ要素（重要度：7）
 - 1.4 レスポンシブWebデザイン
