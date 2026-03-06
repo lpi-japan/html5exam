@@ -284,17 +284,13 @@
 ### 1.4.4. テキスト、リスト、テーブル (重要度: 4) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
-<!-- TODO: ↓は近いとこにあった方がいいので整理 -->
-<!-- - Overflow -> overflow, text-overflow ただしoverflowは↑で既出 -->
-<!-- - Text -> word-break, word-wrap, white-space, overflow-wrap, hyphens -->
-
 #### 概要
 - テキスト、リスト、テーブルのスタイル設定の基礎を理解する。
 
 #### 詳細
 - フォント設定（`font-*`, `line-height`）
 - テキスト修飾（`text-*`, `underline`, `overline`, `line-through`, `letter-spacing`, `word-spacing`, `direction`, `text-shadow`, `vertical-align`）
-- 単語の改行制御（`word-break`, `word-wrap`, `overflow-wrap`）
+- テキストのはみ出しと折り返し制御（`word-break`, `word-wrap`, `overflow-wrap`, `white-space`, `hyphens`, `text-overflow`）
 - リストスタイルとテーブルのスタイル設定（`list-style-*`, `border-collapse`, `border-spacing`, `content`）
 - Webフォント <!-- CSS Fonts Module Level 4 -->
   - ローカルフォントとの違い（非同期読み込みによる表示遅延が発生しうること）を理解している
