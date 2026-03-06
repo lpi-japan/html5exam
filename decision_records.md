@@ -69,3 +69,7 @@
 | 項目修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | Programming | 取り下げる | (事務局内判断) | 解決 |
 | 項目修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| Programming | 範囲に含めていない | | 解決 |
 | 項目修正 | [console.profile()は非標準](https://developer.mozilla.org/ja/docs/Web/API/console/profile_static) | Programming | ひとまず削除 | | 解決 |
+| 項目修正 | v2.5 Level 1 の 1.2.2 にWebフォント (`@font-face`) がそっけない1行で記載されていたが、新試験ではどの試験・レベルに配置し、どの程度掘り下げるか？ | Markup | 現場での利用頻度が高い（Webフォントは多数のサイトで利用されている（要出典））ことを根拠に、マークアップ Level 1 (1.4.4) に配置。`@font-face` の基本構文・WOFF2/WOFF形式・`font-display` プロパティを追記し、ローカルフォントとの違い（非同期読み込みによる表示遅延）にも言及。 | | 解決 |
+| 新トピック | 可変フォント (`font-variation-settings` 等) は v2.5 に未言及だが、新試験でどのレベルに追加するか？ | Markup | 発展的な CSS 技術として、マークアップ Level 2 (2.2.5) に配置。Level 1 のWebフォント節と接続する形で学習順序を整理。 | | 解決 |
+| 項目修正 | v2.5 Level 1 の 1.2.2 にマルチカラムレイアウト (`column-*`) が記載されていたが、新試験でどのレベルに配置するか？ | Markup | 利用頻度が低くニッチな用途（雑誌・新聞スタイル）のため、マークアップ Level 2 (2.2.1) に移動。 | | 解決 |
+| 内容増減 | v2.5 1.2.3「CSSカスケード」には継承の記述がなかったが、新 Level 1 1.3.2「カスケードと継承」で継承を追加することは適切か？また重要度を 2→5 に引き上げることは妥当か？ | Markup | 継承はカスケードと不可分の概念であり、セレクタや詳細度と並んでスタイルの適用順序を決定する基礎知識として必須のため追加。重要度については、スタイルシート全体の挙動に関わる基礎理論であることを理由に高めに設定。Level 1 全体の重要度合計を 60 に揃える調整の中で最終値を決定する。 | | |
