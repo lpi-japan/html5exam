@@ -62,7 +62,7 @@
     - [2.2.2. フレックスボックスとグリッド (重要度: 6)](#222-フレックスボックスとグリッド-重要度-6)
     - [2.2.3. アニメーションとトランジション (重要度: 4)](#223-アニメーションとトランジション-重要度-4)
     - [2.2.4. CSSパフォーマンス最適化 (重要度: 4)](#224-cssパフォーマンス最適化-重要度-4)
-    - [2.2.5. Webフォントと可変フォント (重要度: 2)](#225-webフォントと可変フォント-重要度-2)
+    - [2.2.5. 可変フォント (重要度: 2)](#225-可変フォント-重要度-2)
   - [2.3. CSS言語機能の拡張](#23-css言語機能の拡張)
     - [2.3.1. カスタムプロパティと関数 (重要度: 4)](#231-カスタムプロパティと関数-重要度-4)
     - [2.3.2. CSSネスティング (重要度: 3)](#232-cssネスティング-重要度-3)
@@ -298,6 +298,11 @@
 - テキスト修飾（`text-*`, `underline`, `overline`, `line-through`, `letter-spacing`, `word-spacing`, `direction`, `text-shadow`, `vertical-align`）
 - 単語の改行制御（`word-break`, `word-wrap`, `overflow-wrap`）
 - リストスタイルとテーブルのスタイル設定（`list-style-*`, `border-collapse`, `border-spacing`, `content`）
+- Webフォント <!-- CSS Fonts Module Level 4 -->
+  - ローカルフォントとの違い（非同期読み込みによる表示遅延が発生しうること）を理解している
+  - `@font-face` 規則の基本構文（`font-family`, `src`）
+  - Webフォント形式（WOFF2, WOFF）とブラウザ対応
+  - `font-display` プロパティによる読み込み中の表示制御（`swap`, `fallback`, `optional` など）
 
 ### 1.4.5. 変形とアニメーション (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -506,26 +511,19 @@
   - Lazy Loading
   - Minification
 
-### 2.2.5. Webフォントと可変フォント (重要度: 2)
+### 2.2.5. 可変フォント (重要度: 2)
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- Webフォントの基本概念と実装方法を理解し、多様なデバイスで一貫したタイポグラフィを実現できる。
 - 可変フォント技術の特徴を理解し、パフォーマンスとデザイン表現の幅を両立したWebサイトを構築できる。
 
 #### 詳細
-- Webフォントの実装 <!-- CSS Fonts Module Level 4 -->
-  - `@font-face`規則の構文と必須属性（`font-family`, `src`）
-  - Webフォント形式とブラウザ対応（WOFF2: RFC 8081, WOFF: RFC 8081）
-  - `font-display`プロパティの各値と読み込み動作（`auto`, `block`, `swap`, `fallback`, `optional`）
-  - `unicode-range`によるサブセット化（Unicode範囲記述子）
 - 可変フォント技術 <!-- CSS Fonts Module Level 4 -->
-  - OpenType可変フォント仕様（OpenType Font Variations）に基づくデザイン軸
-  - `font-variation-settings`プロパティの構文と使用法
-  - 登録済み軸（`wght`, `wdth`, `slnt`, `ital`, `opsz`）とCSS対応プロパティ
-- フォントリソースとセキュリティ
-  - Font Resource Timing仕様に基づくパフォーマンス最適化
-  - CORS（Cross-Origin Resource Sharing）とフォントリソースの保護（Same-Origin Policy）
+  - OpenType 可変フォント仕様（OpenType Font Variations）に基づくデザイン軸
+  - `font-variation-settings` プロパティの構文と使用法
+  - 登録済み軸（`wght`, `wdth`, `slnt`, `ital`, `opsz`）と CSS 対応プロパティ
+- 高度なフォント制御
+  - `unicode-range` によるサブセット化（Unicode 範囲記述子）
 
 ## 2.3. CSS言語機能の拡張
 
