@@ -192,9 +192,9 @@
 
 #### 詳細
 - Landmark RoleやPresentation Roleを理解し、適切に利用できる  
-  - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"`  
+  - `role="banner"`, `role="navigation"`, `role="main"`, `role="contentinfo"`, `role="presentation"` [^aria-in-html]
 - 基本的なARIA属性を利用して、静的コンテンツのアクセシビリティ対応ができる  
-  - `aria-label`, `aria-labelledby`, `aria-hidden`  
+  - `aria-label`, `aria-labelledby`, `aria-hidden` [^accname-1.1]
 
 ## 1.3. CSSの基礎
 
@@ -465,12 +465,12 @@
 
 #### 詳細
 - Flexboxの応用的なプロパティを活用し、複雑なレイアウトを効率的に構築できる
-  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap`
+  - `place-content`, `place-items`, `gap`, `row-gap`, `column-gap` [^css-align-3]
 - CSS Gridの応用的なプロパティを活用し、高度なレイアウトを設計できる
-  - `grid-template-areas`
-  - `justify-self`, `place-self`
-  - 非均一グリッド: `minmax()`, `auto-fit`, `auto-fill`
-  - Subgrid
+  - `grid-template-areas` [^css-grid-1]
+  - `justify-self`, `place-self` [^css-align-3]
+  - 非均一グリッド: `minmax()`, `auto-fit`, `auto-fill` [^css-grid-1]
+  - Subgrid [^css-grid-2]
 
 ### 2.2.3. アニメーションとトランジション (重要度: 4)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -568,7 +568,7 @@
 #### 詳細
 - Shadow DOM の基本概念と CSS スコープへの影響
 - Light DOM と Shadow DOM のスタイルの分離と相互作用
-- Shadow DOM 固有の CSS 疑似クラスと疑似要素 (`:host`, `:host()`, `::slotted()` など)
+- Shadow DOM 固有の CSS 疑似クラスと疑似要素 (`:host`, `:host()`, `::slotted()` など) [^css-shadow-1]
 - CSS カスタムプロパティを用いた Shadow DOM 内外のスタイル連携
 - CSS 設計における Shadow DOM の活用と注意点
 
@@ -620,4 +620,10 @@
   - `Secure` 属性と `HttpOnly` 属性の設定
   - SameSite 属性 (`Strict`, `Lax`, `None`)
 
+[^aria-in-html]: ARIA in HTML — https://www.w3.org/TR/html-aria/
+[^accname-1.1]: Accessible Name and Description Computation 1.1 — https://www.w3.org/TR/accname-1.1/
+[^css-align-3]: CSS Box Alignment Module Level 3 — https://www.w3.org/TR/css-align-3/
+[^css-grid-1]: CSS Grid Layout Module Level 1 — https://www.w3.org/TR/css-grid-1/
+[^css-grid-2]: CSS Grid Layout Module Level 2 — https://www.w3.org/TR/css-grid-2/
+[^css-shadow-1]: CSS Shadow Module Level 1 (Editor's Draft) — https://drafts.csswg.org/css-shadow-1/
 [^css-cascade4]: CSS Cascading and Inheritance Level 4 — https://www.w3.org/TR/css-cascade-4/
