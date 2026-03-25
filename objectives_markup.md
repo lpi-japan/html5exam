@@ -168,8 +168,8 @@
   - `img`, `audio`, `video`, `source`, `track`
   - Data URI を使用した小さな画像の埋め込み（Base64エンコード）
 - メディア要素の属性やイベントを理解し、適切に利用できる
-  - src, alt, controls, autoplay, loop, muted, preload, poster
-  - loadstart, loadeddata, play, pause, ended
+  - `src`, `alt`, `controls`, `autoplay`, `loop`, `muted`, `preload`, `poster`
+  - `loadstart`, `loadeddata`, `play`, `pause`, `ended`
 
 ### 1.2.3. インタラクティブ要素 (重要度: 2) / 旧 1.3.3
 出題種別: 知識問題、コードリーディング問題、記述問題  
@@ -179,10 +179,10 @@
 
 #### 詳細
 - フォーム要素やインタラクティブ要素を正しく使用できる  
-  - form, input, button, select, textarea, label, fieldset, legend 
+  - `form`, `input`, `button`, `select`, `textarea`, `label`, `fieldset`, `legend`
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
-  - type, name, value, placeholder, required, disabled, readonly, checked, selected, multiple, size, maxlength, minlength, pattern, step, min, max, autocomplete, autofocus, novalidate, form, formaction, formenctype, formmethod, formnovalidate, formtarget
-  - submit, reset, change, input, focus, blur  
+  - `type`, `name`, `value`, `placeholder`, `required`, `disabled`, `readonly`, `checked`, `selected`, `multiple`, `size`, `maxlength`, `minlength`, `pattern`, `step`, `min`, `max`, `autocomplete`, `autofocus`, `novalidate`, `form`, `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`
+  - `submit`, `reset`, `change`, `input`, `focus`, `blur`
 
 ### 1.2.4. 基本的なARIAの利用 (重要度: 1)
 出題種別: 知識問題、コードリーディング問題、記述問題  
@@ -206,7 +206,7 @@
 
 #### 詳細
 - スタイルの読み込み方の種類を理解し、目的に応じて使い分ける
-  - `<link>`, `@import`, `<style>` 要素, style 属性
+  - `<link>`, `@import`, `<style>` 要素, `style` 属性
 - 適切なセレクタやプロパティを活用できる。
   - セレクタ, タイプセレクタ, クラスセレクタ, IDセレクタ, ユニバーサルセレクタ, 属性セレクタ
   - シンプルセレクタ（疑似クラス）, 疑似要素, 結合子, グループ化
@@ -319,10 +319,10 @@
 
 #### 詳細
 - レイアウトの実装手法
-  - viewport
+  - `viewport`
   - ブレークポイント
 - コンテンツとメディアの最適化
-  - srcset, sizes
+  - `srcset`, `sizes`
   - `object-fit`, `object-position`
 
 ### 1.5.2. メディアクエリ (重要度: 3) / 旧 1.4.2
@@ -333,7 +333,7 @@
 
 #### 詳細
 - メディアクエリの基本使用
-  - `min-width`、`max-width`、@media
+  - `min-width`、`max-width`、`@media`
 - 各ブレークポイントに合わせたカスタムスタイルの適用方法
 
 ### 1.5.3. フレックスボックスとCSS Gridの基礎 (重要度: 2)
@@ -480,11 +480,11 @@
 - 高度なアニメーションとトランジション技術を駆使して、複雑で効率的なインタラクティブエフェクトを実現できる。
 
 #### 詳細
-- 複雑な3D変形と空間での操作（transform: translate3d, rotate3d、perspective の活用）
-- パフォーマンスを考慮したアニメーション実装（will-change、GPU アクセラレーション活用）
-- タイミング関数の高度な制御（cubic-bezier、steps 関数の活用）
+- 複雑な3D変形と空間での操作（`transform`（`translate3d`, `rotate3d`）、`perspective` の活用）
+- パフォーマンスを考慮したアニメーション実装（`will-change`、GPU アクセラレーション活用）
+- タイミング関数の高度な制御（`cubic-bezier`、`steps` 関数の活用）
 - トランジション動作の細かい制御（`transition-behavior` プロパティを使ったスクロール時のトランジション挙動制御）
-- 複数のアニメーションの連続・並行実行とイベントハンドリング（animation-delay, animation-fill-mode の応用、AnimationEvent API）
+- 複数のアニメーションの連続・並行実行とイベントハンドリング（`animation-delay`, `animation-fill-mode` の応用、`AnimationEvent` API）
 - インタラクティブなアニメーション制御
 
 ### 2.2.4. CSSパフォーマンス最適化 (重要度: 4)
@@ -528,7 +528,7 @@
 - CSSカスタムプロパティ（変数）や関数を活用し、動的で保守性の高いスタイルを実現できる。
 
 #### 詳細
-- CSSカスタムプロパティ（--*）を利用して、テーマ（例: ライト/ダークモード）やレイアウトの柔軟な調整が可能
+- CSSカスタムプロパティ（`--*`）を利用して、テーマ（例: ライト/ダークモード）やレイアウトの柔軟な調整が可能
 - `var()`, `calc()`, `clamp()` を活用し、フォントサイズ、スペーシング、コンテナサイズなどの動的な値を設定できる
 - スタイル定義の再利用性を高め、コードの重複を削減できる
 
