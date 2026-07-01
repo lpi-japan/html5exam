@@ -136,13 +136,16 @@
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- メディア要素を理解し、適切に使用できる。
+- メディア要素の埋め込みと配信最適化について理解し、用途に応じた形式・属性を選べる。
 
 #### 詳細
 - 画像形式の特徴と使い分け（JPEG、PNG、WebP、SVG等）
 - 画像、音声、動画などのメディア要素を正しく使用できる
   - `img`, `audio`, `video`, `source`, `track`
   - Data URI を使用した小さな画像の埋め込み（Base64エンコード）
+- 配信最適化のための属性を理解し、適切に利用できる
+  - `srcset`, `sizes` による解像度別画像の配信
+  - `preload`, `poster` による読み込み・表示の制御
 - メディア要素の属性やイベントを理解し、適切に利用できる
   - `src`, `alt`, `controls`, `autoplay`, `loop`, `muted`, `preload`, `poster`
   - `loadstart`, `loadeddata`, `play`, `pause`, `ended`
