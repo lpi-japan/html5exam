@@ -71,7 +71,8 @@
 出題種別: 知識問題、記述問題
 
 #### 概要
-- HTTPやHTTPSの基礎を理解し、ステータスコードやヘッダ情報を把握して適切に利用できる。
+- HTTPやHTTPSの基礎を理解し、リクエスト・レスポンスの仕組みと安全な通信の前提を把握できる。
+- フォームによる送信の宣言的な指定（`method`、`action`、`enctype`）は 1.2.3 節の範囲とする。
 
 #### 詳細
 - HTTPの基本構成を理解している。
@@ -162,6 +163,7 @@
   - `form`, `input`, `button`, `select`, `textarea`, `label`, `fieldset`, `legend`
 - フォーム要素の属性やイベントを理解し、適切に利用できる  
   - `type`, `name`, `value`, `placeholder`, `required`, `disabled`, `readonly`, `checked`, `selected`, `multiple`, `size`, `maxlength`, `minlength`, `pattern`, `step`, `min`, `max`, `autocomplete`, `autofocus`, `novalidate`, `form`, `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`
+  - `method`, `action`, `enctype` によるフォーム送信の宣言的な指定
   - `submit`, `reset`, `change`, `input`, `focus`, `blur`
 
 ### 1.2.4. 基本的なARIAの利用 (重要度: 1)
