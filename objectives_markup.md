@@ -241,7 +241,7 @@
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- ユーザー操作に対する表示や選択制御などに関する CSS プロパティを利用できる。
+- ユーザー操作に対する表示や選択制御、および状態変化の表現に関する CSS プロパティを利用できる。
 
 #### 詳細
 - カーソル操作制御
@@ -250,6 +250,8 @@
   - `user-select` <!-- CSS Basic User Interface Module Level 4 -->
 - フォーカス可視化
   - `outline`, `outline-*` <!-- CSS Basic User Interface Module Level 3 -->
+- 状態変化の表現
+  - `transition-property`, `transition-duration` による基本的なトランジション
 
 ### 1.4.3. 色と背景 (重要度: 3) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
