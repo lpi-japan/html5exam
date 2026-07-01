@@ -81,9 +81,13 @@
 - ステータスコードやエラーレスポンスを正しく利用し、問題判定ができる
   - 200, 301, 404など <!-- 現行verでは数字明記せず。level1でどこまで出すか書いた方が親切だが、冗長かも -->
 - ブラウザと Web サーバ間でやりとりされる通信を理解し、安全な通信を設定できる
+  - HTTPS と混在コンテンツ（HTTP リソースの読み込み）が及ぼす影響
   - セッションの概念
   - Cookie, セキュリティ関連ヘッダ
   - 認証方式(Basic, Digestなど)
+- 別オリジンコンテンツの埋め込みとセキュリティ上の前提を理解している
+  - `iframe` 要素による外部ページの埋め込み
+  - `sandbox` 属性による埋め込み先の権限制御（概要）
 - URIとURLの概念、構成要素およびその仕組みを理解する
   - URI, URL
 
@@ -252,6 +256,9 @@
   - `user-select` <!-- CSS Basic User Interface Module Level 4 -->
 - フォーカス可視化
   - `outline`, `outline-*` <!-- CSS Basic User Interface Module Level 3 -->
+- 擬似クラスによる状態表現
+  - `:hover`, `:focus`, `:active`, `:disabled` などによるスタイルの切り替え
+  - `:checked` などフォーム要素の状態に応じたスタイル指定
 - 状態変化の表現
   - `transition-property`, `transition-duration` による基本的なトランジション
 
