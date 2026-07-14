@@ -159,6 +159,8 @@
 - 高度なアニメーションとトランジション技術を駆使して、複雑で効率的なインタラクティブエフェクトを実現できる。
 
 #### 詳細
+- 基本的な2D変形の理解と適用（`transform`（`translate`, `rotate`, `scale`）） <!-- 新 Level 1 から移動。v2.5 では Level 1 1.2.2 -->
+- 基本的なアニメーションの作成（`@keyframes` の基本構文と `animation` の基本プロパティ） <!-- 同上 -->
 - 複雑な3D変形と空間での操作（`transform`（`translate3d`, `rotate3d`）、`perspective` の活用）
 - パフォーマンスを考慮したアニメーション実装（`will-change`、GPU アクセラレーション活用）
 - タイミング関数の高度な制御（`cubic-bezier`、`steps` 関数の活用）

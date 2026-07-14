@@ -23,7 +23,7 @@
 | 編成 | アクセシビリティはマークアップ Level 1/2 でどう分ける？ | Markup | 現状ARIAの一部だけLevel1にしているが、ARIAはすべてLevel2というのもあり得るか？ |  |
 | 編成 | プログラミング系のLevel1/2の大まかな境界はどの辺にあるか？ | Programming | JSの基本文法がまぁまぁあるので、Level1がJS単体の基本文法多め、Level2がWeb API多め、ということになりそう。 | |  |
 | 編成 | markupがwebの話スタートで、programmingはjsの話スタートだから、jsのlv1ににセキュリティーの話の一般論は今今だと起きにくいということも理解しました。共通問題を作ってもよい説ある？ | Both | 話広げすぎたから判断保留で良いです | |  |
-| 編成 | 現行verからの移行目線では、Level1だったものが (どちらかの) Level2に来るケースは気を使う必要がある。具体的にそのような項目はあるか？特に現行verからmarkup level2に割り当てるようなもの。| (未精査) |  |
+| 編成 | 現行verからの移行目線では、Level1だったものが (どちらかの) Level2に来るケースは気を使う必要がある。具体的にそのような項目はあるか？特に現行verからmarkup level2に割り当てるようなもの。| Both | 現時点の具体例: 変形とアニメーション（`transform`, `@keyframes`/`animation`）、マルチカラムレイアウト（`column-*`）、CSS全域キーワード。ほかは未精査。 | |  |
 | 編成 | svgやcanvasは現行Level2だったのでprogramming側では言及予定だが、マークアップ側で何も言及しないのは違和感がある。どうするか？ |  | 少なくともcanvasはmarkup側で具体的に問う知識は特にない (canvasタグがあるだけ) |  |  |
 | 新トピック | Node.js (非ブラウザJS) は取り上げるか？ | Programming | (1) フロントエンド開発時の道具として出てくるNode (npm install, npm run build など) については頻出項目を具体的に触れる。(2) バックエンド開発の言語としてのNode.jsは存在を少し言及する程度になるかもだが、その場合はサーバーサイドAPIの[標準](https://linucopennetwork.slack.com/archives/C065SKNN199/p1738557974924929)を挙げるのが一つの手。~~Fetchなどブラウザと共通になった箇所はブラウザ/Node区別なく出題すればよい？~~→fetch API を単に「ブラウザと Node.js で共通の API」と捉えるのではなく、「元々はブラウザの標準 API であり、Node.js がそれに準拠した実装を提供している API」と理解・表現する方が実態に即している | (1) [Slack会話](https://linucopennetwork.slack.com/archives/C065SKNN199/p1708433141528049?thread_ts=1708430410.442929&cid=C065SKNN199) |  |
 | 新トピック | JS以外のフロントエンドコンピューティング技術を出す必要はあるか？具体的にはWebAssemblyなど。 | Programming | (広すぎるのでうまく方針を決めないと入れづらいと思う) | |  |
@@ -36,7 +36,8 @@
 | 新トピック | CSSネスティングやコンテナクエリなど最近標準に入った便利CSSを入れるか？入れるならレベル1と2どちらで取り扱うべきか | Markup | とりあえずレベル2に追加 | | 解決 |
 | 新トピック | emojiは？ | Markup | Unicodeに関する副題の中の1要素として追加 | | 解決 |
 | 新トピック | 開発効率化、のような観点は出題するか？もしする場合、どんな趣旨の問題になるか？npm run dev、hot reload、○○アーキテクチャ (MCV, MVVM, Flux, Redux)、... | Programming | 他のAPI系と同じくらいの深さで出題する。 | |  |
-| 新トピック | サードパーティcookie禁止、リソース読み込み時のリファラ禁止、といった最近の流れを取り入れるか？ | Both | 入れたくはある。基本はプログラミング側だと思うが、htmlタグ内でできるセキュリティがいろいろありそうなので、それをマークアップ側でも出せるかも？ [参考](https://www.perplexity.ai/search/webahurinosekiyuriteinimatuwar-S0hxCSHEQMeP3rJJb8KcOw) | |  |
+| 新トピック | サードパーティ Cookie や、リソース読み込み時のリファラ制限といった最近の流れを出題範囲に入れるか？ | Both | サードパーティ Cookie はセキュリティ／プライバシーの項目として Level 2 候補。リファラ制限も含め配置・深度は未決。Cookie 同意 UI・同意管理そのものは法律マターのため試験範囲外（団体ポリシー）。 | |  |
+| 新トピック | GTM・広告タグ・行動解析など、外部タグ／計測を出題範囲に入れるか？ | Both | (仮) 出題範囲本文に含めず、行動例（`期待される行動例.md`）に足すのみ。一般化の切り口がまだない。 | |  |
 | 新トピック | (マークアップ Level2 ネタ) アクセシビリティは？色、文字サイズ、文字方向など | Markup | dbi, color-scheme, prefers-color-scheme, ... 他には？ | |  |
 | 新トピック | (マークアップ Level2 ネタ) 組版は？ @page など。ブラウザ対応進んでなさそうだが。 | Markup | 現時点では仕様や機能が十分に確立されておらずすべてのブラウザでサポートされていないため含めない |  | 解決 |
 | 新トピック | (マークアップ Level2 ネタ) MathMLは？ | Markup | | 却下。数式を使う人も自力で書く人は基本的にいない (LatexやOffice数式エディタ等から出すので) ので。| 解決 |
@@ -52,11 +53,16 @@
 | 項目追加 | 分割代入、スプレッド構文をどこかに入れたいが、レベルと場所はどこが適切か？ | Programming | いまいち客観的にどこに配置すべきかよくわからないが、とりあえずオブジェクトの機能として掲載 | | 解決 |
 | 項目追加 | JS基本文法の1つとして正規表現を追加すべきか？ (~~現行Level2にない~~RegExpだけあった…) | Programming | | |  |
 | 項目追加 | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | Markup | | 追加済み | 解決 |
-| 項目追加 | CSS利用統計で上位に来る cursor, outline は入れる？ | Markup | 1.4.2 インタラクションに追加したが、level1でよいか？ | | |
-| 項目追加 | CSS利用統計で上位に来る word-wrap, overflow-wrap は入れる？ | Markup | 1.4.4 テキスト、リスト、テーブルに追加 | | 解決 |
+| 項目追加 | CSS利用統計で上位に来る cursor, outline は入れる？ | Markup | Level 1 の「状態に応じたスタイル」節に追加。level1 でよいかは未決。 | | |
+| 項目追加 | CSS利用統計で上位に来る word-wrap, overflow-wrap は入れる？ | Markup | テキスト、リスト、テーブル節に追加 | | 解決 |
 | 項目追加 | scoped style, @scope | Markup | すべてのブラウザでサポートされていないため**含めていません** | | 解決 |
 | 項目修正 | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ むしろ入れるとしたらProxyを入れるべきでは？definePropertyの代わりという意図の他にも、Vueなどのフレームワークの仕組みの理解、[透過的なアクセス制御・キャッシュ等の実装手段として](https://blog.bitsrc.io/proxy-design-pattern-with-react-c0b465980fbf)、などいくつかモチベがある。 | Programming | v2.5で強調されていた「プロパティの追加・削除の操作方法やプロトタイププロパティ」への直接的な言及はなし。Proxyを追加 | | 解決 |
-| 項目修正 | v2.5 Level 1 1.3.3 の「フレーム」について、frameタグはHTML5で非推奨になっているので、書き方を変えたい。どうすると良いか？ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。(インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそも[HTML Standardのインタラクティブ要素の分類](https://html.spec.whatwg.org/multipage/dom.html#interactive-content)と、1.3.3の分類は必ずしも一致していない。iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) | Markup | |  |
+| 章立て | mk L1 の主題をどう再編するか？キーワードと現行名の中間の主題名とする | Markup | v2.5 Level 1 の主題構成（Webの基礎知識／CSS／要素／レスポンシブ／API概要）を、キーワード軸の7主題（通信の基礎／HTML文書と意味／スタイルの適用規則／視覚表現／入力とフォーム／表示環境／メディア）へ再編。iframe・混在コンテンツはメディア節、Flex/Grid は表示環境節へ。 | | 解決 |
+| 章立て | mk L1 主題1を通信に専念させるか？ | Markup | v2.5 では旧 1.1.1 に HTTP と HTML 書式等が混在。新 Level 1 では主題1を「通信の基礎」とし、クライアント・サーバとHTTP/HTTPS・URL・ヘッダ・Cookie/セッションに分割。HTML書式・Unicodeは主題2へ、フォームの method/action/enctype は入力とフォーム主題へ移す（v2.5 も HTTP を先に置いていた流れの延長）。 | | 解決 |
+| 章立て | mk L1 の CSS 関連をどう主題分けするか？ | Markup | v2.5 の「スタイルシートの基本＋カスケード」と「CSSデザイン」の分割を踏襲し、「スタイルの適用規則」（セレクタ・カスケード・継承）と「視覚表現」（レイアウト・色・テキスト・状態に応じたスタイル）の2主題とする。状態系擬似クラス（`:hover`, `:checked` 等）・`cursor`/`outline`・基本トランジションは「状態に応じたスタイル」1節に集約し、擬似クラスはセレクタ構文（3.1）と重複カタログ化しない。 | | 解決 |
+| 章立て | mk L1 にフォーム専用の主題を設けるか？ | Markup | v2.5 で「要素」の1副題だったインタラクティブ要素（1.3.3）を主題「入力とフォーム」に昇格し、部品と構造／送信と宣言的バリデーション／入力の補助と出力表示の3副題で構成。問い合わせフォーム等の実務頻度に対して v2.5 の解像度が低かったため。 | | 解決 |
+| 章立て | v2.5 Level 1「1.8 APIの基礎知識」全体を新プログラミング L1 でどう扱うか？ | Programming | 主題としては廃止。Fetch API・モジュールと配布・セキュリティ・Web Storage 等に再分配。旧 1.8.1 マルチメディア/グラフィックス、1.8.3 オフライン/ストレージ概要、1.8.4 通信系 API 概要（WebSocket/SSE 等）は L2 へ。MediaDevices はセキュリティ節（API 権限とデバイスアクセス）に残存。 | | 解決 |
+| 項目修正 | v2.5 Level 1 1.3.3 の「フレーム」について、frameタグはHTML5で非推奨になっているので、書き方を変えたい。どうすると良いか？ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。(インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそも[HTML Standardのインタラクティブ要素の分類](https://html.spec.whatwg.org/multipage/dom.html#interactive-content)と、1.3.3の分類は必ずしも一致していない。iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) | Markup | 旧「フレーム」概念の独立副題は設けない。`iframe` と混在コンテンツはメディア節（Webフォントと埋め込み）で扱う。 | | 解決 |
 | 項目修正 | v2.5 Level 1 1.4.1 > フルードグリッド → Fluid GridはW3CやWHATWG発祥の言葉やCSSではなく[一有識者の言葉のようなので]( https://ebisu.com/note/grid-system-and-css-grid/)、記載を改めるべきか？おそらくここで想定される具体的な実装はfloatだと思うので、Flexbox, CSS Grid の要不要とも関連する。 | Markup | Fluid Grid は具体的な Web 標準技術ではなく、抽象的な設計概念のため試験に含めない | | 解決 |
 | 項目修正 | v2.5 Level 1 1.5.2 > 加速度センサーの記載に対応する重要な技術要素としてDeviceMotion Eventが記載ない。不釣り合いでは？ ジャイロの方は主要な知識範囲の方に「ジャイロ」、重要な技術要素の方にDeviceOrientation Eventと併記されている。 | Programming | 現在の Web 開発における重要性は低下しているため削除 | | 解決 |
 | 項目修正 | v2.5 ではJSONが単なるグローバル関数として出ている。プログラミング2試験にするのならjsonというフォーマットについてももう少し取り上げるべき？ | Programming | (今時点でJSON.parse/stringifyも書いてないので、どこかに書き足す)JSON オブジェクト内にJS内の記述差異と併せて追記 | | 解決 |
@@ -69,9 +75,11 @@
 | 項目修正 | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | Programming | 取り下げる | (事務局内判断) | 解決 |
 | 項目修正 | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate)| Programming | 範囲に含めていない | | 解決 |
 | 項目修正 | [console.profile()は非標準](https://developer.mozilla.org/ja/docs/Web/API/console/profile_static) | Programming | ひとまず削除 | | 解決 |
-| 項目修正 | v2.5 Level 1 の 1.2.2 にWebフォント (`@font-face`) がそっけない1行で記載されていたが、新試験ではどの試験・レベルに配置し、どの程度掘り下げるか？ | Markup | 現場での利用頻度が高い（Webフォントは多数のサイトで利用されている（要出典））ことを根拠に、マークアップ Level 1 (1.4.4) に配置。`@font-face` の基本構文・WOFF2/WOFF形式・`font-display` プロパティを追記し、ローカルフォントとの違い（非同期読み込みによる表示遅延）にも言及。 | | |
-| 新トピック | 可変フォント (`font-variation-settings` 等) は v2.5 に未言及だが、新試験でどのレベルに追加するか？ | Markup | 発展的な CSS 技術として、マークアップ Level 2 (2.2.5) に配置。Level 1 のWebフォント節と接続する形で学習順序を整理。 | | |
-| 項目修正 | v2.5 Level 1 の 1.2.2 にマルチカラムレイアウト (`column-*`) が記載されていたが、新試験でどのレベルに配置するか？ | Markup | 利用頻度が低くニッチな用途（雑誌・新聞スタイル）のため、マークアップ Level 2 (2.2.1) に移動。 | | |
-| 内容増減 | v2.5 1.2.3「CSSカスケード」には継承の記述がなかったが、新 Level 1 1.3.2「カスケードと継承」で継承を追加することは適切か？また重要度を 2→5 に引き上げることは妥当か？ | Markup | 継承はカスケードと不可分の概念であり、セレクタや詳細度と並んでスタイルの適用順序を決定する基礎知識として必須のため追加。重要度については、スタイルシート全体の挙動に関わる基礎理論であることを理由に高めに設定。Level 1 全体の重要度合計を 60 に揃える調整の中で最終値を決定する。 | | |
-| 内容増減 | v2.5 にない CSS インタラクション系プロパティ（`cursor`, `pointer-events`, `user-select`, `outline`）を Level 1 に新設するか？ | Markup | `cursor` と `outline` はフォーカス可視化・操作感の基礎として実務頻度が高く Level 1 に追加が妥当。`pointer-events`, `user-select` は挙動制御として同節にまとめることで学習効率が上がるため併せて追加。1.4.2「インタラクション」として 1.4 CSSデザイン節内に新設。 | | |
-| 内容増減 | CSS全域キーワード（`inherit`, `initial`, `unset`, `revert`）と `all` プロパティは新試験でどのレベルに追加するか？ | Markup | 動作を知るだけでなく「どのシーンでどのキーワードを選ぶか」の判断力が問われるため Level 2 向きと判断。カスタムプロパティとは別概念なので 2.3.1 には入れず、新たに 2.3.5「カスケードキーワードの使い分け」節を設けて配置。現行 v2.5 には記載なし（新規追加トピック）。 | | |
+| 項目修正 | v2.5 Level 1 の 1.2.2 にWebフォント (`@font-face`) がそっけない1行で記載されていたが、新試験ではどの試験・レベルに配置し、どの程度掘り下げるか？ | Markup | 現場での利用頻度が高いことを根拠に、マークアップ Level 1 のメディア節（Webフォントと埋め込み）に配置。`@font-face` の基本構文・WOFF2/WOFF形式・`font-display` プロパティを追記し、ローカルフォントとの違い（非同期読み込みによる表示遅延）にも言及。 | | |
+| 新トピック | 可変フォント (`font-variation-settings` 等) は v2.5 に未言及だが、新試験でどのレベルに追加するか？ | Markup | 発展的な CSS 技術として、マークアップ Level 2 に配置。Level 1 のWebフォント節と接続する形で学習順序を整理。 | | |
+| 項目修正 | v2.5 Level 1 の 1.2.2 にマルチカラムレイアウト (`column-*`) が記載されていたが、新試験でどのレベルに配置するか？ | Markup | 利用頻度が低くニッチな用途（雑誌・新聞スタイル）のため、マークアップ Level 2 に移動。 | | |
+| 内容増減 | v2.5 1.2.3「CSSカスケード」には継承の記述がなかったが、新 Level 1「カスケードと継承」で継承を追加することは適切か？また重要度を引き上げることは妥当か？ | Markup | 継承はカスケードと不可分の概念であり、セレクタや詳細度と並んでスタイルの適用順序を決定する基礎知識として必須のため追加。重要度は v2.5 の 2 から引き上げたうえで、試験全体の重要度合計（55）とのバランスで最終値を 3 とした。 | | |
+| 内容増減 | v2.5 にない CSS の操作・状態系プロパティ（`cursor`, `pointer-events`, `user-select`, `outline`）および基本トランジションを Level 1 に置くか？ | Markup | `cursor` と `outline` はフォーカス可視化・操作感の基礎として実務頻度が高く Level 1 に追加が妥当。`pointer-events`, `user-select`、状態系擬似クラス、基本的な `transition-*` も「状態に応じたスタイル」節にまとめる。基本トランジションは状態変化の平滑化として状態スタイルと不可分のため Level 1 に残す。 | | |
+| 項目修正 | v2.5 Level 1 1.2.2 にあった変形（`transform`）とキーフレームアニメーション（`@keyframes`/`animation`）は新試験でどのレベルに置くか？ | Markup | Level 2 に移動。(1) 上下左右中央配置などレイアウトのハック的手段としての `transform` は Flexbox/Grid に代替され、Level 1 必修の根拠を失った。(2) MDN 学習カリキュラムも Transform & animate CSS を Core ではなく Extension（発展）に配置しており、freeCodeCamp でも最終盤のモジュール。残る用途は表現の強化であり Level 2 の高度なアニメーション節と同じ棚が適切。**v2.5 で Level 1 だった項目の Level 2 昇格ケース**である点は移行影響の検討対象。 | [MDN Curriculum: Transform & animate CSS](https://developer.mozilla.org/en-US/curriculum/extensions/transform-and-animate-css/) | 解決 |
+| 項目追加 | フォーム関連を Level 1 でどこまで具体化するか？（input type カタログ、宣言的検証の表示、入力補助要素） | Markup | 「入力とフォーム」主題の新設に伴い追加: input type の使い分け（テキスト系・数値日時系・選択ファイル系）、検証状態の表示（`:valid`, `:invalid`, `:user-invalid`, `:required`, `:optional`）、`datalist`・`output`・`progress`・`meter`、`autocomplete` トークン、`tabindex`、`label` の関連付け。いずれも全ブラウザ対応済みの標準機能で、フォーム実務の基本作業に対応する。details/summary・dialog は Level 2 の既存配置を維持（dialog は JS 前提が強い）。 | | 解決 |
+| 内容増減 | CSS全域キーワード（`inherit`, `initial`, `unset`, `revert`）と `all` プロパティは新試験でどのレベルに追加するか？ | Markup | 動作を知るだけでなく「どのシーンでどのキーワードを選ぶか」の判断力が問われるため Level 2 向きと判断。カスタムプロパティとは別概念なので、カスケードキーワードの使い分けとして Level 2 に配置。現行 v2.5 には記載なし（新規追加トピック）。 | | |
