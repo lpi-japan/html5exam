@@ -317,6 +317,7 @@
 <details><summary>メモ</summary><div>
 
 - 変形（`transform`）やキーフレームアニメーションは Level 2 で扱う（v2.5 では Level 1 1.2.2 に掲載）。
+- 状態系擬似クラス（`:hover`, `:checked` 等）は本節に集約し、セレクタ構文（3.1 節）とは重複カタログ化しない。
 
 </div></details>
 
