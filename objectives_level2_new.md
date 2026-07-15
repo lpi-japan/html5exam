@@ -74,16 +74,20 @@ Web システムのフロントエンドを中心に、機能・非機能の要�
 - 動的挙動を管理するARIA属性を理解し、実装できる
   - `aria-controls`, `aria-expanded`, `aria-selected`, `aria-checked`, `aria-live`, `aria-atomic`, `aria-busy`
 
-### 2.2. ユーザーインタラクション実装 (重要度: 4)
+### 2.2. モーダルとフォーカス制御 (重要度: 4)
 出題種別: 知識問題、コードリーディング問題、記述問題
+
+<details><summary>メモ</summary><div>
+
+- 宣言的な開閉 UI（`details`/`summary`）はマークアップ Level 1（5.3 節）で扱う（境界基準に基づき移設。改訂概要 3.3 参照）。
+
+</div></details>
 
 #### 概要
 
-- インタラクティブ要素を応用し、折りたたみ UI やモーダルダイアログを実装できる。
+- フォーカス制御とアクセシビリティに配慮したモーダルダイアログを実装できる。
 
 #### 詳細
-- 詳細折りたたみ要素を利用した UI を実装する
-  - `<details>`, `<summary>`
 - モーダルダイアログを実装する
   - `<dialog>` 要素のライフサイクルとイベント
   - `inert` 属性
@@ -308,6 +312,27 @@ Web システムのフロントエンドを中心に、機能・非機能の要�
 - requestAnimationFrameとsetIntervalの違い
 - リフレッシュレートとの関係
   - requestAnimationFrame(), cancelAnimationFrame()
+
+### 5.7. カメラ・マイクと MediaStream (重要度: 2) / 旧 L1 1.5.2 <!-- 重要度は仮 -->
+出題種別: 知識問題、コードリーディング問題、記述問題
+
+<details><summary>メモ</summary><div>
+
+- デバイスアクセスに共通する権限モデルとセキュアコンテキスト要件はプログラミング Level 1（7.2 節）で扱う。
+- 取得した MediaStream の WebRTC への接続は 14.3 節で扱う。EME（DRM 再生）の扱いは未決（decision_records 参照）。
+
+</div></details>
+
+#### 概要
+- カメラ・マイクからのメディア取得と、取得したストリームの表示・制御を実装できる。
+
+#### 詳細
+- `navigator.mediaDevices.getUserMedia()` によるメディア取得
+  - 映像・音声の制約（constraints）の指定
+  - 許可拒否・デバイス不在時のエラーハンドリング
+- MediaStream の基本操作
+  - `video` 要素への接続（`srcObject`）
+  - トラックの取得・停止
 
 ## 6. プログラム構造の応用
 

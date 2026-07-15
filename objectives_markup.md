@@ -354,6 +354,13 @@
   - `:valid`, `:invalid`, `:user-invalid`, `:required`, `:optional` などによる検証状態に応じたスタイル指定
 
 ### 5.3. 入力の補助と出力表示 (重要度: 2)
+
+<details><summary>メモ</summary><div>
+
+- `details`/`summary` は改訂概要 3.3 の境界基準（宣言的・全ブラウザ安定・汎用）に基づき Level 2 から移設。JavaScript が前提となる `dialog` は Level 2 のまま。
+
+</div></details>
+
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
@@ -365,6 +372,8 @@
   - `autocomplete` の主なトークン（`name`, `email`, `tel`, `postal-code` 等）
 - 出力・状態の表示
   - `output`, `progress`, `meter`
+- 宣言的な開閉 UI
+  - `details`, `summary` による折りたたみ表示と `open` 属性
 - フォーカスと入力順
   - `tabindex` によるフォーカス順の制御の基本
 
