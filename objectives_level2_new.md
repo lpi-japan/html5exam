@@ -1,6 +1,6 @@
 # Web プロフェッショナル Level 2 出題範囲（統合作業版） <!-- omit in toc -->
 
-> 本ファイルは `objectives_markup.md` と `objectives_programming.md` の Level 2 記載を、内容を変更せずそのまま移設した統合作業用ファイルである。Level 2 の試験分割・内容整理は今後行う。出題範囲本文は出典ごとの見出し（`# 2. ...`）をそのまま残している。脚注定義は移設元の Level 2 末尾のものを保持しており、一部（`[^aria-in-html]` / `[^accname-1.1]`）は移設元 Level 1 からも参照されるため出典側にも残してある。
+> 本ファイルは `objectives_markup.md` と `objectives_programming.md` の Level 2 記載を移設した統合作業用ファイルである（再編作業中）。出題範囲本文は当面、出典ごとの見出し（`# 2. ...`）を残している。脚注定義は移設元の Level 2 末尾のものを保持しており、一部（`[^aria-in-html]` / `[^accname-1.1]`）は移設元 Level 1 からも参照されるため出典側にも残してある。
 
 ---
 
@@ -438,7 +438,7 @@
 - Canvasとの違い
   - ベクター描画, XML, <svg>要素
 
-### 2.3.3. Timing control for script-based animations (重要度: 2) / 旧 2.3.3
+### 2.3.3. Animation frames (重要度: 2) / 旧 2.3.3（Timing control for script-based animations）
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
@@ -569,7 +569,7 @@
 - サーバーから切断された時の挙動
   - EventSource, onmessage, onerror
 
-### 2.6.4. Geolocation API / 旧 2.7.1
+### 2.6.4. Geolocation API (重要度: 2) / 旧 2.7.1
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
