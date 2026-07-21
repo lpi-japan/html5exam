@@ -803,8 +803,14 @@ Web システムのフロントエンドを中心に、機能・非機能の要�
 ### 14.2. クライアントストレージとファイル (重要度: 2) / 旧 2.5.2・2.5.3・2.5.4
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<details><summary>メモ</summary><div>
+
+- ドラッグ＆ドロップイベント自体（登録・伝播・既定動作）はプログラミング Level 1（5.3 節）で扱う。本節はファイル取得との組み合わせに限る。
+
+</div></details>
+
 #### 概要
-- 構造化データの永続化と、ローカルファイル・バイナリデータの読み書きの基本を理解している。
+- 構造化データの永続化と、ローカルファイル・バイナリデータの読み書き（ファイル選択およびドラッグ＆ドロップによる受け取りを含む）の基本を理解している。
 
 #### 詳細
 - Indexed Database API の特徴と Web Storage との違いを理解し、オブジェクトストアへの基本的な読み書きができる。
@@ -812,10 +818,8 @@ Web システムのフロントエンドを中心に、機能・非機能の要�
 - File API でローカルファイルを選択・読み込みできる（セキュリティ上の制限を含む）。
   - `FileList`, `FileReader`, `readAsText()`, `readAsDataURL()`
   - `<input type="file">` による選択との関係
-- ドラッグ＆ドロップでローカルファイルを受け取る流れを理解している。
-  - `dragenter`, `dragover`, `dragleave`, `drop`
-  - `DataTransfer` / `DataTransferItemList` から `File` を取り出す概要
-  - ドロップ時の既定動作の抑止（`preventDefault`）が必要な理由
+- ドラッグ＆ドロップと File API を組み合わせ、ドロップされたローカルファイルを読み込める。
+  - `DataTransfer` / `DataTransferItemList` から `File` / `FileList` を得る流れ
 - バイナリデータの基本型と代表的な形式変換を理解している。
   - `ArrayBuffer`, `TypedArray`, `Blob`
   - `blob.arrayBuffer()`, `btoa()` / `atob()` の用途
