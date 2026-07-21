@@ -19,8 +19,8 @@
 - **コレクションとデータ** — 配列の走査・変換・集約や JSON、文字列操作を理解し、データの構造や変換が及ぼす影響を読み取って、利用場面を判断できる。
 - **動的 Web ページの構成要素** — HTML・CSS・JavaScript・通信の役割分担とクライアント・サーバの分担を理解し、スクリプトが組み込まれた HTML 文書の構成と実行の流れを読み取れる。
 - **モジュールと配布** — ES Modules やパッケージ管理、バンドルと配布の流れ、それらを支える開発の道具立てを理解し、依存や配布が及ぼす影響を読み取って、構成を判断できる。
-- **操作への応答** — イベントと DOM 操作の仕組みを理解し、ユーザー操作に応じた画面の変化を読み取れる。
-- **入力とフォーム** — フォーム入力値の取得と制約検証 API による検証、送信の制御を理解し、入力の扱いが送信内容に与える影響を読み取れる。
+- **操作への応答** — イベントの発生・伝播と DOM 操作の仕組みを理解し、ユーザー操作に応じた画面の変化を読み取れる。
+- **入力とフォーム** — フォーム入力値の取得と制約検証 API による検証、入力・送信に伴うイベントの適用を理解し、入力の扱いが送信内容に与える影響を読み取れる。
 - **非同期処理と通信** — 非同期処理の仕組みと制約、Fetch などの Web API を通じたクライアント・サーバ連携の前提（セキュアコンテキスト、CORS 等を含む）を理解し、待ち状態やエラーが生じる場面を見通して利用判断ができる。
 - **セキュリティ** — 実行コンテキストや API 制約がスクリプトの振る舞いに与える影響を理解し、安全な利用の観点を踏まえて判断できる。
 
@@ -179,6 +179,7 @@
 <details><summary>メモ</summary><div>
 
 - `type="module"` による読み込みは 4.1 節で扱う。
+- 読み込み完了を契機にリスナーを登録する話（`DOMContentLoaded` / `load`）は 5.3 節で扱う。
 
 </div></details>
 
@@ -254,6 +255,12 @@
 ### 5.1. DOM の基本操作 (重要度: 2) / 旧 2.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<details><summary>メモ</summary><div>
+
+- ユーザ操作を契機に DOM を更新する流れでは、5.3 節のイベント登録と組み合わせて用いる。
+
+</div></details>
+
 #### 概要
 - DOM を利用して、HTML の要素を取得・操作できる。
 
@@ -288,26 +295,39 @@
 ### 5.3. イベントの基本 (重要度: 2) / 旧 2.2.1
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<details><summary>メモ</summary><div>
+
+- フォーム入力・送信におけるイベントの選び方と適用は 6.1・6.2 節で扱う。
+- スクリプトの記述位置・`defer`/`async` による実行タイミングは 3.2 節で扱う。文書やリソースの読み込み完了を契機にした処理の登録は本節。
+- カスタムイベントの作成・発行は Level 2（DOM 応用）で扱う。
+
+</div></details>
+
 #### 概要
-- EventTarget インターフェースによるイベントハンドリングの流れを理解している。
-- JavaScriptのページ読み込みや、ユーザ操作によって発生するイベントの発生タイミングと処理方法を理解し、様々なイベントを理解して処理を記述できる。
+- ユーザ操作や読み込みに伴うイベントの発生と伝播を読み取り、適切なタイミングで処理を登録できる。
 
 #### 詳細
-- EventTarget インターフェースによるイベントの登録・解除を理解している。
-  - メソッド（addEventListener(), dispatchEvent(), removeEventListener()）
-- `load` イベントの発生タイミングを理解し、処理を登録できる。
-- フォームイベントを登録し、入力情報を処理できる。
-  - onblur, onchange, oncontextmenu, onfocus, onformchange, onforminput, oninput, oninvalid, onselect, onsubmit
-- キーボードイベントを登録し、入力情報を処理できる。
-  - onkeydown, onkeypress, onkeyup
-- マウスイベント・ドラッグイベントを登録し、入力情報を処理できる。
-  - onclick, ondblclick, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onscroll
-  - ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop
-- タッチ系イベントを登録し、入力情報を処理できる。
-  - touchstart, touchmove, touchend
+- イベントの登録・解除と、ハンドラに渡るイベントオブジェクトの基本を理解している。
+  - `addEventListener()`, `removeEventListener()`
+  - イベントオブジェクトが示す対象や種別の概要（`target` 等）
+- ある操作に対し、どの要素が対象となり、どのように伝播しうるかを読み取れる。
+  - バブリングの概要、親要素での一括処理（イベント委譲）の考え方
+- 既定動作の有無と、`preventDefault()` で止められるもの／止められないものを区別できる。
+- 入力や DOM の変化との前後関係を踏まえ、処理を載せるイベントを選べる。
+- 代表的な契機に処理を登録できる。
+  - 読み込みの完了: `DOMContentLoaded`, `load`
+  - ポインタ操作: `click`（必要に応じて `pointerdown` / `pointerup` 等）
+  - キー入力の段階: `keydown`, `keyup`
+  - スクロール・ホイール: `scroll`, `wheel`
 
 ### 5.4. 基本的なウィンドウ操作 (重要度: 2) / 旧 2.2.3 (一部)
 出題種別: 知識問題、コードリーディング問題、記述問題
+
+<details><summary>メモ</summary><div>
+
+- スクロール位置の操作 API は本節。`scroll` / `wheel` イベントの登録は 5.3 節。Observer との使い分けは Level 2。
+
+</div></details>
 
 #### 概要
 - ウィンドウオブジェクト (window) に直接実装されている主要な機能を使いこなせる。
@@ -334,18 +354,31 @@
 <details><summary>メモ</summary><div>
 
 - フォーム要素・属性の宣言的な記述はマークアップ試験（5.1・5.2 節）で扱う。
+- イベントの伝播・既定動作の一般則は 5.3 節。本節はフォーム入力への適用。
 
 </div></details>
 
 #### 詳細
-- フォーム入力の制御とバリデーションができる。
-  - フォーム要素の値の取得 (`element.value`, `element.checked`, `element.selectedIndex`)
-  - 制約検証API (`checkValidity()`, `reportValidity()`, `setCustomValidity()`)
-  - バリデーション属性 (`required`, `pattern`, `minlength`, `maxlength`, `optional`)
-  - バリデーション擬似クラス (`:valid`, `:invalid`)
+- フォーム入力の値を取得できる。
+  - `element.value`, `element.checked`, `element.selectedIndex`
+- 入力の変化に応じて処理を登録できる。
+  - 入力中の変化: `input`
+  - 値の確定: `change`
+  - フォーカスの移動: `focus`, `blur`
+- 制約検証 API と、検証結果の表示制御を利用できる。
+  - `checkValidity()`, `reportValidity()`, `setCustomValidity()`
+  - バリデーション属性（`required`, `pattern`, `minlength`, `maxlength` 等）
+  - バリデーション擬似クラス（`:valid`, `:invalid`）
 
 ### 6.2. フォーム送信の制御とデータ収集 (重要度: 2) / 旧 2.2.2 (一部)
 出題種別: 知識問題、コードリーディング問題、記述問題
+
+<details><summary>メモ</summary><div>
+
+- `preventDefault()` の一般的な意味は 5.3 節。本節はフォーム送信の抑止への適用に限る。
+- 宣言的な送信（`method` / `action`）はマークアップ試験（5.2 節）で扱う。
+
+</div></details>
 
 #### 概要
 - フォーム送信の制御と、送信データの収集・保持を JavaScript から行える。
@@ -354,7 +387,9 @@
 - HTML フォーム要素を操作できる。
   - `document.forms` コレクションによるフォーム要素へのアクセス
   - `form.submit()` と `form.reset()` メソッド
-  - `onsubmit` イベントと `preventDefault()` によるサブミット制御
+- 送信を契機にした処理と、既定の送信動作の制御ができる。
+  - `submit` イベント
+  - `preventDefault()` による既定送信の抑止
 - FormData オブジェクトを利用できる。
   - フォームからのデータ収集 (`new FormData(formElement)`)
   - プログラムによるデータ追加 (`formData.append()`)
