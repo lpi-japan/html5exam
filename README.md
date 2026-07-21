@@ -8,15 +8,13 @@ HTML5試験の出題範囲を管理するためのリポジトリ。なお現在
 
 | ファイル | 役割 |
 |---------|------|
-| `改訂概要.md` | 改訂プロジェクトの背景・方針・キーワード割当て・レベル境界の考え方 |
-| `objectives_markup.md` | **新版** マークアップ Level 1 の出題範囲（作成中） |
-| `objectives_programming.md` | **新版** プログラミング Level 1 の出題範囲（作成中） |
-| `objectives_level2_new.md` | **新版** Level 2 の出題範囲（マークアップ・プログラミング統合、再編中） |
-| `en_objectives_markup.md` / `en_objectives_programming.md` | 英語版（新版への追随は未着手） |
-| `objectives_level1.md` / `objectives_level2.md` | **現行版** ver.2.5 の出題範囲（参照用） |
-| `decision_records.md` | 出題範囲の設計判断の履歴と根拠（出題の中身に関する、客観的に判断可能な問いに限る） |
-| `期待される行動例.md` | 出題範囲外だが認定取得者に期待される業務行動の例 |
-| `refs/` `resources/` | 参考資料・旧版メモ |
+| [改訂概要.md](改訂概要.md) | 改訂プロジェクトの背景・方針・キーワード割当て・レベル境界の考え方 |
+| [objectives_markup.md](objectives_markup.md) | **新版** マークアップ Level 1 の出題範囲（作成中） |
+| [objectives_programming.md](objectives_programming.md) | **新版** プログラミング Level 1 の出題範囲（作成中） |
+| [objectives_level2_new.md](objectives_level2_new.md) | **新版** Level 2 の出題範囲（マークアップ・プログラミング統合、再編中） |
+| [objectives_level1.md](objectives_level1.md) / [objectives_level2.md](objectives_level2.md) | **現行版** ver.2.5 の出題範囲（参照用） |
+| [decision_records.md](decision_records.md) | 出題範囲の設計判断の履歴と根拠（出題の中身に関する、客観的に判断可能な問いに限る） |
+| [期待される行動例.md](期待される行動例.md) | 出題範囲外だが認定取得者に期待される業務行動の例 |
 
 ## 作業ルール
 
