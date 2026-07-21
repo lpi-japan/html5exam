@@ -300,6 +300,7 @@
 - フォーム入力・送信におけるイベントの選び方と適用は 6.1・6.2 節で扱う。
 - スクリプトの記述位置・`defer`/`async` による実行タイミングは 3.2 節で扱う。文書やリソースの読み込み完了を契機にした処理の登録は本節。
 - カスタムイベントの作成・発行は Level 2（DOM 応用）で扱う。
+- ファイルのドラッグ＆ドロップは Level 2（14.2 節、File API と合わせて扱う）。
 
 </div></details>
 
@@ -316,9 +317,10 @@
 - 入力や DOM の変化との前後関係を踏まえ、処理を載せるイベントを選べる。
 - 代表的な契機に処理を登録できる。
   - 読み込みの完了: `DOMContentLoaded`, `load`
-  - ポインタ操作: `click`（必要に応じて `pointerdown` / `pointerup` 等）
+  - マウス・ポインタ操作: `click`, `dblclick`, `mousedown`, `mouseup`, `mousemove`, `mouseover`, `mouseout`, `pointerdown`, `pointerup`, `pointermove`
   - キー入力の段階: `keydown`, `keyup`
   - スクロール・ホイール: `scroll`, `wheel`
+  - タッチ操作: `touchstart`, `touchmove`, `touchend`
 
 ### 5.4. 基本的なウィンドウ操作 (重要度: 2) / 旧 2.2.3 (一部)
 出題種別: 知識問題、コードリーディング問題、記述問題
@@ -365,6 +367,7 @@
   - 入力中の変化: `input`
   - 値の確定: `change`
   - フォーカスの移動: `focus`, `blur`
+  - 検証失敗・選択: `invalid`, `select`
 - 制約検証 API と、検証結果の表示制御を利用できる。
   - `checkValidity()`, `reportValidity()`, `setCustomValidity()`
   - バリデーション属性（`required`, `pattern`, `minlength`, `maxlength` 等）
@@ -387,8 +390,8 @@
 - HTML フォーム要素を操作できる。
   - `document.forms` コレクションによるフォーム要素へのアクセス
   - `form.submit()` と `form.reset()` メソッド
-- 送信を契機にした処理と、既定の送信動作の制御ができる。
-  - `submit` イベント
+- 送信・リセットを契機にした処理と、既定の送信動作の制御ができる。
+  - `submit`, `reset` イベント
   - `preventDefault()` による既定送信の抑止
 - FormData オブジェクトを利用できる。
   - フォームからのデータ収集 (`new FormData(formElement)`)

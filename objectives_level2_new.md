@@ -811,6 +811,11 @@ Web システムのフロントエンドを中心に、機能・非機能の要�
   - `IDBFactory.open()`, `IDBDatabase`, `createObjectStore()`
 - File API でローカルファイルを選択・読み込みできる（セキュリティ上の制限を含む）。
   - `FileList`, `FileReader`, `readAsText()`, `readAsDataURL()`
+  - `<input type="file">` による選択との関係
+- ドラッグ＆ドロップでローカルファイルを受け取る流れを理解している。
+  - `dragenter`, `dragover`, `dragleave`, `drop`
+  - `DataTransfer` / `DataTransferItemList` から `File` を取り出す概要
+  - ドロップ時の既定動作の抑止（`preventDefault`）が必要な理由
 - バイナリデータの基本型と代表的な形式変換を理解している。
   - `ArrayBuffer`, `TypedArray`, `Blob`
   - `blob.arrayBuffer()`, `btoa()` / `atob()` の用途
