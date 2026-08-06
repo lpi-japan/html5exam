@@ -330,6 +330,7 @@
 <details><summary>メモ</summary><div>
 
 - スクロール位置の操作 API は本節。`scroll` / `wheel` イベントの登録は 5.3 節。Observer との使い分けは Level 2。
+- `window.postMessage` による閲覧コンテキスト間のメッセージングは Level 2（8.1 節）。
 
 </div></details>
 
