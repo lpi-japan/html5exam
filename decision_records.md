@@ -11,19 +11,31 @@
 
 各行の「論点」列は参照用の短い名前（会話やコミットメッセージからはこの名前で指す）。「現在の判断」はいまの結論または検討メモ。「判断の確度」は次の4値: `(未検討)`（出題範囲本文・キーワード表とも未反映）、`低`、`中`、`高`。出題範囲を一度でも反映したら低以上。採否・配置が再議論の余地なしなら高。問い自体を追わない場合は判断文に「取り下げ」と書き確度は高。範囲外とする確定も判断文に明記し確度は高。重要度（出題ウェイト）の数値判断は本表の対象外とする。
 
+## 現行試験（ver.2.5）からの主要な廃止・除外項目
+
+仕様廃止、言語仕様上の非推奨、主要ブラウザ未実装、または上位代替技術の定着に伴い新試験から除外した項目（これらは表外の共通前提とし、下表では設計判断を要した論点を扱う）：
+
+- **Fluid Grid（フルードグリッド）**: Web 標準の技術ではなく抽象的な設計概念のため除外（旧 L1 1.4.1）
+- **Generic Sensor API**: 主要ブラウザ（Firefox 等）で未実装のため除外（旧 L1 1.5.2）
+- **DeviceOrientation / DeviceMotion Event**: 現代の Web 開発における重要性低下のため除外（旧 L1 1.5.2, L2 2.7.2）
+- **XMLHttpRequest**: Fetch API への置き換えに伴い除外（旧 L1 1.5.4, L2 2.6.2）
+- **`with` 文**: 言語仕様上非推奨のため除外（旧 L2 2.1.1）
+- **`console.profile()` / `console.profileEnd()`**: 非標準 API のため除外（旧 L2 2.2.6）
+- **`File.lastModifiedDate`**: 非推奨 API のため除外（`lastModified` を使用、旧 L2 2.5.3）
+- **Application Cache（`ApplicationCache`）**: 仕様廃止。Service Worker へ置き換え（旧 L2 2.8.3）
+
+## 検討記録表
+
 | 分類 | 論点 | 質問 | 対象試験 | 現在の判断 | 判断の確度 | 会話記録、参考情報など |
 | --- | --- | --- | -------- | ----------- | ---------- | --------------------- |
 | 編成 | **DOM の系統配置** | DOMなど、ブラウザのJS APIだが、目的がマークアップ寄りのものがある。それはマークアップ系とプログラミング系のどちらに配置するのが自然か？ | Both | プログラミング側に配置で確定（pg L1「操作への応答」主題）。マークアップ寄りの観点は、Shadow DOM の CSS 影響（L2）や `data-*` 属性の定義（mk L1）のように観点単位で mk 側にも置く。 | 高 |  |
 | 編成 | **プロトコル系の配置** | HTTP, cookie, CORS, HTTP3など、インフラに近いものがある。それはマークアップ系とプログラミング系のどちらに配置するのが自然か？ | Both | mk L1 主題1「通信の基礎」に HTTP・URL・ヘッダ・Cookie/セッションを集約（読み取り中心。HTTP/3 は含めない）。CORS・セキュアコンテキストなど実装寄りは pg L1 主題8に集約（L2 専用副題は設けない）。 | 高 |  |
 | 編成 | **セキュリティの配置** | (上記とも似るが) セキュリティ関連はどちらに配置するのが自然か？ | Both | v2.5 での散在を解消し、キーワード表「セキュリティ」行の分担で確定: mk L1 は ○（HTTPS・混在コンテンツ・`iframe` 埋め込み）、pg L1 は ◎（主題8: セキュアコンテキスト・オリジン・CORS・API 権限・依存の取り込み）、L2 は ◎（主題12: CSP・サプライチェーン等＋主題11 認証・認可。CORS は pg L1 8.1）。 | 高 |  |
-| 編成 | **ITベーシックでの代替** | (上記の続き) プロトコル関連はITベーシック教材の存在を前提とすることで本認定内での言及を減らしたりできないか？ | Both | ざっとITベーシック側の言及を整理した限りではどれも浅すぎて難しそう | 高 | [通信プロトコル周りのITベーシック言及調査](./resources/通信プロトコル周りのITベーシック言及調査.md) |
+| 編成 | **ITベーシックでの代替** | プロトコル関連は IT ベーシック教材の存在を前提とすることで本認定内での言及を減らせないか？（協力者提案） | Both | IT ベーシック側の言及水準が概論に留まり、本試験で要求する通信基礎（ヘッダー・Cookie・CORS 等の動作理解）の前提として代替させるのは困難と判断。マークアップ L1 主題1およびプログラミング L1 主題8に明示的に配置する。 | 高 | [通信プロトコル周りのITベーシック言及調査](./resources/通信プロトコル周りのITベーシック言及調査.md) |
 | 編成 | **Web Components の配置** | Web Componentなど、主にUIのための技術だがJSなしに語れない要素をどうするか？ | Both | Web Component自体はプログラミング側に設置する。ただし、Shadow DOM が CSS に与える影響を理解することは、マークアップの観点からも重要度があるためその観点だけマークアップにも追加 | 高 |  |
 | 編成 | **mk の L1/L2 境界** | マークアップ系のLevel1/2の大まかな境界はどの辺にあるか？ | Markup | もともとLevel1にあるレスポンシブ (メディアクエリなど) に加えて Flexbox, Grid の基礎くらいまでがLevel1のイメージ。制作者がPCでUI作っていてもユーザーの多くがスマホからというケースもあるはずで、入門したならレスポンシブ対応はできてほしいという考え。→ 最終的な判定基準は改訂概要 3.3「レベル1とレベル2の境界の考え方」に明文化。 | 高 |  |
 | 編成 | **ARIA の L1/L2 分担** | アクセシビリティはマークアップ Level 1/2 でどう分ける？ | Markup | 現状ARIAの一部だけLevel1にしているが、ARIAはすべてLevel2というのもあり得るか？ → 現行分担（mk L1 はランドマーク・名前付け等の静的な基本 ARIA、L2 は widget role・動的 ARIA・フォーカス制御）を維持で確定。基本 ARIA は汎用の基本作業としてレベル境界の判断基準（改訂概要 3.3）に照らして L1 側で整合するため。 | 高 |  |
 | 編成 | **pg の L1/L2 境界** | プログラミング系のLevel1/2の大まかな境界はどの辺にあるか？ | Programming | 当初は「Level1がJS単体の基本文法多め、Level2がWeb API多め」というイメージ。→ その後の再編で pg L1 は文法に加えて DOM・通信・フォーム・モジュール・セキュリティを含む7主題となり、最終的な判定基準は改訂概要 3.3 に明文化。 | 高 |  |
-| 編成 | **系統間の共通問題** | markupがwebの話スタートで、programmingはjsの話スタートだから、jsのlv1ににセキュリティーの話の一般論は今今だと起きにくいということも理解しました。共通問題を作ってもよい説ある？ | Both | 取り下げ。話広げすぎたから判断保留で良いです | 高 |  |
-| 編成 | **Canvas/SVG の mk 側言及** | svgやcanvasは現行Level2だったのでprogramming側では言及予定だが、マークアップ側で何も言及しないのは違和感がある。どうするか？ |  | 少なくともcanvasはmarkup側で具体的に問う知識は特にない (canvasタグがあるだけ) | 高 |  |
-| 新トピック | **Node.js の扱い** | Node.js (非ブラウザJS) は取り上げるか？ | Programming | (1) フロントエンド開発時の道具として出てくるNode (npm install, npm run build など) については頻出項目を具体的に触れる。(2) バックエンド開発の言語としてのNode.jsは存在を少し言及する程度になるかもだが、その場合はサーバーサイドAPIの[標準](https://linucopennetwork.slack.com/archives/C065SKNN199/p1738557974924929)を挙げるのが一つの手。~~Fetchなどブラウザと共通になった箇所はブラウザ/Node区別なく出題すればよい？~~→fetch API を単に「ブラウザと Node.js で共通の API」と捉えるのではなく、「元々はブラウザの標準 API であり、Node.js がそれに準拠した実装を提供している API」と理解・表現する方が実態に即している | 高 | (1) [Slack会話](https://linucopennetwork.slack.com/archives/C065SKNN199/p1708433141528049?thread_ts=1708430410.442929&cid=C065SKNN199) |
 | 新トピック | **WebAssembly の採否** | JS以外のフロントエンドコンピューティング技術を出す必要はあるか？具体的にはWebAssemblyなど。 | Programming | 当初は範囲が広く含めないとしたが、L2 のスコープを拡大し「非機能要件への対処法の存在認知」というあたりを加えると試験範囲に入ってよいかもと考えている。この位置づけで L2 パフォーマンス主題に「WebAssembly の概要」節を仮設置（使われる場面の認識と JavaScript との役割分担の概要に限定。WAT・ツールチェーン・他言語ビルドは扱わない）。スコープ拡大の当否も含め検討中。キーワード表パフォーマンス行にも「WebAssembly（概要）」を記載済み。 | 低 |  |
 | 新トピック | **フレームワーク内包機能の採否** | 「フレームワーク」と呼ばれるような物に内包されている機能について、Web標準に含まれなくても何らかの形で出題するか？具体的には、リアクティブプログラミング、コンポーネント、ルーティング、モジュールバンドリング (polyfill, minify, tree shaking, 難読化) など。もし入れる場合、どんな趣旨の問題になるか？ | Programming | polyfillは「未実装のWeb標準機能を利用するためのラッパー」という側面があることから、2.1.1. モジュールとパッケージ管理に追加。 | 高 |  |
 | 新トピック | **Flexbox/Grid の追加** | Flexbox, CSS Grid がないが入れるべきか？ | Markup | (あった方が良いと思う。)→専用セクションで追加 | 高 |  |
@@ -60,12 +72,6 @@
 | 項目修正 | **プロトタイプと Proxy** | v2.5 2.1.1 JavaScript文法 に 「プロパティの追加・削除などの操作方法や、プロトタイププロパティの利用方法について理解している」とあるが、ES6 class が普通に使えるようになった現代でまだやるのか？Level2でリアクティブか何か特別な文脈の中でdefinePropertyを出すくらいでよいのでは？ むしろ入れるとしたらProxyを入れるべきでは？definePropertyの代わりという意図の他にも、Vueなどのフレームワークの仕組みの理解、[透過的なアクセス制御・キャッシュ等の実装手段として](https://blog.bitsrc.io/proxy-design-pattern-with-react-c0b465980fbf)、などいくつかモチベがある。 | Programming | v2.5で強調されていた「プロパティの追加・削除の操作方法やプロトタイププロパティ」への直接的な言及はなし。Proxyを追加 | 高 |  |
 | 章立て | **mk L1 のフォーム主題** | mk L1 にフォーム専用の主題を設けるか？ | Markup | v2.5 で「要素」の1副題だったインタラクティブ要素（1.3.3）を主題「入力とフォーム」に昇格し、部品と構造／送信と宣言的バリデーション／入力の補助と出力表示の3副題で構成。問い合わせフォーム等の実務頻度に対して v2.5 の解像度が低かったため。 | 高 |  |
 | 章立て | **旧 API 概要の再分配** | v2.5 Level 1「1.5 APIの基礎知識」全体を新プログラミング L1 でどう扱うか？ | Programming | 主題としては廃止。Fetch API・モジュールと配布・セキュリティ・Web Storage 等に再分配。旧 1.5.1 マルチメディア/グラフィックス、1.5.3 オフライン/ストレージ概要、1.5.4 通信系 API 概要（WebSocket/SSE 等）は L2 へ。MediaDevices はセキュリティ節（API 権限とデバイスアクセス）に残存。 | 高 |  |
-| 項目修正 | **フレームの扱い** | v2.5 Level 1 1.3.3 の「フレーム」について、frameタグはHTML5で非推奨になっているので、書き方を変えたい。どうすると良いか？ページ分割の要素・タグではなく概念として「フレーム」と呼称しているとしても、フレーム (iframe) みたいな標記の方がよいかも。(インタラクティブ要素の一員として出すのが最適かは再考の余地あり。そもそも[HTML Standardのインタラクティブ要素の分類](https://html.spec.whatwg.org/multipage/dom.html#interactive-content)と、1.3.3の分類は必ずしも一致していない。iframeはusemapを併用した場合と注意書きがある。Embedded contentの方が妥当だろう) | Markup | 旧「フレーム」概念の独立副題は設けない。`iframe` と混在コンテンツはメディア節（Webフォントと埋め込み）で扱う。 | 高 |  |
-| 項目修正 | **フルードグリッドの扱い** | v2.5 Level 1 1.4.1 > フルードグリッド → Fluid GridはW3CやWHATWG発祥の言葉やCSSではなく[一有識者の言葉のようなので]( https://ebisu.com/note/grid-system-and-css-grid/)、記載を改めるべきか？おそらくここで想定される具体的な実装はfloatだと思うので、Flexbox, CSS Grid の要不要とも関連する。 | Markup | Fluid Grid は具体的な Web 標準技術ではなく、抽象的な設計概念のため試験に含めない | 高 |  |
-| 項目修正 | **加速度センサーの扱い** | v2.5 Level 1 1.5.2 > 加速度センサーの記載に対応する重要な技術要素としてDeviceMotion Eventが記載ない。不釣り合いでは？ ジャイロの方は主要な知識範囲の方に「ジャイロ」、重要な技術要素の方にDeviceOrientation Eventと併記されている。 | Programming | 現在の Web 開発における重要性は低下しているため削除 | 高 |  |
-| 項目修正 | **JSON の扱い** | v2.5 ではJSONが単なるグローバル関数として出ている。プログラミング2試験にするのならjsonというフォーマットについてももう少し取り上げるべき？ | Programming | (今時点でJSON.parse/stringifyも書いてないので、どこかに書き足す)JSON オブジェクト内にJS内の記述差異と併せて追記 | 高 |  |
-| 項目修正 | **Generic Sensor の扱い** | v2.5 [Generic Sensor APIはFirefoxで対応しないらしい](https://qiita.com/rana_kualu/items/8803f02c72a54f366f2a)が、残すのか？ | Programming | 削除 | 高 |  |
-| 項目修正 | **XHR→Fetch 置換** | v2.5 Level 2 2.6.2 でXMLHttpRequestがあるが、fetch APIに置き換えるか？併記するか？ | Programming | 今後新たに使うことは少なく、Fetchでできないことはないだろうということで試験範囲から削除する | 高 |  |
 | 項目修正 | **WS/SSE の L1 での扱い** | XMLHttpRequest → fetch について、Level1 の「1.5.4 通信系API概要」でも fetch に寄せたが、そこにもともと併記されていた WebSocket、Server-Sent Event をどうするか？Level1 に Level2 全体を広く浅く言及する形式を残すにしても、具体的にどこまで問うのかは明記すべき | Programming | 新 pg L1 では「広く浅く言及する」形式は残さない。WebSocket・Server-Sent Events は L2 14.1（リアルタイム通信）に集約し、pg L1 の通信は Fetch API に絞る。 | 高 |  |
 | 項目修正 | **for of / for in** | v2.5 ではfor inしかないので、for ofを加えるべきでは？またfor inは[削除しても良いのでは？](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/for...in#%E9%85%8D%E5%88%97%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E3%81%A8_for...in) | Programming | for ofは入れたい。for inはどうするか未決。for await...ofというのもあるようです。for inは現時点でESでdropされてないため削除しない | 高 |  |
 | 項目修正 | **Animation frames 改名** | v2.5 Level 2 2.3.3「Timing control for script-based animations」は、現在はHTMLの「Animation frames」となっているので、名称変更すべきか？ ([以前](https://www.w3.org/TR/animation-timing/) , [現在](https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames) | Programming | 名称変更する。`objectives_level2_new.md` の該当節見出しを「Animation frames」に更新済み（旧称は括弧で併記）。 | 高 |  |
@@ -76,10 +82,6 @@
 | 項目追加 | **ウィンドウ寸法・スクロール** | キーワード表 L2 環境差行の「ウィンドウオブジェクトの寸法・スクロール」に対応する内容が L2 本文にない。どこに置くか？ | Programming | L2 8.1（DOM応用）に配置。ウィンドウ・要素の寸法とスクロール位置の取得（`getBoundingClientRect()`・`scrollIntoView()`）、`resize`/`scroll` イベントと Observer 系 API の使い分けを追記。基本操作は pg L1 5.4 が担う階層分担をメモで明示。 | 高 |  |
 | 項目追加 | **getUserMedia・EME の対応** | キーワード表 L2 メディア行の `getUserMedia`・MediaStream・EME に対応する内容が L2 本文にない。追加するか？ | Programming | `getUserMedia`/MediaStream はレベル境界の判断基準（改訂概要 3.3）に沿って再整理: pg L1 8.2 は API 横断の権限モデルに限定し、個別 API の利用（constraints 指定・`srcObject` 接続・トラック操作）は L2 メディア主題に 5.7 節「カメラ・マイクと MediaStream」として新設。これでキーワード表 L2 メディア行との対応も取れた。EME（Encrypted Media Extensions）は DRM の運用が前提で出題に適さないため範囲外と確定し、L2 5.7 のメモに明示（キーワード表に対する意図的な非対応として扱う）。 | 低 |  |
 | 項目追加 | **デバッグ行の対応** | キーワード表 L2 デバッグ行 ○「セキュリティ・パフォーマンス調査でのデバッグツール活用」に対応する記載がセキュリティ側（12.1）にしかない。パフォーマンス側にも置くか？ | Programming | L2 13.2 に「開発者ツールのパフォーマンス・ネットワークパネルによるボトルネック調査」を追記し、デバッグ基礎（pg L1 4.3）との階層分担をメモで明示。 | 高 |  |
-| 項目修正 | **Application Cache 置換** | v2.5 Level 2 2.8.3 「オフラインアプリケーションAPI」の「主要な知識範囲」と「重要な技術要素」に、Application Cacheとあるが廃止済み。Level1 と同様Application CacheからService Workersに変更すべきか？ | Programming | (Level1/2の棲み分けはともかく) 変更する。 | 高 |  |
-| 項目修正 | **with 文の削除** | v2.5 2.1.1 JavaScript文法 に with文 とあるが、[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/with)ので取り下げてよいか？ | Programming | 取り下げる | 高 | (事務局内判断) |
-| 項目修正 | **File.lastModifiedDate** | v2.5 2.5.3 File API に記載のFile.lastModifiedDate は[非推奨になっている](https://developer.mozilla.org/ja/docs/Web/API/File/lastModifiedDate) | Programming | 範囲に含めていない | 高 |  |
-| 項目修正 | **console.profile の削除** | [console.profile()は非標準](https://developer.mozilla.org/ja/docs/Web/API/console/profile_static) | Programming | ひとまず削除 | 高 |  |
 | 項目修正 | **Webフォントの配置** | v2.5 Level 1 の 1.2.2 にWebフォント (`@font-face`) がそっけない1行で記載されていたが、新試験ではどの試験・レベルに配置し、どの程度掘り下げるか？ | Markup | 現場での利用頻度が高いことを根拠に、マークアップ Level 1 のメディア節（Webフォントと埋め込み）に配置。`@font-face` の基本構文・WOFF2/WOFF形式・`font-display` プロパティを追記し、ローカルフォントとの違い（非同期読み込みによる表示遅延）にも言及。 | 高 |  |
 | 新トピック | **可変フォントの配置** | 可変フォント (`font-variation-settings` 等) は v2.5 に未言及だが、新試験でどのレベルに追加するか？ | Markup | 発展的な CSS 技術として、マークアップ Level 2 に配置。Level 1 のWebフォント節と接続する形で学習順序を整理。 | 高 |  |
 | 項目修正 | **マルチカラムの配置** | v2.5 Level 1 の 1.2.2 にマルチカラムレイアウト (`column-*`) が記載されていたが、新試験でどのレベルに配置するか？ | Markup | 利用頻度が低くニッチな用途（雑誌・新聞スタイル）のため、マークアップ Level 2 に移動。 | 高 |  |
