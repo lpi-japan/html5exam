@@ -368,6 +368,12 @@
 ### 5.4. グラフィックスとアニメーションフレーム (重要度: 3) / 旧 2.3.1・2.3.2・2.3.3
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<details><summary>メモ</summary><div>
+
+- 旧 v2.5 2.3.3「Timing control for script-based animations」は、Web 標準（HTML Living Standard）上「Animation frames」として引き継がれている。
+
+</div></details>
+
 #### 概要
 - Canvas と SVG の特性を理解して用途に応じて使い分け、アニメーションフレームによるタイミング制御を実装できる。
 
