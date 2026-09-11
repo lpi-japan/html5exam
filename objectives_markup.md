@@ -455,14 +455,15 @@
 - フレックスボックスや CSS Grid の指定が、レイアウトの組み方に与える影響を読み取れる。
 
 #### 詳細
-- フレックスボックスの基本プロパティを理解し、柔軟なレイアウトを組み立てられる。
+- 単一のフレックスコンテナについて、要件どおりに主軸・交差軸の配置を指定する。
   - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `align-content`, `align-self`
-- フレックスボックスの子要素に関する基本プロパティを使い分けられる。
+- 子要素の伸縮・順序を指定し画面サイズに対して適応的にレイアウトする。
   - `flex-grow`, `flex-shrink`, `flex-basis`, `order`
-- CSS Grid の基本プロパティを理解し、シンプルなレイアウトを作成できる。
-  - `display: grid`, `grid-template-rows`, `grid-template-columns`, `gap`, `grid-auto-rows`, `grid-auto-columns`, `grid-auto-flow`
-- グリッドアイテムの配置に関する基本プロパティを使い分けられる。
-  - `grid-row`, `grid-column`, `justify-items`, `align-items`
+- CSS Grid の基本プロパティと典型的な活用シーンを対応付けられる。
+  - 有効化と明示的グリッド指定: `display: grid`, `grid-template-rows`, `grid-template-columns`
+  - 暗黙的グリッドと流し込みの指定: `grid-auto-flow`, `grid-auto-rows`, `grid-auto-columns`
+  - セルの配置と位置ぞろえ: `gap`, `justify-items`, `align-items`
+  - セル結合と重ね合わせ: `grid-row`, `grid-column`
 
 ## 7. メディア
 
