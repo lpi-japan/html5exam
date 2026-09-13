@@ -122,7 +122,7 @@
 
 <details><summary>メモ</summary><div>
 
-- 宣言的な開閉 UI（`details`/`summary`）はマークアップ Level 1（5.3 節）で扱う。
+- 宣言的な開閉 UI（`details`/`summary`）はマークアップ Level 1 で既出。JS と絡む部分のみを追加で挙げる。
 
 </div></details>
 
