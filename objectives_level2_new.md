@@ -178,10 +178,10 @@
 - 書字方向・段組・スクロール動作・回り込み形状など、要件に応じたレイアウト制御の手法を選択し実装できる。
 
 #### 詳細
-- CSS Logical Properties を利用できる。
-  - `inline-*`と`block-*`プロパティ <!-- CSS Logical Properties and Values Level 1 -->
-  - 方向に依存しないレイアウト
-  - 多言語・多方向サイト
+- 言語差に対応するための CSS Logical Properties と従来指定の対応付けを認識している。
+  - `writing-mode`, `direction`, `text-orientation`
+  - プロパティと値: `inline-*` と `block-*`, `*-start` と `*-end` <!-- CSS Logical Properties and Values Level 1 -->
+  - 単位: `vi`, `vb`
 - 多段組レイアウトを実装できる。
   - 基本プロパティ: `column-count`, `column-width`, `column-gap`, `column-rule` <!-- CSS Multi-column Layout Module Level 1 -->
   - 段組コンテンツのバランス調整: `column-fill`, <!-- CSS Multi-column Layout Module Level 1 -->
