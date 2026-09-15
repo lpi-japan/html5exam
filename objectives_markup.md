@@ -260,8 +260,15 @@
 ### 4.1. レイアウト (重要度: 4) / 旧 1.2.2
 出題種別: 知識問題、コードリーディング問題、記述問題
 
+<details><summary>メモ</summary><div>
+
+- より自然な実現方法があるハック的なCSSは積極的に出題しない。z-index でモーダル (→ dialog)、abs + inset props で上下左右中央配置する (→ flex/grid)、など。
+
+</div></details>
+
 #### 概要
-- ボックスモデルと配置の指定が、要素の見え方やレイアウトに与える影響を読み取れる。
+- ボックスモデルと配置に関わる CSS の各プロパティについて、基本用途と効果の組み合わせを理解している。
+- 所望の表示結果が得られない場合の原因を仕様に基づき調査できる。
 
 #### 詳細
 - ボックスモデルの基本構造を理解している。
@@ -275,10 +282,11 @@
   - `box-sizing` <!-- CSS Box Sizing Module Level 3 -->
   - `visibility` <!-- CSS Display Module Level 3 -->
   - `overflow` <!-- CSS Overflow Module Level 3 -->
-- ポジショニングとスタッキングを理解し、配置結果を読み取れる。
-  - `position`: `static`, `relative`, `absolute`, `fixed`, `sticky` <!-- CSS Positioned Layout Module Level 3 -->
-  - `z-index` <!-- Cascading Style Sheets Level 2 -->
-- インライン要素の表示を制御できる。
+- `position` の設定値ごとの挙動の違いを区別し、目的の配置のための CSS を組み立てる。 <!-- CSS Positioned Layout Module Level 3 -->
+  - `position` 設定値と in-flow / out-of-flow の対応: `static`, `relative`, `absolute`, `fixed`, `sticky`
+  - `position` と inset プロパティ (`top`/`right`/`bottom`/`left`, `inset`) の効果の関係
+  - `position` と要素の重なり順の指定方法の関係: `z-index` <!-- Cascading Style Sheets Level 2 -->
+- インライン要素の表示を制御する。
   - `float` と `clear` <!-- Cascading Style Sheets Level 2 -->
 
 ### 4.2. 色と背景 (重要度: 3) / 旧 1.2.2

@@ -49,7 +49,7 @@
 | 項目修正 | **Webフォントの配置** | v2.5 Level 1 の 1.2.2 にWebフォント (`@font-face`) がそっけない1行で記載されていたが、新試験ではどの試験・レベルに配置し、どの程度掘り下げるか？ | Markup | 現場での利用頻度が高いことを根拠に、マークアップ Level 1 のメディア節（Webフォントと埋め込み）に配置。`@font-face` の基本構文・WOFF2/WOFF形式・`font-display` プロパティを追記し、ローカルフォントとの違い（非同期読み込みによる表示遅延）にも言及。 | 高 |  |
 | 新トピック | **可変フォントの配置** | 可変フォント (`font-variation-settings` 等) は v2.5 に未言及だが、新試験でどのレベルに追加するか？ | Markup | 発展的な CSS 技術として、マークアップ Level 2 に配置。Level 1 のWebフォント節と接続する形で学習順序を整理。 | 高 |  |
 | 項目修正 | **マルチカラムの配置** | v2.5 Level 1 の 1.2.2 にマルチカラムレイアウト (`column-*`) が記載されていたが、新試験でどのレベルに配置するか？ | Markup | 利用頻度が低くニッチな用途（雑誌・新聞スタイル）のため、マークアップ Level 2 に移動。 | 高 |  |
-| 項目追加 | **z-index と position** | v2.5 z-index → position (absolute) の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | Markup |  | 高 | 追加済み |
+| 項目追加 | **z-index と position** | v2.5 z-index → position (absolute) 等の記載がなくz-indexが出てくるが、z-indexだけを言及するのは難しい。positionとセットにした方がよいのでは？ | Markup | `position`, inset props, `z-index` をまとめて記載。 | 高 | 追加済み |
 | 項目追加 | **cursor・outline の追加** | CSS利用統計で上位に来る cursor, outline は入れる？ | Markup | Level 1 の「状態に応じたスタイル」節に追加。→ レベル境界の判断基準（改訂概要 3.3）に照らしても、フォーカス可視化・操作感の基礎として L1 側で整合することを確認。 | 高 |  |
 | 項目追加 | **word-wrap 等の追加** | CSS利用統計で上位に来る word-wrap, overflow-wrap は入れる？ | Markup | テキスト、リスト、テーブル節に追加 | 高 |  |
 | 新トピック | **絵文字の扱い** | emojiは？ | Markup | Unicodeに関する副題の中の1要素として追加 | 高 |  |
