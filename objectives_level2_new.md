@@ -389,7 +389,8 @@
   - クロージャ(closure)の概念と活用
 - 配列の平坦化・判定メソッドを理解している。
   - `Array.prototype.flatMap()`, `Array.prototype.some()`, `Array.prototype.every()`
-- Mapオブジェクト, Setオブジェクトを理解している。
+- Mapオブジェクト, Setオブジェクトのデータモデルを理解し、Object・配列との使い分けを判断する。
+  - キーの扱い、要素の順序、一意性、検索にかかる時間
 - 言語や地域（ロケール）に応じたデータ整形・比較ができる。
   - `Intl.Collator` によるロケールを考慮した文字列比較・ソート
   - `Intl.NumberFormat`, `Intl.DateTimeFormat` による数値・日時の多言語整形
