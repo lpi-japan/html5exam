@@ -394,7 +394,6 @@
 - 言語や地域（ロケール）に応じたデータ整形・比較ができる。
   - `Intl.Collator` によるロケールを考慮した文字列比較・ソート
   - `Intl.NumberFormat`, `Intl.DateTimeFormat` による数値・日時の多言語整形
-- ディープコピーを理解している。
 - Proxyを理解している。
   - 基本構文: `new Proxy(target, handler)`
   - 主要トラップ: `get`, `set`
