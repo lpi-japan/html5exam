@@ -159,7 +159,7 @@
 - オブジェクトにメソッドを持たせ、クラスで同種のオブジェクトを生成する。
   - class構文と constructor、インスタンス生成
   - メソッドの定義と、メソッド内でのプロパティ参照（`this`）
-  - 継承、`instanceof` による型の判定
+  - 組み込みオブジェクトにおける継承関係（`Error` と各種エラーなど）と、`instanceof` による型の判定
 - 関数を値として受け渡し、コールバックとして使う。
   - 関数の引数・戻り値としての受け渡し
   - 外側の変数のキャプチャ
@@ -333,6 +333,7 @@
   - ツリー構造
   - `Document` インターフェース, `Element` インターフェース
   - `document` オブジェクト
+  - `Node` / `Element` / `HTMLElement` 系の継承関係と、プロパティやメソッドが定義されている場所
 - 要素を検索・取得する。
   - `getElementById`, `getElementsByClassName`, `getElementsByName`, `getElementsByTagName`
   - `querySelector`, `querySelectorAll`
