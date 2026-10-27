@@ -278,6 +278,7 @@
 
 #### 詳細
 - カスタム要素やShadow DOMを使い、再利用可能な部品を開発できる。
+  - `HTMLElement` を継承したクラスとしてのカスタム要素の定義
 - Shadow DOM の基本概念と CSS スコープへの影響を理解している。
 - Light DOM と Shadow DOM のスタイルの分離と相互作用を理解している。
 - Shadow DOM 固有の CSS 疑似クラスと疑似要素 (`:host`, `:host()`, `::slotted()` など) [^css-scoping-1]を理解している。
