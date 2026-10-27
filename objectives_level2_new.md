@@ -381,12 +381,12 @@
 出題種別: 知識問題、コードリーディング問題、記述問題
 
 #### 概要
-- クロージャなど関数の性質、コレクション操作、Proxy によるオブジェクト監視を理解し、目的に応じて使い分けられる。
+- クロージャの活用など関数の性質、コレクション操作、Proxy によるオブジェクト監視を理解し、目的に応じて使い分けられる。
 
 #### 詳細
 - 関数オブジェクトを操作できる。
   - `Function.prototype.bind()`, `Function.prototype.call()`, `Function.prototype.apply()`
-  - クロージャ(closure)の概念と活用
+  - クロージャ(closure)の活用（カプセル化や状態管理の手段としての使い分け。変数のキャプチャ自体は pg L1）
 - 配列の平坦化・判定メソッドを理解している。
   - `Array.prototype.flatMap()`, `Array.prototype.some()`, `Array.prototype.every()`
 - Mapオブジェクト, Setオブジェクトのデータモデルを理解し、Object・配列との使い分けを判断する。
